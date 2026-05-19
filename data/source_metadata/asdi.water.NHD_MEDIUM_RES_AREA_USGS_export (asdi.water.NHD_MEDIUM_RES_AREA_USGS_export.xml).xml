@@ -1,0 +1,256 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.water.NHD_MEDIUM_RES_AREA_USGS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains regions representing areal NHD hydrographic landmark features. The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the sream segments or reaches that comprise the nation's surface water drainage system. Medium resolution NHD is based on the content of the U.S. Geological Survey 1:100,000-scale Digital Line Graph (DLG) hydrography data, integrated with reach-related information from the U.S. Environmental Protection Agency Reach File Version 3.0 (RF3). More specifically, it contains reach codes for networked features and isolated lakes, flow direction, names, stream level, and centerline representations for areal water bodies. Reaches are also defined to represent water bodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.</abstract>
+      <purpose>The National Hydrography Dataset combines elements of the DLG and RF3: spatial accuracy and comprehensiveness from the DLG and network relationships, names, and a unique identifier (reach code) for surface water features from RF3. The NHD supersedes DLG and RF3 by incorporating them, not by replacing them. Users of DLG and RF3 will find the National Hydrography Dataset both familiar and greatly expanded and refined. The NHD provides a national framework for assigning reach addresses to water-related entities such as industrial dischargers, drinking water supplies, fish habitat areas, wild and scenic rivers. Reach addresses establish the locations of these entities relative to one another within the NHD surface water drainage network in a manner similar to street addresses. Once linked to the NHD by their reach addresses, the upstream/downstream relationships of these water-related entities and any associated information about them can be analyzed using software tools ranging from spreadsheets to Geographic Information Systems (GIS). GIS can also be used to combine NHD-based network analysis with other data layers, such as soils, land use, and population, to help better understand and display their respective effects upon one another. Furthermore, because the NHD provides a nationally consistent framework for addresses and analysis, water-related information linked to reach addresses by one organization (national, state, local) can be shared with other organizations and easily integrated into many different types of applications to the benefit of all. The National Hydrography Dataset is designed to provide comprehensive coverage of hydrologic data for the US. While initially based on 1:100,000-scale data, the NHD is designed to incorporate and encourage the development of higher-resolution data required by many users. It will facilitate the improved integration of water-related data in support of the application requirements of a growing national user community and will enable shared maintenance and enhancement.</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.328197</westbc>
+        <eastbc>-88.997954</eastbc>
+        <northbc>37.922929</northbc>
+        <southbc>30.941451</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Reservoir</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>water</themekey>
+        <themekey>Spring / Seep</themekey>
+        <themekey>Reach Code</themekey>
+        <themekey>Swamp / Marsh</themekey>
+        <themekey>Lake / Pond</themekey>
+        <themekey>Hydrography</themekey>
+        <themekey>Canal / Ditch</themekey>
+        <themekey>NHD</themekey>
+        <themekey>Stream / River</themekey>
+        <themekey>FWHYDROGRAPHY</themekey>
+        <themekey>Artificial Path</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the originating agencies would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>See dataset specific metadata.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1220</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.water.NHD_MEDIUM_RES_AREA_USGS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FCODE</attrlabl>
+        <attrdef>Feature type and combinations of characteristic values</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ELEVATION</attrlabl>
+        <attrdef>Elevation of water surfaces where water pools is encoded for a few features</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FTYPE</attrlabl>
+        <attrdef>Three digit, unique identifier of a feature type</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AREASQKM</attrlabl>
+        <attrdef>Area of areal features, Albers Equal Area</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FDATE</attrlabl>
+        <attrdef>Date of last feature modification</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FTYPE_DESC</attrlabl>
+        <attrdef>Feature sub-type description</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_NAME</attrlabl>
+        <attrdef>Proper name, specific term, or expression by which a particular geographic entity is known</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMID</attrlabl>
+        <attrdef>Uniquely identifies the occurance of each feature</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+        <attrdef>Unique identifier assined by GNIS begining in 1996</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FCODE_DESC</attrlabl>
+        <attrdef>Detailed description of the features characteristics</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/medium-resolution-national-hydrography-dataset-landmark-feature-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Water/FeatureServer/30</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

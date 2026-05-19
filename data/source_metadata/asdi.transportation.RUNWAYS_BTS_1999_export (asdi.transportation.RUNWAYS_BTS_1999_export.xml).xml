@@ -1,0 +1,429 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Bureau of Transportation Statistics</origin>
+        <pubdate>19990101</pubdate>
+        <title>Runway 1999 (line)</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>U.S. Bureau of Transportation Statistics</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Data available online through the Arkansas Spatial Data Infrastructure (ASDI) at http://gis.arkansas.gov. The subject file represents the Arkansas portion of a geographic data set of runways in the United States and US territories containing information on the physical characteristics of the runways. The 8550 runways in the data set are supposed to include all of the runways associated with the 6734 airports in the companion airport data set Airports, 1998 (BTS). Data were obtained from the Federal Aviation Administration's (FAA) National Flight Data Center (NFDC) 5010 landing facilities data (January 1999). Landing facilities in this database consist of those identified in the NFDC 5010 database to be either publicly owned, or privately owned but open to the public, or owned by the U.S. military. The following landing facilities have been excluded: private landing facilities not open to the public, glider ports and ultra light landing facilities, as well as landing facilities that do not have a current LOCID assigned to them. Horizontal positional accuracy is based on coordinate data provided in the NFDC 5010 database. These coordinate data identify the approximate location of the Airport Reference Point (ARP) as reported by the landing facility on the NFDC 5010 form. According to NFDC guidelines, the location of the ARP should be reported to a horizontal accuracy of one arc second of latitude and longitude. However, the accuracy of these reported coordinates are not verified by FAA. The scale is unknown.</abstract>
+      <purpose>The database provides locational and attribute information for use in national and regional cartographic and spatial analysis applications. It is the intention of the Arkansas Geographic Information Systems Board to facilitate the dissemination of the public data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19991231</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.546822</westbc>
+        <eastbc>-89.812167</eastbc>
+        <northbc>36.433306</northbc>
+        <southbc>33.141430</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>airports</themekey>
+        <themekey>runway</themekey>
+        <themekey>airport</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bureau of Transportation Statistics</cntorg>
+          <cntper>Bruce D. Spear</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Office of Geographic Information Services, K-40, 400 Seventh Street, SW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-8870</cntvoice>
+        <cntfax>202 366 3640</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bureau of Transportation Statistics</origin>
+            <title>Airport Runways, 1998 (Bureau of Transportation Statistics, 1999)</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>Airport Runways, 1998 (Bureau of Transportation Statistics, 1999)</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Bureau of Transportation Statistics files were downloaded from the National Transportation Atlas Databases 1999 disk. These files were converted to Arcview shapefiles using the ntadconv.avx extension that is contained on the disk. The additional attribute tables that were included on the disk were joined to the tables of the original shapefiles. These joins were characterized by both 1:1 and 1:many relationships.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>151</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Transportation.RUNWAYS_BTS_1999</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>RE_FAR_P77</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_OBJ_CL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RE_ARR_DEV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MOD_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_CND_MKS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_APP_LTG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_OBJ_HT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_VGP_ANG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SITE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_ILS_TP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_OBJ_LT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RWY_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RWY_WDTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_TP_MKS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VERSION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RWY_SFC_TR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_ELEV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_TFC_PAT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_VGS_IND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FEATURID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_OBJ_OS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(geometry)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_VGS_IND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_RVV_EQ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PCN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_VGP_ANG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_TR_ALGN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RWY_LEN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BNODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_FAR_P77</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_RVV_EQ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_REIL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_APP_LTG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MODDATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_CTL_OBJ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_ELEV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_CTR_LTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RECTYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_ARR_DEV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_TR_ALGN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_CTL_OBJ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_OBJ_OS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_TFC_PAT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_RVR_EQ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_RVR_EQ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_OBJ_DIS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_OBJ_LT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_OBJ_HT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RWY_EDGE_L</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_TD_LTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINKID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_OBJ_DIS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_ILS_TP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_TP_MKS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_OBJ_CL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REVISION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RWY_SFC_TY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_CTR_LTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_REIL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RE_TD_LTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ANODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOMETRY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_CND_MKS</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/21</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/runway-1999-line/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>19991231</metd>
+    <metrd>20050825</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bureau of Transportation Statistics</cntorg>
+          <cntper>Bruce D. Spear</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Office of Geographic Information Services, K-40, 400 Seventh Street, SW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-8870</cntvoice>
+        <cntfax>202 366 3640</cntfax>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

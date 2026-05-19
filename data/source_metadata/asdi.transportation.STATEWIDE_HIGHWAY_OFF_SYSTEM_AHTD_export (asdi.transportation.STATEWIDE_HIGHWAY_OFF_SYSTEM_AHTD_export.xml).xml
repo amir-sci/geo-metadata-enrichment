@@ -1,0 +1,361 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas State Highway and Transportation Department</origin>
+        <pubdate>20120918</pubdate>
+        <title>Points Off System 100 Feet</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Little Rock, Arkansas</pubplace>
+          <publish>Arkansas State Highway and Transportation Department</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Off-System are routes on AHTD's Linear Referencing System (LRS) that for the most part are not part of the State Highway System but qualify for Federal Aid because they are on the Functional Class System. The AHTD identifies these routes on the LRS because they are required to report condition, events, assets, etc. on them. The majority of the routes are county routes and city streets. However, we also put Frontage Roads, Ramps, Institutional Drives (College Campus Roads, Hospital Roads, Airport Roads and State Park Roads) on the Off-System layer.</abstract>
+      <purpose>This layer was originally generated to aide the crash locators with law enforcement and the AHTD. Each crash on the State Highway System has to be reported with the logmile of the crash location. This layer provides an easy method for finding those log miles. This layer can provide assistance to anyone looking for a log mile location along the State Highway System.</purpose>
+      <supplinf>All culture is plotted with the discretion of the individual cartographer working in a particular area.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20120918</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618184</westbc>
+        <eastbc>-89.668410</eastbc>
+        <northbc>36.531376</northbc>
+        <southbc>32.970983</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>Average Daily Traffic</themekey>
+        <themekey>Mile</themekey>
+        <themekey>log mile</themekey>
+        <themekey>logmile</themekey>
+        <themekey>ADT</themekey>
+        <themekey>LRS</themekey>
+        <themekey>mile</themekey>
+        <themekey>Off System</themekey>
+        <themekey>State Highway</themekey>
+        <themekey>Highways</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service)</placekt>
+        <placekey>Arkansas</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Individuals or companies may reproduce any maps prepared by the Planning and Research Division for their own use and can utilize the maps as a base map for other purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas State Highway and Transportation Department</cntorg>
+          <cntper>Sharon Baker</cntper>
+        </cntorgp>
+        <cntpos>Cartographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 2261</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72203-2261</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-569-2066</cntvoice>
+        <cntemail>sharon.baker@arkansashighways.com</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>In all cases, a credit line stating "Base Map Provided By The Mapping Section, Planning and Research Division, Arkansas State Highway and Transportation Department, In Cooperation With The U.S. Department of Transportation"</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Composite object</sdtstype>
+        <ptvctcnt>876459</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.transportation.STATEWIDE_HIGHWAY_OFF_SYSTEM_AHTD</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>APHN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Access</attrlabl>
+        <attrdef>Stores a descriptor indicating whether the route is a Full Control, No Control or Partial Control access.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Full Control</edomv>
+            <edomvd>Full controlled access is allowed only at grade separated interchanges. These routes provide unhindered flow of traffic, with no traffic signals, intersections or property access. These represent a form of high speed route and are usually Interstate highways.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+          <edom>
+            <edomv>No Control</edomv>
+            <edomvd>No access controls.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+          <edom>
+            <edomv>Partial Control</edomv>
+            <edomvd>Partial controlled access may have a limited number of driveways and at grade intersections. These represent a form of high speed arterial road and are usually numbered as State highways or U.S. highways.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YearADT</attrlabl>
+        <attrdef>Year the Average Daily Traffic Count was recorded.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LogMile</attrlabl>
+        <attrdef>Stores the logmile value for each calculated point along the road network. Point values are calculated in 100 foot increments</attrdef>
+        <attrdefs>AHTD</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rural_Urba</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MedianType</attrlabl>
+        <attrdef>Stores a descriptor the records whether the opposing lanes of travel are divided.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Curbed</edomv>
+            <edomvd>A mandmade curbed barrier between opposing lanes.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+          <edom>
+            <edomv>Natural Barrier</edomv>
+            <edomvd>A natural barrier between opposing lanes, such as berm, road cut, timber or water.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+          <edom>
+            <edomv>Cable Barrier</edomv>
+            <edomvd>A manmade cable barrier between opposing lanes.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+          <edom>
+            <edomv>Barrier Wall</edomv>
+            <edomvd>A manmade barrier between opposing lanes.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+          <edom>
+            <edomv>No Median</edomv>
+            <edomvd>No physical barrier exists between opposing lanes.</edomvd>
+            <edomvds>AHTD</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NumberLane</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>road_id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AvgDailyTr</attrlabl>
+        <attrdef>Average Daily Traffic Count</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FuncClass</attrlabl>
+        <attrdef>Stores a descriptor value that defines the functional class of the road segment</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RouteSign</attrlabl>
+        <attrdef>Stores information on how the route is signed.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TypeRoad</attrlabl>
+        <attrdef>Stores a descriptor value that characterizes the road segment used to distinguish between main lane and frontage roads where they carry the same log mile values if they are parallel to each other.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>County_Num</attrlabl>
+        <attrdef>Stores a two digit numeric code assigned by AHTD.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Section</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AHTD_Distr</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CountyName</attrlabl>
+        <attrdef>Stores the name of the County in which each record is located.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Stores the longitude value each log mile point.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Stores the latitude value each log mile point.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Route</attrlabl>
+        <attrdef>Stores a six digit numeric code representing the route number assigned by AHTD. The route number values include leading zeroes.</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TypeOperat</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/points-off-system-100-feet/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/5</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas State Highway and Transportation Department</cntorg>
+          <cntper>Sharon Baker</cntper>
+        </cntorgp>
+        <cntpos>Cartographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 2261</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72203-2261</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-569-2066</cntvoice>
+        <cntemail>sharon.baker@arkansashighways.com</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

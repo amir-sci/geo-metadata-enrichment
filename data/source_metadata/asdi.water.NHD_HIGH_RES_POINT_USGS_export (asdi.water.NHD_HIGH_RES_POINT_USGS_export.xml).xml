@@ -1,0 +1,133 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.WATER.NHD_HIGH_RES_POINT_USGS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-95.720081</westbc>
+        <eastbc>-89.095826</eastbc>
+        <northbc>37.697952</northbc>
+        <southbc>31.843215</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>10874</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.WATER.NHD_HIGH_RES_POINT_USGS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Permanent_Identifier</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Resolution</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ReachCode</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCode</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>NHDPointEventFCToMeta</enttypl>
+      </enttyp>
+    </detailed>
+    <overview>
+      <eaover>The National Hydrography Dataset is a comprehensive set of digital spatial data that encodes information about naturally occurring and constructed bodies of water, paths through which water flows, and related entities.  The information encoded about features includes a feature date, classification by type, other characteristics, a unique common identifier, the feature length or area, and (rarely) elevation of the surface of water pools and a description of the stage of the elevation.  For reaches, encoded information includes a reach code.  Names and their identifiers in the Geographic Names Information System, are assigned to most feature types.  The direction of flow is encoded for networked features.  The data also contains relations that encode metadata, and information that supports the exchange of future updates and improvements to the data.  The names and  definitions of all feature types, characteristics, and values are in the Standards for National Hydrography Dataset:  Reston, Virginia, U.S. Geological Survey, 1999.  The document is available online through http://mapping.usgs.gov/standards/.</eaover>
+      <eadetcit>The names and definitions of all feature types, characteristics, and values are in U.S. Geological Survey, 1999, Standards for National Hydrography Dataset High Resolution:  Reston, Virginia, U.S. Geological Survey.  The document is available online through http://mapping.usgs.gov/standards/.  Information about tables and fields in the data are available from the user documentation for the National Hydrography Dataset at http://nhd.usgs.gov.  The National Map - Hydrography Fact Sheet is also available at: http://erg.usgs.gov/isb/pubs/factsheets/fs06002.html.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>File Geodatabase Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170720</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

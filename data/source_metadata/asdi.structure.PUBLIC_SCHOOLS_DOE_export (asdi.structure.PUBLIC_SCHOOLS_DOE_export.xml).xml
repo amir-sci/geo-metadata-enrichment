@@ -1,0 +1,431 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.structure.PUBLIC_SCHOOLS_DOE</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The subject file contains location information for 2008-2009 public schools (K-12) in the state of Arkansas. The locations were verified by Arkansas Department of Education staff and officials in the local areas.</abstract>
+      <purpose>The subject file provides location information and related attributes required to display tabular information collected by the Arkansas Department of Education.</purpose>
+    </descript>
+    <status>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.561947</westbc>
+        <eastbc>-89.777364</eastbc>
+        <northbc>36.500340</northbc>
+        <southbc>32.981494</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Grade School</themekey>
+        <themekey>Culture</themekey>
+        <themekey>structure</themekey>
+        <themekey>Campus</themekey>
+        <themekey>Education</themekey>
+        <themekey>Act 60</themekey>
+        <themekey>School</themekey>
+        <themekey>K-12</themekey>
+        <themekey>Buildings</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>structure</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Department of Education &amp; Arkansas Geographic Information Office</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1098</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.structure.PUBLIC_SCHOOLS_DOE</enttypl>
+        <enttypd>Public Schools K-12 for the 2002-2003 school year</enttypd>
+        <enttypds>Arkansas Department of Education</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DATE</attrlabl>
+        <attrdef>Date the feature was edited after being loaded into GeoStor</attrdef>
+        <attrdefs>Arkansas Geographic Information Office</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>END_DATE</attrlabl>
+        <attrdef>Date the feature was retired from being a current or active feature in the GeoStor database</attrdef>
+        <attrdefs>Arkansas Geographic Information Office</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>LEA</attrlabl>
+        <attrdef>Local Education Agency</attrdef>
+        <attrdefs>Arkansas Department of Education</attrdefs>
+        <attrdomv>
+          <udom>variable</udom>
+        </attrdomv>
+        <begdatea>19980101</begdatea>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_SRC</attrlabl>
+        <attrdef>Source abbreviation of editor by FIPS or agency abbreviation</attrdef>
+        <attrdefs>Arkansas Geographic Information Office</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DESC</attrlabl>
+        <attrdef>Description of the edits made to the feature</attrdef>
+        <attrdefs>Arkansas Geographic Information Office</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>BEGIN_DATE</attrlabl>
+        <attrdef>Data load date of the feature into GeoStor</attrdef>
+        <attrdefs>Arkansas Geographic Information Office</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Enitity that verfied the school location</attrdef>
+        <attrdefs>Arkansas Geographic Information Office</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Verified by Western Arkansas Planning and Development District staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>27</edomv>
+            <edomvd>Geocoded physical address from AR Department of Education using AR Centerline File Data with an offset of 100 feet.</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>28</edomv>
+            <edomvd>Heads-up digitized point using the physical address supplied by the AR Department of Education and comparing geocodes from MapQuest and TIGER data as well as the AR Digital Ortho Program data.</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Verified by Springdale GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Location verified by Crawford County Assessor GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Location verified by City of Fort Smith GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using Pulaski Area GIS ACF Compliant Centerlines</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>Verified by Craighead Electric Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Location verified by AR Department of Education Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Location verified by Fayetteville School District Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>Verified by Brawley Consulting Engineers Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>25</edomv>
+            <edomvd>Verified by Craighead E-911 Coordinator</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>18</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using Bradley County ACF Compliant Centerlines</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using Sebastian County ACF Compliant Centerlines</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Verified by Bentonville GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>19</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using City of Conway ACF Compliant Centerlines</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Location verified by Poinsett County Assessor GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>17</edomv>
+            <edomvd>Location verified by Mississippi County Assessor GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using Jefferson County Centerlines</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Location verified by Crawford County Assessor GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Location verified by Benton County Assessor GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>16</edomv>
+            <edomvd>Location verified by City of Hope GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using verified Project MAIN data</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Location verified by Little Rock Public Works Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using Miller County OEM ACF Compliant Centerlines</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Location verified by City of Arkadelphia GIS Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Location verified by Arkansas Geographic Information Office Staff using Springdale GIS ACF Compliant Centerlines</edomvd>
+            <edomvds>Arkansas Geographic Information Office</edomvds>
+          </edom>
+        </attrdomv>
+        <begdatea />
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <begdatea />
+      </attr>
+      <attr>
+        <attrlabl>AR_ID</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of each school campus</attrdef>
+        <attrdefs>Arkansas Department of Education</attrdefs>
+        <attrdomv>
+          <udom>variable</udom>
+        </attrdomv>
+        <begdatea />
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMMENT_</attrlabl>
+        <attrdef>General comments about a feature or record</attrdef>
+        <attrdefs>Arkansas Geographic Information Office</attrdefs>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>All entities and attributes were derived from Arkansas Department of Education's Arkansas School Information Site and Statewide Information System databases.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Structure/FeatureServer/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/public-school-point/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

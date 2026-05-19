@@ -1,0 +1,358 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.utilities.CELL_TOWERS_FCC</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains FCC registered cellular antenna structure locations.</abstract>
+      <purpose>This dataset represents FCC registered cellular antenna structures. This mobile cellular service list mobile radiotelephone service in which common carriers are authorized to offer and provide a mobile telecommunications service for hire to the general public using cellular systems.</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.545714</westbc>
+        <eastbc>-89.762322</eastbc>
+        <northbc>36.485861</northbc>
+        <southbc>32.974838</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Cellular</themekey>
+        <themekey>Antenna</themekey>
+        <themekey>Towers</themekey>
+        <themekey>Tower</themekey>
+        <themekey>Structures</themekey>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>structure</themekey>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Federal Communications Commission - Wireless Telecommunications Bureau</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>473</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.utilities.CELL_TOWERS_FCC</enttypl>
+        <enttypd>CELLUR_NOV07.DBF</enttypd>
+        <enttypds>FCC</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>STRUCTYPE</attrlabl>
+        <attrdef>The code for the type of structure on which the antenna is or will be mounted.</attrdef>
+        <attrdefs>FCC</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NNTANN</edomv>
+            <edomvd>Antenna Tower Array</edomvd>
+          </edom>
+          <edom>
+            <edomv>BANT</edomv>
+            <edomvd>Building with Antenna on Top</edomvd>
+          </edom>
+          <edom>
+            <edomv>POLE</edomv>
+            <edomvd>Any type of Pole</edomvd>
+          </edom>
+          <edom>
+            <edomv>TOWER</edomv>
+            <edomvd>Free standing guyed structure used for communication purposes.</edomvd>
+          </edom>
+          <edom>
+            <edomv>TANK</edomv>
+            <edomvd>Any type of Tank (water, gas, etc.)</edomvd>
+          </edom>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Building</edomvd>
+          </edom>
+          <edom>
+            <edomv>BPOLE</edomv>
+            <edomvd>Building with Pole</edomvd>
+          </edom>
+          <edom>
+            <edomv>SILO</edomv>
+            <edomvd>Any type of Silo</edomvd>
+          </edom>
+          <edom>
+            <edomv>TREE</edomv>
+            <edomvd>Tree, when used as a support for an antenna</edomvd>
+          </edom>
+          <edom>
+            <edomv>MAST</edomv>
+            <edomvd>Mast</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DD_TEMP</attrlabl>
+        <attrdef>Geographic location latitude in decimal degrees.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ALLSTRUC</attrlabl>
+        <attrdef>The overall height above ground level of the entire antenna structure to the highest point, including any appurtenances, in meters. (Includes antennas, dishes, obstruction lighting, etc.)</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUPSTRUC</attrlabl>
+        <attrdef>The height above ground level to the highest point of the supporting structure only in meters.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCSTATE</attrlabl>
+        <attrdef>State in which the cellular structure is located.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QZONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LIC_ID</attrlabl>
+        <attrdef>A masked Taxpayer Identification Number (TIN). In the Universal Licensing System (ULS) an entity's TIN is not provided to the public. However, the public will see a Licensee ID number (masked TIN) that they can use for application and license searches.</attrdef>
+        <attrdefs>FCC</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DD_TEMP0</attrlabl>
+        <attrdef>Geographic location longitude, in decimal degrees.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOCADD</attrlabl>
+        <attrdef>Physical address of the cellular structure.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LATDIR</attrlabl>
+        <attrdef>Latitude cardinal direction associated with this location.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LON_DMS</attrlabl>
+        <attrdef>Longitude associated with this location in degrees, minutes (e.g., 13'), and seconds (e.g., 10") and are referenced in NAD83 (North American Datum 1983).</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TOWREG</attrlabl>
+        <attrdef>Tower registration number.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONDIR</attrlabl>
+        <attrdef>Longitudinal cardinal direction associated with this location.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCNUM</attrlabl>
+        <attrdef>The number associated to the location by the Universal Licensing System (ULS). This number must be used to reference the location on all applications submitted via ULS.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CALLSIGN</attrlabl>
+        <attrdef>A combination of letters and numbers that identify an FCC license.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCCOUNTY</attrlabl>
+        <attrdef>County in which the cellular structure is located.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCCITY</attrlabl>
+        <attrdef>City in which the cellular structure is located.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LAT_DMS</attrlabl>
+        <attrdef>Latitude associated with this location in degrees, minutes (e.g., 13'), and seconds (e.g., 10") and are referenced in NAD83 (North American Datum 1983).</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LICENSEE</attrlabl>
+        <attrdef>Represents the legal entity that is issued a license and may not represent the name for which service is marketed/provided.</attrdef>
+        <attrdefs>FCC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NEPA</attrlabl>
+        <attrdef>Compliance with the National Environmental Policy Act.</attrdef>
+        <attrdefs>FCC</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>If an FCC grant of an antenna structure application will NOT have a significant environmental effect. Section 1.1307 of the FCC rules lists categories of environmental effects for which applicants must file an environmental assessment.</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>If an FCC grant of an antenna structure application will have a significant environmental effect. Section 1.1307 of the FCC rules lists categories of environmental effects for which applicants must file an environmental assessment.</edomvd>
+          </edom>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/cell-tower-fcc-point/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Utilities/FeatureServer/0</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

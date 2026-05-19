@@ -1,0 +1,1145 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas Department of Transportation</origin>
+        <title>Arkansas Road Inventory</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Arkansas Department of Transportation</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains road inventory for the state of Arkansas. This file contains roads that pertain to state and federal funding and additional roads used for ARDOT planning purposes. This file should only be used as a graphical representation and general reporting. Field verification should always occur prior to financial planning taking place.</abstract>
+      <purpose>This file is used for reporting road inventory to the US Department of Transportation.</purpose>
+    </descript>
+    <status>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.607550</westbc>
+        <eastbc>-89.710437</eastbc>
+        <northbc>36.531408</northbc>
+        <southbc>32.971808</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>us hwy</themekey>
+        <themekey>linear referencing system</themekey>
+        <themekey>united states highway</themekey>
+        <themekey>ARDOT</themekey>
+        <themekey>blacktop</themekey>
+        <themekey>state highway</themekey>
+        <themekey>ar highway</themekey>
+        <themekey>hwy</themekey>
+        <themekey>us highway</themekey>
+        <themekey>highways</themekey>
+        <themekey>lrs</themekey>
+        <themekey>ar hwy</themekey>
+        <themekey>highway</themekey>
+        <themekey>interstates</themekey>
+        <themekey>paved</themekey>
+        <themekey>interstate</themekey>
+        <themekey>state</themekey>
+        <themekey>road</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Individuals or companies may reproduce any maps prepared by the Planning and Research Division (if available to the public) for their own use and can utilize the data for other purposes. In all cases, a credit line stating "Data Provided by Arkansas Department of Transportation, In Cooperation With The U.S. Department of Transportation"</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Department of Transportation</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Department of Transportation</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>118506</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.transportation.ROAD_INVENTORY_ARDOT</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>UrbanAreaC</attrlabl>
+        <attrdef>Is a five digit numeric code that indicates which urbanized area a record belongs in. These codes are assigned by FHWA and are unique within the United States.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>43345</edomv>
+            <edomvd>Jonesboro</edomvd>
+          </edom>
+          <edom>
+            <edomv>29494</edomv>
+            <edomvd>Fayetteville/Springdale</edomvd>
+          </edom>
+          <edom>
+            <edomv>30925</edomv>
+            <edomvd>Fort Smith</edomvd>
+          </edom>
+          <edom>
+            <edomv>56116</edomv>
+            <edomvd>West Memphis</edomvd>
+          </edom>
+          <edom>
+            <edomv>69454</edomv>
+            <edomvd>Pine Bluff</edomvd>
+          </edom>
+          <edom>
+            <edomv>50392</edomv>
+            <edomvd>Little Rock</edomvd>
+          </edom>
+          <edom>
+            <edomv>40213</edomv>
+            <edomvd>Hot Springs</edomvd>
+          </edom>
+          <edom>
+            <edomv>00000</edomv>
+            <edomvd>Not Applicable – population is &lt; 50,000</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SystemStat</attrlabl>
+        <attrdef>Codes to indicate open/closed status of a roadway. Roadways not open to traffic are either projected/planned or routes under construction.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Open to traffic</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Not open to traffic</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RecordCont</attrlabl>
+        <attrdef>A code used to distinguish the type of record. This is a key field and must be used to select the type of records you wish to view or query</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Description</edomvd>
+            <edomvds>Short description of roadway features – limited to 65 characters</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Mileage</edomvd>
+            <edomvds>Features, lengths, and log miles of a section of highway</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Railroad</edomvd>
+            <edomvds>Gives log mile and railroad ID number of R/R crossing</edomvds>
+          </edom>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Exception</edomvd>
+            <edomvds>A section of roadway is carried over another section of roadway</edomvds>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Curve</edomvd>
+            <edomvds>Department use only denotes curves from construction plans</edomvds>
+          </edom>
+          <edom>
+            <edomv>J</edomv>
+            <edomvd>Job</edomvd>
+            <edomvds>Construction job information job number, completion date, etc…</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Bridge</edomvd>
+            <edomvds>Gives log mile of bridge length structure (&gt;= 20’) with bridge #</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CountyName</attrlabl>
+        <attrdef>County Name</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Seq</attrlabl>
+        <attrdef>A value used to make each record key unique. Alphanumeric characters range A through Z. Sequence is also used to order records at the same Logmile point.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NHS</attrlabl>
+        <attrdef>Codes used to designate routes on the National Highway System.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Major rail/truck terminal</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Major airport</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Major public transit terminal</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Major Amtrak station</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>NHS route (not intermodal connector)</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not an NHS route</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Major port facility</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Major intercity bus terminal</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Logmile</attrlabl>
+        <attrdef>The beginning point of a particular record on a route.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MLogmile</attrlabl>
+        <attrdef>The beginning point of a particular record on a route. Begin log mile is numeric and allows for 6 digits, 3 to the left of the decimal and 3 to the right of the decimal.</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MDistrict</attrlabl>
+        <attrdef>The number of the highway district in which the county is located.</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GovermentC</attrlabl>
+        <attrdef>Used to identify the level of government that owns or is responsible for the section of roadway.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>74</edomv>
+            <edomvd>US Army</edomvd>
+          </edom>
+          <edom>
+            <edomv>70</edomv>
+            <edomvd>Corps of Engineers</edomvd>
+          </edom>
+          <edom>
+            <edomv>04</edomv>
+            <edomvd>City Street</edomvd>
+          </edom>
+          <edom>
+            <edomv>02</edomv>
+            <edomvd>County Roads</edomvd>
+          </edom>
+          <edom>
+            <edomv>80</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>73</edomv>
+            <edomvd>US Navy/Marines</edomvd>
+          </edom>
+          <edom>
+            <edomv>60</edomv>
+            <edomvd>Other Federal Agency</edomvd>
+          </edom>
+          <edom>
+            <edomv>01</edomv>
+            <edomvd>State Highways</edomvd>
+          </edom>
+          <edom>
+            <edomv>66</edomv>
+            <edomvd>National Park Service</edomvd>
+          </edom>
+          <edom>
+            <edomv>72</edomv>
+            <edomvd>US Air Force</edomvd>
+          </edom>
+          <edom>
+            <edomv>64</edomv>
+            <edomvd>US Forest Service</edomvd>
+          </edom>
+          <edom>
+            <edomv>63</edomv>
+            <edomvd>US Fish &amp; Wildlife Service</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>APHN</attrlabl>
+        <attrdef>Codes used to designate routes on the APHN. Routes are used in planning studies and fall into five categories.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Critical Service Routes (These routes parallel the Interstate system)</edomvd>
+            <edomvds>Arkansas Primary Highway Network</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Other Arterials (functionally classified, 3 or 4 and not on NHS</edomvd>
+            <edomvds>Arkansas Primary Highway Network</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Other High Traffic Routes- (Designated routes with ADT over 2,000)</edomvd>
+            <edomvds>Arkansas Primary Highway Network</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not on APHN</edomvd>
+            <edomvds>Arkansas Primary Highway Network</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>NHS National Highway System</edomvd>
+            <edomvds>Arkansas Primary Highway Network</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AvgDailyTr</attrlabl>
+        <attrdef>Average Daily Traffic Count</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MCounty</attrlabl>
+        <attrdef>The number assigned to the county when placed in alphabetical order. County is a numeric value from 01 to 75.</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique Id</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MSectn</attrlabl>
+        <attrdef>The section number of a particular section or sub-section of a route. Section is a 3 character alpha numeric identifier that always leads with a numeric value.</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SampleID</attrlabl>
+        <attrdef>Identifies the HPMS sample by a 12-digit sample identifier. Used for HPMS reporting only. ATTENTION! Only HPMS personnel are allowed to update or modify this field.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CrewNumber</attrlabl>
+        <attrdef>Numeric identifier assigned to Maintenance crews responsible for the particular segment of road. This field is protected and only Maintenance personnel can update or modify this field.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MedianType</attrlabl>
+        <attrdef>Type of median on a divided roadway.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Natural Barrier</edomvd>
+            <edomvds>Trees, rolling hills, rock walls, etc</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Unprotected</edomvd>
+            <edomvds>Grass median</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Cable Barrier</edomvd>
+            <edomvds>Flexible cable barriers</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No Median</edomvd>
+            <edomvds>No median is present</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Barrier Wall</edomvd>
+            <edomvds>Concrete barrier wall</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Curbed</edomvd>
+            <edomvds>Barrier curb</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>This field is used for street names, river or stream names, and other pertinent roadway information of a descriptive nature.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ID1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>YearRecon</attrlabl>
+        <attrdef>The year of last reconstruction or overlay (if documented)</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MedianWidt</attrlabl>
+        <attrdef>Actual measured median width in feet. If median exceeds 1,000 feet or a width is impossible to attain then 999 will be entered into the field as the width.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ExtraLanes</attrlabl>
+        <attrdef>Indicates the presence and type of lanes other than through traffic lanes.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Auxiliary Lanes (Typically connect the ramps of two interchanges)</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No additional lanes present</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Right Turn Only</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Center Turn Lane</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Parking Lanes</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Passing Lanes</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Left Turn Only</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Combination (Center Turn Lane and Parking Lanes)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RoadwayWid</attrlabl>
+        <attrdef>The total actual measured width of the roadway surface including, through travel lanes, extra lanes, and shoulders. Excludes the median width.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACCESS_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>roadid</attrlabl>
+        <attrdef>Is a concatenation of County, Route, and Section that is separated by a lowercase “x” EX:60x00100x010 is County: 60, Route: 00100, and SECTION: 010. This is now the key field for dynamic segmentation. County, Route, and Section are no longer used to segment the roadway inventory database.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NumberLane</attrlabl>
+        <attrdef>This field indicates the actual number of through traffic lanes on a roadway. Center turn lanes, auxiliary lanes, and other lanes not considered through travel lanes and not shown in number of lanes. However, passing lanes 500’ or longer are considered through travel lanes and are included.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Terrain</attrlabl>
+        <attrdef>A code denoting the general physical features of the land. This field is for HPMS reporting and is only required in rural areas.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Flat</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Rolling</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Urban</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Mountainous</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RightSHldW</attrlabl>
+        <attrdef>The actual measurement in feet of the right shoulder.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RightShldS</attrlabl>
+        <attrdef>Codes used to identify the right shoulder surface. These codes and surface types follow FHWA requirements for reporting surface types and are not meant to be used for in-depth pavement analysis.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Asphalt (bituminous)</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Gravel</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Concrete</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Curb &amp; Gutter</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No Shoulder</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Earth</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SurfaceWid</attrlabl>
+        <attrdef>The total actual measurement in feet for the through traffic lanes and extra lanes (except parking lanes). Does not include shoulder or median widths.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>YearBuilt</attrlabl>
+        <attrdef>The year of original construction (if documented).</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MSeq</attrlabl>
+        <attrdef>A value used to make each record key unique. Alphanumeric characters range A through Z. Sequence is also used to order records at the same Logmile point.</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RoadLength</attrlabl>
+        <attrdef>The length of a particular mileage record on a route. It is a calculated field that subtracts the begin log mile from the end log mile to produce a road length for the record.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HPMSSSecti</attrlabl>
+        <attrdef>Indicates whether a section of roadway is a HPMS sample section. This field is used for HPMS reporting only.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Donut sample (non-attainment areas only)</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>HPMS sample section</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not an HPMS sample section</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Donut &amp; HPMS sample section (non-attainment areas only)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YearADT</attrlabl>
+        <attrdef>Year Average Daily Traffic Count</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LeftSHldWi</attrlabl>
+        <attrdef>The actual measurement in feet of the left shoulder.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LeftShldSu</attrlabl>
+        <attrdef>Codes used to identify the left shoulder surface. These codes and surface types follow FHWA requirements for reporting surface types and are not meant to be used for in-depth pavement analysis.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Concrete</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Earth</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Curb &amp; Gutter</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No Shoulder</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Asphalt (bituminous)</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Gravel</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CreateDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LaneWidth</attrlabl>
+        <attrdef>The actual measurement in feet for the minimum traffic lane. Measurements are taken from the edge line to the center line. Normal traffic usage will be measured if no markings are present.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUpdateDat</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RuralUrban</attrlabl>
+        <attrdef>Is a numeric character that identifies the rural/urban characteristics of a record.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>URBANIZED</edomvd>
+            <edomvds>Population 50,000 to 199,999</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>SMALL URBAN</edomvd>
+            <edomvds>Population 5,000 to 49,999</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>LARGE URBANIZED</edomvd>
+            <edomvds>Population &gt;=200,000</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>RURAL</edomvd>
+            <edomvds>Population &lt; 5,000</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TypeOperat</attrlabl>
+        <attrdef>Reflects the operational traffic flow on a roadway.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Part of a one-way couplet</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>One-Way</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Divided Multi-Lane</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Two-Way Undivided</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SurfaceTyp</attrlabl>
+        <attrdef>Codes used to identify the roadway surface. These codes and surface types follow FHWA requirements for reporting surface types and are not meant to be used for in-depth pavement analysis.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Asphalt overlay over existing Concrete</edomvd>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Bridge Deck Other- only where bridge is carried as mileage</edomvd>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Bridge Deck Asphalt - only where bridge is carried as mileage</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>PCC Unbonded</edomvd>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Bridge Deck Concrete - only where bridge is carried as mileage</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Other (usually chip seal or surface treatment)</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Asphalt overlay over existing Asphalt pavement</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>PCC Bonded</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>JRCP (Jointed Reinforced Concrete Pavement)</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>CRCP (Continuously Reinforced Concrete Pavement)</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>JPCP (Jointed Plain Concrete Pavement)</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Unpaved – (usually earth or gravel)</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Asphalt (various types of bituminous surfaces)</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>PCC over Asphalt</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUpdateUse</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Sectn</attrlabl>
+        <attrdef>The section number of a particular section or sub-section of a route.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>City Route</edomvd>
+            <edomvds>Seldom used often signed as a Bus. Route</edomvds>
+          </edom>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>One-way Couplet</edomvd>
+            <edomvds>Part of a one-way couplet usually anti-log direction</edomvds>
+          </edom>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>East</edomvd>
+            <edomvds>Seldom used indicated direction of alternate route</edomvds>
+          </edom>
+          <edom>
+            <edomv>South</edomv>
+            <edomvd>Seldom used indicated direction of alternate route</edomvd>
+            <edomvds>Section is a 3 character alpha numeric identifier that always leads with a numeric value.</edomvds>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>Truck Route</edomvd>
+            <edomvds>Seldom used indicates truck route</edomvds>
+          </edom>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+            <edomvds>Seldom used indicated direction of alternate route</edomvds>
+          </edom>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>Loop</edomvd>
+            <edomvds>Used for projected routes only</edomvds>
+          </edom>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Business Route</edomvd>
+            <edomvds>Primary business route</edomvds>
+          </edom>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Alternate Route</edomvd>
+            <edomvds>Used only when two business routes exist on same route</edomvds>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+            <edomvds>Seldom used indicated direction of alternate route</edomvds>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Spur</edomvd>
+            <edomvds>Spur Route usually does not junction with another SH</edomvds>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Y leg</edomvd>
+            <edomvds>Y leg of a route</edomvds>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Projected</edomvd>
+            <edomvds>Used only for projected routes that are planned but not built</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UpdateDate</attrlabl>
+        <attrdef>Date record was updated</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MRoute</attrlabl>
+        <attrdef>Route number or name assigned to a particular State Highway, County Road, or</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EndLogmile</attrlabl>
+        <attrdef>The ending point of a particular record on a route.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FuncClass</attrlabl>
+        <attrdef>A single numeric character identifies the functional classification of a record</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Other Principal Arterials</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Minor Collector</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Major Collector</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Other Freeways &amp; Expressways</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Minor Arterial</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Local</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Interstate</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>The number assigned to the county when placed in alphabetical order.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TypeRoad</attrlabl>
+        <attrdef>Describes the type of roadway a section and separate the many varieties of roadway types.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Collector Distributor</edomvd>
+            <edomvds>Eliminates weaving and reduces number of entrance and exit points</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Default</edomvd>
+            <edomvds>Default value for data entry</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Ramp</edomvd>
+            <edomvds>On-Off ramps from grade separated interchange</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Frontage Road - Right</edomvd>
+            <edomvds>On right side of facility going log direction</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Cross Connection</edomvd>
+            <edomvds>Facility that connects one way frontage roads</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Anti-log lane</edomvd>
+            <edomvds>Non-log direction divided or one-way roadways only</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Frontage Road -Left</edomvd>
+            <edomvds>On left side of facility going log direction</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Self-Contained Facility</edomvd>
+            <edomvds>Rest areas, weigh stations, other ARDOT facilities</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Main Lane</edomvd>
+            <edomvds>Log Direction most records will be main lane</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RouteSign</attrlabl>
+        <attrdef>Describes how the route is signed</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Interstate</edomvd>
+            <edomvds>Includes, Interstate, Interstate frontage roads and ramps</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>US Highway</edomvd>
+            <edomvds>US Numbered highways, frontage roads and ramps</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>City Streets</edomvd>
+            <edomvds>Streets contained by the city limits or urban area boundary</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Road in County</edomvd>
+            <edomvds>County Roads- may or may not be maintained by the County</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>State Highway</edomvd>
+            <edomvds>All other State maintained hwys, frontage roads and ramps</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>District</attrlabl>
+        <attrdef>The number of the highway district in which the county is located.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Place</attrlabl>
+        <attrdef>A five digit numeric code assigned to identify a particular place or city in Arkansas</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Route</attrlabl>
+        <attrdef>Route number or name assigned to a particular State Highway, County Road, or City Street.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomvd>County Roads are alphanumeric and 5 characters in length, all County Roads will have a leading alpha character followed by leading zeros</edomvd>
+          </edom>
+          <edom>
+            <edomvd>City Streets are 6 alphanumeric characters in length and begin with direction first</edomvd>
+          </edom>
+          <edom>
+            <edomvd>State Highway routes are numeric and 5 digits in length with leading zeros</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SpecialSys</attrlabl>
+        <attrdef>Identifies a special road system.</attrdef>
+        <attrdefs>United States Roadway Inventory User Mannual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Not on a special system</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Game &amp; Fish Road</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Airport Road</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Industrial Access Road</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Scenic Route</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Great River Road</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>State Park Road</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>STRAHNET- Strategic Highway Network</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Institutional Road- Prisons, Collages, Vo-Tech’s, and Experimental stations</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UpdateUser</attrlabl>
+        <attrdef>User who updated the record</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/17</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/arkansas-road-inventory/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Department of Transportation</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

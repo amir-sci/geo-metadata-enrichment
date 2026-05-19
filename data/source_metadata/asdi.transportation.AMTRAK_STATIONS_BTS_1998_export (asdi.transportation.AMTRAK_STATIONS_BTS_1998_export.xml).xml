@@ -1,0 +1,754 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Bureau of Transportation Statistics</origin>
+        <pubdate>19990101</pubdate>
+        <title>Amtrak Station (point)</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>U.S. Bureau of Transportation Statistics</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Data available online through the Arkansas Spatial Database Infrastructure (ASDI) at http://gis.arkansas.gov. The subject file represents the Arkansas portion of the Amtrak Stations database, a geographic data set containing Amtrak intercity railroad passenger terminals in the United States and Canada. Attribute data include services and passenger amenities provided at the station.</abstract>
+      <purpose>The database provides locational and attribute information for use in national and regional cartographic and spatial analysis applications. It is the intention of the Arkansas Geographic Information Systems Board to facilitate dissemination of public data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19981025</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.076427</westbc>
+        <eastbc>-90.956158</eastbc>
+        <northbc>36.085747</northbc>
+        <southbc>33.408663</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>railroad</themekey>
+        <themekey>stations</themekey>
+        <themekey>train</themekey>
+        <themekey>station</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the Bureau of Transportation Statistics National Transportation Atlas Database and the Arkansas Geographic Information Systems Board would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bureau of Transportation Statistics</cntorg>
+          <cntper>Bruce D. Spear</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Office of Geographic Information Services, K-40, 400 Seventh Street, SW</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-8870</cntvoice>
+        <cntfax>202 366 3640</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The Bureau of Transportation Statistics compiled the data</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attribute data were extracted from the station listings in the Fall/Winter 1998 Amtrak National and Northeast Timetables, and reflect station characteristics as of October 25, 1998.</attraccr>
+    </attracc>
+    <logic>All point records are represented by a single coordinate pair and a unique feature identifier; the Amtrak Station Code stored in the FEATURID field). Attribute data can be matched to specific point records using this identifier.</logic>
+    <complete>The database includes all Amtrak railroad and thruway bus stations listed in the 1998 Fall/Winter Amtrak Timetables. Also included are Amtrak railroad stations listed in earlier releases of this database that are now closed. Regional commuter railroad stations that are not also served by Amtrak are not included in this version; those stations are currently included in the Fixed-Guideway Transit Network database. The database does not include information on passenger boarding's; those data are considered to be proprietary by Amtrak.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Stations having valid street addresses were geocoded to 1995 TIGER/Line(TM) street and railroad centerline files. Positional accuracy for those points is consistent with the accuracy of 1995 TIGER/Line(TM) files, or within about 50 meters of their true position. Stations with ambiguous or incomplete street addresses (and stations located in Canada) were positioned using a combination of street name, nearest railroad centerline, and place name. Positional accuracy for these points may vary from 100 to 1000 meters of their true location.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>Bureau of the Census</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19950101</caldate>
+              <time>unknown</time>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Amtrak Timetables</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Bureau of Transportation Statistics files were downloaded from the National Transportation Atlas Databases 1999 disk. These files were converted to Arcview shapefiles using the ntadconv.avx extension that is contained on the disk. The additional attribute tables that were included on the disk were joined to the tables of the original shapefiles. These joins were characterized by both 1:1 and 1:many relationships.</procdesc>
+        <procdate>19980101</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Bureau of Transportation Statistics</cntorg>
+              <cntper>Bruce D. Spear</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Office of Geographic Information Services, K-40, 400 Seventh Street, SW</address>
+              <city>Washington</city>
+              <state>DC</state>
+              <postal>20590</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>202-366-8870</cntvoice>
+            <cntfax>202 366 3640</cntfax>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>7</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Transportation.AMTRAK_STATIONS_BTS_1998</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>TICKOFF</attrlabl>
+        <attrdef>Ticket office in station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>Name of place where station is located.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS</codesetn>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR4</attrlabl>
+        <attrdef>Other rail passenger service 2.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No Other Rail Passenger Service or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>NJT</edomv>
+            <edomvd>New Jersey Transit</edomvd>
+          </edom>
+          <edom>
+            <edomv>VIA</edomv>
+            <edomvd>VIA Rail Canada</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR3</attrlabl>
+        <attrdef>Other rail passenger service 1.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NJT</edomv>
+            <edomvd>New Jersey Transit</edomvd>
+          </edom>
+          <edom>
+            <edomv>VIS</edomv>
+            <edomvd>VIA Rail Canada</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No Other Rail Passenger Service or unknown</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>The longitude of the point in decimal degrees with six implied decimal places.</attrdef>
+        <attrdefs>BTS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LT_PARK</attrlabl>
+        <attrdef>Long term parking available at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No parking or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Paid Parking</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Free parking</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODDATE</attrlabl>
+        <attrdef>Record modification date.</attrdef>
+        <attrdefs>BTS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE</attrlabl>
+        <attrdef>Postal ZIP Code for station</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National ZIP Code and Post Office Directory</codesetn>
+            <codesets>U.S. Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CUSTOMS</attrlabl>
+        <attrdef>Customs checkpoint at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FEATUREID</attrlabl>
+        <attrdef>Amtrak station code - a unique three character identifier assigned to the Amtrak station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Amtrak City Code List</codesetn>
+            <codesets>Amtrak</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AMTK_EXP</attrlabl>
+        <attrdef>Amtrak Express package service available at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR1</attrlabl>
+        <attrdef>Amtrak rail service.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AMTK</edomv>
+            <edomvd>Amtrak Rail Service</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No Amtrak Rail Service</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSIT</attrlabl>
+        <attrdef>Public transit connection at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Call for service</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No transit or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Transit stop at station</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REVISION</attrlabl>
+        <attrdef>Record revision number.</attrdef>
+        <attrdefs>BTS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STR_ADDRES</attrlabl>
+        <attrdef>Street address of station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS</codesetn>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TAXI</attrlabl>
+        <attrdef>Taxi service available at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No taxi service or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Call for service</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Taxi stand at station</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POINTID</attrlabl>
+        <attrdef>Sequential unique point identifier.</attrdef>
+        <attrdefs>BTS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TELEPHONES</attrlabl>
+        <attrdef>Public telephones in station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FOODSERVIC</attrlabl>
+        <attrdef>Food service facilities in station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Full service restaurant</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No food service or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Snack bar</edomvd>
+          </edom>
+          <edom>
+            <edomv>V</edomv>
+            <edomvd>Food vending machines</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VERSION</attrlabl>
+        <attrdef>Database version number.</attrdef>
+        <attrdefs>BTS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_PARK</attrlabl>
+        <attrdef>Short term parking available at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Paid Parking</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No parking or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Free parking</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENCL_WAIT</attrlabl>
+        <attrdef>Station has enclosed waiting area.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HPACCESS</attrlabl>
+        <attrdef>Station is wheelchair accessible.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Partial - wheelchair accessible path exists between street and train platform.</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Full - all station facilities are wheelchair accessible</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>Not wheelchair accessible or accessibility unknown</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RR2</attrlabl>
+        <attrdef>Amtrak thruway bus service.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No Amtrak Bus Service</edomvd>
+          </edom>
+          <edom>
+            <edomv>AMTB</edomv>
+            <edomvd>Amtrak bus Service</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECTYPE</attrlabl>
+        <attrdef>Single character that defines the file type in the database.</attrdef>
+        <attrdefs>BTS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Point</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR5</attrlabl>
+        <attrdef>Other rail passenger service 3.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No Other Rail Passenger Service or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>NJT</edomv>
+            <edomvd>New Jersey Transit</edomvd>
+          </edom>
+          <edom>
+            <edomv>VIA</edomv>
+            <edomvd>VIA Rail Canada</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIP</attrlabl>
+        <attrdef>Amtrak station name.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS</codesetn>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State Postal Abbreviation.</attrdef>
+        <attrdefs>FIPS Pub 5-2</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>Open</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GRT_VAC</attrlabl>
+        <attrdef>Amtrak Great Vacations package available at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOMETRY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RNTL_CARS</attrlabl>
+        <attrdef>Car rental available at station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Call for service</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No car rental or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Rental agency at station</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ATM</attrlabl>
+        <attrdef>Automated teller machine in station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>The latitude of the point in decimal degrees with six implied decimal places.</attrdef>
+        <attrdefs>BTS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RESTROOMS</attrlabl>
+        <attrdef>Public restrooms in station.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATUS98</attrlabl>
+        <attrdef>Station status in 1998.</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Seasonal</edomvd>
+          </edom>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>Open</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Closed</edomvd>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Future (not yet open)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CHECKBAG</attrlabl>
+        <attrdef>Station has baggage checking</attrdef>
+        <attrdefs>Amtrak</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&amp;quot; &amp;quot;</edomv>
+            <edomvd>No or unknown</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Anyone with access to the Internet may connect to the BTS web server. To access a specific data set, go to the web address listed above in the Network Resource Name. The BTS server allows visitors to create an archive package for download in one of three common formats: .zip - an MS-DOS zip archive; .tgz - a gzip-ed unix tar archive; and .tar - a unix tar archive. This archived package is stored in a temporary file which can then be copied to the visitor&amp;apos;s home directory.</resdesc>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/amtrak-station-point/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/0</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>19981025</metd>
+    <metrd>20050825</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>BTS Product Distribution Center 400 Seventh Street, SW Washington, DC 20590 USA Tel: 1-202-366-DATA</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Office of Geographic Information Services, K-40, 400 Seventh Street, SW</address>
+          <city>Washington</city>
+          <state>WA</state>
+          <postal>20590</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>202-366-8870</cntvoice>
+        <cntfax>202 366 3640</cntfax>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

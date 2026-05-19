@@ -1,0 +1,306 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.utilities.TV_STATIONS_FCC_2003</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.738325</westbc>
+        <eastbc>-89.672390</eastbc>
+        <northbc>37.807222</northbc>
+        <southbc>32.059332</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>television, TV, FCC, stations, Arkansas</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>50</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.utilities.TV_STATIONS_FCC_2003</enttypl>
+        <enttypd>TV Stations in the state of Arkansas</enttypd>
+        <enttypds>FCC, ADH</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State of Operation</attrdef>
+        <attrdefs>ADH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PHONE</attrlabl>
+        <attrdef>Primary Phone Number</attrdef>
+        <attrdefs>ADH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>END_DATE</attrlabl>
+        <attrdef>Date the feature was retired from being a current or active feature in the GeoStor database.</attrdef>
+        <attrdefs>ADH</attrdefs>
+        <begdatea>20040604</begdatea>
+        <enddatea>29991231</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMMENT_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SIMULCAST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BEGIN_DATE</attrlabl>
+        <attrdef>Data load date of the feature into GeoStor</attrdef>
+        <attrdefs>ADH</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated</udom>
+        </attrdomv>
+        <begdatea>20040604</begdatea>
+        <enddatea>29991231</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attrdef>Zipcode</attrdef>
+        <attrdefs>ADH</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CHANNEL</attrlabl>
+        <attrdef>Broadcasting Channel</attrdef>
+        <attrdefs>ADH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NETWORK_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NEWS_FAX</attrlabl>
+        <attrdef>News Fax Number</attrdef>
+        <attrdefs>ADH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DESC</attrlabl>
+        <attrdef>Description of the edits made to the feature.</attrdef>
+        <attrdefs>ADH</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>01</edomv>
+            <edomvd>Changed attributes</edomvd>
+          </edom>
+        </attrdomv>
+        <begdatea>20040604</begdatea>
+        <enddatea>29991231</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>City Name</attrdef>
+        <attrdefs>ADH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_SRC</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAX</attrlabl>
+        <attrdef>Fax Number</attrdef>
+        <attrdefs>ADH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CALL</attrlabl>
+        <attrdef>Station (Call) Name</attrdef>
+        <attrdefs>FCC, ADH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DATE</attrlabl>
+        <attrdef>Date the feature was edited after being loaded into GeoStor.</attrdef>
+        <attrdefs>ADH</attrdefs>
+        <begdatea>20040604</begdatea>
+        <enddatea>29991231</enddatea>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The points are linked with a database consisting detailed contact information about the TV Stations and service provided.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Utilities/FeatureServer/7</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

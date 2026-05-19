@@ -1,0 +1,233 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>ArDOT</origin>
+        <pubdate>2018</pubdate>
+        <title>Arkansas Weight Restricted Highways</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>ArDOT</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>ArDOT Process for Establishing a Weight Restriction on A Non-weight Restricted HighwayIt is beneficial to the motorists of Arkansas that full, unrestricted access be provided on all highways when possible. However, it is the responsibility of the Department to ensure that the highways are maintained in a condition suitable for use by the traveling public. In order to maintain some sections of highways in a suitable condition, it may be necessary at times to limit the amount of weight that can be carried by a single load on those sections.The following is the process by which sections of highways that are experiencing significant deterioration can be weight restricted to preserve their conditions.The initial evaluation and continual monitoring of all highways is the responsibility of the appropriate District Engineer and staff.Distress that can be attributed to loadings in excess of those for which the pavement was designed or is the result of seasonal or unusual conditions that have changed the characteristics of the pavement or supporting base may be cause for a pavement evaluation. At the first sign of significant distress in a highway pavement for which there are no near-term improvements, the District Engineer will evaluate the route and report the evaluation to the State Maintenance Engineer. After consultation, the District Engineer or the State Maintenance Engineer may request a roadway strength analysis from the Planning and Research Division. Pavement and base information from the Materials Division will be combined with data from the Falling Weight Deflectometer (FWD) to assess pavement strengths. The results of the pavement strength analysis will be reported to the State Maintenance Engineer and the District Engineer.If the pavement strength analysis indicates a short remaining pavement life due to the increased loading or seasonal conditions, the District Engineer and State Maintenance Engineer will consult to determine whether the posting of a weight restriction is recommended. The State Maintenance Engineer will forward the strength analysis and supporting data to the Assistant Chief Engineer-Operations with a recommendation for the posting of a weight restriction of the highway. The recommendation will include the specific weight restriction that the State Maintenance Engineer and the District Engineer believe to be appropriate.The Assistant Chief Engineer-Operations will coordinate the weight restriction recommendations with a committee composed of the Assistant to the Director and the Assistant Chief Engineers for Planning and for Design. The Assistant Chief Engineer-Operations will forward a final recommendation to the Deputy Director and Chief Engineer for approval.Upon the Deputy Director and Chief Engineer’s approval of the posting of a weight restriction, the District Engineer will make a public notification to the local media 10 days in advance of the official posting. In addition, the District Engineer will make necessary notifications within the Department and arrange for appropriate signing of the route for enforcement purposes.This process should be considered for preventing failure of the pavement after all reasonable standard maintenance operations are used to maintain and strengthen a pavement.</abstract>
+      <purpose>This dataset contains line attributes which represent the weight restricted portions of highways in the state that are regulated by the Arkansas Department of Transportation .</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20131106</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Unknown</current>
+    </timeperd>
+    <status>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.489063</westbc>
+        <eastbc>-89.803500</eastbc>
+        <northbc>36.529223</northbc>
+        <southbc>33.000303</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Transportation</themekey>
+        <themekey>Weight Restricted Highways</themekey>
+        <themekey>AHTD</themekey>
+        <themekey>Posted Highways</themekey>
+        <themekey>Weight Restriction</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Individuals or companies may reproduce any maps prepared by the Transportation Planning and Policy Division (if available to the public) for their own use and can utilize the data for other purposes. In all cases, a credit line stating "Data Provided by Arkansas Department of Transportation , In Cooperation With The U.S. Department of Transportation"</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Department of Transportation </cntorg>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The Arkansas Department of Transportation .</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>188</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WeightRestriction</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Begin_Log_</attrlabl>
+        <attrdef>Stores the numeric value of the begining log mile of the weight restricted section of highway.</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>End_Log_Mi</attrlabl>
+        <attrdef>Stores the numeric value of the ending log mile of the weight restricted section of highway.</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Current_We</attrlabl>
+        <attrdef>Stores the current weight limit amount that can be carried by a single load on the section of highway.</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Effective_</attrlabl>
+        <attrdef>Stores the effective date of the weight restriction.</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>County_Nam</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Section</attrlabl>
+        <attrdef>Stores a three digit value for the road section</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>Stores a two digit numeric code assigned by AHTD.</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>District</attrlabl>
+        <attrdef>Stores a numeric code representing the ArDOT District number</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Route_Type</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Route</attrlabl>
+        <attrdef>Stores a six digit numeric code representing the route number assigned by Arkansas Department of Transportation .</attrdef>
+        <attrdefs>Arkansas Department of Transportation </attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/23</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/arkansas-weight-restricted-highways/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20131106</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Department of Transportation </cntorg>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

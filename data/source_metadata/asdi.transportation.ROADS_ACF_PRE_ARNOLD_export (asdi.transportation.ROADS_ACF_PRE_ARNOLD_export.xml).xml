@@ -1,0 +1,705 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Arkansas Centerline File</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains line features which represent the road centerline of all clearly defined passages through which a vehicle may travel. The features in this dataset have been accepted as meeting or exceeding the requirements set forth in the Arkansas Centerline File (ACF) Standard, although some of the features in this dataset still need to have zip code left and right attributes corrected or added. The ACF Standard states that the road centerline must be 10 meters or better in horizontal accuracy and contain attributes required for geocoding situs address databases. The National Standard for Spatial Data Accuracy (NSSDA) was utilized to determine the horizontal accuracy of each independent data source. Counties within this file include: Arkansas, Ashley, Baxter, Benton, Bradley, Boone, Calhoun, Carroll, Chicot, Clark, Clay, Cleburne, Cleveland, Columbia, Conway, Crawford, Craighead, Crittenden, Cross, Dallas, Desha, Drew, Faulkner, Franklin, Fulton, Garland, Grant, Greene, Hempstead, Hot Spring, Howard, Independence, Izard, Jackson, Jefferson, Johnson, Lafayette, Lawrence, Lee, Lincoln, Little River, Logan, Lonoke, Madison, Marion, Miller, Mississippi, Monroe, Montgomery, Nevada, Newton, Ouachita, Perry, Phillips, Pike, Poinsett, Polk, Pope, Prairie, Pulaski, Randolph, Saline, Scott, Searcy, Sebastian, Sevier, Sharp, St. Francis, Stone, Union, Van Buren, Washington, White, Woodruff, Yell</abstract>
+      <purpose>This dataset was compiled under the direction of the Arkansas Geographic Information Systems Board for the purpose of serving as a statewide resource for geocoding situs address database tables. The dataset may also be used for cartographic display, as a base map or geographic reference to other map features, a component of a transportation asset management system and numerous other purposes.</purpose>
+    </descript>
+    <status>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.620142</westbc>
+        <eastbc>-89.655456</eastbc>
+        <northbc>36.545105</northbc>
+        <southbc>32.956063</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>road centerlines</themekey>
+        <themekey>county road</themekey>
+        <themekey>road centerline</themekey>
+        <themekey>highways</themekey>
+        <themekey>roads</themekey>
+        <themekey>county roads</themekey>
+        <themekey>street</themekey>
+        <themekey>highway</themekey>
+        <themekey>interstates</themekey>
+        <themekey>interstate</themekey>
+        <themekey>streets</themekey>
+        <themekey>road</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Refer to distribution liability in this document.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This dataset is a compilation of numerous source files. Refer to the source code attribute and related table for a source of each feature. Credit should also be given to the Arkansas Geographic Information Systems Board.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>414801</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.transportation.ROADS_ACF_PRE_ARNOLD</enttypl>
+        <enttypd>The road centerline of all clearly defined passages through which a vehicle may travel. Represented by a vector polyline also containing addressing attributes used for geocoding and other purposes.</enttypd>
+        <enttypds>Arkansas Geographic Information Office</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>CITY_R</attrlabl>
+        <attrdef>City name on the right side of the line segment</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>PL_ADD_T</attrlabl>
+        <attrdef>Primary left address to</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 - n</edomv>
+            <edomvd>Address range as defined by the addressing authority</edomvd>
+          </edom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>CN_R_FIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A2_LFADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PRE_DIR</attrlabl>
+        <attrdef>Street prefix direction</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NW</edomv>
+            <edomvd>Northwest</edomvd>
+          </edom>
+          <edom>
+            <edomv>SE</edomv>
+            <edomvd>Southeast</edomvd>
+          </edom>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>East</edomvd>
+          </edom>
+          <edom>
+            <edomv>SW</edomv>
+            <edomvd>Southwest</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+          </edom>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+          </edom>
+          <edom>
+            <edomv>NE</edomv>
+            <edomvd>Northeast</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+          </edom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>PSUF_DIR</attrlabl>
+        <attrdef>Primary Suffix Direction</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>East</edomvd>
+          </edom>
+          <edom>
+            <edomv>SE</edomv>
+            <edomvd>Southeast</edomvd>
+          </edom>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+          </edom>
+          <edom>
+            <edomv>NE</edomv>
+            <edomvd>Northeast</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+          </edom>
+          <edom>
+            <edomv>SW</edomv>
+            <edomvd>Southwest</edomvd>
+          </edom>
+          <edom>
+            <edomv>NW</edomv>
+            <edomvd>Northwest</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+          </edom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>A1_STR</attrlabl>
+        <attrdef>Alternate 1 street name</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>A1_LFADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CN_L_FIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP4_L</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5_L</attrlabl>
+        <attrdef>5 digit zip code on the left side of the line segment</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>PSTR_TYPE</attrlabl>
+        <attrdef>Primary street type</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS Addressing Standards</codesetn>
+            <codesets>ftp://ftp.nena9-1-1.org/pub/Standards/Street%7E1.PDF</codesets>
+          </codesetd>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>PSTR_NAM</attrlabl>
+        <attrdef>Primary street name</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <udom>Street names as assigned by the addressing authority</udom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNIQUE_ID</attrlabl>
+        <attrdef>Unique identification number</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>A1_RTADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP4_R</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PR_ADD_F</attrlabl>
+        <attrdef>Primary right address from</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 - n</edomv>
+            <edomvd>Address range as defined by the addressing authority</edomvd>
+          </edom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>META_ID</attrlabl>
+        <attrdef>FIPS code for jurisdiction that is the custodian for a geographic area</attrdef>
+        <attrdefs>Pending ACF standard revision</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>STATE_R</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE_L</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5_R</attrlabl>
+        <attrdef>5 digit zip code on the right side of the line segment</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>PL_ADD_F</attrlabl>
+        <attrdef>Primary left address from</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 - n</edomv>
+            <edomvd>Address range defined by the addressing authority</edomvd>
+          </edom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>PR_ADD_T</attrlabl>
+        <attrdef>Primary right address to</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 - n</edomv>
+            <edomvd>Address range as defined by the addressing authority</edomvd>
+          </edom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>A3_RTADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DATE</attrlabl>
+        <attrdef>Date the feature was edited</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+        <begdatea>20010101</begdatea>
+        <enddatea />
+      </attr>
+      <attr>
+        <attrlabl>END_DATE</attrlabl>
+        <attrdef>Date the feature was retired or road was closed or removed</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+        <begdatea>20010101</begdatea>
+        <enddatea>20990101</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>NSSDA</attrlabl>
+        <attrdef>Was the data part of the original data set that was assessed for accuracy or is it a new feature added after the file had already been assessed</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_SRC</attrlabl>
+        <attrdef>Source of the edits</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>...\path</edomv>
+            <edomvd>path to the file used as the source of the edits</edomvd>
+          </edom>
+          <edom>
+            <edomv>AGIO-INITIALS</edomv>
+            <edomvd>Agency - Editor's initials</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DESC</attrlabl>
+        <attrdef>Description of how the feature was edited</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <udom>General comments on what edits were performed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A3_LFADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A3_STYP</attrlabl>
+        <attrdef>Alternate 3 street type</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A2_DRSF</attrlabl>
+        <attrdef>Alternate 2 suffix direction</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A2_STYP</attrlabl>
+        <attrdef>Alternate 2 street type</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A3_RFADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A1_STYP</attrlabl>
+        <attrdef>Alternate 1 street type</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Ranges from 05001-021015-10000 through 05149-991231-999999</edomv>
+            <edomvd>State and County FIPS - Publication Date - # in 100,000s</edomvd>
+            <edomvds>ACF Standard (Pending Addition)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BEGIN_DATE</attrlabl>
+        <attrdef>Date that each feature was originally created</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+        <begdatea>20020101</begdatea>
+        <enddatea>20990101</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>NSSDA_SRC</attrlabl>
+        <attrdef>Source of the agency responsible for accuracy assessment</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>TIGER</edomv>
+            <edomvd>U.S. Census TIGER modernization contractor</edomvd>
+          </edom>
+          <edom>
+            <edomv>AGIO</edomv>
+            <edomvd>Arkansas Geographic Information Office</edomvd>
+          </edom>
+          <edom>
+            <edomv>RGIS</edomv>
+            <edomvd>National Consortium for Rural Geospatial Initiatives in America</edomvd>
+            <edomvds>Center for Advanced Spatial Technologies</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SRC_DESC</attrlabl>
+        <attrdef>Description of how the data was derived by jurisdiction and beginning date of feature</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>META_R</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITY_L</attrlabl>
+        <attrdef>City name on the left side of the line segment</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>A3_DRSF</attrlabl>
+        <attrdef>Alternate 3 suffix direction</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A3_STR</attrlabl>
+        <attrdef>Alternate 2 street name</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A3_DRPR</attrlabl>
+        <attrdef>Alternate 2 prefix direction</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Hwy (Highway Number)</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A2_STR</attrlabl>
+        <attrdef>Alternate 2 street name</attrdef>
+        <attrdefs>ACF Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A2_DRPR</attrlabl>
+        <attrdef>Alternate 2 prefix direction</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A1_DRSF</attrlabl>
+        <attrdef>Alternate 1 suffix direction</attrdef>
+        <attrdomv>
+          <edom>
+            <edomvd>State and County FIPS Code</edomvd>
+            <edomvds>Federal Bureau of the Census</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A2_LTADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A1_RFADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A1_LTADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A1_DRPR</attrlabl>
+        <attrdef>Alternate 1 prefix direction</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>NSSDA_VAL</attrlabl>
+        <attrdef>Value of accuracy assessment result</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>10</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>META_L</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENT_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A2_RTADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>A2_RFADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>A3_LTADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SRC_CODE</attrlabl>
+        <attrdef>Source code used to track source description</attrdef>
+        <attrdefs>AGIO</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>9999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Refer to the Arkansas Centerline File Standard</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20141231</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,246 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas State Highway and Transportation Department</origin>
+        <pubdate>20131105</pubdate>
+        <title>Arkansas Posted Highway Bridges</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Arkansas State Highway and Transportation Department</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>In order to maintain some bridges on highways in a suitable condition, it may be necessary at times to limit the amount of weight that can be carried by a single load on those bridges. This data represents those bridges on Arkansas Highways that are posted. See additional details on axle limits here: http://gis.arkansas.gov/Docs/ACF/Arkansas%20Posting%20Vehicles%20Illustrated.pdf</abstract>
+      <purpose>This dataset contains point attributes which represent the posted bridges on highways in the state that are regulated by the Arkansas State Highway and Transportation Department.</purpose>
+    </descript>
+    <status>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.516381</westbc>
+        <eastbc>-89.804872</eastbc>
+        <northbc>36.503088</northbc>
+        <southbc>33.042561</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Transportation</themekey>
+        <themekey>Posted Bridges</themekey>
+        <themekey>restriction</themekey>
+        <themekey>AHTD</themekey>
+        <themekey>Weight Restricted Bridges</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas State Highway and Transportation Department</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Composite object</sdtstype>
+        <ptvctcnt>297</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.transportation.POSTED_HIGHWAY_BRIDGE_AHTD</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Log_Mile</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Length_Ft</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Section</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>axle_Tons_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Dist</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Route_Type</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Width_CCFt</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Route</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>axle_Tons</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Crossing</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Bridge_No</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>axle_Tons_12</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/arkansas-posted-highway-bridges/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/3</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

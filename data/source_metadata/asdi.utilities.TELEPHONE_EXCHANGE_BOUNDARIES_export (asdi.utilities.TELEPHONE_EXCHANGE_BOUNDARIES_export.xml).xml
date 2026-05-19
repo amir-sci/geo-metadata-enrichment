@@ -1,0 +1,231 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20120719</pubdate>
+        <title>asdi.utilities.TELEPHONE_EXCHANGE_BOUNDARIES</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data provides Telephone Incumbent Local Exchange Carrier territory information for the State of Arkansas. The database provides location information for use in local and regional cartographic and spatial analysis applications. The data set was compiled from the legal descriptions in the rate documents on file with the Public Service Commission. The file has not been certified by a Professional Surveyor. The purpose of this data is to provide a generalized statewide view of Telephone Local Exchange Carrier territories. The file has been compiled from numerous sources and as such contains errors. The data contains the Telephone Exchange territories, Exchange Name, Company Name, Area Code, Prefix(es), Use, OCN(Operating Company Number) and Rate Cent</abstract>
+      <purpose>This data provides Telephone Incumbent Local Exchange Carrier territory information for the State of Arkansas.</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618315</westbc>
+        <eastbc>-89.616931</eastbc>
+        <northbc>36.531986</northbc>
+        <southbc>32.969261</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Boundary</themekey>
+        <themekey>Exchange</themekey>
+        <themekey>Telephone</themekey>
+        <themekey>Territory</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Public Service Commission</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>378</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.utilities.TELEPHONE_EXCHANGE_BOUNDARIES</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Area_Code</attrlabl>
+        <attrdef>Area Code for the Telephone Exchange.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>USE_</attrlabl>
+        <attrdef>Use of the telephone exchange</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OCN</attrlabl>
+        <attrdef>Operating Company Number for the Telephone Exchange</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Rate_Center</attrlabl>
+        <attrdef>10 Character unique code for the Rate Center of the Telephone Exchange</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Prefix</attrlabl>
+        <attrdef>Prefix for the telephone exchange. If more than one prefix, an * will indicate that a table must be downloaded and related to the data in order to get all Prefix data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Co_Name</attrlabl>
+        <attrdef>The company name of the exchange boundary jurisdiction</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Notes</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Exch_Name</attrlabl>
+        <attrdef>The name of the Telephone Exchange</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Source_Link</attrlabl>
+        <attrdef>A hyperlink field to the source documentation</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Utilities/FeatureServer/15</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/telephone-exchange-boundaries-polygon/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
