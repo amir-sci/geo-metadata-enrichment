@@ -1,4 +1,4 @@
-## `data/README.md`
+## data/README.md
 
 ```md
 # Data Description
