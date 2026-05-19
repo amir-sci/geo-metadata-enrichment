@@ -1,0 +1,426 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Bureau of the Census, Tiger/Line</origin>
+        <pubdate>20010101</pubdate>
+        <title>Civil Division 2000 (polygon)</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>U.S. Bureau of the Census, TIGER/Line</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/5</onlink>
+        <onlink>http://www.gis.arkansas.gov/?product=civil-division-2000-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Data available online through the Arkansas Spatial Data Infrastructure (http://gis.arkansas.gov). The subject file represents Civil Divisions 2000 for the State of Arkansas. It is a registered trademark of the Bureau of the Census and an extract of selected geographic and cartographic information from the Census TIGER database. The geographic coverage for a single TIGER/Line file is a county or statistical equivalent entity, based on January 1, 2000 legal boundaries. A complete set of files includes all counties and statistically equivalent entities in the United States and Puerto Rico. Files for the Island Areas are not included. The Census TIGER database represents a seamless national file with no overlaps or gaps between parts. However, each county-based TIGER/Line file is designed to stand alone as an independent data set or the files can be combined to cover the whole Nation. The files consist of line segments representing physical features and governmental and statistical boundaries. They do NOT contain the ZIP Code Tabulation Areas (ZCTAs) and the address ranges are of approximately the same vintage as those appearing in the 1999 TIGER/Line files. That is, the Census Bureau is producing these files in advance of the computer processing that will ensure that the address ranges in the TIGER/Line files agree with the final Master Address File (MAF) used for tabulating Census 2000. The files contain information distributed over a series of record types for the spatial objects of a county. There are 17 record types, including the basic data record, the shape coordinate points, and geographic codes that can be used with appropriate software to prepare maps. Other geographic information contained in the files includes attributes such as feature identifiers/census feature class codes (CFCC) used to differentiate feature types, address ranges and ZIP Codes codes for legal and statistical entities, latitude/longitude coordinates of linear and point features, landmark point features, area landmarks, key geographic features, and area boundaries.</abstract>
+      <purpose>For questions about the 2000 Census Redistricting data, its use, and proper interpretation, please contact Phyllis Smith at the State Data Center, (501)569-8530 or pnsmith@ualr.edu. In order for others to use the information in the Census TIGER data base in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line files. Various versions of the TIGER/Line files have been released; previous versions include the 1990 Census TIGER/Line files, the 1992 TIGER/Line files, the 1994 TIGER/Line files, the 1995 TIGER/Line files, the 1997 TIGER/Line files, the 1998 TIGER/Line files, and the 1999 TIGER/Line files. The Redistricting Census 2000 TIGER/Line files were originally produced to support the Census 2000 Redistricting Data Program. It is the intention of the Arkansas State Land Information Board to further facilitate the dissemination of TIGER/Line data through a value added process that includes the identification, separation, and merging of Arkansas TIGER/Line data.</purpose>
+      <supplinf>Field Name and Census Equivalents: P0010001 TApersons Universe: Total population P0010002 TA1race Total: P0010003 TAwhite Population of one race:White alone P0010004 TAblack Population of one race:Black or African American alone P0010005 TAamerind Population of one race:American Indian and Alaska Native alone P0010006 TAasian Population of one race:Asian alone P0010007 TAhawpac Population of one race:Native Hawaiian and Other Pacific Islander alone P0010008 TA1other Population of one race:Some other race alone P0010009 TA2mrace Population of two or more races: P0010010 TA2races Population of two races: P0010011 TAwb Population of two races:White; Black or African American P0010012 TAwin Population of two races:White; American Indian and Alaska Native P0010013 TAwa Population of two races:White; Asian P0010014 TAwnp Population of two races:White; Native Hawaiian and Other Pacific Islander P0010015 TAwo Population of two races:White; Some other race P0010016 TAbin Population of two races:Black or African American; American Indian and Alaska Native P0010017 TAba Population of two races:Black or African American; Asian P0010018 TAbhp Population of two races:Black or African American; Native Hawaiian and Other Pacific Islander P0010019 TAbo Population of two races:Black or African American; Some other race P0010020 TAina Population of two races:American Indian and Alaska Native; Asian P0010021 TAinp Population of two races:American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander P0010022 TAino Population of two races:American Indian and Alaska Native; Some other race P0010023 TAaho Population of two races:Asian; Native Hawaiian and Other Pacific Islander P0010024 TAao Population of two races:Asian; Some other race P0010025 TAhpo Population of two races:Native Hawaiian and Other Pacific Islander; Some other race P0010026 TA3races Population of three races: P0010027 TAwbin Population of three races:White; Black or African American; American Indian and Alaska Native P0010028 TAwba Population of three races:White; Black or African American; Asian P0010029 TAwbhp Population of three races:White; Black or African American; Native Hawaiian and Other Pacific Islander P0010030 TAwbo Population of three races:White; Black or African American; Some other race P0010031 TAwina Population of three races:White; American Indian and Alaska Native; Asian P0010032 TAwinhp Population of three races:White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19991231</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618368</westbc>
+        <eastbc>-89.619987</eastbc>
+        <northbc>36.531952</northbc>
+        <southbc>32.969416</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>township</themekey>
+        <themekey>townships</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U. S. Bureau of the Census Bureau of the Census Geography Division Products and Services Staff 8903 Presidential Parkway, WP I Upper Marlboro, MD 20772 tiger@census.gov Tel: 301-457-1128</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>4700 Silver Hill Road</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20233-0001</postal>
+        </cntaddr>
+        <cntvoice>301-763-INFO (4636)</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Bureau of the Census</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Bureau of the Census, Tiger/Line</origin>
+            <pubdate>20010101</pubdate>
+            <title>Civil Divisions, 2000 (2000 TIGER/Line)</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>None</typesrc>
+        <srccitea>Civil Divisions, 2000 (2000 TIGER/Line)</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>The subject file was created by downloading the Redistricting Census 2000 TIGER/Line Files from the U.S. Census Bureau web page. AutoBound 4, an extension to Arcview 3.2 developed by Digital Engineering Corporation, was used to convert TIGER/Line format files into Arcview shapefiles and to merge the county files into a statewide coverage. Attributes from the PL9471 file were joined to the appropriate TIGER/Line Census geometries.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1330</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.CIVIL_DIVISIONS_TIGER</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>TA3RACES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABGROUP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWINA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWBHP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TABLACK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TABIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VTD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TABHP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABEDGE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PLACE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AIHHTLI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STHOUSE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TA1RACE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWBO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TRACT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABLOCK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CD106</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAHPO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TABO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE5</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(geometry)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOMETRY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAINO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MSACMSA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BLOCK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAHAWPAC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STSENATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAAMERIND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAAHO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAINP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(geometry)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUMLEV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CIVIL_DIVS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PMSA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ANPSADPI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWNP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STUSAB</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABDISTRICT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CNTYSUB</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAASIAN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BLKGRP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWBA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAPERSONS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AMINDFIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWBIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TA1OTHER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TA2MRACE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TABA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABBORDER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABPLYNUM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CMSA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ABCOLOR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AKNAFIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWINHP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STFID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWB</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWHITE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITYFIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAAO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAINA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAWIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TA2RACES</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/civil-division-2000-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/5</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metrd>20050823</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U. S. Bureau of the Census Bureau of the Census Geography Division Products and Services Staff 8903 Presidential Parkway, WP I Upper Marlboro, MD 20772 tiger@census.gov Tel: 301-457-1128</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>4700 Silver Hill Road</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20233-0001</postal>
+        </cntaddr>
+        <cntvoice>301-763-INFO (4636)</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

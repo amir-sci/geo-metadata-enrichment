@@ -1,0 +1,310 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas State Highway and Transportation Department</origin>
+        <pubdate>20131010</pubdate>
+        <title>City Limit (polygon)</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Arkansas State Highway and Transportation Department</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/4</onlink>
+        <onlink>http://www.gis.arkansas.gov/?product=city-limit-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Data available online through the Arkansas Spatial Data Infrastructure (http://gis.arkansas.gov). Arkansas Cities: This data set contains all of the city limit boundaries within the state of Arkansas. These boundaries were developed by the staff in the Mapping Section of the Arkansas State Highway and Transportation Department with the exception of Benton and Washington Counties. Benton and Washington County officials have provided the city limits for their respected cities. All boundaries were digitally plotted from legal descriptions obtained from the city itself or through the Arkansas Secretary of State's Office.</abstract>
+      <purpose>This data set was developed to produce queriable city limit boundaries to aide in the development of projects, maps, and databases within the Arkansas State Highway and Transportation Department.</purpose>
+      <supplinf>If a special census has been completed and reported by the US Census Bureau, it will be noted by having the year in parenthesis ex. City of Benton in the pop column: 27717 (2006). All other populations with no date beside them will be the 2000 U.S. Census numbers.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.575260</westbc>
+        <eastbc>-89.798147</eastbc>
+        <northbc>36.508118</northbc>
+        <southbc>32.963216</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>areas</themekey>
+        <themekey>city</themekey>
+        <themekey>limits</themekey>
+        <themekey>corporate</themekey>
+        <themekey>limit</themekey>
+        <themekey>ahtd</themekey>
+        <themekey>cities</themekey>
+        <themekey>incorporated</themekey>
+        <themekey>area</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States of America</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas State Highway and Transportation Department</cntorg>
+          <cntper>Mapping Section</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O.Box 2261</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72203</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-569-2205,501-569-2600</cntvoice>
+        <hours>7:30a.m. to 4:00p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas State Highway and Transportation Department</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <logic>_</logic>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>521</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Boundaries.CITY_LIMITS_AHTD</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>INCORPORAT</attrlabl>
+        <attrdef>Identifies if City is Incorporated</attrdef>
+        <attrdefs>AHTD</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>No</edomv>
+            <edomvd>City is NOT Incorporated</edomvd>
+          </edom>
+          <edom>
+            <edomv>Yes</edomv>
+            <edomvd>City is Incorporated</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_SEA</attrlabl>
+        <attrdef>Binary indication of a County Seat</attrdef>
+        <attrdefs>AHTD</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>County Seat</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not a County Seat</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE_INCOR</attrlabl>
+        <attrdef>Date of Incorporation</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+        <attrdef>Stores CAD and annotation data</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+        <attrdef>AHTD Comment</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP2000</attrlabl>
+        <attrdef>Census population 2000</attrdef>
+        <attrdefs>Census</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY_NAME</attrlabl>
+        <attrdef>Stores the City Name</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY_FIPS_</attrlabl>
+        <attrdef>City's Federal Information Processing 173 Code which is unique when combined with county and state codes.</attrdef>
+        <attrdefs>Federal Government</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REV_DATE</attrlabl>
+        <attrdef>Date the boundary was revised by AHTD</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>POP2010</attrlabl>
+        <attrdef>Census population 2010</attrdef>
+        <attrdefs>Census</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Stores the County name in which the City is located</attrdef>
+        <attrdefs>AHTD</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/4</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/city-limit-polygon/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140717</metd>
+    <metrd>20050823</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Highway and Transportation Department</cntorg>
+          <cntper>Mapping Section</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O.Box 2261</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72203</postal>
+        </cntaddr>
+        <cntvoice>501-569-2205,501-569-2600</cntvoice>
+        <hours>7:30a.m. to 4:00p.m.</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

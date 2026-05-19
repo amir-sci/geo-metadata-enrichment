@@ -1,0 +1,259 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Secretary of State Redistricting Office</origin>
+        <pubdate>20101009</pubdate>
+        <title>Circuit Court Districts</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>AR Secretary of State</publish>
+        </pubinfo>
+        <onlink>http://www.gis.arkansas.gov/?product=circuit-court-districts</onlink>
+        <onlink>http://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/3</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Data available online through the Arkansas Spatial Data Infrastructure (http://gis.arkansas.gov). The subject file represents the Circuit Court District boundaries for the State of Arkansas. Other geographic information contained in the files includes the attribute of the Circuit Court District number.</abstract>
+      <purpose>This data delineates the Circuit Court District Boundaries of Arkansas. It was derived from the Census 2000 block boundaries. Judicial sub-districts are included in the file by a court order known as the Hunt Decree that was ordered by the US District Court, Eastern District Arkansas on November 7, 1991. (Eugene Hunts v State of Arkansas No PB-C-89-405). The purpose of this decree is to provide African American voters improved and equal access to the political processes for electing judges to the trial courts of the general jurisdictions in the State of Arkansas and to enhance the political participation and awareness of all citizens. Voting is a right inherent in citizenship in the State of Arkansas and in the United States. This right specifically includes the right to creation by the State of judgeships and the redistricting of judicial districts in such a way as not to dilute the voting strength of African America voters. The remedy ordered by this court will not disturb the existing district lines of the present judicial districts except to the extent that it creates electoral sub-districts with the First, Second, Sixth, Tenth and Eleventh West Judicial Districts for the purposes of election only. All judges elected from the electoral sub-districts will exercise jurisdiction district-wide in their capacity as circuit, chancery or circuit-chancery judges. There will be no sub-district residency requirement. No changes in any of these sub-districts or in the allocation of judgeships among them may be made except by order of the Court. The sub-district polygons representing these judicial sub-districts ordered by the court are titled as follows: 1.1 1.2 2.1 2.2 6.1 6.2 10.1 10.2 11W.1 11W.2 The original case was brought by Hunt in 1989. The analysis creating the sub-districts was based upon the 1990 Census data. On March 29, 2002 the court amended the original order by stating, The United States Census Bureau did not use the identical geographic boundaries in publishing the 2000 census report, and the Secretary of State has been unable to exactly replicate the earlier maps that were based upon the 1990 Census Report. The boundary changes are minimal and largely based upon the census geography and the new maps being submitted for the Courts approval are more detailed than those produced in 1992 when the Amended Consent Decree was entered. The boundary changes will clarify the sub-district lines for the public. Under the 1992 Amended Consent Decree changes in the sub-districts may only be made by Order of this Court. The changes in the demographic population percentages in the sub-districts attached as Exhibit A as compared to the sub-districts ordered under the Amended Consent Decree are negligible. The Courts approval of the attached maps will further the original purpose of the 1992 Amended Consent Decree which was designed to create opportunities for African Americans to elect Circuit Court judges in a manner consistent with Section 2 of the Voting Rights Act as amended. The Court therefore ORDERS, ADJUDGES, AND DECREES that the Joint Motion be and is hereby GRANTED and Court continues to retain jurisdiction of this matter pursuant to the Amended Consent Decree of September 24, 1992.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20101009</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618368</westbc>
+        <eastbc>-89.619987</eastbc>
+        <northbc>36.531952</northbc>
+        <southbc>32.969416</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>administrative</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>courts</themekey>
+        <themekey>circuit court</themekey>
+        <themekey>court</themekey>
+        <themekey>judicial</themekey>
+        <themekey>judge</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Secretary of State</cntorg>
+          <cntper>Tim Humphries</cntper>
+        </cntorgp>
+        <cntpos>Redistricting Office</cntpos>
+        <cntvoice>(501) 682- 3016</cntvoice>
+        <hours>M-F 8AM - 4:30PM</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Secretary of State</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Bureau of the Census, Tiger/Line</origin>
+            <pubdate>20010101</pubdate>
+            <title>Census Blocks, 2000</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>None</typesrc>
+        <srccitea>Census Blocks, 2000</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>The subject file was created by downloading the Redistricting Census 2000 TIGER/Line Files from the U.S. Census Bureau web page. AutoBound 4, an extension to Arcview 3.2 developed by Digital Engineering Corporation, was used to convert TIGER/Line format files into Arcview shapefiles and to merge the census block boundaries into areas representing the Circuit Court boundaries representing a statewide coverage. The blocks were then dissolved based upon the Circuit District number assigned to each block.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>33</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.CIRCUIT_COURT</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CIRCUIT_COURT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/circuit-court-districts/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/3</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metrd>20150709</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Secretary of State</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>4700 Silver Hill Road</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20233-0001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(501) 682- 3016</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

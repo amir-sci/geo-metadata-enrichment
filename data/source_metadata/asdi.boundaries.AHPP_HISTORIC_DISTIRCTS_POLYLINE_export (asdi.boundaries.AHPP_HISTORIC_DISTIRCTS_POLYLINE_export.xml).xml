@@ -1,0 +1,196 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Ralph Wilcox, Arkansas Historic Preservation Program, National Register and Survey Coordinator</origin>
+        <title>AHPP Historic Districts Polyline</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Arkansas Historic District dataset contains the boundaries for all historic districts in Arkansas. The districts are formally designated through a process administered by the Arkansas Historic Preservation Program. These areas typically contain a concentration of buildings where half the structures are at least 50 years old and represent important elements of the areas. Property owners within the District may become eligible for federal tax credits through rehabilitation projects.The designation follows the process outlined below:The mayor or other representative of the interested city contacts the AHPP to express interest in the project.AHPP historians will visit the city to evaluate whether or not a sufficient concentration of historic structures exists to be designated a historic district. (Basically, at least 51 percent of the buildings must be 50 years or older and still reflect their historic appearance.)If a potential district exists, the AHPP will contact the city and provide a list of addresses for the buildings in the area that is eligible for district designation. The city or other local partners will generate the list of property owners.The AHPP will then work with the city to set a time and place for an informational meeting with property owners; the AHPP will mail letters to each of the property owners informing them of the meeting.At the meeting, AHPP representatives will explain the project, what is does and does not mean to be listed on the National Register, and how the 20 percent federal rehabilitation tax project works. Most questions and concerns about the project can be addressed at the meeting.After the meeting, the local partners will poll the property owners to determine whether or not at least 51 percent of them are interested in the historic district designation.After being notified that a majority of the owners are interested, the AHPP will contract an architectural resources survey of the district area, in which each building will be photographed and informational forms completed.At the completion of the survey, the AHPP will contract to have a National Register nomination completed for the district.When the nomination is completed, the AHPP will present it to its State Review Board, which meets the first Wednesday in April, August and December to make formal nominations to the National Register.Following the meeting, the nominations are sent to the Keeper of the National Register in Washington, D.C., who makes the final decision on whether a property is listed (The AHPP has a 99 percent success rate in this process).The decision on listing will be made within six weeks of delivery of the nomination to the Keeper.</abstract>
+      <purpose>The Arkansas Historic District dataset contains the polylines for all historic roads, trails, etc  in Arkansas.  </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-94.126733</westbc>
+        <eastbc>-91.964403</eastbc>
+        <northbc>36.487522</northbc>
+        <southbc>34.762552</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Historic, Preservation, History</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>structure</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Historic Preservation Program</cntorg>
+          <cntper>Ralph Wilcox</cntper>
+        </cntorgp>
+        <cntpos>National Register and Survey Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1600 Tower Building, 323 Center Street</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>501-324-9880</cntvoice>
+        <cntemail>ralph@arkansasheritage.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>6</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.AHPP_HISTORIC_DISTIRCTS_POLYLINE</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>This column describes the name given to the historic district</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NRDate</attrlabl>
+        <attrdef>This column describes the year in which the historic district was listed on the National Register of Historic Places</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://dev.geostor.org/product/ahpp-historic-districts-polyline/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/0</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20161227</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Geographic Information Office</cntorg>
+          <cntper>Seth LeMaster</cntper>
+        </cntorgp>
+        <cntpos>GIS Lead</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, 6th Floor</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>Seth.LeMaster@Arkansas.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
