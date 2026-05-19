@@ -1,0 +1,335 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas GIS Office</origin>
+        <pubdate>20180109</pubdate>
+        <title>State of Arkansas</title>
+        <edition>Final</edition>
+        <geoform>remote-sensing image</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This metadata record describes the 30cm pixel resolution digital orthoimagery produced for the Arkansas GIS Office by the Sanborn Map Company. The orthoimagery provided is 4-band (R, G, B, NIR), 8-bit per pixel and delivered in section tiles in uncompressed TIFF/TFW, compressed SID/SDW (40:1) and compressed county wide SID mosaics (40:1) formats. The data was collected between January 23, 2017 and February 25, 2017 at an altitude range between 19089 and 20300 feet using an UltraCam Eagle camera. This orthoimagery is published in Universal Transverse Mercator Zone 15N, NAD 83, meters.</abstract>
+      <purpose>Rectified orthoimagery for the Arkansas GIS Office may serve as a basemap for GIS applications.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20170123</begdate>
+          <enddate>20180109</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>State of Arkansas</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.625</westbc>
+        <eastbc>-89.625</eastbc>
+        <northbc>36.5</northbc>
+        <southbc>33</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Ortho</themekey>
+        <themekey>Photography</themekey>
+        <themekey>Orthophotography</themekey>
+        <themekey>Imagery</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas</placekey>
+        <placekey>Arkansas GIS Office</placekey>
+      </place>
+    </keywords>
+    <accconst>This data may be used by the requested party for stated purposes and should not be re-distributed.</accconst>
+    <useconst>This data is meant for use by requested parties. This data cannot be used without express consent.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Sanborn Map Co., Inc.</cntorg>
+          <cntper>Shawn Benham</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1935 Jamboree Drive, Suite 100</address>
+          <city>Colorado Springs</city>
+          <state>Colorado</state>
+          <postal>80920-5358</postal>
+        </cntaddr>
+        <cntvoice>719-502-1296</cntvoice>
+        <cntemail>sbenham@sanborn.com</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3549</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>N/A</attraccr>
+      <qattracc>
+        <attraccv>N/A</attraccv>
+        <attracce>Attribute accuracy does not apply to orthoimagery.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Since the ortho images are raster products, the logical consistency is based on how well the images fit between image tiles and between individual photo frames used to produce the ortho mosaics. The images match within four pixels of each other through out the project area.</logic>
+    <complete>The ortho image tiles are checked for missing pixels, gaps, overlaps and other anomalies generally associated with digital orthophoto products. Any discrepencies in the ortho tiles are resolved through the use of proprietary and industry editing tools. Once the images are copied to the deliverable media they are further checked for naming, image completeness, and ability to be loaded in ArcMap.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This orthoimagery meets ASPRS Class 1 Accuracy Standards</horizpar>
+        <qhorizpa>
+          <horizpav>30cm RMSE</horizpav>
+          <horizpae>Specification requires that data meet a 120 cm ' RMSE requirement. Points were surveyed and compared to location within the orthophoto and found meet this specification.</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+        <qvertpa>
+          <vertaccv>0.0</vertaccv>
+          <vertacce>Orthoimagery does not have inherent vertical accuracy.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Sanborn Map Co., Inc.</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Ground Control</title>
+            <geoform>vector digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20170304</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CONT</srccitea>
+        <srccontr>Geodetic ground control is used to create a digital control file and control report as well as QC check of ortho accuracy. Predefined points within the project area are targeted and photo-identifiable locations are measured. These points along with their precise coordinates are used in the AT process and to check the horizontal accuracy of the resulting orthophotos.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Sanborn Map Co., Inc.</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Aerial Imagery</title>
+            <geoform>Raster data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20170123</begdate>
+              <enddate>20170225</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>IMG</srccitea>
+        <srccontr>Raw Aerial Imagery - UltraCam Eagle Digital Aerial Camera, Sanborn Map Company. Imagery and GPS/IMU data is downloaded from disc on the plane to disc on the ground. GPS/IMU mission data is processed together with simultaneously collected ground-based GPS base station data in forward and reverse directions. This precisely determines the aerial camera's position and orientation in the terrain (project) coordinate system and allows for correct orientation of the imagery.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Sanborn Map Co., Inc.</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>LiDAR</title>
+            <geoform>Vector data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20170430</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>LiDAR data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Image acquisition by Sanborn Map Company occurred between January 23, 2017 and February 25, 2017 using a UltraCam Eagle Camera. Imagery and GPS/IMU data is downloaded from disc on the plane to disc on the ground. GPS/IMU mission data is processed together with simultaneously collected ground-based GPS base station data in forward and reverse directions. This precisely determines the aerial camera's position and orientation in the terrain (project) coordinate system and allows for correct orientation of the imagery.</procdesc>
+        <procdate>20170225</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Sanborn Map Co., Inc.</cntorg>
+              <cntper>Shawn Benham</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1935 Jamboree Drive, Suite 100</address>
+              <city>Colorado Springs</city>
+              <state>CO</state>
+              <postal>80920</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>719-502-1296</cntvoice>
+            <cntemail>sbenham@sanborn.com</cntemail>
+            <hours>8:00 AM - 5:00 PM M-F</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Using the processed GPS/IMU data and correctly oriented imagery, a bundle adjustment is computed (AT).</procdesc>
+        <procdate>20170304</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Sanborn Map Co., Inc.</cntorg>
+              <cntper>Shawn Benham</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1935 Jamboree Drive, Suite 100</address>
+              <city>Colorado Springs</city>
+              <state>CO</state>
+              <postal>80920</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>719-502-1296</cntvoice>
+            <cntemail>sbenham@sanborn.com</cntemail>
+            <hours>8:00 AM - 5:00 PM M-F</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>DEM Review/Updating. The LiDAR surface is reviewed and updated as needed to meet the final orthorectification standards set in this project.</procdesc>
+        <procdate>20170430</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Sanborn Map Co., Inc.</cntorg>
+              <cntper>Shawn Benham</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1935 Jamboree Drive, Suite 100</address>
+              <city>Colorado Springs</city>
+              <state>CO</state>
+              <postal>80920</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>719-502-1296</cntvoice>
+            <cntemail>sbenham@sanborn.com</cntemail>
+            <hours>8:00 AM - 5:00 PM M-F</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Orthoimagery is rectified using the AT solution and LiDAR. Once rectified, the orthoimagery is colorbalanced to the acceptable parameters established by the customer. Orthoimagery then undergoes manual quality control to check for issues as outlined in the Digital Orthoimagery Acceptance Criteria document. Issues such as warps, smears, misalignments, etc. are corrected using proprietary tools and Adobe PhotoShop. Upon completion of the QC process, the orthos are provided to the client for review in uncompressed TIFF/TFW.</procdesc>
+        <procdate>20171031</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Sanborn Map Co., Inc.</cntorg>
+              <cntper>Shawn Benham</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1935 Jamboree Drive, Suite 100</address>
+              <city>Colorado Springs</city>
+              <state>CO</state>
+              <postal>80920</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>719-502-1296</cntvoice>
+            <cntemail>sbenham@sanborn.com</cntemail>
+            <hours>8:00 AM - 5:00 PM M-F</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>5</cloud>
+  </dataqual>
+  <spdoinfo>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>10000</rowcount>
+      <colcount>10000</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>None for Raster Information</eaover>
+      <eadetcit>None for Raster Information</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas GIS Office</cntorg>
+          <cntper>Matthew Delong</cntper>
+        </cntorgp>
+        <cntpos>Senior GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1 Capitol Mall Ste 6D</address>
+          <city>Little Rock</city>
+          <state>Arkansas</state>
+          <postal>72201</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-3710</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab>None</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital</formname>
+          <transize>0.135</transize>
+        </digtinfo>
+      </digform>
+      <fees>n/a</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20180109</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Sanborn Map Co., Inc.</cntorg>
+          <cntper>Shawn Benham</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1935 Jamboree Drive, Suite 100</address>
+          <city>Colorado Springs</city>
+          <state>Colorado</state>
+          <postal>80920-5358</postal>
+        </cntaddr>
+        <cntvoice>719-502-1296</cntvoice>
+        <cntemail>sbenham@sanborn.com</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>This data is meant for use by requested parties. This data cannot be used without express consent.</metuc>
+  </metainfo>
+</metadata>

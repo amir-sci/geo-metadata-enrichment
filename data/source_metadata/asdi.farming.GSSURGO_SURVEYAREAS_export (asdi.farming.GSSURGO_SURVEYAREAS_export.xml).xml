@@ -1,0 +1,317 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Department of Agriculture, Natural Resources Conservation Service</origin>
+        <pubdate>20121120</pubdate>
+        <title>gSSURGO SurveyAreas FY 2013</title>
+        <geoform>vector and raster digital map data and tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Worth, Texas</pubplace>
+          <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+        </pubinfo>
+        <onlink>URL:http://datagateway.nrcs.usda.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset of SSURGO Survey Areas (SA_POLYGON feature class) originated within the Gridded SSURGO (gSSURGO) Database and is derived from the Soil Survey Geographic (SSURGO) Database. SSURGO is generally the most detailed level of soil geographic data developed by the National Cooperative Soil Survey (NCSS) in accordance with NCSS mapping standards. The tabular data represent the soil attributes, and are derived from properties and characteristics stored in the National Soil Information System (NASIS). The gSSURGO data were prepared by merging traditional SSURGO digital vector map and tabular data into State-wide extents, and adding a State-wide gridded map layer derived from the vector, plus a new value added look up (valu) table containing "ready to map" attributes. The gridded map layer is offered in an ArcGIS file geodatabase raster format. The raster and vector map data have a State-wide extent. The raster map data have a 10 meter cell size that approximates the vector polygons in an Albers Equal Area projection. Each cell (and polygon) is linked to a map unit identifier called the map unit key. A unique map unit key is used to link to raster cells and polygons to attribute tables, including the new value added look up (valu) table that contains additional derived data. The value added look up (valu) table contains attribute data summarized to the map unit level using best practice generalization methods intended to meet the needs of most users. The generalization methods include map unit component weighted averages and percent of the map unit meeting a given criteria.</abstract>
+      <purpose>This is a customized SSURGO "Survey Area" vector-format dataset for Arkansas' GeoStor system. It was derived from the new gSSURGO datasets distributed by USDA-NRCS and are scheduled to be updated, annually, on a statewide basis. The Gridded SSURGO (gSSURGO) is similar to the standard USDA-NRCS Soil Survey Geographic (SSURGO) Database product but in the format of an Environmental Systems Research Institute, Inc. (ESRI®) file geodatabase. A file geodatabase has the capacity to store much more data and thus greater spatial extents than the traditional SSURGO product. This makes it possible to offer these data in statewide or even Conterminous United States (CONUS) tiles. gSSURGO contains all of the original soil attribute tables in SSURGO. All spatial data are stored within the geodatabase instead of externally as separate shapefiles. Both SSURGO and gSSURGO are considered products of the National Cooperative Soil Survey (NCSS) partnership. The gridded SSURGO (gSSURGO) dataset was created for use in national, regional, and statewide resource planning and analysis of soils data. Full SSURGO metadata may be accessed online: http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/publication/?cid=nrcs142p2_053631</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20121015</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618290</westbc>
+        <eastbc>-89.616749</eastbc>
+        <northbc>36.531902</northbc>
+        <southbc>32.969213</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>vector</themekey>
+        <themekey>Geospatial Data Gateway</themekey>
+        <themekey>Soil Survey</themekey>
+        <themekey>soils</themekey>
+        <themekey>GDG</themekey>
+        <themekey>gSSURGO</themekey>
+        <themekey>SSURGO</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>farming</themekey>
+      </theme>
+      <place>
+        <placekt>Counties and County Equivalents of the States of the United States and the District of Columbia (FIPS Pub 6-3)</placekt>
+        <placekey>United States of America</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>AR001,AR003,AR007,AR009,AR011,AR015,AR017,AR021, AR025,AR027,AR029,AR031,AR033,AR035,AR037,AR041, AR043,AR045,AR047,AR051,AR053,AR055,AR057,AR061, AR063,AR067,AR071,AR075,AR077,AR083,AR087,AR093, AR095,AR097,AR099,AR101,AR103,AR105,AR107,AR109, AR111,AR113,AR115,AR119,AR121,AR123,AR125,AR127, AR129,AR131,AR133,AR135,AR137,AR139,AR143,AR145, AR147,AR149,AR610,AR620,AR630,AR640,AR650,AR660, AR670,AR680</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The U.S. Department of Agriculture, Natural Resources Conservation Service, should be acknowledged as the data source in products derived from these data. This dataset is not designed for use as a primary regulatory tool in permitting or siting decisions, but may be used as a reference source. This is public information and may be interpreted by organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application. Federal, State, or local regulatory bodies are not to reassign to the Natural Resources Conservation Service any authority for the decisions that they make. The Natural Resources Conservation Service will not perform any evaluations of these maps for purposes related solely to State or local regulatory programs. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service, National Soil Survey Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>100 Centennial Mall North</address>
+          <address>Federal Building, Room 152</address>
+          <city>Lincoln</city>
+          <state>NE</state>
+          <postal>68508-3866</postal>
+        </cntaddr>
+        <cntvoice>402 437 5499</cntvoice>
+        <cntemail>SoilsHotline@lin.usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The U.S. Department of Agriculture, Natural Resources Conservation Service, should be acknowledged as the data source in products derived from these data.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <logic>The raster dataset uses the topologically correct vector SSURGO dataset for its source. The feature to raster conversion uses the cell center to decide the value of a raster pixel. The raster layer was snapped to the 2006 National Land Cover Database (NLCD) during processing. The tests of logical consistency are performed using vendor software.</logic>
+    <complete>The data are being generalized during the vector to raster conversion. The acreage total of the cells will differ from the acreage total of the polygons. The SSURGO raster was also snapped to the 2006 National Land Cover Database (NLCD). The NLCD is used as a snap raster to anchor the starting point of the SSURGO grid matrix in the snap raster environment.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Agriculture, Natural Resources Conservation Service</origin>
+            <title>Soil Survey Geographic (SSURGO) database for Soil Survey Areas</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Kansas City, Missouri</pubplace>
+              <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19950101</begdate>
+              <enddate>present</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS</srccitea>
+        <srccontr>Soil Survey Geographic (SSURGO) database vector data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of the Interior, U.S. Geological Survey</origin>
+            <pubdate>20060101</pubdate>
+            <title>National Land Cover Database 2006</title>
+            <geoform>raster digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20060101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NLCD</srccitea>
+        <srccontr>cell alignment layer</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>This dataset is a digital soil survey and generally is the most detailed level of soil geographic data developed by the National Cooperative Soil Survey. The information was prepared by digitizing maps, by compiling information onto a planimetric correct base and digitizing, or by revising digitized maps using remotely sensed and other information. This dataset consists of georeferenced digital map data and computerized attribute data. The map data are in a soil survey area extent format and include a detailed, field verified inventory of soils and miscellaneous areas that normally occur in a repeatable pattern on the landscape and that can be cartographically shown at the scale mapped. The soil map units are linked to attributes in the National Soil Information System (NASIS) relational database, which gives the proportionate extent of the component soils and their properties.</procdesc>
+        <srcused>NRCS</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>A 10 meter file geodatabase raster layer was created by converting the 'MUPOLYGON' feature class from feature to raster using 'FeatureToRaster' which is a cell-center-based method in ArcGIS 10.1. The raster layer was snapped to the 2006 NLCD raster for CONUS. Pyramids and a raster attribute table were created. Using the 'Lookup_Mukey' table, a single attribute 'MUKEY' was added to the raster attribute table to facilitate joins with the attribute data.</procdesc>
+        <srcused>NLCD</srcused>
+        <procdate>20121120</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>A new table 'Lookup_Mukey' was created in order to facilitate the conversion of the MUPOLYGON feature class from polygon to raster. This table was derived from the MAPUNIT table in the Soil Data Mart and contains 'MUKEY' values for all soil surveys in the October 2012 Soil Data Mart database, not just those present in this geodatabase feature class. The table also contains an integer value attribute named 'CellValue'. This is the value used to generate the raster layer. 'CellValue' corresponds directly to the OBJECTID or internal record number of the MAPUNIT table.</procdesc>
+        <procdate>20121120</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>State-wide file geodatabases (ESRI) were exported from the October 15, 2012 snapshot of the NRCS Soil Data Mart at the National Soil Survey Center in Lincoln, Nebraska. Software used for all processes was ArcGIS 10.1. All existing SSURGO features and attributes were selected using the NASIS 'Legend Area Overlap' table to identify non-MLRA (Major Land Resource Area) soil survey areas that intersect this particular 'State or Territory'. The data were not clipped to a state boundary, thus in some instances feature classes may extend beyond a state's boundary. All conterminous United States (CONUS) datasets were projected from the original Geographic NAD83 coordinate system to 'USA_Contiguous_Albers_Equal_Area_Conic_USGS_Version'. Relationship classes between tables and feature classes were created in the geodatabase.</procdesc>
+        <srcused>NRCS</srcused>
+        <procdate>20121120</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>67</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.farming.GSSURGO_SURVEYAREAS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>AREASYMBOL</attrlabl>
+        <attrdef>Column Physical Name: areasymbol Column Label: Area Symbol A symbol that uniquely identifies a single occurrence of a particular type of area (e.g. Lancaster Co., Nebraska is NE109).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>lkey</attrlabl>
+        <attrdef>Column Physical Name: lkey Column Label: Legend Key A non-connotative string of characters used to uniquely identify a record in the Legend table.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Geostor_re</attrlabl>
+        <attrdef>This field indicates whether the Soil Survey polygon contained within the original SA_POLYGON feature class from NRCS (gSSURGO FY2013) is within the four (quartered) zones of the GeoStor division for these data. This divide was determined by the Arkansas Geographic Information Office (AGIO) so that the resulting file sizes can be managed most effectively by the GeoStor data distribution system (www.geostor.arkansas.gov).</attrdef>
+        <attrdefs>Shelby Johnson, Seth Lemaster and Maria Owen, AGIO Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SPATIALVER</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Raster cell locations are based on map unit delineations which are closed polygons that may be dominated by a single soil or nonsoil component plus allowable similar or dissimilar soils, or they can be geographic mixtures of groups of soils or soils and nonsoil areas. The map unit symbol uniquely identifies each closed delineation map unit. Each symbol corresponds to a map unit name. The map unit key is used to link to information in the National Soil Information System (NASIS) tables. A new table, 'Lookup_Mukey' was created and contains the mukey value for all soil surveys in the database. The mukey column and value was added to the raster attribute table to facilitate joins with the attribute data.</eaover>
+      <eadetcit>U.S. Department of Agriculture. 1999. Soil Taxonomy: A basic system of soil classification for making and interpreting soil surveys. Natural Resources Conservation Service, U.S. Dep. Agric. Handb. 436. U.S. Department of Agriculture. (current issue). Keys to Soil Taxonomy. Soil Surv. Staff, Natural Resources Conservation Service. U.S. Department of Agriculture. (current issue). National Soil Survey Handbook, title 430-VI. Soil Surv. Staff, Natural Resources Conservation Service. U.S. Department of Agriculture. 1993. Soil Survey Manual. Soil Surv. Staff, U.S. Dep. Agric. Handb. 18.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Department of Agriculture, no warranty expressed or implied is made by the Agency regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The U.S. Department of Agriculture will warrant the delivery of this product in computer readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Request for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site. The U.S. Department of Agriculture, nor any of its agencies are liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these datasets. The U.S. Department of Agriculture (USDA) prohibits discrimination in all of its programs and activities on the basis of race, color, national origin, age, disability, and where applicable, sex, (including gender identity and expression), marital status, familial status, parental status, religion, sexual orientation, political beliefs, genetic information, reprisal, or because all or part of an individual's income is derived from any public assistance program. (Not all prohibited bases apply to all programs.) Persons with disabilities who require alternative means for communication of program information (Braille, large print, audiotape, etc.) should contact USDA's TARGET Center at (202) 720-2600 (voice and TDD). To file a complaint of discrimination, write to USDA, Assistant Secretary for Civil Rights, Office of the Assistant Secretary for Civil Rights, 1400 Independence Avenue, S.W., Stop 9410, Washington, DC 20250-9410, or call toll-free at (866) 632-9992 (English) or (800) 877-8339 (TDD) or (866) 377-8642 (English Federal-relay) or (800) 845-6136 (Spanish Federal-relay). USDA is an equal opportunity provider and employer.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/gssurgo-surveyareas-fy-2013/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Farming/FeatureServer/6</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140408</metd>
+    <metfrd>20141104</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service, National Soil Survey Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>100 Centennial Mall North</address>
+          <address>Federal Building, Room 152</address>
+          <city>Lincoln</city>
+          <state>NE</state>
+          <postal>68508-3866</postal>
+        </cntaddr>
+        <cntvoice>402 437 5499</cntvoice>
+        <cntemail>SoilsHotline@lin.usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

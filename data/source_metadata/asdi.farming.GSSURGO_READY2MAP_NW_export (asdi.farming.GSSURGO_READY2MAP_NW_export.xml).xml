@@ -1,0 +1,596 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Department of Agriculture, Natural Resources Conservation Service</origin>
+        <pubdate>20121120</pubdate>
+        <title>gSSURGO Ready2map NW FY 2013</title>
+        <geoform>vector and raster digital map data and tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Worth, Texas</pubplace>
+          <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+        </pubinfo>
+        <onlink>URL:http://datagateway.nrcs.usda.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains the common Map Unit attributes for each polygon within the gSSURGO database plus NRCS derived attributes from a data summary table called the National Valu Added Look Up (valu) Table #1. It is comprised of 57 pre-summarized or "ready to map" derived soil survey geographic database attributes including soil organic carbon, available water storage, crop productivity indices, crop root zone depths, available water storage within crop root zone depths, drought vulnerable soil landscapes, and potential wetland soil landscapes. Related metadata values for themes are included. These attribute data are pre-summarized to the map unit level using best practice generalization methods intended to meet the needs of most users. The generalization methods include map unit component weighted averages and percent of the map unit meeting a given criteria. These themes were prepared to better meet the mapping needs of users of soil survey information and can be used with both SSURGO and Gridded SSURGO (gSSURGO) datasets. Gridded SSURGO (gSSURGO) Database is derived from the official Soil Survey Geographic (SSURGO) Database. SSURGO is generally the most detailed level of soil geographic data developed by the National Cooperative Soil Survey (NCSS) in accordance with NCSS mapping standards. The tabular data represent the soil attributes, and are derived from properties and characteristics stored in the National Soil Information System (NASIS). The gSSURGO data were prepared by merging traditional SSURGO digital vector map and tabular data into State-wide extents, and adding a State-wide gridded map layer derived from the vector, plus a new value added look up (valu) table containing "ready to map" attributes. The gridded map layer is offered in an ArcGIS file geodatabase raster format. The raster and vector map data have a State-wide extent. The raster map data have a 10 meter cell size that approximates the vector polygons in an Albers Equal Area projection. Each cell (and polygon) is linked to a map unit identifier called the map unit key. A unique map unit key is used to link to raster cells and polygons to attribute tables, including the new value added look up (valu) table that contains additional derived data.VALU Table Content:The map unit average Soil Organic Carbon (SOC) values are given in units of g C per square meter for eleven standard layer or zone depths. The average thickness of soil map unit component horizons used in these layer/zone calcuations is also included. The standard layers include: 0-5cm, 5-20cm, 20-50cm, 50-100cm, 100-150cm, and 150-150+cm (maximum reported soil depth). The standard zones include: 0-5cm (also a standard layer), o-20cm, 0-30cm, 0-100cm, and 0-150+cm (full reported soil depth). Zero cm represents the soil surface.The map unit average Available Water Storage (AWS) values are given in units of millimeters for eleven standard layer or zone depths. The average thickness of soil map unit component horizons used in these layer/zone calcuations is also included. The standard layers include: 0-5cm, 5-20cm, 20-50cm, 50-100cm, 100-150cm, and 150-150+cm (maximum reported soil depth). The standard zones include: 0-5cm (also a standard layer), 0-20cm, 0-30cm, 0-100cm, and 0-150+cm (full reported soil depth). Zero cm represents the soil surface.The map unit average National Commodity Crop Productivity Index (NCCPI) values (low index values indicate low productivity and high index values indicate high productivity) are provided for major earthy components. NCCPI values are included for corn/soybeans, small grains, and cotton crops. Of these crops, the highest overall NCCPI value is also identified. Earthy components are those soil series or higher level taxa components that can support crop growth. Major components are those soil components where the majorcompflag = 'Yes' in the SSURGO component table. A map unit percent composition for earthy major components is provided. See Dobos, R. R., H. R. Sinclair, Jr, and M. P. Robotham. 2012. National Commodity Crop Productivity Index (NCCPI) User Guide, Version 2. USDA-NRCS. Available at: ftp://ftp-fc.sc.egov.usda.gov/NSSC/NCCPI/NCCPI_user_guide.pdfThe map unit average root zone depth values for commodity crops are given in centimeters for major earthy components. Criteria for root-limiting soil depth include: presence of hard bedrock, soft bedrock, a fragipan, a duripan, sulfuric material, a dense layer, a layer having a pH of less than 3.5, or a layer having an electrical conductivity of more than 12 within the component soil profile. If no root-restricting zone is identified, a depth of 150 cm is used to approximate the root zone depth (Dobos et al., 2012). The map unit average available water storage within the root zone depth for major earthy components value is given in millimeters.Drought vulnerable soil landscapes comprise those map units that have available water storage within the root zone for commodity crops that is less than or equal to 6 inches (152 mm) expressed as "1" for a drought vulnerable soil landscape map unit or "0" for a nondroughty soil landscape map unit or NULL for miscellaneous areas (includes water bodies).The potential wetland soil landscapes (PWSL version 1) information is given as the percentage of the map unit (all components) that meet the criteria for a potential wetland soil landscape. See table column (field) description for criteria details. If water was determined to account for 80 or greater percent of a map unit, a value of 999 was used to indicate a water body. This is not a perfect solution, but is helpful to identifying a general water body class for mapping.The map unit sum of the component percentage representative values is also provided as useful metadata. For all valu table columns, NULL values are presented where data are incomplete or not available. How NoData or NULL values and incomplete data were handled during VALU table SOC and AWS calculations:The gSSURGO calculations for SOC and AWS as reported in the VALU table use the following data checking and summarization rules. The guiding principle was to only use the official data in the SSURGO database, and not to make assumptions in case there were some data entry errors. However, there were a few exceptions to this principle if there was a good reason for a Null value in a critical variable, or to accommodate the data coding conventions used in some soil surveys.Horizon depths considerations:If the depth to the top of the surface horizon was missing, but otherwise the horizon depths were all okay, then the depth to the top of the surface horizon (hzdept_r) was set to zero.If the depth to the bottom of the last horizon was missing, and the horizon represented bedrock or had missing bulk density, the depth to the bottom was set to equal to the depth to the top of the same horizon (hzdepb_r = hzdept_r), effectively giving the horizon zero thickness (and thus zero SOC or AWS), but not blocking calculation of other horizons in the profile due to horizon depth errors.Other types of horizon depth errors were considered uncorrectable, and led to all horizon depths for the component being set to a NoData value, effectively eliminating the component from the analysis. The errors included gaps or overlaps in the horizon depths of the soil profile, other cases of missing data for horizon depths, including missing data for the bottom depth of the last horizon if the soil texture information did not indicate bedrock and a bulk density value was coded. The SOC or AWS values were effectively set to zero for components eliminated in this way, so the values at the map unit level could be an underestimate for some soils.Horizon rock fragment considerations:Part of the algorithm for calculating the SOC requires finding the volume of soil that is not rock. This requires three SSURGO variables that indicate rock fragments (fraggt10_r, frag3to10_r, and sieveno10_r). If the soil is not organic, and any of these are missing, then the ratio of the volume of soil fines to the total soil volume was set to “NoData”, and the SOC results were coded as “NoData” and effectively set to zero for the horizon. If the soil is organic, then it may be logical that no measurement of rock fragments was made, and default values for the “zero rock” situation was assumed for these variables (i.e., fraggt10_r = 0, frag3to10_r = 0, sieveno10_r = 100). Organic soils were identified by an “O” in the horizon designator or the texture code represented “Peat”, “Muck” or “Decomposed Plant Material”. If all three of the fragment variables were present, but indicated more than 100% rock, then 100% rock was assumed (zero volume of soil and thus zero for SOC). The rock fragment variables do not influence the AWS calculation because rock content is already accounted for in the available water capacity (awc_r) variable at the horizon level.Horizon to component summary:To summarize data from the horizon level to the component level, the evaluation proceeded downward from the surface. If a valid value for AWS could not be calculated for any horizon, then the result for that horizon and all deeper horizons was set to NoData. The same rule was separately applied to the SOC calculation, so it was possible to have results for SOC but not AWS, or vice versa.Component to mapunit summary:To summarize data from the component level to the map unit level, the component percentages must be valid. There are tests both of the individual component percentage (comppct_r) data, and also of the sum of the component percentages at the map unit level (mu_sum_comppct_r). For the gSSURGO VALU table, the following rules were applied for the individual components: 1) The comppct_r must be in the range from 0 to 100, inclusive. 2) Individual components with a comppct_r that was Null (nothing coded) were ignored. A zero comppct_r value excludes the component from having an effect on the map unit calculation. No values more than 100% were found in the data for individual comppct_r.Two additional rules were applied for the sum of the component percentages in a map unit (ignoring NoData for comppct_r): 3) The mu_sum_comppct_r must be in the range from 1 to 100, inclusive, otherwise map unit level output was set to NoData, and 4) The mu_sum_comppct_r were not scaled to equal 100%. With these rules, the results may be an under-estimate of the value for AWS or SOC compared to what would have been calculated if there were complete data and/or no comppct_r errors.Metadata variables: sums of component percentages:Several metadata variables are provided in the VALU table to help understand when the AWS and SOC values are underestimated because of these component percentage issues. The sum of the component percentages for the map unit are reported in “mu_sum_comppct_r”. If this is greater than 100% or the comppct_r was NoData for all components, then no results will be given for the map unit. If the mu_sum_comppct_r is less than 100%, then the soil scientists likely did not report on all soils in the map unit. The AWS and SOC values will only reflect the reported soils, and therefore would be an underestimate if the unreported soils would have had values for these measures.The sums of the component percentages that were used in the AWS and SOC calculations are also reported (mu_sum_comppct_aws and mu_sum_comppct_soc, respectively). If these values are less than the mu_sum_comppct_r, it is an indication that there was insufficient data to compute the AWS and/or SOC values for all of the components. These variables essentially represent metadata for each map unit. In some cases, the lack of an AWS or SOC value may be appropriate (for example, for non-soils such as bedrock at the surface, gravel pits, or water).A full discussion of these rules and their implications, including explicit examples, will be given in a forthcoming publication as Soil Survey Investigations Report No. 53, USDA NRCS, Lincoln, NE.</abstract>
+      <purpose>This vector feature class represents Arkanasas' FY2013 gSSURGO Soils Database Map Unit attributes plus the National Valu Added Look Up table compiled by NRCS Soil Scientists. The National Valu Added Look Up (valu) Table #1 is a compilation of 57 pre-summarized or "ready to map" derived soil survey geographic database attributes including soil organic carbon, available water storage, crop productivity indices, crop root zone depths, available water storage within crop root zone depths, drought vulnerable soil landscapes, and potential wetland soil landscapes. Related metadata values for themes are included. These derived themes were prepared to better meet the mapping needs of users of soil survey information and can be used with both Gridded SSURGO and vector SSURGO datasets. The Gridded SSURGO dataset was created for use in national, regional, and state-wide resource planning and analysis of soils data. The raster map layer data can be readily combined with other national, regional, and local raster layers, e.g., National Land Cover Database (NLCD), the National Agricultural Statistics Service (NASS) Crop Data Layer (CDL), or the National Elevation Dataset (NED). This Vector-format dataset containing more than 57 "Ready to Map" soil survey attributes was derived from the new gSSURGO datasets distributed by USDA-NRCS and are scheduled to be updated, annually, on a statewide basis. The gSSURGO Database is derived from the official Soil Survey Geographic (SSURGO) Database. SSURGO generally has the most detailed level of soil geographic data developed by the National Cooperative Soil Survey (NCSS) in accordance with NCSS mapping standards. The tabular data represent the soil attributes and are derived from properties and characteristics stored in the National Soil Information System (NASIS). The gSSURGO data were prepared by merging the traditional vector-based SSURGO digital map data and tabular data into statewide extents, adding a statewide gridded map layer derived from the vector layer, and adding a new value-added look up table (valu) containing “ready to map” attributes. Full SSURGO metadata may be accessed online: http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/publication/?cid=nrcs142p2_053631</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20121015</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.617843</westbc>
+        <eastbc>-91.777328</eastbc>
+        <northbc>36.510434</northbc>
+        <southbc>34.658882</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>vector</themekey>
+        <themekey>Geospatial Data Gateway</themekey>
+        <themekey>Soil Survey</themekey>
+        <themekey>soils</themekey>
+        <themekey>GDG</themekey>
+        <themekey>gSSURGO</themekey>
+        <themekey>SSURGO</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>farming</themekey>
+      </theme>
+      <place>
+        <placekt>Counties and County Equivalents of the States of the United States and the District of Columbia (FIPS Pub 6-3)</placekt>
+        <placekey>United States of America</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>AR001,AR003,AR007,AR009,AR011,AR015,AR017,AR021, AR025,AR027,AR029,AR031,AR033,AR035,AR037,AR041, AR043,AR045,AR047,AR051,AR053,AR055,AR057,AR061, AR063,AR067,AR071,AR075,AR077,AR083,AR087,AR093, AR095,AR097,AR099,AR101,AR103,AR105,AR107,AR109, AR111,AR113,AR115,AR119,AR121,AR123,AR125,AR127, AR129,AR131,AR133,AR135,AR137,AR139,AR143,AR145, AR147,AR149,AR610,AR620,AR630,AR640,AR650,AR660, AR670,AR680</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The U.S. Department of Agriculture, Natural Resources Conservation Service, should be acknowledged as the data source in products derived from these data. This dataset is not designed for use as a primary regulatory tool in permitting or siting decisions, but may be used as a reference source. This is public information and may be interpreted by organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application. Federal, State, or local regulatory bodies are not to reassign to the Natural Resources Conservation Service any authority for the decisions that they make. The Natural Resources Conservation Service will not perform any evaluations of these maps for purposes related solely to State or local regulatory programs. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service, National Soil Survey Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>100 Centennial Mall North</address>
+          <address>Federal Building, Room 152</address>
+          <city>Lincoln</city>
+          <state>NE</state>
+          <postal>68508-3866</postal>
+        </cntaddr>
+        <cntvoice>402 437 5499</cntvoice>
+        <cntemail>SoilsHotline@lin.usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. National value added look up (valu) table for Gridded Soil Survey Geographic (SSURGO) Database for the United States of America and the Territories, Commonwealths, and Island Nations served by the USDA NRCS. Available online at http://datagateway.nrcs.usda.gov/ October 15, 2012.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <logic>The raster dataset uses the topologically correct vector SSURGO dataset for its source. The feature to raster conversion uses the cell center to decide the value of a raster pixel. The raster layer was snapped to the 2006 National Land Cover Database (NLCD) during processing. The tests of logical consistency are performed using vendor software.</logic>
+    <complete>The data are being generalized during the vector to raster conversion. The acreage total of the cells will differ from the acreage total of the polygons. The SSURGO raster was also snapped to the 2006 National Land Cover Database (NLCD). The NLCD is used as a snap raster to anchor the starting point of the SSURGO grid matrix in the snap raster environment.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Agriculture, Natural Resources Conservation Service</origin>
+            <title>Soil Survey Geographic (SSURGO) database for Soil Survey Areas</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Kansas City, Missouri</pubplace>
+              <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19950101</begdate>
+              <enddate>present</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS</srccitea>
+        <srccontr>Soil Survey Geographic (SSURGO) database vector data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>This dataset is a digital soil survey and generally is the most detailed level of soil geographic data developed by the National Cooperative Soil Survey. The information was prepared by digitizing maps, by compiling information onto a planimetric correct base and digitizing, or by revising digitized maps using remotely sensed and other information. This dataset consists of georeferenced digital map data and computerized attribute data. The map data are in a soil survey area extent format and include a detailed, field verified inventory of soils and miscellaneous areas that normally occur in a repeatable pattern on the landscape and that can be cartographically shown at the scale mapped. The soil map units are linked to attributes in the National Soil Information System (NASIS) relational database, which gives the proportionate extent of the component soils and their properties.</procdesc>
+        <srcused>NRCS</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>State-wide file geodatabases (ESRI) were exported from the October 15, 2012 snapshot of the NRCS Soil Data Mart at the National Soil Survey Center in Lincoln, Nebraska. Software used for all processes was ArcGIS 10.1. All existing SSURGO features and attributes were selected using the NASIS 'Legend Area Overlap' table to identify non-MLRA (Major Land Resource Area) soil survey areas that intersect this particular 'State or Territory'. The data were not clipped to a state boundary, thus in some instances feature classes may extend beyond a state's boundary. All conterminous United States (CONUS) datasets were projected from the original Geographic NAD83 coordinate system to 'USA_Contiguous_Albers_Equal_Area_Conic_USGS_Version'. Relationship classes between tables and feature classes were created in the geodatabase.</procdesc>
+        <srcused>NRCS</srcused>
+        <procdate>20121120</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>121426</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.farming.GSSURGO_READY2MAP_NW</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>tk5_20a</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 2 (5‐20 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>mukind</attrlabl>
+        <attrdef>Column Physical Name: mukind Column Label: Kind Code identifying the kind of mapunit. Example: C - consociation.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>aws0_5</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard layer 1 or standard zone 1 (0‐5 cm depth), expressed in mm. The volume of plant available water that the soil can store in this layer based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk5_20s</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 3 (5‐20 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws0_100</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard zone 4 (0‐100 cm depth), expressed in mm. The volume of plant available water that the soil can store in this zone based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>muname</attrlabl>
+        <attrdef>Column Physical Name: muname Column Label: Mapunit Name Correlated name of the mapunit (recommended name or field name for surveys in progress).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>soc50_100</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard layer 4 (50‐100 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter for the 50‐100 cm layer. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws50_100</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard layer 4 (50‐100 cm depth), expressed in mm. The volume of plant available water that the soil can store in this layer based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUSYM</attrlabl>
+        <attrdef>Column Physical Name: musym Column Label: Mapunit Symbol The symbol used to uniquely identify the soil mapunit in the soil survey.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>tk0_150s</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 5 (0‐150 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>muacres</attrlabl>
+        <attrdef>Column Physical Name: muacres Column Label: Total Acres The number of acres of a particular mapunit.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>aws0_20</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard zone 2 (0‐20 cm depth), expressed in mm. The volume of plant available water that the soil can store in this zone based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc5_20</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard layer 2 (5‐20 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter for the 5‐20 cm layer. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_30a</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 3 (0‐30 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws0_150</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard zone 5 (0‐150 cm depth), expressed in mm. The volume of plant available water that the soil can store in this zone based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk50_100a</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 4 (50‐100 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk100_150a</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 5 (100‐150 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws150_999</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard layer 6 (150 cm to the reported depth of the soil profile), expressed in mm. The volume of plant available water that the soil can store in this layer based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws100_150</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard layer 5 (100‐150 cm depth), expressed in mm. The volume of plant available water that the soil can store in this layer based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CELLVALUE</attrlabl>
+        <attrdef>Column Physical Name: CELLVALUE Column Label: CellValue Unique identifier for the gSSURGO gridded data (10m). This would be the JOIN field to use for linking this attribute table to the RASTER gSSURGO dataset.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>aws0_30</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard zone 3 (0‐30 cm depth), expressed in mm. The volume of plant available water that the soil can store in this zone based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_999a</attrlabl>
+        <attrdef>Thickness of soil components used in total soil profile (0 cm to the reported depth of the soil profile) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SPATVERSON</attrlabl>
+        <attrdef>Column Physical Name: spatialversion Column Label: Spatial Version A sequential integer number used to denote the serial version of the spatial data for a soil survey area.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NatMuSym</attrlabl>
+        <attrdef>Column Physical Name: NationalMuSym Column Label: NationalMuSym The National Soil Database Map Unit Symbol.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>soc20_50</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard layer 3 (20‐50 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter for the 20‐50 cm layer. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_20a</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 2 (0‐20 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws5_20</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard layer 2 (5‐20 cm depth), expressed in mm. The volume of plant available water that the soil can store in this layer based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>musumcpcta</attrlabl>
+        <attrdef>The sum of the comppct_r (SSURGO component table) values used in the available water storage calculation for the map unit. Useful metadata information. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk20_50a</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 3 (20‐50 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws0_999</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in total soil profile (0 cm to the reported depth of the soil profile), expressed in mm. The volume of plant available water that the soil can store in this layer based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>farmlndcl</attrlabl>
+        <attrdef>Column Physical Name: farmlndcl Column Label: Farm Class Identification of map units as prime farmland, farmland of statewide importance, or farmland of local importance.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>tk150_999a</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 6 (150 cm to the reported depth of the soil profile) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>lkey</attrlabl>
+        <attrdef>Column Physical Name: lkey Column Label: Legend Key A non-connotative string of characters used to uniquely identify a record in the Legend table.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>aws20_50</attrlabl>
+        <attrdef>Available water storage estimate (AWS) in standard layer 3 (20‐50 cm depth), expressed in mm. The volume of plant available water that the soil can store in this layer based on all map unit components (weighted average). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUKEY</attrlabl>
+        <attrdef>Column Physical Name: mukey Column Label: Mapunit Key A non-connotative string of characters used to uniquely identify a record in the Mapunit table. Map unit key is the unique identifier of a record in the Mapunit table. Use this column to join the Component table to the Mapunit table.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASYMBOL</attrlabl>
+        <attrdef>Column Physical Name: areasymbol Column Label: Area Symbol A symbol that uniquely identifies a single occurrence of a particular type of area (e.g. Lancaster Co., Nebraska is NE109).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>rootznemc</attrlabl>
+        <attrdef>Root zone depth is the depth within the soil profile that commodity crop (cc) roots can effectively extract water and nutrients for growth. Root zone depth influences soil productivity significantly. Soil component horizon criteria for root‐limiting depth include: presence of hard bedrock, soft bedrock, a fragipan, a duripan, sulfuric material, a dense layer, a layer having a pH of less than 3.5, or a layer having an electrical conductivity of more than 12 within the component soil profile. If no root‐restricting zone is identified, a depth of 150 cm is used to approximate the root zone depth (Dobos et al., 2012). Root zone depth is computed for all map unit major earthy components (weighted average). Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). NULL values are presented where data are incomplete or not available. Source: Dobos, R. R., H. R. Sinclair, Jr, and M. P. Robotham. 2012. National Commodity Crop Productivity Index (NCCPI) User Guide, Version 2. USDA‐NRCS. Available at: ftp://ftpfc. sc.egov.usda.gov/NSSC/NCCPI/NCCPI_user_guide.pdf.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>pctearthmc</attrlabl>
+        <attrdef>The National Commodity Crop Productivity Index map unit percent earthy is the map unit summed comppct_r for major earthy components. Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). Useful metadata information. NULL values are presented where data are incomplete or not available. Source: Dobos, R. R., H. R. Sinclair, Jr, and M. P. Robotham. 2012. National Commodity Crop Productivity Index (NCCPI) User Guide, Version 2. USDA‐NRCS. Available at: ftp://ftpfc. sc.egov.usda.gov/NSSC/NCCPI/NCCPI_user_guide.pdf.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>nccpi2all</attrlabl>
+        <attrdef>National Commodity Crop Productivity Index that has the highest value among Corn and Soybeans, Small Grains, or Cotton (weighted average) for major earthy components. Values range from .01 (low productivity) to .99 (high productivity). Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). NULL values are presented where data are incomplete or not available. Source: Dobos, R. R., H. R. Sinclair, Jr, and M. P. Robotham. 2012. National Commodity Crop Productivity Index (NCCPI) User Guide, Version 2. USDA‐NRCS. Available at: ftp://ftpfc. sc.egov.usda.gov/NSSC/NCCPI/NCCPI_user_guide.pdf.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>musumcpcts</attrlabl>
+        <attrdef>The sum of the comppct_r (SSURGO component table) values used in the soil organic carbon calculation for the map unit. Useful metadata information. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>musumcpct</attrlabl>
+        <attrdef>The sum of the comppct_r (SSURGO component table) values for all listed components in the map unit. Useful metadata information. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>droughty</attrlabl>
+        <attrdef>Drought vulnerable soil landscapes comprise those map units that have available water storage within the root zone for commodity crops that is less than or equal to 6 inches (152 mm) expressed as "1" for a drought vulnerable soil landscape map unit or "0" for a nondroughty soil landscape map unit or NULL for miscellaneous areas (includes water bodies). It is computed as a weighted average for major earthy components. Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_5s</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer or standard zone (0‐5 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_30s</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 3 (0‐30 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk100_150s</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 5 (100‐150 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk50_100s</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 4 (50‐100 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk20_50s</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 3 (20‐50 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc0_20</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard zone 2 (0‐20 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter to a depth of 20 cm. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>nccpi2co</attrlabl>
+        <attrdef>National Commodity Crop Productivity Index for Cotton (weighted average) for major earthy components. Values range from .01 (low productivity) to .99 (high productivity). Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). NULL values are presented where data are incomplete or not available. Source: Dobos, R. R., H. R. Sinclair, Jr, and M. P. Robotham. 2012. National Commodity Crop Productivity Index (NCCPI) User Guide, Version 2. USDA‐NRCS. Available at: ftp://ftpfc. sc.egov.usda.gov/NSSC/NCCPI/NCCPI_user_guide.pdf.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>nccpi2cs</attrlabl>
+        <attrdef>National Commodity Crop Productivity Index for Corn and Soybeans (weighted average) for major earthy components. Values range from .01 (low productivity) to .99 (high productivity). Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). NULL values are presented where data are incomplete or not available. Source: Dobos, R. R., H. R. Sinclair, Jr, and M. P. Robotham. 2012. National Commodity Crop Productivity Index (NCCPI) User Guide, Version 2. USDA‐NRCS. Available at: ftp://ftpfc. sc.egov.usda.gov/NSSC/NCCPI/NCCPI_user_guide.pdf.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_999s</attrlabl>
+        <attrdef>Thickness of soil components used in total soil profile (0 cm to the reported depth of the soil profile) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>pwsl1pomu</attrlabl>
+        <attrdef>"Potential Wetland Soil Landscapes" (PWSL) is expressed as the percentage of the map unit that meets the PWSL criteria. The hydric rating (soil component variable “hydricrating”) is an indicator of wet soils. For version 1 (pwsl1), those soil components that meet the following criteria are tagged as PWSL and their comppct_r values are summed for each map unit. Soil components with hydricrating = 'YES' are considered PWSL. Soil components with hydricrating = “NO” are not PWSL. Soil components with hydricrating = 'UNRANKED' are tested using other attributes, and will be considered PWSL if any of the following conditions are met: drainagecl = 'Poorly drained' or 'Very poorly drained' or the localphase or the otherph data fields contain any of the phrases "drained" or "undrained" or "channeled" or "protected" or "ponded" or "flooded". If these criteria do not determine the PWSL for a component and hydricrating = 'UNRANKED', then the map unit will be classified as PWSL if the map unit name contains any of the phrases "drained" or "undrained" or "channeled" or "protected" or "ponded" or "flooded". For version 1 (pwsl1), waterbodies are identified as "999" when map unit names match a list of terms that identify water or intermittent water or map units have a sum of the comppct_r for "Water" that is 80% or greater. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_5a</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 1 or standard zone 1 (0‐5 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_100s</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 4 (0‐100 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_20s</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 2 (0‐20 cm) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk150_999s</attrlabl>
+        <attrdef>Thickness of soil components used in standard layer 6 (150 cm to the reported depth of the soil profile) expressed in cm (weighted average) for the Soil Organic Carbon calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc0_150</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard zone 5 (0‐150 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter to a depth of 150 cm. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc0_100</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard zone 4 (0‐100 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter to a depth of 100 cm. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc0_30</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard zone 3 (0‐30 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter to a depth of 30 cm. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc100_150</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard layer 5 (100‐150 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter for the 100‐150 cm layer. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_150a</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 5 (0‐150 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tk0_100a</attrlabl>
+        <attrdef>Thickness of soil components used in standard zone 4 (0‐100 cm) expressed in cm (weighted average) for the available water storage calculation. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc0_5</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard layer 1 or standard zone 1 (0‐5 cm depth). The concentration of organic carbon present in the soil expressed in grams C per square meter to a depth of 5 cm. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>nccpi2sg</attrlabl>
+        <attrdef>National Commodity Crop Productivity Index for Small Grains (weighted average) for major earthy components. Values range from .01 (low productivity) to .99 (high productivity). Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). NULL values are presented where data are incomplete or not available. Source: Dobos, R. R., H. R. Sinclair, Jr, and M. P. Robotham. 2012. National Commodity Crop Productivity Index (NCCPI) User Guide, Version 2. USDA‐NRCS. Available at: ftp://ftpfc. sc.egov.usda.gov/NSSC/NCCPI/NCCPI_user_guide.pdf.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>rootznaws</attrlabl>
+        <attrdef>Root zone (commodity crop) available water storage estimate (RZAWS) , expressed in mm, is the volume of plant available water that the soil can store within the root zone based on all map unit earthy major components (weighted average). Earthy components are those soil series or higher level taxa components that can support crop growth (Dobos et al., 2012). Major components are those soil components where the majorcompflag = 'Yes' (SSURGO component table). NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc0_999</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in total soil profile (0 cm to the reported depth of the soil profile). The concentration of organic carbon present in the soil expressed in grams C per square meter for the total reported soil profile depth. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>soc150_999</attrlabl>
+        <attrdef>Soil organic carbon stock estimate (SOC) in standard layer 6 (150 cm to the reported depth of the soil profile). The concentration of organic carbon present in the soil expressed in grams C per square meter for the 150 cm and greater depth layer. NULL values are presented where data are incomplete or not available.</attrdef>
+        <attrdefs>http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052165.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>invesinten</attrlabl>
+        <attrdef>Column Physical Name: invesintens Column Label: Order of Mapping The level of detail and relative intensity of field observation under which the map unit was developed. Order 1 indicates the highest intensity, and order 5 the lowest.</attrdef>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Raster cell locations are based on map unit delineations which are closed polygons that may be dominated by a single soil or nonsoil component plus allowable similar or dissimilar soils, or they can be geographic mixtures of groups of soils or soils and nonsoil areas. The map unit symbol uniquely identifies each closed delineation map unit. Each symbol corresponds to a map unit name. The map unit key is used to link to information in the National Soil Information System (NASIS) tables. A new table, 'Lookup_Mukey' was created and contains the mukey value for all soil surveys in the database. The mukey column and value was added to the raster attribute table to facilitate joins with the attribute data.</eaover>
+      <eadetcit>U.S. Department of Agriculture. 1999. Soil Taxonomy: A basic system of soil classification for making and interpreting soil surveys. Natural Resources Conservation Service, U.S. Dep. Agric. Handb. 436. U.S. Department of Agriculture. (current issue). Keys to Soil Taxonomy. Soil Surv. Staff, Natural Resources Conservation Service. U.S. Department of Agriculture. (current issue). National Soil Survey Handbook, title 430-VI. Soil Surv. Staff, Natural Resources Conservation Service. U.S. Department of Agriculture. 1993. Soil Survey Manual. Soil Surv. Staff, U.S. Dep. Agric. Handb. 18.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Department of Agriculture, no warranty expressed or implied is made by the Agency regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The U.S. Department of Agriculture will warrant the delivery of this product in computer readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Request for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site. The U.S. Department of Agriculture, nor any of its agencies are liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these datasets. The U.S. Department of Agriculture (USDA) prohibits discrimination in all of its programs and activities on the basis of race, color, national origin, age, disability, and where applicable, sex, (including gender identity and expression), marital status, familial status, parental status, religion, sexual orientation, political beliefs, genetic information, reprisal, or because all or part of an individual's income is derived from any public assistance program. (Not all prohibited bases apply to all programs.) Persons with disabilities who require alternative means for communication of program information (Braille, large print, audiotape, etc.) should contact USDA's TARGET Center at (202) 720-2600 (voice and TDD). To file a complaint of discrimination, write to USDA, Assistant Secretary for Civil Rights, Office of the Assistant Secretary for Civil Rights, 1400 Independence Avenue, S.W., Stop 9410, Washington, DC 20250-9410, or call toll-free at (866) 632-9992 (English) or (800) 877-8339 (TDD) or (866) 377-8642 (English Federal-relay) or (800) 845-6136 (Spanish Federal-relay). USDA is an equal opportunity provider and employer.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/gssurgo-ready2map-nw-fy-2013/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Farming/FeatureServer/3</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metfrd>20141104</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service, National Soil Survey Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>100 Centennial Mall North</address>
+          <address>Federal Building, Room 152</address>
+          <city>Lincoln</city>
+          <state>NE</state>
+          <postal>68508-3866</postal>
+        </cntaddr>
+        <cntvoice>402 437 5499</cntvoice>
+        <cntemail>SoilsHotline@lin.usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

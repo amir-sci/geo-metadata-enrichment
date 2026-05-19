@@ -1,0 +1,476 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Department of Agriculture, Natural Resources Conservation Service</origin>
+        <pubdate>20121120</pubdate>
+        <title>gSSURGO Muaggat FY 2013</title>
+        <edition>FY2013 Arkansas gSSURGO Soils</edition>
+        <geoform>vector and raster digital map data and tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Worth, Texas</pubplace>
+          <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+        </pubinfo>
+        <onlink>URL:http://datagateway.nrcs.usda.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset is called the Gridded SSURGO (gSSURGO) Database and is derived from the Soil Survey Geographic (SSURGO) Database. SSURGO is generally the most detailed level of soil geographic data developed by the National Cooperative Soil Survey (NCSS) in accordance with NCSS mapping standards. The tabular data represent the soil attributes, and are derived from properties and characteristics stored in the National Soil Information System (NASIS). The gSSURGO data were prepared by merging traditional SSURGO digital vector map and tabular data into State-wide extents, and adding a State-wide gridded map layer derived from the vector, plus a new value added look up (valu) table containing "ready to map" attributes. The gridded map layer is offered in an ArcGIS file geodatabase raster format. The raster and vector map data have a State-wide extent. The recently released (2011) gSSURGO value added look up (valu) table (created by USDA-NRCS) contains attribute data summarized to the map unit level using best practice generalization methods intended to meet the needs of most users. The generalization methods include map unit component weighted averages and percent of the map unit meeting a given criteria.Summarized description of the Format and organization of SSURGO:Adjacent soil surveys may have been composed by different individuals, and may be of widely different vintages. Any given survey must comply with basic standards, but older surveys reflect a more generalized approach than more modern surveys. The figure to the right illustrates such differences.Polygons represent a repeating pattern of legend entries: groups of map-able soil concepts called map unitsMap unit data is stored in the mapunit table, and is referenced by the field mukeyPre-aggregated map unit data is stored in the muaggatt table, and is referenced by the field mukeyMap units are comprised of multiple, unmapped soil types called 'components'Component data is stored in the component table, and is referenced by the field cokeySoil components (or soil type) are associated with multiple horizonsHorizon data is stored in the chorizon table, and is referenced by the field cokeySince there is a 1:many:many (mapunit:component:horizon) relationship between spatial and horizon-level soil property data two aggregation steps are required in order to produce a thematic mapSource: http://casoilresource.lawr.ucdavis.edu/drupal/book/export/html/335Summary Descriptions of gSSURGO Soil Survey Attributes contained within the MUAGGATT table.MUAGGATT Table:Slope Gradient - Dominant ComponentSlope Gradient - Weighted AverageBedrock Depth – MinimumWater Table Depth - Annual MinimumWater Table Depth - April to June MinimumFlooding Frequency - Dominant ConditionFlooding Frequency – MaximumPonding Frequency – PresenceAvailable Water Storage 0-25 cm - Weighted AverageAvailable Water Storage 0-50 cm - Weighted AverageAvailable Water Storage 0-100 cm - Weighted AverageAvailable Water Storage 0-150 cm - Weighted AverageDrainage Class - Dominant ConditionDrainage Class – WettestHydrologic Group - Dominant ConditionIrrigated Capability Class - Dominant ConditionIrrigated Capability Class - Proportion of Mapunit with Dominant ConditionNon-Irrigated Capability Class - Dominant ConditionNon-Irrigated Capability Class - Proportion of Mapunit with Dominant ConditionRating for Buildings without Basements - Dominant ConditionRating for Buildings with Basements - Dominant ConditionRating for Buildings with Basements - Least LimitingRating for Buildings with Basements - Most LimitingRating for Septic Tank Absorption Fields - Dominant ConditionRating for Septic Tank Absorption Fields - Least LimitingRating for Septic Tank Absorption Fields - Most LimitingRating for Sewage Lagoons - Dominant ConditionRating for Sewage Lagoons - Dominant ComponentRating for Roads and Streets - Dominant ConditionRating for Sand Source - Dominant ConditionRating for Sand Source - Most ProbableRating for Paths and Trails - Dominant ConditionRating for Paths and Trails - Weighted AverageErosion Hazard of Forest Roads and Trails - Dominant ComponentHydric Classification – PresenceRating for Manure and Food Processing Waste - Weighted Average</abstract>
+      <purpose>This Vector-format dataset was derived from the new gSSURGO datasets distributed by USDA-NRCS and are scheduled to be updated, annually, on a statewide basis. These map unit polygons have been combined with the SSURGO soils database attributes contained within the mapunit and muaggatt tables within the gSSURGO database. The Gridded SSURGO (gSSURGO) is similar to the standard USDA-NRCS Soil Survey Geographic (SSURGO) Database product but in the format of an Environmental Systems Research Institute, Inc. (ESRI®) file geodatabase. A file geodatabase has the capacity to store much more data and thus greater spatial extents than the traditional SSURGO product. This makes it possible to offer these data in statewide or even Conterminous United States (CONUS) tiles. gSSURGO contains all of the original soil attribute tables in SSURGO. All spatial data are stored within the geodatabase instead of externally as separate shapefiles. Both SSURGO and gSSURGO are considered products of the National Cooperative Soil Survey (NCSS) partnership. The gSSURGO data were prepared by merging the traditional vector-based SSURGO digital map data and tabular data into statewide extents, adding a statewide gridded map layer derived from the vector layer, and adding a new value-added look up table (valu) containing “ready to map” attributes. The gridded map layer is in an ArcGIS file geodatabase in raster format. The raster and vector map data have a statewide extent. The raster map data have a 10-meter cell size that approximates the vector polygons in an Albers Equal Area projection. Each cell (and polygon) is linked to a map unit identifier called the map unit key. A unique map unit key is used to link the raster cells and polygons to attribute tables. Full SSURGO metadata may be accessed online: http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/publication/?cid=nrcs142p2_053631</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20121015</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618290</westbc>
+        <eastbc>-89.616749</eastbc>
+        <northbc>36.531902</northbc>
+        <southbc>32.969213</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>vector</themekey>
+        <themekey>Geospatial Data Gateway</themekey>
+        <themekey>Soil Survey</themekey>
+        <themekey>soils</themekey>
+        <themekey>GDG</themekey>
+        <themekey>gSSURGO</themekey>
+        <themekey>SSURGO</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>farming</themekey>
+      </theme>
+      <place>
+        <placekt>Counties and County Equivalents of the States of the United States and the District of Columbia (FIPS Pub 6-3)</placekt>
+        <placekey>United States of America</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>AR001,AR003,AR007,AR009,AR011,AR015,AR017,AR021, AR025,AR027,AR029,AR031,AR033,AR035,AR037,AR041, AR043,AR045,AR047,AR051,AR053,AR055,AR057,AR061, AR063,AR067,AR071,AR075,AR077,AR083,AR087,AR093, AR095,AR097,AR099,AR101,AR103,AR105,AR107,AR109, AR111,AR113,AR115,AR119,AR121,AR123,AR125,AR127, AR129,AR131,AR133,AR135,AR137,AR139,AR143,AR145, AR147,AR149,AR610,AR620,AR630,AR640,AR650,AR660, AR670,AR680</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The U.S. Department of Agriculture, Natural Resources Conservation Service, should be acknowledged as the data source in products derived from these data. This dataset is not designed for use as a primary regulatory tool in permitting or siting decisions, but may be used as a reference source. This is public information and may be interpreted by organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application. Federal, State, or local regulatory bodies are not to reassign to the Natural Resources Conservation Service any authority for the decisions that they make. The Natural Resources Conservation Service will not perform any evaluations of these maps for purposes related solely to State or local regulatory programs. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service, National Soil Survey Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>100 Centennial Mall North</address>
+          <address>Federal Building, Room 152</address>
+          <city>Lincoln</city>
+          <state>NE</state>
+          <postal>68508-3866</postal>
+        </cntaddr>
+        <cntvoice>402 437 5499</cntvoice>
+        <cntemail>SoilsHotline@lin.usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. National value added look up (valu) table for Gridded Soil Survey Geographic (SSURGO) Database for the United States of America and the Territories, Commonwealths, and Island Nations served by the USDA NRCS. Available online at http://datagateway.nrcs.usda.gov/ October 15, 2012.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Agriculture, Natural Resources Conservation Service</origin>
+            <title>Soil Survey Geographic (SSURGO) database for Soil Survey Areas</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Kansas City, Missouri</pubplace>
+              <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19950101</begdate>
+              <enddate>present</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS</srccitea>
+        <srccontr>Soil Survey Geographic (SSURGO) database vector data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>This dataset is a digital soil survey and generally is the most detailed level of soil geographic data developed by the National Cooperative Soil Survey. The information was prepared by digitizing maps, by compiling information onto a planimetric correct base and digitizing, or by revising digitized maps using remotely sensed and other information. This dataset consists of georeferenced digital map data and computerized attribute data. The map data are in a soil survey area extent format and include a detailed, field verified inventory of soils and miscellaneous areas that normally occur in a repeatable pattern on the landscape and that can be cartographically shown at the scale mapped. The soil map units are linked to attributes in the National Soil Information System (NASIS) relational database, which gives the proportionate extent of the component soils and their properties.</procdesc>
+        <srcused>NRCS</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>A new table 'Lookup_Mukey' was created in order to facilitate the conversion of the MUPOLYGON feature class from polygon to raster. This table was derived from the MAPUNIT table in the Soil Data Mart and contains 'MUKEY' values for all soil surveys in the October 2012 Soil Data Mart database, not just those present in this geodatabase feature class. The table also contains an integer value attribute named 'CellValue'. This is the value used to generate the raster layer. 'CellValue' corresponds directly to the OBJECTID or internal record number of the MAPUNIT table.</procdesc>
+        <procdate>20121120</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>State-wide file geodatabases (ESRI) were exported from the October 15, 2012 snapshot of the NRCS Soil Data Mart at the National Soil Survey Center in Lincoln, Nebraska. Software used for all processes was ArcGIS 10.1. All existing SSURGO features and attributes were selected using the NASIS 'Legend Area Overlap' table to identify non-MLRA (Major Land Resource Area) soil survey areas that intersect this particular 'State or Territory'. The data were not clipped to a state boundary, thus in some instances feature classes may extend beyond a state's boundary. All conterminous United States (CONUS) datasets were projected from the original Geographic NAD83 coordinate system to 'USA_Contiguous_Albers_Equal_Area_Conic_USGS_Version'. Relationship classes between tables and feature classes were created in the geodatabase.</procdesc>
+        <srcused>NRCS</srcused>
+        <procdate>20121120</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>346205</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.farming.GSSURGO_MUAGGATT</enttypl>
+        <enttypd>Mapunit Aggregated Attribute table from the gSSURGO database. Source Documentation: SSURGO 2.2.6 Table Column Descriptions.</enttypd>
+        <enttypds>http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_053631</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>muname</attrlabl>
+        <attrdef>Correlated name of the mapunit (recommended name or field name for surveys in progress).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MUSYM</attrlabl>
+        <attrdef>The symbol used to uniquely identify the soil mapunit in the soil survey.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>pondfreqpr</attrlabl>
+        <attrdef>Column Physical Name: pondfreqprs Column Label: Ponding Frequency - Presence The percentage of the map unit that is subject to water being ponded on the soil surface, expressed as one of four classes; 0-14%, 15-49%, 50-74% or 75-100%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>flodfreqma</attrlabl>
+        <attrdef>Column Physical Name: flodfreqmax Column Label: Flooding Frequency - Maximum The annual probability of a flood event expressed as a class. This column displays the highest probability class assigned to an individual component of the map unit whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASYMBOL</attrlabl>
+        <attrdef>Column Physical Name: areasymbol Column Label: Area Symbol A symbol that uniquely identifies a single occurrence of a particular type of area (e.g. Lancaster Co., Nebraska is NE109).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>flodfreqdc</attrlabl>
+        <attrdef>Column Physical Name: flodfreqdcd Column Label: Flooding Frequency - Dominant Condition The annual probability of a flood event expressed as a class. This column displays the dominant flood frequency class for the map unit, based on composition percentage of map unit components whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>mustatus</attrlabl>
+        <attrdef>Column Physical Name: mustatus Column Label: Status Identifies the current status of the map unit. As of SSURGO version 2.1, values for this attribute are no longer provided. This attribute will be dropped from the next major SSURGO version.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MUKEY</attrlabl>
+        <attrdef>Column Physical Name: mukey Column Label: Mapunit Key A non-connotative string of characters used to uniquely identify a record in the Mapunit table.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>muacres</attrlabl>
+        <attrdef>Column Physical Name: muacres Column Label: Total Acres The number of acres of a particular mapunit.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>farmlndcl</attrlabl>
+        <attrdef>Column Physical Name: farmlndcl Column Label: Farm Class Identification of map units as prime farmland, farmland of statewide importance, or farmland of local importance.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPATVERSON</attrlabl>
+        <attrdef>Column Physical Name: spatialversion Column Label: Spatial Version A sequential integer number used to denote the serial version of the spatial data for a soil survey area.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>brockdepmi</attrlabl>
+        <attrdef>Column Physical Name: brockdepmin Column Label: Bedrock Depth - Minimum The distance from the soil surface to the top of a bedrock layer, expressed as a shallowest depth of components whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>lkey</attrlabl>
+        <attrdef>Column Physical Name: lkey Column Label: Legend Key A non-connotative string of characters used to uniquely identify a record in the Legend table.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>wtdepannmi</attrlabl>
+        <attrdef>Column Physical Name: wtdepannmin Column Label: Water Table Depth - Annual- Minimum The shallowest depth to a wet soil layer (water table) at any time during the year expressed as centimeters from the soil surface, for components whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>mukind</attrlabl>
+        <attrdef>Column Physical Name: mukind Column Label: Kind Code identifying the kind of mapunit. Example: C - consociation.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NatMuSym</attrlabl>
+        <attrdef>Column Physical Name: NationalMuSym Column Label: NationalMuSym The National Soil Database Map Unit Symbol.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>invesinten</attrlabl>
+        <attrdef>Column Physical Name: invesintens Column Label: Order of Mapping The level of detail and relative intensity of field observation under which the map unit was developed. Order 1 indicates the highest intensity, and order 5 the lowest.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>urbrecptwt</attrlabl>
+        <attrdef>Column Physical Name: urbrecptwta Column Label: URB/REC - Paths and Trails - Weighted Average The relative rating of the map unit for use as paths and trails, expressed as a weighted average of numerical ratings for individual soil components in the map unit. The ratings are on a scale of 0.0 to 1.0, with the higher values indicating more limitations.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>urbrecptdc</attrlabl>
+        <attrdef>Column Physical Name: urbrecptdcd Column Label: URB/REC - Paths and Trails - Dominant Condition The rating of the map unit as a site for paths and trails, expressed as the dominant rating class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engcmssmp</attrlabl>
+        <attrdef>Column Physical Name: engcmssmp Column Label: ENG - Construction Materials; Sand Source - Most Probable The rating of the map unit as a source of sand, expressed as the most probable class for the map unit, based on the evaluation of each component whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engsldcd</attrlabl>
+        <attrdef>Column Physical Name: engsldcd Column Label: ENG - Sewage Lagoons - Dominant Condition The rating of the map unit as a site for sewage lagoons, expressed as the dominant rating class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>nirrcapscl</attrlabl>
+        <attrdef>Capability subclasses are soil groups within one class. They are designated by adding a small letter, e, w, s, or c, to the class numeral, for example, 2e. The letter e shows that the main hazard is the risk of erosion unless close-growing plant cover is maintained; w shows that water in or on the soil interferes with plant growth or cultivation (in some soils the wetness can be partly corrected by artificial drainage); s shows that the soil is limited mainly because it is shallow, droughty, or stony; and c, used in only some parts of the United States, shows that the chief limitation is climate that is very cold or very dry. Land capability classification shows, in a general way, the suitability of soils for most kinds of field crops. Crops that require special management are excluded. The soils are grouped according to their limitations for field crops, the risk of damage if they are used for crops, and the way they respond to management. The criteria used in grouping the soils do not include major and generally expensive landforming that would change slope, depth, or other characteristics of the soils, nor do they include possible but unlikely major reclamation projects. Capability classification is not a substitute for interpretations designed to show suitability and limitations of groups of soils for rangeland, for forestland, or for engineering purposes. In the capability system, soils are generally grouped at three levels—capability class, subclass, and unit. Capability classes, the broadest groups, are designated by the numbers 1 through 8. The numbers indicate progressively greater limitations and narrower choices for practical use. The classes are defined as follows: Class 1 soils have slight limitations that restrict their use. Class 2 soils have moderate limitations that restrict the choice of plants or that require moderate conservation practices. Class 3 soils have severe limitations that restrict the choice of plants or that require special conservation practices, or both. Class 4 soils have very severe limitations that restrict the choice of plants or that require very careful management, or both. Class 5 soils are subject to little or no erosion but have other limitations, impractical to remove, that restrict their use mainly to pasture, rangeland, forestland, or wildlife habitat. Class 6 soils have severe limitations that make them generally unsuitable for cultivation and that restrict their use mainly to pasture, rangeland, forestland, or wildlife habitat. Class 7 soils have very severe limitations that make them unsuitable for cultivation and that restrict their use mainly to grazing, forestland, or wildlife habitat. Class 8 soils and miscellaneous areas have limitations that preclude commercial plant production and that restrict their use to recreational purposes, wildlife habitat, watershed, or esthetic purposes. Capability subclasses are soil groups within one class. They are designated by adding a small letter, e, w, s, or c, to the class numeral, for example, 2e. The letter e shows that the main hazard is the risk of erosion unless close-growing plant cover is maintained; w shows that water in or on the soil interferes with plant growth or cultivation (in some soils the wetness can be partly corrected by artificial drainage); s shows that the soil is limited mainly because it is shallow, droughty, or stony; and c, used in only some parts of the United States, shows that the chief limitation is climate that is very cold or very dry.</attrdef>
+        <attrdefs>http://www.udel.edu/FREC/spatlab/oldpix/nrcssoilde/Descriptions/landcap.htm</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>hydclprs</attrlabl>
+        <attrdef>Column Physical Name: hydclprs Column Label: Hydric Classification - Presence An indication of the proportion of the map unit, expressed as a class, that is "hydric", based on the hydric classification of individual map unit components.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>iccdcd</attrlabl>
+        <attrdef>Column Physical Name: iccdcd Column Label: Irrigated Capability Class - Dominant Condition The broadest category in the land capability classification system for soils. This column displays the dominant capability class, under irrigated conditions, for the map unit based on composition percentage of all components in the map unit. Land capability classification shows, in a general way, the suitability of soils for most kinds of field crops. Crops that require special management are excluded. The soils are grouped according to their limitations for field crops, the risk of damage if they are used for crops, and the way they respond to management. The criteria used in grouping the soils do not include major and generally expensive landforming that would change slope, depth, or other characteristics of the soils, nor do they include possible but unlikely major reclamation projects. Capability classification is not a substitute for interpretations designed to show suitability and limitations of groups of soils for rangeland, for forestland, or for engineering purposes. In the capability system, soils are generally grouped at three levels—capability class, subclass, and unit. Capability classes, the broadest groups, are designated by the numbers 1 through 8. The numbers indicate progressively greater limitations and narrower choices for practical use. The classes are defined as follows: Class 1 soils have slight limitations that restrict their use. Class 2 soils have moderate limitations that restrict the choice of plants or that require moderate conservation practices. Class 3 soils have severe limitations that restrict the choice of plants or that require special conservation practices, or both. Class 4 soils have very severe limitations that restrict the choice of plants or that require very careful management, or both. Class 5 soils are subject to little or no erosion but have other limitations, impractical to remove, that restrict their use mainly to pasture, rangeland, forestland, or wildlife habitat. Class 6 soils have severe limitations that make them generally unsuitable for cultivation and that restrict their use mainly to pasture, rangeland, forestland, or wildlife habitat. Class 7 soils have very severe limitations that make them unsuitable for cultivation and that restrict their use mainly to grazing, forestland, or wildlife habitat. Class 8 soils and miscellaneous areas have limitations that preclude commercial plant production and that restrict their use to recreational purposes, wildlife habitat, watershed, or esthetic purposes. Capability subclasses are soil groups within one class. They are designated by adding a small letter, e, w, s, or c, to the class numeral, for example, 2e. The letter e shows that the main hazard is the risk of erosion unless close-growing plant cover is maintained; w shows that water in or on the soil interferes with plant growth or cultivation (in some soils the wetness can be partly corrected by artificial drainage); s shows that the soil is limited mainly because it is shallow, droughty, or stony; and c, used in only some parts of the United States, shows that the chief limitation is climate that is very cold or very dry. In class 1 there are no subclasses because the soils of this class have few limitations. Class 5 contains only the subclasses indicated by w, s, or c because the soils in class 5 are subject to little or no erosion. They have other limitations that restrict their use to pasture, rangeland, forestland, wildlife habitat, or recreation. Capability units are soil groups within a subclass. The soils in a capability unit are enough alike to be suited to the same crops and pasture plants, to require similar management, and to have similar productivity. Capability units are generally designated by adding an Arabic numeral to the subclass symbol, for example, 2e-4 and 3e-6. These units are not given in all soil surveys. The capability classification of map units in this survey area is given in the table "Land Capability and Yields Per Acre of Crops and Pasture".</attrdef>
+        <attrdefs>http://www.udel.edu/FREC/spatlab/oldpix/nrcssoilde/Descriptions/landcap.htm</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>engdwbml</attrlabl>
+        <attrdef>Column Physical Name: engdwbml Column Label: ENG - Dwellings with Basements - Most Limiting The rating of the map unit as a site for dwellings with basements, expressed as the most limiting rating class for the map unit, based on the evaluation of each component in the map unit.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engdwobdcd</attrlabl>
+        <attrdef>Column Physical Name: engdwobdcd Column Label: ENG - Dwellings W/O Basements - Dominant Condition The rating of the map unit as a site for dwellings without basements, expressed as the dominant rating class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>niccdcdpct</attrlabl>
+        <attrdef>Column Physical Name: niccdcdpct Column Label: Non-Irrigated Capability Class - Dominant Condition Aggregate Percent The percent composition of the map unit that has the capability class displayed in the Non-Irrigated Capability Class - Dominant Condition column.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>niccdcd</attrlabl>
+        <attrdef>Column Physical Name: niccdcd Column Label: Non-Irrigated Capability Class - Dominant Condition The broadest category in the land capability classification system for soils. This column displays the dominant capability class, under nonirrigated conditions, for the map unit based on composition percentage of all components in the map unit. Land capability classification shows, in a general way, the suitability of soils for most kinds of field crops. Crops that require special management are excluded. The soils are grouped according to their limitations for field crops, the risk of damage if they are used for crops, and the way they respond to management. The criteria used in grouping the soils do not include major and generally expensive landforming that would change slope, depth, or other characteristics of the soils, nor do they include possible but unlikely major reclamation projects. Capability classification is not a substitute for interpretations designed to show suitability and limitations of groups of soils for rangeland, for forestland, or for engineering purposes. In the capability system, soils are generally grouped at three levels—capability class, subclass, and unit. Capability classes, the broadest groups, are designated by the numbers 1 through 8. The numbers indicate progressively greater limitations and narrower choices for practical use. The classes are defined as follows: Class 1 soils have slight limitations that restrict their use. Class 2 soils have moderate limitations that restrict the choice of plants or that require moderate conservation practices. Class 3 soils have severe limitations that restrict the choice of plants or that require special conservation practices, or both. Class 4 soils have very severe limitations that restrict the choice of plants or that require very careful management, or both. Class 5 soils are subject to little or no erosion but have other limitations, impractical to remove, that restrict their use mainly to pasture, rangeland, forestland, or wildlife habitat. Class 6 soils have severe limitations that make them generally unsuitable for cultivation and that restrict their use mainly to pasture, rangeland, forestland, or wildlife habitat. Class 7 soils have very severe limitations that make them unsuitable for cultivation and that restrict their use mainly to grazing, forestland, or wildlife habitat. Class 8 soils and miscellaneous areas have limitations that preclude commercial plant production and that restrict their use to recreational purposes, wildlife habitat, watershed, or esthetic purposes. Capability subclasses are soil groups within one class. They are designated by adding a small letter, e, w, s, or c, to the class numeral, for example, 2e. The letter e shows that the main hazard is the risk of erosion unless close-growing plant cover is maintained; w shows that water in or on the soil interferes with plant growth or cultivation (in some soils the wetness can be partly corrected by artificial drainage); s shows that the soil is limited mainly because it is shallow, droughty, or stony; and c, used in only some parts of the United States, shows that the chief limitation is climate that is very cold or very dry.</attrdef>
+        <attrdefs>http://www.udel.edu/FREC/spatlab/oldpix/nrcssoilde/Descriptions/landcap.htm</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>aws0100wta</attrlabl>
+        <attrdef>Column Physical Name: aws0100wta Column Label: Available Water Storage 0-100 cm - Weighted Average Available water storage (AWS). The volume of water that the soil, to a depth of 100 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engcmssdcd</attrlabl>
+        <attrdef>Column Physical Name: engcmssdcd Column Label: ENG - Construction Materials; Sand Source - Dominant Condition The rating of the map unit as a source of sand, expressed as the dominant class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engsldcp</attrlabl>
+        <attrdef>Column Physical Name: engsldcp Column Label: ENG - Sewage Lagoons - Dominant Component The rating of the map unit as a site for sewage lagoons, expressed as the rating class for the dominant component in the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engstafml</attrlabl>
+        <attrdef>Column Physical Name: engstafml Column Label: ENG - Septic Tank Absorption Fields - Most Limiting The rating of the map unit as a site for septic tank absorption fields, expressed as the most limiting rating class for the map unit, based on the evaluation of each component in the map unit.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>awmmfpwwta</attrlabl>
+        <attrdef>Column Physical Name: awmmfpwwta Column Label: AWM - Manure and Food Processing Waste - Weighted Average The relative rating of the map unit for use as a disposal site of Manure and Food Processing Wastes, expressed as a weighted average of numerical ratings for individual components in the map unit. The ratings are on a scale of 0.0 to 1.0, with the higher values indicating increasing limitations.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CELLVALUE</attrlabl>
+        <attrdef>Column Physical Name: CELLVALUE Column Label: CellValue Unique identifier for the gSSURGO gridded data (10m). This would be the JOIN field to use for linking this attribute table to the RASTER gSSURGO dataset.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engstafdcd</attrlabl>
+        <attrdef>Column Physical Name: engstafdcd Column Label: ENG - Septic Tank Absorption Fields - Dominant Condition The rating of the map unit as a site for septic tank absorption fields, expressed as the dominant rating class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engdwbll</attrlabl>
+        <attrdef>Column Physical Name: engdwbll Column Label: ENG - Dwellings with Basements - Least Limiting The rating of the map unit as a site for dwellings with basements, expressed as the least limiting rating class for the map unit, based on the evaluation of each component in the map unit.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engdwbdcd</attrlabl>
+        <attrdef>Column Physical Name: engdwbdcd Column Label: ENG - Dwellings with Basements - Dominant Condition The rating of the map unit as a site for dwellings with basements, expressed as the dominant rating class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>drclasswet</attrlabl>
+        <attrdef>Column Physical Name: drclasswettest Column Label: Drainage Class - Wettest The natural drainage condition of the soil refers to the frequency and duration of wet periods. This column displays the wettest drainage class assigned to an individual component of the map unit whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>drclassdcd</attrlabl>
+        <attrdef>Column Physical Name: drclassdcd Column Label: Drainage Class - Dominant Condition The natural drainage condition of the soil refers to the frequency and duration of wet periods. This column displays the dominant drainage class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>aws0150wta</attrlabl>
+        <attrdef>Column Physical Name: aws0150wta Column Label: Available Water Storage 0-150 cm - Weighted Average Available water storage (AWS). The volume of water that the soil, to a depth of 150 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>aws025wta</attrlabl>
+        <attrdef>Column Physical Name: aws025wta Column Label: Available Water Storage 0-25 cm - Weighted Average Available water storage (AWS). The volume of water that the soil, to a depth of 25 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>slopegradw</attrlabl>
+        <attrdef>Column Physical Name: slopegradwta Column Label: Slope Gradient - Weighted Average The difference is elevation between two points, expressed as a percentage of the distance between those points. This column displays the weighted average slope gradient of all components in the map unit.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>slopegradd</attrlabl>
+        <attrdef>Column Physical Name: slopegraddcp Column Label: Slope Gradient - Dominant Component The difference is elevation between two points, expressed as a percentage of the distance between those points. This column displays the slope gradient of the dominant component of the map unit based on composition percentage.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>wtdepaprju</attrlabl>
+        <attrdef>Column Physical Name: wtdepaprjunmin Column Label: Water Table Depth - April - June - Minimum The shallowest depth to a wet soil layer (water table) during the months of April through June expressed in centimeters from the soil surface for components whose composition in the map unit is equal to or exceeds 15%.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>englrsdcd</attrlabl>
+        <attrdef>Column Physical Name: englrsdcd Column Label: ENG - Local Roads and Streets - Dominant Condition The rating of the map unit as a site for local roads and streets, expressed as the dominant rating class for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>forpehrtdc</attrlabl>
+        <attrdef>Column Physical Name: forpehrtdcp Column Label: FOR - Potential Erosion Hazard (Road/Trail) - Dominant Component The relative potential erosion hazard for the map unit when used as a site for forest roads and trails, expressed as the rating class for the dominant component in the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>hydgrpdcd</attrlabl>
+        <attrdef>Column Physical Name: hydgrpdcd Column Label: Hydrologic Group - Dominant Conditions Hydrologic Group is a grouping of soils that have similar runoff potential under similar storm and cover conditions. This column displays the dominant hydrologic group for the map unit, based on composition percentage of each map unit component.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>aws050wta</attrlabl>
+        <attrdef>Column Physical Name: aws050wta Column Label: Available Water Storage 0-50 cm - Weighted Average Available water storage (AWS). The volume of water that the soil, to a depth of 50 centimeters, can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3 bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>iccdcdpct</attrlabl>
+        <attrdef>Column Physical Name: iccdcdpct Column Label: Irrigated Capability Class - Dominant Condition Aggregate Percent The percent composition of the map unit that has the capability class displayed in the Irrigated Capability Class</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>engstafll</attrlabl>
+        <attrdef>Column Physical Name: engstafll Column Label: ENG - Septic Tank Absorption Fields - Least Limiting The rating of the map unit as a site for septic tank absorption fields, expressed as the least limiting rating class for the map unit, based on the evaluation of each component in the map unit.</attrdef>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The MUPOLYGON feature class from the October 15, 2012 (FY2013) version of the gSSURGO database for Arkansas was joined to the mapunit and muaggatt attribute tables and then exported with field renaming and duplication reduction to create this customized Arkansas vector dataset of gSSURGO soils.</eaover>
+      <eadetcit>U.S. Department of Agriculture. 1999. Soil Taxonomy: A basic system of soil classification for making and interpreting soil surveys. Natural Resources Conservation Service, U.S. Dep. Agric. Handb. 436. U.S. Department of Agriculture. (current issue). Keys to Soil Taxonomy. Soil Surv. Staff, Natural Resources Conservation Service. U.S. Department of Agriculture. (current issue). National Soil Survey Handbook, title 430-VI. Soil Surv. Staff, Natural Resources Conservation Service. U.S. Department of Agriculture. 1993. Soil Survey Manual. Soil Surv. Staff, U.S. Dep. Agric. Handb. 18.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Department of Agriculture, no warranty expressed or implied is made by the Agency regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The U.S. Department of Agriculture will warrant the delivery of this product in computer readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Request for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site. The U.S. Department of Agriculture, nor any of its agencies are liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these datasets. The U.S. Department of Agriculture (USDA) prohibits discrimination in all of its programs and activities on the basis of race, color, national origin, age, disability, and where applicable, sex, (including gender identity and expression), marital status, familial status, parental status, religion, sexual orientation, political beliefs, genetic information, reprisal, or because all or part of an individual's income is derived from any public assistance program. (Not all prohibited bases apply to all programs.) Persons with disabilities who require alternative means for communication of program information (Braille, large print, audiotape, etc.) should contact USDA's TARGET Center at (202) 720-2600 (voice and TDD). To file a complaint of discrimination, write to USDA, Assistant Secretary for Civil Rights, Office of the Assistant Secretary for Civil Rights, 1400 Independence Avenue, S.W., Stop 9410, Washington, DC 20250-9410, or call toll-free at (866) 632-9992 (English) or (800) 877-8339 (TDD) or (866) 377-8642 (English Federal-relay) or (800) 845-6136 (Spanish Federal-relay). USDA is an equal opportunity provider and employer.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Farming/FeatureServer/1</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/gssurgo-muaggat-fy-2013/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metfrd>20141103</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service, National Soil Survey Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>100 Centennial Mall North</address>
+          <address>Federal Building, Room 152</address>
+          <city>Lincoln</city>
+          <state>NE</state>
+          <postal>68508-3866</postal>
+        </cntaddr>
+        <cntvoice>402 437 5499</cntvoice>
+        <cntemail>SoilsHotline@lin.usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

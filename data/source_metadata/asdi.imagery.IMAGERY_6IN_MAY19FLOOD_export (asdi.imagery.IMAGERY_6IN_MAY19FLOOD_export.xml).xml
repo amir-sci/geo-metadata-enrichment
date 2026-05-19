@@ -1,0 +1,335 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas GIS Office</origin>
+        <pubdate>20190909</pubdate>
+        <title>State of Arkansas</title>
+        <edition>Final</edition>
+        <geoform>remote-sensing image</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This metadata record describes the 15cm pixel resolution digital orthoimagery produced on behalf of the State of Arkansas by the Sanborn Map Company in support of the 2019 May Arkansas River Flood. The orthoimagery provided is 3-band (R, G, B), 8-bit per pixel and delivered in section tiles in uncompressed  compressed SID/SDW (40:1) and uncompressed GeoTiffs upon requests. The data was collected between May 31st and June 10th over the Arkansas River during the record setting flooding the observed during the imagery collection period. This orthoimagery is published in Universal Transverse Mercator Zone 15N, NAD 83, meters</abstract>
+      <purpose>Rectified orthoimagery for the State of Arkansas may serve as a basemap for GIS applications.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20190528</begdate>
+          <enddate>20190605</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>State of Arkansas</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.625</westbc>
+        <eastbc>-89.625</eastbc>
+        <northbc>36.5</northbc>
+        <southbc>33</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Ortho</themekey>
+        <themekey>Photography</themekey>
+        <themekey>Orthophotography</themekey>
+        <themekey>Imagery</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas</placekey>
+        <placekey>Arkansas GIS Office</placekey>
+      </place>
+    </keywords>
+    <accconst>This data may be used by the requested party for stated purposes and should not be re-distributed.</accconst>
+    <useconst>This data is meant for use by requested parties. This data cannot be used without express consent.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg></cntorg>
+          <cntper></cntper>
+        </cntorgp>
+        <cntpos></cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address></address>
+          <city></city>
+          <state></state>
+          <postal></postal>
+        </cntaddr>
+        <cntvoice></cntvoice>
+        <cntemail></cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.1.3549</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>N/A</attraccr>
+      <qattracc>
+        <attraccv>N/A</attraccv>
+        <attracce>Attribute accuracy does not apply to orthoimagery.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Since the ortho images are raster products, the logical consistency is based on how well the images fit between image tiles and between individual photo frames used to produce the ortho mosaics. The images match within four pixels of each other through out the project area.</logic>
+    <complete>The ortho image tiles are checked for missing pixels, gaps, overlaps and other anomalies generally associated with digital orthophoto products. Any discrepencies in the ortho tiles are resolved through the use of proprietary and industry editing tools. Once the images are copied to the deliverable media they are further checked for naming, image completeness, and ability to be loaded in ArcMap.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This orthoimagery meets ASPRS Class 1 Accuracy Standards</horizpar>
+        <qhorizpa>
+          <horizpav>15cm RMSE</horizpav>
+          <horizpae>Specification requirements were undefined for this projecy</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+        <qvertpa>
+          <vertaccv>0.0</vertaccv>
+          <vertacce>Orthoimagery does not have inherent vertical accuracy.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin></origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Ground Control</title>
+            <geoform>vector digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20190909</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CONT</srccitea>
+        <srccontr>Geodetic ground control is used to create a digital control file and control report as well as QC check of ortho accuracy. Predefined points within the project area are targeted and photo-identifiable locations are measured. These points along with their precise coordinates are used in the AT process and to check the horizontal accuracy of the resulting orthophotos.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin></origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Aerial Imagery</title>
+            <geoform>Raster data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20190909</begdate>
+              <enddate>20190909</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>IMG</srccitea>
+        <srccontr>Raw Aerial Imagery - Collected by the Survey Division of Arkansas Department of Transportation</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>ARDOT</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>LiDAR</title>
+            <geoform>Vector data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20170430</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>LiDAR data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Image acquisition by ARDOT May 28th - June 5th.</procdesc>
+        <procdate>20190909</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg></cntorg>
+              <cntper></cntper>
+            </cntorgp>
+            <cntpos></cntpos>
+            <cntaddr>
+              <addrtype></addrtype>
+              <address></address>
+              <city></city>
+              <state></state>
+              <postal></postal>
+              <country></country>
+            </cntaddr>
+            <cntvoice></cntvoice>
+            <cntemail></cntemail>
+            <hours></hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Using the processed GPS/IMU data and correctly oriented imagery, a bundle adjustment is computed (AT).</procdesc>
+        <procdate>20170304</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg></cntorg>
+              <cntper></cntper>
+            </cntorgp>
+            <cntpos></cntpos>
+            <cntaddr>
+              <addrtype></addrtype>
+              <address></address>
+              <city></city>
+              <state></state>
+              <postal></postal>
+              <country></country>
+            </cntaddr>
+            <cntvoice></cntvoice>
+            <cntemail></cntemail>
+            <hours></hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>DEM Review/Updating. The LiDAR surface is reviewed and updated as needed to meet the final orthorectification standards set in this project.</procdesc>
+        <procdate>20170430</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg></cntorg>
+              <cntper></cntper>
+            </cntorgp>
+            <cntpos></cntpos>
+            <cntaddr>
+              <addrtype></addrtype>
+              <address></address>
+              <city></city>
+              <state></state>
+              <postal></postal>
+              <country></country>
+            </cntaddr>
+            <cntvoice></cntvoice>
+            <cntemail></cntemail>
+            <hours></hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc></procdesc>
+        <procdate>20171031</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg></cntorg>
+              <cntper></cntper>
+            </cntorgp>
+            <cntpos></cntpos>
+            <cntaddr>
+              <addrtype></addrtype>
+              <address></address>
+              <city></city>
+              <state></state>
+              <postal></postal>
+              <country></country>
+            </cntaddr>
+            <cntvoice></cntvoice>
+            <cntemail></cntemail>
+            <hours></hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>5</cloud>
+  </dataqual>
+  <spdoinfo>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>10000</rowcount>
+      <colcount>10000</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>None for Raster Information</eaover>
+      <eadetcit>None for Raster Information</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas GIS Office</cntorg>
+          <cntper>Matthew Delong</cntper>
+        </cntorgp>
+        <cntpos>Senior GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1 Capitol Mall Ste 6D</address>
+          <city>Little Rock</city>
+          <state>Arkansas</state>
+          <postal>72201</postal>
+          <country></country>
+        </cntaddr>
+        <cntvoice>501-682-3710</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab>None</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital</formname>
+          <transize>0.135</transize>
+        </digtinfo>
+      </digform>
+      <fees>n/a</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20190909</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg></cntorg>
+          <cntper></cntper>
+        </cntorgp>
+        <cntpos></cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address></address>
+          <city></city>
+          <state></state>
+          <postal></postal>
+        </cntaddr>
+        <cntvoice></cntvoice>
+        <cntemail></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>This data is meant for use by requested parties. This data cannot be used without express consent.</metuc>
+  </metainfo>
+</metadata>

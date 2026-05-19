@@ -1,0 +1,172 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.IMAGERY.GREENE_COUNTY_2015_1FT_FOOTPRINT</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-90.876816</westbc>
+        <eastbc>-90.172285</eastbc>
+        <northbc>36.287594</northbc>
+        <southbc>35.948938</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>This dataset consists of 1 foot orthorectified imagery of the  Greene County collected in 2015.</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntperp>
+        <cntvoice>5016822767</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.0.8321</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>67</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Arkansas North FIPS 0301 Feet</mapprojn>
+          <lambertc>
+            <stdparll>34.93333333333333</stdparll>
+            <stdparll>36.23333333333333</stdparll>
+            <longcm>-92.0</longcm>
+            <latprjo>34.33333333333334</latprjo>
+            <feast>1312333.333333333</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000027453728179693832</absres>
+            <ordres>0.000000027453728179693832</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.IMAGERY.GREENE_COUNTY_2015_1FT_FOOTPRINT</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Raster</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MinPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MaxPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LowPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HighPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Category</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Tag</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GroupName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ProductName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CenterX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CenterY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZOrder</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TypeID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ItemTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>JPEG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UriHash</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Uri</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STArea()</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STLength()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20200115</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntperp>
+        <cntvoice>5016822767</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
