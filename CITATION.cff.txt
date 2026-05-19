@@ -12,5 +12,5 @@ authors:
     given-names: Alireza
 version: "1.0.0"
 date-released: "2026-05-18"
-repository-code: "https://github.com/USERNAME/REPO_NAME"
+repository-code: "https://github.com/amir-sci/geo-metadata-enrichment"
 license: MIT
