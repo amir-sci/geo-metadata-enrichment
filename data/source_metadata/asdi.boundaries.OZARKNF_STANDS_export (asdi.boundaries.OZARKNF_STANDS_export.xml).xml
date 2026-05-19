@@ -1,0 +1,534 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USDA Forest Service</origin>
+        <pubdate>20140402</pubdate>
+        <title>Ozark National Forest Service Stands (polygon)</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.gis.arkansas.gov/?product=ozark-national-forest-service-stands-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Ozark - St. Francis National Forests stand inventory data for vegetation, maintained in polygon format. Polygon boundaries that provide areas to be rotated for entry of timber inventory and management. Stand is defined as a spatially continuous group of trees and associated vegetation having similar structures and growing under similar soil and climatic conditions.Vegetation polygons support Forest Service vegetation data management and analysis. Vegetation data is critical in support of land management; whether it be for wildlife habitat analysis, fire and fuels management, watershed management, or timber production. A vegetation polygon is a logical sampling unit; a logical area of land on which to describe vegetation conditions. Over time, data is collected for some or all of these polygons. Data such as canopy cover or forest type may be derived for each polygon via satellite image processing or photo interpretation. Field crews may be sent to a selection of polygons to collect detailed data where individual trees are measured or down woody material is measured along transects. The amount and currency of data describing each vegetation polygon varies widely since it is cost-prohibitive to maintain detailed and current data for all polygons at any point in time. Data for some polygons may be more than 10 years old, while data for other polygons may have been collected yesterday. Typically where active project work or landscape analysis is occurring, better data is available since there is a need for good data for that area at that point in time. Data for polygons within the NRIS_VegPoly feature class is changing on a daily basis as data is updated by Forest Service staff. This feature class is a "working" dataset; that is, it supports day-to-day Forest Service land management.</abstract>
+      <purpose>Ozark-St. Francis NFs use these existing vegetation areas for inventory and management the land and timber resources. Vegetation polygons support Forest Service vegetation data management and analysis. Vegetation data is critical in support of land management; whether it be for wildlife habitat analysis, fire and fuels management, watershed management, or timber production. A vegetation polygon is a logical sampling unit; a logical area of land on which to describe vegetation conditions. Over time, data is collected for some or all of these polygons. Data such as canopy cover or forest type may be derived for each polygon via satellite image processing or photo interpretation. Field crews may be sent to a selection of polygons to collect detailed data where individual trees are measured or down woody material is measured along transects. The amount and currency of data describing each vegetation polygon varies widely since it is cost-prohibitive to maintain detailed and current data for all polygons at any point in time. Data for some polygons may be more than 10 years old, while data for other polygons may have been collected yesterday. Typically where active project work or landscape analysis is occurring, better data is available since there is a need for good data for that area at that point in time. Data for polygons within the NRIS_VegPoly feature class is changing on a daily basis as data is updated by Forest Service staff. This feature class is a "working" dataset; that is, it supports day-to-day Forest Service land management.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140402</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.501933</westbc>
+        <eastbc>-90.533277</eastbc>
+        <northbc>36.232455</northbc>
+        <southbc>34.567496</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land cover</themekey>
+        <themekey>Vegetation</themekey>
+        <themekey>Stand</themekey>
+        <themekey>Wood</themekey>
+        <themekey>All Forest Service lands</themekey>
+        <themekey>Tree</themekey>
+        <themekey>Inventory</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Data is typically intended for analysis and use at scales of 1:24,000 or smaller and in contextual conjunction with other thematic spatial and tabular data from other sources and sensors. These sources and sensors include: hydrography, elevation, aerial photos, satellite imagery, surface land ownership, etc. collected for use at comparable scales.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>605 West Main Street</address>
+          <city>Russellville</city>
+          <state>AR</state>
+          <postal>72801</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>479-964-7211</cntvoice>
+        <cntfax>479-964-7285</cntfax>
+        <cntemail>thocut@fs.fed.us</cntemail>
+        <hours>0800-1630</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>605 West Main Street</address>
+          <city>Russellville</city>
+          <state>AR</state>
+          <postal>72801</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>479-964-7211</cntvoice>
+        <cntfax>479-964-7285</cntfax>
+        <cntemail>thocut@fs.fed.us</cntemail>
+        <hours>0800-1630</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>United States Department of Agriculture (USDA) - Forest Service (FS), National Forest System (NFS)</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>FSVeg-Sp R08 Extract Vegetation Polygons RSW</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140402</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>FSVeg-Sp R08 Extract Vegetation Polygons RSW</srccitea>
+        <srccontr>Geospatial Interface Visualization: HelpId: 690 DistributedIndicator: N ProcessId: c2a0e888-237a-40bf-9792-4ff248aa7f85 ProcessName: FSVeg-Sp R08 Extract Vegetation Polygons RSW OwnerName: R8_REGION 8 Registry: REGION 08 ProcessType: Visualization Purpose: Extracts a local copy of the vegetation polygons and includes associated vegetation data of interest to Region 8. Edited 22 Feb 2012 to reflect changes in underlying tables, and further edited on 28 Feb 2012 to remove duplicate records caused by unarchived inventory polygons. Edited 14 Nov 2013 to add Subpop_BA_Total column that sums BA of four subpopulations. Contact: NRM FSVeg Spatial Staff Author: Delvin Bunton (built based on R8 requirements) PreRequisites: None. Works off of FSVeg Spatial data that should exist for every R8 forest. Results: A local copy of veg polys with the following data attached. The name is parenthesis identifies the approved source view. Note that data from the Nris_VegSubpopulations table is denormalized and place in the main output table along with other vegetation data of interest to R8. spatial_id (vegpoly) stand_id (calc from vegpoly) poly_id (vegpoly) region_admin (vegpoly) forest_admin (vegpoly) district_no (vegpoly) region_proc (vegpoly) forest_proc (vegpoly) location (vegpoly) setting_id (vegpoly) num_exams (vegpoly) USGS_anderson_1 (vegpoly) USGS_anderson_2 (vegpoly) acres_manual (vegpoly) acres (vegpoly) agency (vegpoly) slope_position (vegcharacterizations) slope_shape_vert (vegcharacterizations) tree_height_avg (vegcharacterizations) canopy_closure_trees (vegcharacterizations) stand_condition_ref (vegcharacterizations) stand_condition_code (vegcharacterizations) stand_cond_desc (vegcharacterizations) sample_date (vegpoly) ev_ref_code (vegpoly) ev_code (vegpoly) ev_name (nrv_ev_cover_types) pv_ref_code (vegpoly) pv_code (vegpoly) pv_name (nrv_pv_cover_types) pag_ref (vegcharacterizations) pag_code (vegcharacterizations) site_index_spp (vegcharacterizations) site_index (vegcharacterizations) year_of_origin (vegcharacterizations) stand_age (calc from vegcharacterizations) nfs_land_class (vegcharacterizations) dbh (vegcharacterizations) tpa (vegcharacterizations) tree_layer_structure (vegcharacterizations) stocking_percent (vegcharacterizations) management_productivity (vegcharacterizations) purpose_code (vegpoly) merch_cubic_gross (vegcharacterizations) exam_sample_age (calc from vegpoly) ba_hp (vegsubpopulations) ba_hs (vegsubpopulations) ba_pp (vegsubpopulations) ba_ps (vegsubpopulations) subpop_ba_total (vegsubpopulations) stand_ba (vegcharacterizations) dbh_hp (vegsubpopulations) dbh_hs (vegsubpopulations) dbh_pp (vegsubpopulations) dbh_ps (vegsubpopulations) fire_regime (vegcharacterizations) condition_class (vegcharacterizations) crowning_index (vegcharacterizations) crown_fire (vegcharacterizations) down_woody (vegcharacterizations) duff_litter_depth (vegcharacterizations) fuel_depth (vegcharacterizations) fuel_photo_reference (vegcharacterizations) residue_desc_code (vegcharacterizations) haz_rating (vegcharacterizations) aspect_degrees (veggiscalcs) elevation_feet (veggiscalcs) slope_percent (veggiscalcs) remarks (vegcharacterizations) BA_YEAR (vegpolylocal) LAND_CLASS_LOCAL_QUAL (vegpolylocal) OLD_GROWTH (vegpolylocal) PREV_FOR_TYPE (vegpolylocal) UEAM (vegpolylocal) working_group (calc from vegpoly) Poly_to_FSVeg (setting_measurements) modified_date (vegpoly) DetailsUrl: http://fsweb.nris.fs.fed.us/products/FSVeg_Spatial/documentation.shtml StandardsUrl: Contact: R8_REGION 8 CreatedBy: CreatedDate: 9/21/2009 12:51:17 PM ModifiedBy: DBUNTON ModifiedDate: 11/14/2013 4:06:32 PM Assigned Keywords: Timber Vegetation</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Process Step for FSVeg-Sp R08 Extract Vegetation Polygons RSW: Step Name: FSVeg-Sp R08 Extract Vegetation Polygons Step Type: RSW Sequence: 1 Required: True Minimum Inputs: 2 Is Distributed: N Help ID: 290 Output Feature Template: FSVegSpR08ExtractVegetationPolygonsRSW Do not prompt user for selection: True Each run has own output: False Input Feature Template: FSVeg-Sp Vegetation Polygons Feature Include Fields: (None) Feature Join Field: SPATIAL_ID Query Join Field: SPATIAL_ID Dyn Seg Mode: None Join Cardinality: OneToMany Is Outer Join: False Rt Bmp: Rt Emp: Query Name: R8_REGION 8 qryRswFSVegSpR08ExtractVegetationPolygons SQL: select vp.spatial_id, vu.region_admin || vu.forest_admin || vp.district_no || vp.location || lpad(to_char(vp.poly_id), 3, '0') stand_id, vp.poly_id, vu.region_admin, vu.forest_admin, vp.district_no, vp.region_proc, vp.forest_proc, vp.location, vp.setting_id, vp.num_exams, vp.Usgs_anderson_1, vp.Usgs_anderson_2, vp.acres_manual, vp.acres, vp.agency, vc.slope_position, vc.slope_shape_vert, vc.tree_height_avg, vc.canopy_closure_trees, vc.stand_condition_ref, vc.stand_condition_code, sd.stand_cond_desc, vp.sample_date, vc.ev_ref_code, vc.ev_code, ev.common_name ev_name, vc.pv_ref_code, vc.pv_code, pv.common_name pv_name, vc.pag_ref, vc.pag_code, vc.site_index_spp, vc.site_index, vc.year_of_origin, to_number(to_char(sysdate, 'YYYY')) - vc.year_of_origin stand_age, vc.nfs_land_class, vc.dbh, vc.tpa, vc.setting_origin, case vc.setting_origin when null then 'Unknown' when '1' then 'Nat veg-no artif regen' when '2' then 'Artif regen &lt; 40 pct' when '3' then 'Artif regen 40 pct+' when '4' then 'Recent harvest-no regen' when '5' then 'Artif regen-pct not est' when '7' then 'Forest encroachment' else 'Undefined' end setting_origin_desc, vc.tree_layer_structure, vc.stocking_percent, vc.management_productivity, vp.purpose_code, vc.merch_cubic_gross, case when vp.sample_date is not null and (to_number(to_char(sysdate, 'YYYY')) - to_number(to_char(vp.sample_date, 'YYYY')) &gt;= 0) then to_number(to_char(sysdate, 'YYYY')) - to_number(to_char(vp.sample_date, 'YYYY')) else null end exam_sample_age, vsp.ba_hp, vsp.ba_hs, vsp.ba_pp, vsp.ba_ps, vsp.subpop_ba_total, vc.basal_area stand_ba, vsp.dbh_hp, vsp.dbh_hs, vsp.dbh_pp, vsp.dbh_ps, vc.fire_regime, vc.condition_class, vc.crowning_index, vc.crown_fire, vc.down_woody, vc.duff_litter_depth, vc.fuel_depth, vc.fuel_photo_reference, vc.residue_desc_code, vc.haz_rating, vgc.elevation_feet, vgc.slope_percent, substr(vc.remarks, 1, 254) remarks, vp.sample_recorder, vpl.BA_YEAR, vpl.LAND_CLASS_LOCAL_QUAL, vpl.OLD_GROWTH, vpl.PREV_FOR_TYPE, vpl.UEAM, vpl.FOR_TYPE, vpl.RX_AREA, case when vc.ev_code &lt; 3 then 'Non_forest' when vc.ev_code between 3 and 7 then 'Pine' when vc.ev_code between 8 and 20 then 'Pine_Hardwood' when vc.ev_code between 21 and 39 then 'Pine' when vc.ev_code between 40 and 49 then 'Hardwood_Pine' when vc.ev_code between 50 and 89 then 'Hardwood' when vc.ev_code = 90 then 'Non_forest' when vc.ev_code between 91 and 99 then 'Hardwood' else 'No_Data' end working_group, case when sm.setting_id is not null then 'Linked' else 'Not Linked' end "Poly_to_FSVeg", trunc(nvl(vp.modified_date,vp.created_date)) modified_date from (select substr(p.value, 1, 2) region_admin, substr(p.value, 3, 2) forest_admin from gi$currentSchema$.nris_veggdbinfo p where p.name = 'VpdUnitId') vu, gi$currentSchema$.nris_vegpoly_aprv vp left outer join gi$currentSchema$.nris_vegcharacterizations_aprv vc on vp.spatial_id = vc.spatial_id /*left outer join gi$currentSchema$.nris_vegpolylinks_aprv vpk on vp.spatial_id = vpk.spatial_id */ left outer join gi$currentSchema$.nris_vegpolylocal_aprv vpl on vp.spatial_id = vpl.SPATIAL_ID left outer join gi$currentSchema$.nris_veggiscalcs_aprv vgc on vp.spatial_id = vgc.spatial_id left outer join (select distinct sm1.setting_id from nrv_setting_measurements sm1 where sm1.setmeas_cn_of is null and sm1.vpdunit_id = (select substr(p2.value, 1, 4) vpdunit_id from gi$currentSchema$.nris_veggdbinfo p2 where p2.name = 'VpdUnitId') order by 1) sm on vp.SETTING_ID = sm.setting_id left outer join (select vpa.SPATIAL_ID, vsphp.BASAL_AREA ba_hp, vsphs.BASAL_AREA ba_hs, vsppp.BASAL_AREA ba_pp, vspps.BASAL_AREA ba_ps, (nvl(vsphp.BASAL_AREA, 0) + nvl(vsphs.BASAL_AREA, 0) + nvl(vsppp.BASAL_AREA, 0) + nvl(vspps.BASAL_AREA, 0)) subpop_ba_total, vsphp.diameter dbh_hp, vsphs.diameter dbh_hs, vsppp.diameter dbh_pp, vspps.diameter dbh_ps from gi$currentSchema$.nris_vegpoly_aprv vpa, GI_GUI_SELECTION, (select vhp.spatial_id, vhp.basal_area, vhp.diameter from gi$currentSchema$.nris_vegsubpopulations_aprv vhp where vhp.SUBGROUP_1 = 'R8 HARDWOOD POLE') vsphp, (select vhs.spatial_id, vhs.basal_area, vhs.diameter from gi$currentSchema$.nris_vegsubpopulations_aprv vhs where vhs.SUBGROUP_1 = 'R8 HARDWOOD SAW') vsphs, (select vpp.spatial_id, vpp.basal_area, vpp.diameter from gi$currentSchema$.nris_vegsubpopulations_aprv vpp where vpp.SUBGROUP_1 = 'R8 PINE POLE') vsppp, (select vps.spatial_id, vps.basal_area, vps.diameter from gi$currentSchema$.nris_vegsubpopulations_aprv vps where vps.SUBGROUP_1 = 'R8 PINE SAW') vspps where vpa.spatial_id = vsphp.spatial_id(+) and vpa.spatial_id = vsphs.spatial_id(+) and vpa.spatial_id = vsppp.spatial_id(+) and vpa.spatial_id = vspps.spatial_id(+) and gi_gui_selection.feature_cn = vpa.spatial_id and runtime_layer_id = ?) vsp on vp.spatial_id = vsp.spatial_id left outer join nrv_ev_cover_types ev on (vc.ev_ref_code = ev.ref_code and vc.ev_code = ev.ev_code) left outer join nrv_pv_cover_types pv on (vc.pv_ref_code = pv.ref_code and vc.pv_code = pv.pv_code) left outer join (select ref_code,domain_value stand_cond_code, value_description stand_cond_desc from nrv_spatial_domain_vm where spatial_usage = 'STAND_CONDITION_REF' and code_column_name = 'STAND_CONDITION_CODE') sd on (vc.stand_condition_ref = sd.ref_code and vc.stand_condition_code = sd.stand_cond_code) where 1 = 1 ORDER BY vp.spatial_id Parameters (0):</procdesc>
+        <srcused>SERVER=iwebdb;INSTANCE=sde:oracle11g:iwebdb:sde_nris_veg;DBCLIENT=oracle;USER=FS_PUBLIC_READ;VERSION=NRV_SPATIAL_APP_USER.NRV_APPROVED_0810\S_R08_OZF.NRIS_Veg\S_R08_OZF.NRIS_VegPoly</srcused>
+        <srcused>FSVeg-Sp R08 Extract Vegetation Polygons RSW</srcused>
+        <srcused>R8_REGION 8 qryRswFSVegSpR08ExtractVegetationPolygons</srcused>
+        <procdate>20140402</procdate>
+        <srcprod>T:\FS\NFS\OzarkStFrancis\Project\SO\2010GISSupport\trotenbury\GIOutputsSDE\FSVegSpVegPolygons.mdb\FSVegSpR08ExtractVegetationPolygonsRSW</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>USDA Forest Service</cntorg>
+              <cntper>Tammy Hocut</cntper>
+            </cntorgp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>605 West Main Street</address>
+              <city>Russellville</city>
+              <state>AR</state>
+              <postal>72801</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>479-964-7211</cntvoice>
+            <cntfax>479-964-7285</cntfax>
+            <cntemail>thocut@fs.fed.us</cntemail>
+            <hours>0800-1630</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>28785</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.OZARKNF_STANDS</enttypl>
+        <enttypd>Stand Vegetation Layer</enttypd>
+        <enttypds>Southern Region Silviculture Examination and Prescription Field Book and http://www.fs.fed.us/emc/nris/ftp/fsveg/cse_user_guides/R8_appendix.doc - for attribute definitions</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SITE_INDEX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAND_CONDITION_REF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PAG_REF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EV_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PV_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NFS_LAND_CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USGS_ANDERSON_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CANOPY_CLOSURE_TREES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PV_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUBPOP_BA_TOTAL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AGENCY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STAND_CONDITION_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MANAGEMENT_PRODUCTIVITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BA_HP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PAG_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FOREST_PROC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SETTING_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BA_HS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAND_COND_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BA_PS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SETTING_ORIGIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PREV_FOR_TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UEAM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OLD_GROWTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLE_RECORDER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SETTING_ORIGIN_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MODIFIED_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RX_AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CONDITION_CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CROWNING_INDEX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SLOPE_PERCENT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEVATION_FEET</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FUEL_PHOTO_REFERENCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RESIDUE_DESC_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DBH_HS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAND_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FOR_TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAND_CLASS_LOCAL_QUAL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HAZ_RATING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DUFF_LITTER_DEPTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DOWN_WOODY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIRE_REGIME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAND_BA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DBH_HP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REMARKS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FUEL_DEPTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DBH_PS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TREE_HEIGHT_AVG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POLY_TO_FSVEG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CROWN_FIRE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USGS_ANDERSON_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FOREST_ADMIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BA_YEAR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WORKING_GROUP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SITE_INDEX_SPP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EXAM_SAMPLE_AGE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUM_EXAMS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SLOPE_SHAPE_VERT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PV_REF_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PURPOSE_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BA_PP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DBH_PP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAND_AGE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POLY_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EV_REF_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TREE_LAYER_STRUCTURE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STOCKING_PERCENT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT_NO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REGION_ADMIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SPATIAL_ID</attrlabl>
+        <attrdef>Internal Feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLE_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SLOPE_POSITION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES_MANUAL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>YEAR_OF_ORIGIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EV_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REGION_PROC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TPA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MERCH_CUBIC_GROSS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DBH</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/ozark-national-forest-service-stands-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/23</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>605 West Main Street</address>
+          <city>Russellville</city>
+          <state>AR</state>
+          <postal>72801</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>479-964-7211</cntvoice>
+        <cntfax>479-964-7285</cntfax>
+        <cntemail>thocut@fs.fed.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>Data is typically intended for analysis and use at scales of 1:24,000 or smaller and in contextual conjunction with other thematic spatial and tabular data from other sources and sensors. These sources and sensors include: hydrography, elevation, aerial photos, satellite imagery, surface land ownership, etc. collected for use at comparable scales.</metuc>
+  </metainfo>
+</metadata>

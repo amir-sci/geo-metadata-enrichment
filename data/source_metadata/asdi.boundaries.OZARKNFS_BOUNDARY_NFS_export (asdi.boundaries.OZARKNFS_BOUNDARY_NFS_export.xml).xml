@@ -1,0 +1,292 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USDA Forest Service - Automated Lands Program (ALP)</origin>
+        <pubdate>20130930</pubdate>
+        <title>Ozark National Forrest Boundary (polygon)</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.gis.arkansas.gov/?product=ozark-national-forrest-boundary-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A depiction of the boundary that encompasses a Ranger District.</abstract>
+      <purpose>This SDE Geodatabase is intended for read-only use. These data were prepared to describe Forest Service administrative area boundaries. The purpose of the data is to provide display, identification, and analysis tools for determining current boundary information for Forest Service managers, GIS Specialists, and others.</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Weekly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.501933</westbc>
+        <eastbc>-90.532256</eastbc>
+        <northbc>36.232455</northbc>
+        <southbc>34.567778</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Ranger District</themekt>
+        <themekey>District Name</themekey>
+        <themekey>NFS Lands</themekey>
+        <themekey>Region</themekey>
+        <themekey>Land Status</themekey>
+        <themekey>District Number</themekey>
+        <themekey>ALP Land Dataset</themekey>
+        <themekey>USDA Forest Service</themekey>
+        <themekey>Forest Name</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The USDA Forest Service makes no claims, promises, or guarantees about the accuracy, completeness, or adequacy of the content; and expressly disclaims liability for errors and omissions. No warranty of any kind, implied, expressed or statutory, including but not limited to warranties of non-infringement of third party rights, title, merchantability, fitness for a particular purpose and freedom from computer virus, is given with respect to the contents or hyperlinks to other Internet resources. Reference to any specific commercial products, processes, or services, or the use of any trade, firm or corporation name is for the information and convenience of the public, and does not constitute endorsement or recommendation by the USDA Forest Service.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>605 West Main Street</address>
+          <city>Russellville</city>
+          <state>AR</state>
+          <postal>72801</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>479-964-7211</cntvoice>
+        <cntfax>479-964-7285</cntfax>
+        <cntemail>thocut@fs.fed.us</cntemail>
+        <hours>0800-1630</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service Automated Lands Program (ALP)</cntorg>
+        </cntorgp>
+        <cntinst>ALP Regional Coordinators: Submit a Teamforge artifact at: http://sforge.fs.fed.us/sf/projects/alp_lsrs_editor_2 Other Forest Service users: Submit a CHD ticket to Government Software &gt; NRM&gt; Lands</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+    <crossref>
+      <citeinfo>
+        <pubdate>20140402</pubdate>
+        <title>Automated Lands Program (ALP)</title>
+        <onlink>http://fsweb.r6.fs.fed.us/alp/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The Regional Land Status personnel are responsible for their local data stewardship and maintenance. The overall collection nationwide consists of 100% attribute accuracy based on currentness and completeness.</attraccr>
+    </attracc>
+    <complete>This theme is current to date of publication.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy testing must use NSSDA testing guidelines or be reported based on compiled, published test reports appropriate for the data collection method and equipment. The method of determining accuracy should be documented in the process step of the dataset metadata record. If published accuracy results are used, use the statement 'Compiled to meet ___ (meters, feet) horizontal accuracy at 95% confidence interval' in the metadata record, and identify the testing source used. If accuracy is locally tested to NSSDA standards, the statement 'Tested to meet ___ (meters, feet) horizontal accuracy at 95% confidence interval' should be added to the metadata record. Accuracy for legacy data may be reported according to the accuracy standard in place at the time of data collection (typically National Map Accuracy Standards). Document the standard used in the metadata record. (For more information, see: http://www.fgdc.gov/standards/documents/standards/accuracy/chapter3.pdf)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+      </srcinfo>
+      <procstep>
+        <procdesc>This data was migrated from the CDW. The spatial features were projected and imported into the target feature class.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>This data was published using Feature Manipulation Engine Software. The spatial features were extracted from the transactional database, manipulated to meet the desired output format and published to the target feature class.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>9</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.OZARKNFS_BOUNDARY_NFS</enttypl>
+        <enttypd>Feature</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ForestName</attrlabl>
+        <attrdef>The official name of the National Forest (or other Administrative Area).</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>The number assigned to a Forest Service Region.</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ForestNumber</attrlabl>
+        <attrdef>An identifier assigned to an Administrative Forest that is unique within a Region.</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RangerDistrictID</attrlabl>
+        <attrdef>Unique identifier generated by Oracle sequence or SYS_GUID() function.</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GIS_ACRES</attrlabl>
+        <attrdef>The area of the feature in acres, calculated using a projected surface computation. A NAD 83, USA Contiguous Albers Equal Area Conic projection was used for Regions 1-9, and NAD 83, Alaska Albers for Region 10.</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DistrictNumber</attrlabl>
+        <attrdef>An identifier assigned to a Ranger District that is unique within a Forest.</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistrictOrgCode</attrlabl>
+        <attrdef>The Forest Service organization code identifying the Ranger District. This code is composed of the 2 digit Region identifier, followed by the 2 digit Forest identifier, and ending with the 2 digit District identifier.</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistrictName</attrlabl>
+        <attrdef>The official name of the Ranger District.</attrdef>
+        <attrdefs>ALP</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data.</resdesc>
+    <distliab>The information depicted in this dataset is the result of digital analyses performed on a database consisting of information from a variety of governmental and other credible sources. The accuracy of the information presented is limited to the collective accuracy of the database on the date of the analysis. The information is believed accurate and reasonable efforts have been made to ensure the accuracy of the data. However, the USDA Forest Service expressly disclaims responsibility for damages or liability that may arise from use of this data. This product is the property of the USDA Forest Service and its use is thereby restricted.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/ozark-national-forrest-boundary-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/24</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Enterprise Data Warehouse (EDW)</cntorg>
+          <cntper>Enterprise Business Solution Sevices</cntper>
+        </cntorgp>
+        <cntpos>USFS Chief Information Officer</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <postal>-</postal>
+        </cntaddr>
+        <cntvoice>( ) -</cntvoice>
+        <cnttdd>( ) -</cnttdd>
+        <cntfax>( ) -</cntfax>
+        <cntemail>FS-Data@fs.fed.us</cntemail>
+        <cntinst>All inqueries should be sent by email.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

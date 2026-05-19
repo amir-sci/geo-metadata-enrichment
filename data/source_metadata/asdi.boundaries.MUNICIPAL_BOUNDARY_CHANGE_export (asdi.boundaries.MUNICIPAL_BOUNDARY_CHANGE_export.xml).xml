@@ -1,0 +1,261 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.boundaries.MUNICIPAL_BOUNDARY_CHANGE</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The municipal boundary change is a publication consisting of multiple individual polygons each representing a unique boundary description. The Arkansas GIS Office maintains this file in coordination with the municipalities of the State. It represents boundary changes across time for any cities beginning in 2016. 2016 is the year beginning in which the Arkansas Legislature mandated the Arkansas GIS Office to coordinate with any entity on municipal boundary changes and report these changes to the US Census Bureau. These change polygons can represent annexation, consolidation, detachment, incorporation and unincorporation of territory representing area per description. These change polygons can also represent geometry corrections where both minor and substantial corrections were needed. Where substantial corrections are needed, the feature will contain a link to pertinent documentation supporting the geometry correction. Various methods to annex, detach, create a new incorporation or unincorporate an existing incorporation may be used. Data developed with coordinate geometry (COGO) from legal descriptions were used. When necessary the data were adjusted to conform to known physical features. This dataset does not represent exact legal boundaries as per surveyed description, but, rather a set of boundaries used for the administrative purposes that conforms to logical &amp; administrative rules.</abstract>
+      <purpose>The data contained within this collection is designed to fulfill the Arkansas GIS Office legislative mandate to coordinate with the municipalities of the state on digital mapping and to submit a consolidated report of legal boundaries to the United States Census Bureau. Following are the citations of the law. Arkansas Code 14-38-116. Map required with Arkansas Geographic Information Systems Office upon incorporation or unincorporation. Before an entity undertakes an incorporation or unincorporation proceeding under this chapter, the entity shall coordinate with the Arkansas Geographic Information Systems Office for preparation of legal descriptions and digital mapping for the relevant incorporated or unincorporated areas. Arkansas Code 14-40-101. Map required with Arkansas Geographic Information Systems Office upon annexation, consolidation, or detachment. Before an entity undertakes an annexation, consolidation, or detachment proceeding under this chapter, the entity shall coordinate with the Arkansas Geographic Information Systems Office for preparation of legal descriptions and digital mapping for the relevant annexation, consolidation, and detachment areas. SECTION 3. Arkansas Code 15-21-504, concerning the duties, responsibilities, and authority of the Arkansas Geographic Information Systems Board, is amended to add an additional subsection to read as follows: (n)(1) The board shall provide mapping services to an entity undertaking an: (A) Annexation, consolidation, or detachment proceeding under 14-40-101; or (B) Incorporation or unincorporation proceeding under 14-38-116. (2) The Arkansas Geographic Information Systems Office shall submit a consolidated report of changes in legal boundaries because of an annexation, consolidation, detachment, incorporation, or unincorporation proceeding on an annual basis to the United States Census Bureau's Boundary and Annexation Survey.</purpose>
+    </descript>
+    <status>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.562839</westbc>
+        <eastbc>-89.905054</eastbc>
+        <northbc>36.501656</northbc>
+        <southbc>33.048214</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>municipal, municipality, city, limits, incorporated, incorporation, annexation, detachment</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <datacred>Arkansas Geographic Information Systems Office. Arkansas Geographic Information Systems Board.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>937</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.MUNICIPAL_BOUNDARY_CHANGE</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SQUAREMILES</attrlabl>
+        <attrdef>Stores the calculated square miles of area fully contained within the change area.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INSTRUMENT</attrlabl>
+        <attrdef>Stores a reference to the County recording associated with the boundary change. These references may be to an adopted City Ordinance, adopted County Court Order, or certified election result. These legal instruments are recorded under this authority: Arkansas Code 14-15-401. Recorders Duties generally. (a) (1) There shall be established in each county in this state an office to be styled the county recorder's office, which shall be kept at the seat of justice of each county. (2) (A) Unless otherwise provided by law, the county recorder is the circuit clerk of the county. (B) In a county that under law has assigned the duties of the county recorder to the county clerk, all Arkansas Code references to circuit clerk that concern recording functions shall mean the county clerk. 14-15-402. Instruments to be recorded. (a) It shall be the duty of each recorder to record in the books provided for his or her office all deeds, mortgages, conveyances, deeds of trust, bonds, covenants, defeasances, affidavits, powers of attorney, assignments, contracts, agreements, leases, or other instruments of writing of or writing concerning any lands and tenements or goods and chattels, which shall be proved or acknowledged according to law, that are authorized to be recorded in his or her office.</attrdef>
+        <attrdefs>Arkansas Code 14-15-401</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EFFECTIVE_DATE</attrlabl>
+        <attrdef>Stores the effective date of the boundary change for that area. For this publication, this is the date the legal instruments were recorded with the Arkansas Secretary of State. The Effective Date Format is YYYYMMDD.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY_FIPS</attrlabl>
+        <attrdef>Stores the unique numerical code for the city developed under the Federal Information Processing Standards.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECORDLINK</attrlabl>
+        <attrdef>Stores a hyperlink to scanned copies of the official government records filed with the Arkansas Secretary of State documenting the boundary change.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>revised_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Stores the calculated acres of area fully contained within the change area.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY_NAME</attrlabl>
+        <attrdef>Stores the legal name of the incorporated city.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>changetype</attrlabl>
+        <attrdef>Stores the type of change. There are multiple legal methods in Arkansas law that permit boundary change. See field CHANGEMETHOD for further detail. Changes can also occur due to minor and substantial geometry corrections.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Annexed</edomv>
+            <edomvd>Areas that have been annexed. See field CHANGEMETHOD for further detail. </edomvd>
+          </edom>
+          <edom>
+            <edomv>Detached </edomv>
+            <edomvd>Areas that have been detached. See field CHANGEMETHOD for further detail. </edomvd>
+          </edom>
+          <edom>
+            <edomv>Consolidated</edomv>
+            <edomvd>Areas that have been consolidated. See field CHANGEMETHOD for further detail. </edomvd>
+          </edom>
+          <edom>
+            <edomv>Geometry Correction</edomv>
+            <edomvd>Areas where the shape and or size of the polygon were corrected. This can be a result of drawing errors or other inadvertent errors.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>relate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CHANGEMETHOD</attrlabl>
+        <attrdef>Stores a descriptor of the legal method that initiated the change. There are multiple legal methods in Arkansas law that permit boundary change.</attrdef>
+        <attrdefs>Arkansas Code</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Citizen Initiated Detachment</edomv>
+            <edomvd>Relevant Statutes A.C.A. § 14-40-608. Summary of Method - Landowner notifies city within 8 years after annexation proceeding is completed, if no utilities provided. City passes detachment ordinance within 30 days. City sends relevant documents to county clerk. County clerk sends relevant documents to Secretary of State, Director of Tax Division of Arkansas Public Services Commission.</edomvd>
+            <edomvds>Arkansas Code</edomvds>
+          </edom>
+          <edom>
+            <edomv>City Initiated Detachment</edomv>
+            <edomvd>Relevant Statutes A.C.A. § § 14-40-1901–1903 Summary of Method -City council passes resolution, files certified copy thereof and petition for hearing with county court. Notice of hearing published in newspaper for at least 2 consecutive weeks. County court holds hearing 15-30 days from date of first publication of notice. County court orders exclusion of territory. County clerk files order with county recorder and Secretary of State.</edomvd>
+            <edomvds>Arkansas Code</edomvds>
+          </edom>
+          <edom>
+            <edomv>Citizen Initiated One-Hundred Percent of Landowners</edomv>
+            <edomvd>Relevant Statutes A.C.A. § 14-40-609. Summary of Method -Petition filed with county clerk and assessor. County clerk and assessor verify petition. Petition presented to county judge, who issues order. City council passes ordinance or resolution granting petition. Annexation effective 30 days after council grants petition, if no judicial challenge).</edomvd>
+            <edomvds>Arkansas Code</edomvds>
+          </edom>
+          <edom>
+            <edomv>City Initiated by Election</edomv>
+            <edomvd>Relevant Statutes A.C.A. § § 7-11-201, 7-11-203–205, 14-40-301–304, 14-40-101. Summary of Method - City council enacts ordinance complying with code and fixing date for election at next general or special election. Ordinance filed with county clerk. Special election held (60-70 days minimum following filing, see A.C.A. § 7-11-205(b) for further detail.) City must identify residents of proposed annexation area at least 45 days before election. County clerk certifies election results, files with Secretary of State. Wait 30 days (or until entry of final order if annexation challenged in court).</edomvd>
+            <edomvds>Arkansas Code</edomvds>
+          </edom>
+          <edom>
+            <edomv>Citizen Initiated by Petition Majority of Landowners</edomv>
+            <edomvd>Relevant Statutes A.C.A. § § 14-40-601–606; 14-38-103. Summary of Method -Petition filed with county court by majority of real estate owners in proposed territory. Clerk files petition, court sets date for hearing. Court holds hearing (at least 30 days after clerk files petition); petitioners publish notice in newspaper or posting for 3 weeks. Court enters order. Wait 30 days (or until entry of final order if annexation challenged in court). Council accepts annexation by ordinance or resolution. Annexation effective.</edomvd>
+            <edomvds>Arkansas Code</edomvds>
+          </edom>
+          <edom>
+            <edomv>Citizen Initiated Consolidation</edomv>
+            <edomvd>Relevant Statutes A.C.A. § § 7-11-201, 7-11-203–205, 14-40-1201–1213. Summary of Method - Petition filed with clerk and/or recorder of larger city’s government. Petition presented to larger city’s government. Council passes ordinance approving consolidation. Petition presented to county court, which calls for special election. Special election held (60-70 days minimum from date filed with county court) (county court gives 30 days’ notice of election by publication). Election results returned to and declared by county court. Consolidation effective (up to 18 months following declaration as stated in petition).</edomvd>
+            <edomvds>Arkansas Code</edomvds>
+          </edom>
+          <edom>
+            <edomv>City Initiated for Enclave</edomv>
+            <edomvd>Relevant Statutes A.C.A. § § 14-40-501–503, 14-40-101. Summary of Method -Council proposes ordinance for annexation of surrounded territory. Public hearing conducted within 60 days of proposal of ordinance calling for annexation. At least 15 days prior to public hearing, legal notice with legal description of territory published and notification by certified mail to property owners within proposed area to be annexed. Ordinance for annexation passed by city’s governing body.</edomvd>
+            <edomvds>Arkansas Code</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/municipal-boundary-changes-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/42</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

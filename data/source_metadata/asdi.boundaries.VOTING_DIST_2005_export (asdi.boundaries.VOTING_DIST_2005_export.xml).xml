@@ -1,0 +1,304 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Bureau of the Census, TIGER/Line</origin>
+        <pubdate>20050101</pubdate>
+        <title>Voting District Boundary (polygon)</title>
+        <edition>2005 First Edition</edition>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>TIGER/Line Files</sername>
+          <issue>Each file contains a version code that uniquely identifies each specific release of a version of the TIGER/Line files. The version code (MMYY) represents the month and year that the data in the file was extracted from the TIGER database.</issue>
+        </serinfo>
+        <pubinfo>
+          <publish>U.S. Bureau of the Census, TIGER/Line</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The 2005 First Edition TIGER/Line files are an extract of selected geographic and cartographic information from the Census TIGER database. The geographic coverage for a single TIGER/Line file is a county or statistical equivalent entity, with the coverage area based on the latest available governmental unit boundaries. The Census TIGER database represents a seamless national file with no overlaps or gaps between parts. However, each county-based TIGER/Line file is designed to stand alone as an independent data set or the files can be combined to cover the whole Nation. The 2005 First Edition TIGER/Line files consist of line segments representing physical features and governmental and statistical boundaries. The files contain information distributed over a series of record types for the spatial objects of a county. There are 19 record types, including the basic data record, the shape coordinate points, and geographic codes that can be used with appropriate software to prepare maps. Other geographic information contained in the files includes attributes such as feature identifiers/census feature class codes (CFCC) used to differentiate feature types, address ranges and ZIP Codes, codes for legal and statistical entities, latitude/longitude coordinates of linear and point features, landmark point features, area landmarks, and area boundaries.</abstract>
+      <purpose>In order for others to use the information in the Census TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line files.</purpose>
+      <supplinf>The TIGER/Line data are not in a mapping projection even though most of the features were scanned directly from source maps that were in a projection. To find out more about TIGER/Line files and other Census TIGER database derived data sets visit http://www.census.gov/geo/www/tiger.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20050501</begdate>
+          <enddate>20050601</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>2005</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618368</westbc>
+        <eastbc>-89.619987</eastbc>
+        <northbc>36.531952</northbc>
+        <southbc>32.969416</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>districts</themekey>
+        <themekey>district</themekey>
+        <themekey>vote</themekey>
+      </theme>
+      <theme>
+        <themekt>FGDC Framework Themes</themekt>
+        <themekey>GOVERNMENTALUNITS</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>FIPS Publication 5-2 FIPS Publication 6-4 FIPS Publication 8-6 FIPS Publication 9-1 FIPS Publication 55-3</placekt>
+        <placekey>County</placekey>
+        <placekey>United States</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files. TIGER, TIGER/Line, and Census TIGER are registered trademarks of the U.S. Census Bureau. ZCTA is a trademark of the U.S. Census Bureau. The boundary information in the TIGER/Line files are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are they are not legal land descriptions. The horizontal spatial accuracy information present in these files is provided for the purposes of statistical analysis and census operations only. No warranty, expressed or implied is made with regard to the accuracy of the spatial accuracy, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau, specifically as to the spatial or attribute accuracy of the data. The TIGER/Line files may not be suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface. Coordinates in the TIGER/Line files have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Management Branch</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>4700 Silver Hill Road, Stop 7400</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20233-7400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(301) 763-1128</cntvoice>
+        <cntfax>(301) 457-4710</cntfax>
+        <cntemail>tiger@census.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files.</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names. The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+    </attracc>
+    <logic>The feature network of lines (as represented by Record Types 1 and 2) is complete for census purposes. Spatial objects in TIGER/Line belong to the "Geometry and Topology" (GT) class of objects in the "Spatial Data Transfer Standard" (SDTS) FIPS Publication 173 and are topologically valid. Node/geometry and topology GT-polygon/chain relationships are collected or generated to satisfy topological edit requirements. These requirements include: (1) Complete chains must begin and end at nodes. (2) Complete chains must connect to each other at nodes. (3) Complete chains do not extend through nodes. (4) Left and right GT-polygons are defined for each complete chain element and are consistent throughout the extract process. (5) The chains representing the limits of the files are free of gaps. The Census Bureau performed automated tests to ensure logical consistency and limits of files. All polygons are tested for closure. The Census Bureau uses its internally developed Geographic Update System to enhance and modify spatial and attribute data in the Census TIGER database. Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities. The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census TIGER database files. Most of the codes for all geographic entities except states, counties, and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55. Feature attribute information has been examined but has not been fully tested for consistency.</logic>
+    <complete>Data completeness of the TIGER/Line files reflects the contents of the Census TIGER database at the time the TIGER/Line files (2005 Second Edition version) were created.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The Census Bureau uses Global Positioning System (GPS) coordinates at road centerline intersections to evaluate the horizontal spatial accuracy of source files that may be used to realign road features in the TIGER database and test the horizontal spatial accuracy of the road features in the TIGER/Line files. The test compares a survey-grade GPS coordinate to its associated road centerline intersection in the TIGER file. The test is based upon an independent collection of GPS coordinates for a random sample of road intersections from a centerline file that meet certain criteria. The points are referred to as the sample points and are gathered through a private contractor working for the Census Bureau. Since the collection method uses survey-quality GPS-based field techniques, the resulting control points are considered "ground truth" against which the TIGER road centerline intersection coordinates are compared. The distances between the coordinates are calculated and the Census Bureau determines the Circular Error 95% (CE95). That is, the accuracy of the file in meters with 95% confidence. The CE95 can be calculated from the mean and standard deviation by using the formula: mean of differences plus (2.65 times the standard deviation). CE95 results reported for each file tested are determined using a spreadsheet with embedded statistical formula. The use and applicability of the spreadsheet and its embedded formula have been verified by Census Bureau statisticians. The basis of the calculation is the use of the root mean square error (RSME). This is the method as stated in the U.S. Government's Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial Positioning Accuracy Standards. Part 3: National Standard for Spatial Data Accuracy. The results of using this measure of accuracy are in compliance with Federal Spatial Data requirements. In terms of the Census Bureau application, the dataset coordinate values are those taken from the centerline file and the coordinate values from an independent source of higher accuracy are those acquired through the Census Bureau's contractor. Please note that the horizontal spatial accuracy, where reported, refers only to the realigned road features identified as matched to the positionally accurate source file with that accuracy. It is not the spatial accuracy of the TIGER/Line file as a whole.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+            <pubdate>unknown</pubdate>
+            <title>Census TIGER database</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20041101</begdate>
+              <enddate>20050601</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Date the file was made available to create TIGER/Line File extracts.</srccurr>
+        </srctime>
+        <srccitea>TIGER</srccitea>
+        <srccontr>Selected geographic and cartographic information (line segments) from the Census TIGER database.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>In order for others to use the information in the Census TIGER database in a GIS or for other geographic applications, the Census Bureau releases periodic extracts of selected information from the Census TIGER database, organized as topologically consistent networks. Software (TIGER DB routines) written bythe Geography Division allows for efficient access to Census TIGER system data. TIGER/Line files are extracted from the Census TIGER database by county or statistical equivalent area. Census TIGER data for a given county or statisticalequivalent area is then distributed among 19 fixed length record ASCII files, each one containing attributes for either line, polygon, or landmark geographic data types. The Census Bureau has released various versions of the TIGER/Line filessince 1988, with each version having more updates (feature and feature names, address ranges and ZIP Codes, coordinate updates, revised field definitions, etc.) than the previous version.</procdesc>
+        <srcused>Census TIGER database</srcused>
+        <procdate>20050101</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Federal Information Processing Standards (FIPS) and feature names.</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>2806</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Boundaries.VOTING_DIST_2005</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>PLACEDC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GIST_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>VOTE00</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LSADC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>admin_dbo_voting_dist_2005_enti</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The TIGER/Line files contain data describing three major types of features/entities; Line Features - (1) Roads (2) Railroads (3) Hydrography (4) Miscellaneous transportation features and selected power lines and pipe lines (5) Legal (governmental unit) and statistical boundaries Landmark Features - (1) Point landmarks, e.g., schools and churches; sporadic coverage added on an as-needed basis (2) Area landmarks, e.g., Parks and cemeteries; sporadic coverage added on an as-needed basis Polygon features - (1) Geographic entity codes for areas used to tabulate the Census 2000 census statistical data and governmental unit boundaries legally in effect as of the latest Boundary and Annexation Survey (BAS) (2) Locations of area landmarks The line features and polygon information form the majority of data in the TIGER/Line files. Some of the data/attributes describing the lines include coordinates, feature identifiers (names), CFCCs (used to identify the most noticeable characteristic of a feature), address ranges, and geographic entity codes. The Census Bureau includes landmark features on an as-needed-basis and has made no attempt to ensure that all instances of a particular landmark feature were included. The TIGER/Line files contain point and area labels that describe landmark features and provide locational reference. Area landmarks consist of a feature name or label and feature Landmarks may overlap or refer to the same set of polygons. The Census TIGER database uses collections of spatial objects (points, lines, and polygons) to model or describe real-world geography. The Census Bureau uses these spatial objects to represent features such as streets, rivers, and political boundaries and assigns attributes to these features to identify and describe specific features such as the 500 block of Market Street in Philadelphia, Pennsylvania.</eaover>
+      <eadetcit>U.S. Census Bureau, TIGER/Line files, 2005 First Edition Technical Documentation. The TIGER/Line documentation defines the terms and definitions used within the files.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data. The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. Government in the use of these files. The boundary information in the TIGER/Line files are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/39</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20050601</metd>
+    <metrd>2005121</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Management Branch</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>4700 Silver Hill Road, Stop 7400</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20233-7400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(301) 763-1128</cntvoice>
+        <cntemail>tiger@census.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

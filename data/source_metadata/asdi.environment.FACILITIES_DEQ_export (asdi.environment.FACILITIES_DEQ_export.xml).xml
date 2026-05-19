@@ -1,0 +1,619 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas Department of Environmental Quality</origin>
+        <pubdate>20060510</pubdate>
+        <title>Enviromental Facility (point)</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Little Rock, Arkansas</pubplace>
+          <publish>AR Environmental Quality</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Arkansas Department of Environmental Quality</origin>
+            <pubdate>20000101</pubdate>
+            <title>Permit Data System (PDS)</title>
+            <onlink>http://www.adeq.state.ar.us</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Location data for facilities, incident sites and monitoring points, at the facility level, regulated or tracked by environmental programs within the jurisdiction of the Arkansas Department of Environmental Quality.</abstract>
+      <purpose>This dataset was developed for use in cartographic interfaces.</purpose>
+      <supplinf>This dataset is a subset of the full PDS dataset. The filter is based on the availability of high quality coordinates.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20060510</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Daily</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.603009</westbc>
+        <eastbc>-89.668080</eastbc>
+        <northbc>36.527633</northbc>
+        <southbc>32.976070</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Arkansas Department of Environmental Quality</themekt>
+        <themekey>NPDES</themekey>
+        <themekey>facilities</themekey>
+        <themekey>landfill</themekey>
+        <themekey>ADEQ</themekey>
+        <themekey>permits</themekey>
+        <themekey>discharge</themekey>
+        <themekey>processing</themekey>
+        <themekey>facility</themekey>
+        <themekey>storage tank</themekey>
+        <themekey>farm</themekey>
+        <themekey>chicken</themekey>
+        <themekey>underground storage facility</themekey>
+        <themekey>mining</themekey>
+        <themekey>pollution</themekey>
+        <themekey>air</themekey>
+        <themekey>chickens</themekey>
+        <themekey>plant</themekey>
+        <themekey>collection</themekey>
+        <themekey>tire</themekey>
+        <themekey>quarry</themekey>
+        <themekey>waste</themekey>
+        <themekey>storage tanks</themekey>
+        <themekey>petroleum</themekey>
+        <themekey>hog</themekey>
+        <themekey>storage</themekey>
+        <themekey>gravel</themekey>
+        <themekey>underground</themekey>
+        <themekey>landfills</themekey>
+        <themekey>injection</themekey>
+        <themekey>confined</themekey>
+        <themekey>hazardous</themekey>
+        <themekey>permit</themekey>
+        <themekey>coal</themekey>
+        <themekey>treatment</themekey>
+        <themekey>environment</themekey>
+        <themekey>hogs</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>structure</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>structure</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States of America</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Systems Board be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Systems Board does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although these data have been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Board regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>DEPARTMENT OF ENVIRONMENTAL QUALITY</cntorg>
+          <cntper>Cynthia Ragan</cntper>
+        </cntorgp>
+        <cntpos>GIS COORDINATOR</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>8001 NATIONAL DRIVE</address>
+          <city>LITTLE ROCK</city>
+          <state>ARKANSAS</state>
+          <postal>72209</postal>
+          <country>UNITED STATES OF AMERICA</country>
+        </cntaddr>
+        <cntvoice>(501) 682-0956</cntvoice>
+        <cntfax>501-682-0561</cntfax>
+        <cntemail>ragan@adeq.state.ar.us</cntemail>
+        <hours>Monday - Friday 8:00-5:00 Central Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Department of Environmental Quality</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes collected by ADEQ staff</attraccr>
+    </attracc>
+    <complete>Business Rules General Rules: ** Only fields for dates and numbers will allow a "null" (empty) value because "dummy" dates or zeroes can be misleading. Blank (empty) character fields will contain a single space instead.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Coordinates have been GPS post processed according to the Arkansas GPS Standard</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Information was collected according to ADEQ processes and is provided to the Arkansas Spatial Data Infrastructure via database synchronization.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Arkansas Department of Environmental Quality</cntorg>
+              <cntper>Cynthia Ragan</cntper>
+            </cntorgp>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>10414</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Environment.FACILITIES_ADEQ</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FGPSRCHNLS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OwnerName</attrlabl>
+        <attrdef>Facility owner name</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLatMin</attrlabl>
+        <attrdef>Latitude minutes</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLATSEC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSITECITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLongSec</attrlabl>
+        <attrdef>Longitude seconds</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLONGSEC</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FSTR</attrlabl>
+        <attrdef>Facility Section-Township-Range</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FMinPtPos</attrlabl>
+        <attrdef>GIS minimum point positions</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GISSRCRANK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FDATEMEAS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FPDOPMask</attrlabl>
+        <attrdef>GIS Position Dilution of Precision (PDOP) Mask</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FBASESTND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLATMIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AFIN</attrlabl>
+        <attrdef>ADEQ Facility ID Number; A standard facility is defined as a geographically bounded, contiguous piece of property under most circumstances and wherever feasible.</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FNAME</attrlabl>
+        <attrdef>Facility name</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FSNAICSC</attrlabl>
+        <attrdef>Facility secondary NAICS code</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FCOUNTY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FName</attrlabl>
+        <attrdef>Facility name</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FHorizAcc</attrlabl>
+        <attrdef>GIS horizontal accuracy</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FUTMZone</attrlabl>
+        <attrdef>UTM Zone</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FUTMNing</attrlabl>
+        <attrdef>UTM Northing</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FLatDec</attrlabl>
+        <attrdef>Latitude decimal number</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FBaseStn</attrlabl>
+        <attrdef>GIS base station name</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FSITEZIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSNRMask</attrlabl>
+        <attrdef>Signal-to-Noise Ratio (SNR) Mask</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FDatum</attrlabl>
+        <attrdef>Current GIS datum</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OWNERNAME</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FSITEADDR3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FGPSRecvr</attrlabl>
+        <attrdef>GPS receiver type name</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FUTMNING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSITESTATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FPNAICSD</attrlabl>
+        <attrdef>Facility primary NAICS description</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLATDEC</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FLongDec</attrlabl>
+        <attrdef>Longitude decimal number</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GISSrcRank</attrlabl>
+        <attrdef>GIS source rank</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLatDeg</attrlabl>
+        <attrdef>Latitude degrees (North to South)</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSiteCity</attrlabl>
+        <attrdef>Facility city</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FSiteAddr3</attrlabl>
+        <attrdef>Facility address 3</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FTNAICSC</attrlabl>
+        <attrdef>Facility tertiary NAICS code</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLatSec</attrlabl>
+        <attrdef>Latitude seconds</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FGISSOURCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FTNAICSD</attrlabl>
+        <attrdef>Facility tertiary NAICS description</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FBaseStnD</attrlabl>
+        <attrdef>GIS base station distance</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FGPSRChnls</attrlabl>
+        <attrdef>GPS receiver channels</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FGISCERTM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FUTMEING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FGPSRECVR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSNRMASK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSNAICSD</attrlabl>
+        <attrdef>Facility secondary NAICS description</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FSiteZip</attrlabl>
+        <attrdef>Facility zip code</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLONGDEG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FGISSource</attrlabl>
+        <attrdef>GIS source name</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLongDeg</attrlabl>
+        <attrdef>Longitude degrees (East to West)</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FDateMeas</attrlabl>
+        <attrdef>GIS date measured</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FPNAICSC</attrlabl>
+        <attrdef>Facility primary NAICS code</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FBASESTN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCounty</attrlabl>
+        <attrdef>Facility county</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FDATUM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FUTMZONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLONGDEC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSITEADDR2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FHORIZACC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FMINPTPOS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLONGMIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FUTMEing</attrlabl>
+        <attrdef>UTM Easting</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLongMin</attrlabl>
+        <attrdef>Longitude minutes</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FGISCertM</attrlabl>
+        <attrdef>GIS ADEQ-certified measurement (Y/N)</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FPDOPMASK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSiteAddr2</attrlabl>
+        <attrdef>Facility address 2</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FLATDEG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FSiteState</attrlabl>
+        <attrdef>Facility state postal abbreviation</attrdef>
+        <attrdefs>Arkansas Department of Environmental Quality</attrdefs>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>A full copy of the PDS Data Dictionary can be obtained from the Arkansas Department of Environmental Quality.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Systems Board be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Systems Board does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although these data have been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Board regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Environment/FeatureServer/0</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/enviromental-facility-point/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Department of Environmental Quality</cntorg>
+          <cntper>Randall Puckett</cntper>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Post Office Box 8913</address>
+          <address>8001 National Drive</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72219-8913</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(501) 682-0945</cntvoice>
+        <cntfax>(501) 682-0936</cntfax>
+        <cntemail>puckett@adeq.state.ar.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

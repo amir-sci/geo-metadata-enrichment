@@ -1,0 +1,209 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tom Foti, ANHC, Chief of Research</origin>
+        <pubdate>20180701</pubdate>
+        <title>asdi.ENVIRONMENT.POTENTIAL_NATURAL_VEGETATION_ANHC</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Potential Natural Vegetation (PNV) mapping: PROVIDES DETAILED MAPS TO GUIDE RESTORATION OF A HIGHLY ALTERED LANDSCAPE, THE MAPS REFLECT THE EXISTING HYDROLOGIC ENVIRONMENT, PARTICULARLY THE EFFECTS OF THE WORLD’S LARGEST AND MOST COMPREHENSIVE FLOOD CONTROL EFFORT, THE MISSISSIPPI RIVER AND TRIBUTARIES PROJECT, THESE RESTORATION TEMPLATES CAN BE USED IN A GIS ENVIRONMENT TO INVESTIGATE A WIDE RANGE OF SCENARIOS, INCLUDING LANDSCAPE-SCALE PLANNING AS WELL AS HIGHLY SITE-SPECIFIC RESTORATION DESIGN, THE HYDROGEOMORPHIC (HGM) CLASSIFICATION SYSTEM IS INCORPORATED IN THE PROCESS SO THAT THE MAPS REFLECT ECOSYSTEM FUNCTION AS WELL AS TRADITIONAL COMMUNITY COMPOSITION AND STRUCTURE. The HGM approach was used in the creation of this data.Section 404 of the Clean Water Act directs the U.S. Army Corps of Engineers to administer a regulatory program for permitting the discharge of dredged or fill material in “waters of the United States.” As part of the permit review process, the impact of discharging dredged or fill material on wetland functions must be assessed. In 1996, a National Action Plan to implement the Hydrogeomorphic Approach for developing Regional Guidebooks to assess wetland functions was published. The Hydrogeomorphic Approach is a collection of concepts and methods for developing functional indices and subsequently using them to assess the capacity of a wetland to perform functions relative to similar wetlands in a region. This report, one of a series of Regional Guidebooks that will be published in accordance with the National Action Plan, applies the Hydrogeomorphic Approach to wetland and riparian forests in the Arkansas Valley Region of Arkansas in a planning and ecosystem restoration context.</abstract>
+      <purpose>This compilation of information on Arkansas wetlands includes data and reports generated for five major projects. Although they were conducted to address different objectives and funded by various sponsors, all five are conceptually consistent and provide complementary descriptions of Arkansas wetland resources that can be used for various purposes. The primary purpose in compiling these studies in one place is to support efforts to restore and manage wetlands in Arkansas as effectively and efficiently as possible. Following is a brief summary of each project and the related products assembled here. Be aware that numerous people participated in the various research efforts described here. While a few of the principal participants are identified in this overview discussion, a more complete listing of contributing individuals can be found in the lists of authors and the prefaces of the various individual reports contained herein. The text above is quoted from Overview of Archived Products_ReadMe.pdf authored by Archeological Assessments, Inc. (AAI). The data describes the potential natural vegetation in southeastern Arkansas. Since the purpose of the data is to support ecosystem restoration design and planning, the focus is on the predominant long-term equilibrium community composition best adapted to persist on each site under the current hydrologic and climatic regime. This Appendix is also intended to call attention to the presence and scale of topographic features, such as natural levee ridges and shallow vernal pools, that are essential elements of most of the community types. Where those features have been significantly altered, they must be restored to their approximate original extent — prior to revegetation work — in order to establish the community types described here and mapped in the Field Atlas. The dominant and associated species listed are primarily trees, since most restoration projects in the region focus on reforestation, but understory species or other characteristics strongly associated with a particular community type are noted in some cases. The listed species do not necessarily all occur together in any particular stand, but may all be found on similar sites where mature, compositionally stable communities are present. No early successional communities are described, although seral patches exist in all of the community types, and in some settings — such as point bars within and along active channels — they may be extensive. Similarly, the community descriptions do not necessarily reflect the current vegetation found on many sites, which may have established under a previous hydrologic regime or been extensively manipulated. The community type names reflect the Hydrogeomorphic (HGM) Classification and landscape setting.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19970601</begdate>
+          <enddate>20170228</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Multiple government agencies including USGS contributed to this data over many years, coordinated by Multi-Agency-Wetland-Planning Team in Arkansas.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-92.266425</westbc>
+        <eastbc>-89.668296</eastbc>
+        <northbc>36.529502</northbc>
+        <southbc>32.972949</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Biology, Hydrogeomorphology, Potential Natural Vegetation. Land types, Wetlands, Hydrodynamics, Hydrogeomorphology Classification, Batture Forest Description</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>biota</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas, Mississippi Alluvial Valley, Mississippi River, USA</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>Historic, Pleistocene</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ANHC</cntorg>
+          <cntper>Michael Conway</cntper>
+        </cntorgp>
+        <cntpos>GIS Database Analyst</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1100 North St</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-324-9150</cntvoice>
+        <hours>8:00 am - 4:30 pm</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ANHC</cntorg>
+          <cntper>Tom Foti</cntper>
+        </cntorgp>
+        <cntpos>Chief of Research</cntpos>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Tom Foti ANHC, ANHC, AGFC, Arkansas State Multi-Agency Wetlands Planning Team (MAWPT), USACE, Archeological Assessments, Inc. (AAI), Nashville, Arkansas, Center for Advanced Spatial Technology (CAST) at the University of Arkansas, Fayetteville, Jennifer Sheehan (AGFC) and Malcom Williamson (CAST). William Isenberger and W. J. Bennett, Jr., both of AAI, Charles Klimas, acting as an independent consultant, and Mark Phillips, i-Maps, located in Springfield, Missouri.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.6.0.8321</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Polygons created by HGM method.</procdesc>
+        <procdate>20170127</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>369903</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.ENVIRONMENT.POTENTIAL_NATURAL_VEGETATION_ANHC</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Subclass</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Join_Field</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Hydrogeomorphology</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>General_Site_Characteristics</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Principal_Dominant_Species</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STArea()</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STLength()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20181211</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ANHC</cntorg>
+          <cntper>Michael Conway</cntper>
+        </cntorgp>
+        <cntpos>GIS Database Analyst</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>1100 North St</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-324-9150</cntvoice>
+        <hours>8:00 am - 4:30 pm</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

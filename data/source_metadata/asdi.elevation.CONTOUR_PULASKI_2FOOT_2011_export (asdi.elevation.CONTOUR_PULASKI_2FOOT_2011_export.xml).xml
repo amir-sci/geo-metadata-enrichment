@@ -1,0 +1,493 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>20120201</pubdate>
+        <pubtime>unknown</pubtime>
+        <title>Pulaski County 2010 - 2011 2 foot contours</title>
+        <geoform>Vector Data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset consists of 2 foot interval contour lines with ground elvation contained in the 3D geometry attribute data. Fugro EarthData, Inc collected LiDAR for approximately 714 square miles at 1.0 points per square meter (1.0m GSD) for the FEMA project area the southeast portion of Pulaski County in 2010, and most of the remaining part of the County in 2011. The extreme northeastern part of Pulaski County (essentially north of Highay 89 was not collected. Dewberry used proprietary procedures to classify the LAS according to project specifications: 1-Unclassified, 2-Ground, 7-Noise, 9-Water, 10-Ignored Ground, 11-Withheld Points. Dewberry produced 3D breaklines and combined these with the final LiDAR data to produce seamless hydro flattened DEMs for the 199 tiles (10,000 ft x 10,000 ft) that cover the project area. The contour data was generated from the bare earth DEM and DTM data.</abstract>
+      <purpose>The purpose of this contour data is provide a high accuracy elevation vector dataset with 3D geometry that may be used with GIS or CAD software for Engineering Planning, 3D modeling, 3D visualization, cartography and associated applications. The contours were generated from LiDAR data originally collected in 2010 and 2011 for the Federal Emergency Management Agency (FEMA) Map Modernization Program and Risk Map Program. The verical datum is NAVD1988. The purpose of this LiDAR data was to produce high accuracy 3D elevation products, including tiled LiDAR in LAS 1.2 format, 3D breaklines, terrain dataset, 2 ft contours, and 5 ft cell size hydro flattened Digital Elevation Models (DEMs).</purpose>
+      <supplinf>A complete description of this dataset is available in the Final Project Report submitted to the USGS.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20101227</begdate>
+          <enddate>20110127</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-92.765581</westbc>
+        <eastbc>-92.023376</eastbc>
+        <northbc>34.965329</northbc>
+        <southbc>34.488568</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Hydro Flattened</themekey>
+        <themekey>DEM</themekey>
+        <themekey>Lidar</themekey>
+        <themekey>Elevation</themekey>
+        <themekey>LAS</themekey>
+        <themekey>Contours</themekey>
+        <themekey>DTM</themekey>
+        <themekey>Breaklines</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Saline County, Arkansas</placekey>
+        <placekey>Perry County, Arkansas</placekey>
+        <placekey>Pulaski County, Arkansas</placekey>
+        <placekey>Lonoke County, Arkansas</placekey>
+        <placekey>Faulkner County, Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This data was produced for the USGS according to specific project requirements. This information is provided "as is". Further documentation of this data can be obtained by contacting: USGS/NGTOC, 1400 Independence Road, Rolla, MO 65401. Telephone (573) 308-3700.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS</cntorg>
+        </cntorgp>
+        <cntpos>USGS NGTOC</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1400 Independence Road</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(573) 308-3587</cntvoice>
+        <cntemail>pemmett@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Federal Emergency Managment Agency (FEMA), Pulaski Area GIS (PAgis), Central Arkansas Water, City of Jacksonville, City of Little Rock, City of North Little Rock, City of Sherwood, Little Rock Wastewater, North Little Rock Wastewater, Pulaski County Public Works, Arkansas National Guard / Camp Robinson, and the United State Geological Survey (USGS).</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 10.0</native>
+  </idinfo>
+  <dataqual>
+    <logic>Data covers the tile scheme provided for the project area.</logic>
+    <complete>A visual qualitative assessment was performed to ensure data completeness and full tiles. Two data voids exist within the USGS PAgis V13 LiDAR project area. One occurrs in delivered tile 15WU1622 and is approximately 0.13 square miles. The second occurs in delivered tile 15WU2116 and is approximately 0.13 square miles. Dewberry would normally ensure that tiles within the project boundary contain data to the full extent of each tile and gaps in the data at the project boundary would be unacceptable but, as noted in the Task Order, Dewberry was not tasked with the LiDAR acquisition for the project area.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The contours are derived from a surface generated from the source LiDAR and 3D breaklines created from the LiDAR. Horizontal accuracy is not performed on the contours, breaklines, or source LiDAR. Lidar source compiled to meet 3.28 foot (1 meter) horizontal accuracy.</horizpar>
+        <qhorizpa>
+          <horizpav>3.28 feet</horizpav>
+          <horizpae>PAgis was flown as part of a FEMA LiDAR project. The contours are derived from a surface generated from the source LiDAR and 3D breaklines created from the LiDAR. Horizontal accuracy is not performed on the contours, breaklines, or source LiDAR. LiDAR vendors perform calibrations on the LiDAR sensor and compare data to adjoing flight lines to ensure LiDAR meets the 3.28 ft (1 meter) horizontal accuracy standard at the 95% confidence level. Please see the final project report delivered to the USGS for more details.</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The contours are derived from a surface generated from the source LiDAR and 3D breaklines created from the LiDAR. Vertical accuracy is not tested on the contours. The vertical accuracy of the LiDAR recently processed by Dewberry was tested with the 83 independent survey checkpoints. The survey checkpoints were evenly distributed throughout the project area and were located in 4 land cover catagories; high grass (22), forest (20), urban (20), and open terrain (21). Checkpoints in open terrain were used to compute the Fundamental Vertical Accuracy (FVA). Project specifications required a FVA of 0.80 ft (24.5 cm) based on a RMSEz x 1.9600. All checkpoints were used to compute the Consolidated Vertical Accuracy (CVA). Project specifications required a CVA of 1.19 ft based on the 95th percentile.</vertaccr>
+        <qvertpa>
+          <vertaccv>0.26 ft</vertaccv>
+          <vertacce>The contours are derived from a surface generated from the source LiDAR and 3D breaklines created from the LiDAR. Vertical accuracy is not tested on the contours. PAgis was flown as part of a FEMA LiDAR project. Please see the final project report delivered to the USGS for more details. Based on the vertical accuracy testing conducted by Dewberry, using NSSDA and FEMA methodology, vertical accuracy at the 95% confidence level (called Accuracyz) is computed by the formula RMSEz x 1.9600. The dataset for the project satisfies the criteria: The recently processed Lidar dataset for PAgis tested 0.26 ft (7.9 cm) vertical accuracy at 95% confidence level in open terrain, based on RMSEz (0.13 ft/3.96 cm) x 1.9600. Based on the vertical accuracy testing conducted by Dewberry, using NDEP and ASPRS methodology, consolidated vertical accuracy at the 95% confidence level is computed using the 95th percentile method. The dataset for the project satisfies the criteria: Lidar dataset for PAgis tested 0.28 ft (8.5 cm) vertical accuracy at 95% confidence level in all land cover categories combined.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Data for the PAgis LiDAR project was acquired by Fugro EarthData, Inc. LiDAR collected at 1.0 points per square meter (1.0m GSD) for the Pulaski County Arkansas covering or portions of Pulaski and Faulkner Counties AR. This area was flown during snow free and leaf-off conditions. Fugro EarthData, Inc. flew and collected the LiDAR data. The project area requires LiDAR to be collected on average of 1.0 meter point spacing or better and vertical accuracy of 12.5 centimeters RMSE. Classified LAS were tested by Fugro EarthData for both vertical and horizontal accuracy. All data are seamless from one tile to the next. TerraSurv under contract to Fugro EarthData, Inc. successfully established ground control for the Pulaski AOI. A total of 26 ground control points in the Pulaski AOI were acquired. GPS was used to establish the control network. The horizontal datum was the North American Datum of 1983, 2007 adjustment (NAD83/2007). The vertical datum was the North American Vertical Datum of 1988 (NAVD88). The Fugro EarthData, Inc. acquisition team collected ALS60 derived lidar over the Pulaski AOI in the State of Arkansas with a 1m, nominal post spacing using a Piper Navajo aircraft. The collection for the entire project area was accomplished from December 27, 2011 through January 27, 2011. The collection was performed using a Leica ALS60 MPiA lidar system, serial numbers ALS142 and ALS113, including an inertial measuring unit (IMU) and a dual frequency GPS receiver. This project required 5 lifts of flight lines to be collected. The lines were flown at an average of 6,000 feet above mean terrain using a maximum pulse rate frequency of 123,700 Hz. The sensor had a 34 degree FOV and a scan rate of 40. 1. Lidar, GPS, and IMU data was processed together using lidar processing software. 2. The lidar data set for each flight line was checked for project area coverage and lidar post spacing was checked to ensure it meets project specifications. 3. The lidar collected at the calibration area and project area were used to correct the rotational, atmospheric, and vertical elevation differences that are inherent to lidar data. 4. Intensity rasters were generated to verify that intensity was recorded for each lidar point. 5. Lidar data was transformed to the specified project coordinate system. 6. By utilizing the ground survey data collected at the calibration site and project area, the lidar data was vertically biased to the ground. 7. Comparisons between the biased lidar data and ground survey data within the project area were evaluated and a final RMSE value was generated to ensure the data meets project specifications.</procdesc>
+        <srcused>Inertial Measurement Unit</srcused>
+        <srcused>Airborne Global Positioning System Data</srcused>
+        <procdate>20110127</procdate>
+        <srcprod>Calibrated LiDAR Point Cloud LAS 1.2 format</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro EarthData, Inc.</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>1-301-948-8550</cntvoice>
+            <cntfax>1-301-963-2064</cntfax>
+            <hours>Monday to Friday, 8 - 5, CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>LiDAR intensity stereopairs were viewed in 3-D stereo using Socet Set for ArcGIS softcopy photogrammetric software. The breaklines are collected directly into an ArcGIS file geodatabase to ensure correct topology. The LiDARgrammetry was performed under the direct supervision of an ASPRS Certified Photogrammetrist. The breaklines were stereo-compiled in accordance with the Data Dictionary. Inland Lakes and Ponds and Inland Streams and Rivers were collected according to specifications for the USGS PAgis LiDAR Project.</procdesc>
+        <srcused>Lidar Intensity Stereopairs</srcused>
+        <procdate>20111101</procdate>
+        <srcprod>3D breaklines</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>8:00 - 5:00 EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Dewberry utilizes a variety of software suites for inventory management, classification, and data processing. All LiDAR related processes begin by importing the data into the GeoCue task management software. The swath data is tiled according to project specifications (10,000 ft x 10,000 ft). The tiled data is then opened in Terrascan where Dewberry uses proprietary ground classification routines to remove any non-ground points and generate an accurate ground surface. Before the actual ground routine is run points with scan angles greater than plus or minus 19 degrees are classified to class 11, Withheld. Due to higher scan angles these points have the potential to introduce issues into the ground and are therefore not used in the final ground surface. The ground routine consists of three main parameters (building size, iteration angle, and iteration distance); by adjusting these parameters and running several iterations of this routine an initial ground surface is developed. The building size parameter sets a roaming window size. Each tile is loaded with neighboring points from adjacent tiles and the routine classifies the data section by section based on this roaming window size. The second most important parameter is the maximum terrain angle, which sets the highest allowed terrain angle within the model. Once the ground routine has been completed a manual quality control routine is done using hillshades, cross-sections, and profiles within the Terrasolid software suite. After this QC step, a peer review and supervisor manual inspection is completed on a percentage of the classified tiles based on the project size and variability of the terrain. After the ground classification corrections were completed, the dataset was processed through a water classification routine that utilizes breaklines compiled by Dewberry to automatically classify hydrographic features. The water classification routine selects ground points within the breakline polygons and automatically classifies them as class 9, water. During this water classification routine, points that are within 3 ft of the hydrographic features are moved to class 10, an ignored ground due to breakline proximity. In addition to classes 1, 2, 9, 10 and 11, there is a Class 7, noise points. This class was only used if needed when points could manually be identified as low/high points. The fully classified dataset is then processed through Dewberry's comprehensive quality control program. The data was classified as follows: Class 1 = Unclassified. This class includes vegetation, buildings, noise etc. Class 2 = Ground Class 7= Noise Class 9 = Water Class 10 = Ignored Class 11 = Withheld Points The LAS header information was verified to contain the following: Class (Integer) GPS Week Time (0.0001 seconds) Easting (0.01 foot) Northing (0.01 foot) Elevation (0.01 foot) Echo Number (Integer 1 to 4) Echo (Integer 1 to 4) Intensity (8 bit integer) Flight Line (Integer) Scan Angle (Integer degree)</procdesc>
+        <srcused>Calibrated LiDAR Point Cloud LAS 1.2 format</srcused>
+        <procdate>20111201</procdate>
+        <srcprod>LiDAR datasets with USGS classifications</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>Monday to Friday, 8 - 5, CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Dewberry used GeoCue software to develop raster stereo models from the LiDAR intensity. The raster resolution was 1ft.</procdesc>
+        <srcused>Final LiDAR datasets with USGS classifications</srcused>
+        <procdate>20111201</procdate>
+        <srcprod>Lidar Intensity Stereopairs</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>8:00 - 5:00 EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The contours are smoothed according to project specifications. Smoothing is accomplished by removing sharp corners and jagged bends in the contour data. Depending on the level of aesthetics required, multiple iterations of smoothing may be performed. Proprietary tools in an ESRI environment are used to perform the smoothing iterations.</procdesc>
+        <srcused>Cleaned 2FT Contours</srcused>
+        <procdate>20120201</procdate>
+        <srcprod>Smoothed 2FT Contours</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>8:00 - 5:00 EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Contours created from LiDAR data often contain large amounts of noise. This noise is reduced by using contour model key points. However, additional noise is removed by removing small closed contours that do not represent the tops of hills or bottoms of depressions.</procdesc>
+        <srcused>Initial 2FT Contours</srcused>
+        <procdate>20120201</procdate>
+        <srcprod>Cleaned 2FT Contours</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>8:00 - 5:00 EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Using ArcGIS software, the contours are validated for correct topology, including must not intersect, must not self intersect, and must not have dangles. Contours are then manually reviewed with the 3D breaklines to ensure complete coverage, data integrity and that contours behave correctly around water bodies, water crossings, and elevated features such as overpasses.</procdesc>
+        <srcused>Smoothed 2FT Contours</srcused>
+        <procdate>20120201</procdate>
+        <srcprod>Final 2FT Contours</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>8:00 - 5:00 EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>2 FT contours were generated from the ESRI Terrain using ArcGIS software. Contours are labeled as intermediate or index with index contours set to every 10 feet.</procdesc>
+        <srcused>ESRI Terrain</srcused>
+        <procdate>20120201</procdate>
+        <srcprod>Initial 2FT Contours</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>8:00 - 5:00 EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Contour model key points are generated from the final LAS tiles. Model key points are intelligently thinned points that still depict all necessary breaks and changes in a surface but remove unnecessary or redundant points. The contour model key points are converted to a multipoint file and stored in an Arc Geodatabase (GDB). The 3D breaklines, Inland Lakes and Ponds and Inland Streams and Rivers, are imported into the same GDB. An ESRI Terrain is generated from these inputs. The surface type of each input is as follows: Model key point (multipoints): Masspoints Inland Lakes and Ponds: Hard Replace Inland Streams and Rivers: Hard Line</procdesc>
+        <srcused>3D Breaklines</srcused>
+        <srcused>Lidar Ground Points, Model key points</srcused>
+        <procdate>20120201</procdate>
+        <srcprod>ESRI Terrain</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntfax>813.225.1385</cntfax>
+            <cntemail>jnovac@dewberry.com</cntemail>
+            <hours>8:00 - 5:00 EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>146411</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500955</absres>
+            <ordres>0.000000002220024164500955</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PAgis_CONTOUR_2FT</enttypl>
+        <enttypd>2ft Contours</enttypd>
+        <enttypds>USGS PAgis LiDAR Project Data Dictionary</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Type</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>st_length_shape_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEVATION</attrlabl>
+        <attrdef>Contour elevation value</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Whole numbers representing elevation values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>This data was produced for the USGS according to specific project requirements. This information is provided "as is". Further documentation of this data can be obtained by contacting: USGS/NGTOC, 1400 Independence Road, Rolla, MO 65401. Telephone (573) 308-3700.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Elevation/FeatureServer/4</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/pulaski-county-2-foot-contours-line/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20111107</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS</cntorg>
+          <cntper>Joseph W. Scott</cntper>
+        </cntorgp>
+        <cntpos>USGS NGTOC</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1400 Independence Road</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(573) 308-3587</cntvoice>
+        <cntemail>pemmett@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

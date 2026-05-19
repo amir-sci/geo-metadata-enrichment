@@ -1,0 +1,322 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>AGFC GIS Divisional Staff</origin>
+        <title>Wildlife Management Area Boundary (polygon)</title>
+        <edition>2.0</edition>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>AR Game and Fish Commission</publish>
+        </pubinfo>
+        <onlink>http://www.gis.arkansas.gov/?product=wildlife-management-area-boundary-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Arkansas Game &amp; Fish Commission Wildlife Management Areas</abstract>
+      <purpose>To convey information to users, so that map construction and design can be done in a timely and accurate fashion. This metadata covers all AGFC owned WMA's in the state of Arkansas.</purpose>
+      <supplinf>WMA shapefiles with revision dates prior to 2002 were digitized into AutoCad version 13 &amp; above; from deed and plat book information using hard copy topo maps and State Plane coordinates. Conversion to UTM Nad 27 ESRI shapefiles was completed in ArcView 3x and to UTM Nad 83 projection in ArcMap version 8x. Areas with a revision date of 2002 or later have been revised for ArcMap 8x or higher using UTM Nad 83 projection. Acreage information is based on shapefile area calculations.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20010101</begdate>
+          <begtime>unknown</begtime>
+          <enddate>20051004</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.193464</westbc>
+        <eastbc>-90.037431</eastbc>
+        <northbc>36.525188</northbc>
+        <southbc>32.979218</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>environment</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>huntin</themekey>
+        <themekey>racoon</themekey>
+        <themekey>duck</themekey>
+        <themekey>hunting</themekey>
+        <themekey>wma</themekey>
+        <themekey>deer</themekey>
+        <themekey>elk</themekey>
+        <themekey>bear</themekey>
+        <themekey>area</themekey>
+        <themekey>AGFC</themekey>
+      </theme>
+    </keywords>
+    <accconst>For Reference Purposes Only</accconst>
+    <useconst>For Reference Purposes Only</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas Game &amp; Fish Commission</cntorg>
+          <cntper>Tracy Moy</cntper>
+        </cntorgp>
+        <cntpos>AGFC GIS Coordinator and GIS Divisional Chief</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address># 2 Natural Resources Drive</address>
+          <city>Little Rock</city>
+          <state>Arkansas</state>
+          <postal>72205</postal>
+          <country>U.S.A.</country>
+        </cntaddr>
+        <cntvoice>(501) 223-6336</cntvoice>
+        <cntfax>(501) 223-6419</cntfax>
+        <cntemail>tjmoy@agfc.state.ar.us</cntemail>
+        <hours>Monday - Friday 09:00-18:00</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>AGFC Shapefiles</browsen>
+      <browsed>Geo-Referenced Vector Data</browsed>
+    </browse>
+    <datacred>Created by the Arkansas Game &amp; Fish Commission GIS Division Staff</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+      <sechandl>For References Purposes Only</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <logic>Areas are in correct geographical locations, per deeds.</logic>
+    <complete>Refer to Revision date of individual WMA for last update Those area's that are included are those that AGFC holds sole ownership. Co-op area shapefiles can be obtained by contacting the individual landowner(s).</complete>
+    <lineage>
+      <procstep>
+        <procdesc>WMA shapefiles with revision dates prior to 2002 were digitized into AutoCad version 13 &amp; above; from deed and plat book information using hard copy topo maps and State Plane coordinates. Conversion to UTM Nad 27 ESRI shapefiles was completed in ArcView 3x and to UTM Nad 83 projection in ArcMap version 8x. Areas with a revision date of 2002 or later have been revised for ArcMap 8x or higher using UTM Nad 83 projection. Acreage information is based on shapefile area calculations.</procdesc>
+        <procdate>20051013</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>67</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ARWMAs</enttypl>
+        <enttypd>Vector data representing boundary line information for Arkansas Game &amp; Fish Commission owned Wildlife Management Areas.</enttypd>
+        <enttypds>GIS Divisional Staff</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>APROX_ACRE</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOwner</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Aprox_Acre</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FEATTYPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FeatType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REVISED</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FeatName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FEATNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Revised</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOWNER</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Systems Board be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Systems Board does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although these data have been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Board regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/wildlife-management-area-boundary-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/37</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20041002</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20051018</metd>
+    <metrd>20051108</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>AGFC GIS Division</cntorg>
+          <cntper>Tracy Moy</cntper>
+        </cntorgp>
+        <cntpos>Chief- GIS Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>#2 Natural Resources Drive</address>
+          <city>Little Rock</city>
+          <state>Arkansas</state>
+          <postal>72205</postal>
+          <country>U.S.A</country>
+        </cntaddr>
+        <cntvoice>501.223.6338</cntvoice>
+        <cntfax>501.223.6455</cntfax>
+        <cntemail>tjmoy@agfc.state.ar.us</cntemail>
+        <hours>M-F 09:00 - 17:00</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

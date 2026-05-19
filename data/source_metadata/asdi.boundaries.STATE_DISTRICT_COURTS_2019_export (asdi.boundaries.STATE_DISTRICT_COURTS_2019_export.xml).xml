@@ -1,0 +1,173 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>State District Courts - 2019 Vintage</title>
+        <edition>2019 Vintage</edition>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Arkansas GIS Office</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>SPECIAL NOTE: Users are advised the implementation of State District Courts spans numerous years. Users are advised to determine the appropriate time period or vintage for their purpose. The district boundaries portrayed in this collection were current as of the 92nd General Assembly of 2019 and may be subject to change in future legislative sessions. The GIS data in this file shows the District Court boundaries, identifies the district court numbers, the written number, the sub-division if applicable, the date the district court becomes effective, the year effective and a reference to the state statute which contains the written description of the district terrirtory.</abstract>
+      <purpose>The District Court Resource Assessment Board, created in § 16-17-1001 et seq., studied the effectiveness of the state's creation of pilot district courts and found that they were successful in creating a more uniform and equitable judicial system, reducing the number of district and city court judges, maintaining the level of service to the communities served by district and city courts, allowing the shift of cases from circuit to district courts, decreasing the number of conflicts requiring the appointment of special judges, and improving public access to the court system.  The Board recommended the state should continue the incremental creation of state district courts served by full-time judges and designate geographic districts that have sufficient caseloads to justify a full-time judge until the system is implemented and operating statewide.  The Arkansas General Assembly continued the implementation of District Courts and in 2019 passed laws that established the districts themselves and the time period for implementation of the District Courts. </purpose>
+    </descript>
+    <status>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.617868</westbc>
+        <eastbc>-89.617864</eastbc>
+        <northbc>36.510504</northbc>
+        <southbc>32.969261</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>state district court</themekey>
+        <themekey>courts</themekey>
+        <themekey>judicial</themekey>
+        <themekey>judiciary</themekey>
+        <themekey>election</themekey>
+        <themekey>elections</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>PUBLIC DOMAIN</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntperp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Administrative Office of the Courts</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.0.8321</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>35</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.BOUNDARIES.STATE_DISTRICT_COURTS_2019</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistNumber</attrlabl>
+        <attrdef>Stores a representation of the State Court Judicial District number. </attrdef>
+        <attrdefs>ACA 16-17-1110</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DistName</attrlabl>
+        <attrdef>Stores the name of the State District Court.</attrdef>
+        <attrdefs>ACA 16-17-1110</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Division</attrlabl>
+        <attrdef>Stores the subdivision name of the State Court Judicial District for sub-districts. Where applicable some State District Courts were subdvided and named.</attrdef>
+        <attrdefs>ACA 16-17-1110</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Effective</attrlabl>
+        <attrdef>Stores the implementation effective date governed by statute.</attrdef>
+        <attrdefs>ACA 16-17-1110</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Stores the implementation year governed by statute.</attrdef>
+        <attrdefs>ACA 16-17-1110</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Ark_Law</attrlabl>
+        <attrdef>Stores the citation to the Arkansas statute governing the implementation of the State District Court territory. </attrdef>
+        <attrdefs>ACA 16-17-1110</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STArea()</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STLength()</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Table Attributes</enttypl>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20200624</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas GIS Office</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>SPECIAL NOTE:  Users are advised the implementation of State District Courts spans numerous years.  Users are advised to determine the appropriate time period or vintage for their purpose.</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,238 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tammy Hocut, USDA Forest Service - Ozark-St. Francis NFs, GIS Coordinator</origin>
+        <pubdate>20140415</pubdate>
+        <title>Ozark National Forest Service Compartments (polygon)</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.gis.arkansas.gov/?product=ozark-national-forest-service-compartments-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Ozark - St. Francis National Forests stand inventory data for vegetation, maintained in polygon format. Compartment is defined as a division of forest for purposes of orientation, administration, and silvicultural operations. It is defined by permanent boundaries, of natural features or artificially marked.</abstract>
+      <purpose>Ozark-St. Francis NFs use these compartment areas to subdivide smaller areas to inventory and management of the land and timber resources</purpose>
+    </descript>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.501933</westbc>
+        <eastbc>-90.533277</eastbc>
+        <northbc>36.232455</northbc>
+        <southbc>34.567496</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>environment</themekey>
+        <themekey>Biota</themekey>
+        <themekey>Boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service - Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>960</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.OZARKNF_COMPARTMENT</enttypl>
+        <enttypd>Compartment layer</enttypd>
+        <enttypds>http://www.fs.fed.us/emc/nris/ftp/fsveg/cse_user_guides/R8_appendix.doc</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FOREST_PROC</attrlabl>
+        <attrdef>Proclaimed Forest number</attrdef>
+        <attrdefs>Table for NRV_SETTING_MEASUREMENTS http://www.fs.fed.us/emc/nris/ftp/fsveg/data_dictionary/dd_data_tables.doc</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MODIFIED_DATE</attrlabl>
+        <attrdef>Date feature was modifed</attrdef>
+        <attrdefs>Oracle</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>REGION_PROC</attrlabl>
+        <attrdef>Proclaimed Region Number</attrdef>
+        <attrdefs>Table for NRV_SETTING_MEASUREMENTS http://www.fs.fed.us/emc/nris/ftp/fsveg/data_dictionary/dd_data_tables.doc</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MODIFIED_BY</attrlabl>
+        <attrdef>Oracle User</attrdef>
+        <attrdefs>Oracle</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SPATIAL_ID</attrlabl>
+        <attrdef>Numeric ID for each compartment</attrdef>
+        <attrdefs>Oracle</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT_NO</attrlabl>
+        <attrdef>Administrative Unit on the Forest: 1 - Sylamore, 2 &amp; 3 - Big Piney, 4 - Pleasant Hill, 5 - Boston Mountain, 6 - Mt. Magazine, 7 - St. Francis</attrdef>
+        <attrdefs>http://www.fs.fed.us/emc/nris/ftp/fsveg/cse_user_guides/R8_appendix.doc</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CREATED_DATE</attrlabl>
+        <attrdef>Date feature was pulled from the database</attrdef>
+        <attrdefs>Oracle</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CREATED_BY</attrlabl>
+        <attrdef>Oracle based users</attrdef>
+        <attrdefs>Oracle</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+        <attrdef>Division of forest for purposes of orientation, administration, and silvicultural operations. It is defined by permanent boundaries, of natural features or artificially marked. Also referred to as Compartment.</attrdef>
+        <attrdefs>Table for NRV_SETTING_MEASUREMENTS http://www.fs.fed.us/emc/nris/ftp/fsveg/data_dictionary/dd_data_tables.doc</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/22</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/ozark-national-forest-service-compartments-polygon/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service - Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>605 West Main Street</address>
+          <city>Russellville</city>
+          <state>AR</state>
+          <postal>72801</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>479-964-7211</cntvoice>
+        <cntfax>479-964-7285</cntfax>
+        <cntemail>thocut@fs.fed.us</cntemail>
+        <hours>0800-1630</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>The Forest Service uses the most current and complete data available. GIS data and product accuracy may vary. They may be: developed from sources of differing accuracy, accurate only at certain scales, based on modeling or interpretation, incomplete while being created or revised, etc. Using GIS products for purposes other than those for which they were created, may yield inaccurate or misleading results. The Forest Service reserves the right to correct, update, modify, or replace, GIS products without notification.</metuc>
+  </metainfo>
+</metadata>

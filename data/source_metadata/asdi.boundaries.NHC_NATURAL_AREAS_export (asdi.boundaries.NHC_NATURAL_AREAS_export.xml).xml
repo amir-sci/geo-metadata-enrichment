@@ -1,0 +1,196 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>NHCNAS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Arkansas Natural Heritage Commission is a state agency within the Department of Arkansas Heritage. It holds fee title or restrictive conservation easements on lands in the state of Arkansas. These areas are referred to as “Natural Areas.” They were acquired by the agency because they protect an important aspect of the state’s natural diversity. Frequently, they provide habitat to rare, endangered, or threatened species, or are high quality examples of natural community types. The areas are managed to support these special features and are protected in perpetuity.Contact Information:Cindy Osborne, Data ManagerArkansas Natural Heritage Commission1500 Tower Building323 Center StreetLittle Rock, AR 72201Phone: 501-324-9762Fax: 501-324-9618e-mail: cindy@arkansasheritage.orgSource of Data:Deeds and survey documents.Mapping Information:Natural Area boundaries have been created as polygons in ArcGIS software. These boundaries were drawn at a 1:24,000 scale using digital quadrangles and aerial imagery as a background and interpreting the legal descriptions from deeds and survey documents. Descriptions of Fields in Data TableMacode Managed Area Code. This is a unique identifying code used by the Arkansas Natural Heritage Commission.Maname Managed Area Name. This is the official name used by the Arkansas Natural Heritage Commission for the Natural Area.Countyname County name. The name(s) of the counties in which the natural area falls.Quadname Quadrangle Name. This is the name of the USGS 7.5’ Topographic Quadrangle on which the Natural Area falls.Townrange1 Township/Range. This is the township and range in which the Natural Area lies. This represents the Centrum Township and Range.Section_1 Sections. This is the section(s) in which the Natural Area lies. Sections listed in this field correlate with Townrange1. The centrum section is typically listed first.Townrange2 Township/Range. This is the township and range in which the Natural Area lies. Section_2 Sections. This is the section(s) in which the Natural Area lies. Sections listed in this field correlate with Townrange2.Townrange3 Township/Range. This is the township and range in which the Natural Area lies. Section_3 Sections. This is the section(s) in which the Natural Area lies. Sections listed in this field correlate with Townrange3.Townrange4 Township/Range. This is the township and range in which the Natural Area lies. Section_4 Sections. This is the section(s) in which the Natural Area lies. Sections listed in this field correlate with Townrange4.Dateadded Date added. This is the year in which the Natural Area was originally added to the system of Natural Areas.SizeSize of the Natural Area. This is the size of the Natural Area in acres.LatitudeLatitude of a point on the natural area. If the area does not have public access, no latitude coordinate is given.Longitude Longitude of a point on the natural area. If the area does not have public access, no longitude coordinate is givenCoorddesc Coordinate description. This provides a description of the point given by the latitude and longitude coordinates. Areas without public access may not have an assigned latitude/longitude coordinate. Points may represent the location of an entrance sign, parking area,or other location of interest. In some cases these points may fall outside of the natural area boundaries.</abstract>
+      <purpose>This layer was created to delineate the approximate boundaries of areas in which the Arkansas Natural Heritage Commission holds either a conservation easement or fee title.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-94.494965</westbc>
+        <eastbc>-90.158824</eastbc>
+        <northbc>36.522473</northbc>
+        <southbc>33.025209</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Arkansas Natural Heritage Commission Natural Areas</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>Arkansas Natural Heritage Commission, an agency of the Department of Arkansas Heritage</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>71</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500955</absres>
+            <ordres>0.000000002220024164500955</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.NHC_NATURAL_AREAS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SECTION4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SECTION_3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TOWNRANGE4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TOWNRANGE3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SECTION_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COORDDESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATEADDED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QUADNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MACODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SECTION_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MANAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TOWNRANGE1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>objectid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TOWNRANGE2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SIZE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/natural-areas-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/21</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

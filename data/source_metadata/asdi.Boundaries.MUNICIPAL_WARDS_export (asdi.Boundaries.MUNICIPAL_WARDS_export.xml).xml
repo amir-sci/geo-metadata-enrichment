@@ -1,0 +1,191 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.boundaries.MUNICIPAL_WARDS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The municipal ward boundary is a publication of polygons of city wards in Arkansas. The Arkansas GIS Office maintains this file in coordination with the municipalities of the State. It represents the contemporary wards of the city. The exterior ward boundaries are derived from the municipal boundary. When necessary the data were adjusted to conform to known physical features. This dataset does not represent exact legal boundaries as per surveyed description, but, rather a set of boundaries used for the administrative purposes that conforms to logical &amp; administrative rules. These polygons may be edited for the purpose of small spatial alignment changes based on new, enhanced or improved supporting basemap data, such as orthoimagery, public land survey, or cadastral data that improves the spatial accuracy of the existing geometry.</abstract>
+      <purpose>The data contained within this collection is an INCOMPLETE publication of the municipal wards for cities in Arkansas. Arkansas law permits city government to elect city council members AT-LARGE or by dividing the city into wards of substantially equal population, whereby the council member resides within and represents the ward in which they live.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-94.575125</westbc>
+        <eastbc>-89.798428</eastbc>
+        <northbc>36.501469</northbc>
+        <southbc>33.045733</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>ward</themekey>
+        <themekey>city</themekey>
+        <themekey>towns</themekey>
+        <themekey>election</themekey>
+        <themekey>municipal</themekey>
+        <themekey>wards</themekey>
+        <themekey>town</themekey>
+        <themekey>municipality</themekey>
+        <themekey>city council</themekey>
+        <themekey>incorporated</themekey>
+        <themekey>vote</themekey>
+        <themekey>precinct</themekey>
+        <themekey>cities</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>PUBLIC DOMAIN</useconst>
+    <datacred>Arkansas GIS Office</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.0.8321</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>411</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.MUNICIPAL_WARDS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY_NAME</attrlabl>
+        <attrdef>Stores the legal name of the incorporated city.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REVISION_TYPE</attrlabl>
+        <attrdef>Stores the type of edit revision to the boundary polygon.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Legal Update</edomv>
+            <edomvd>Represents a boundary revision resulting from a statutory procedure permitted by Arkansas law. Tells the user the edit revision was a result of legal procedure.</edomvd>
+            <edomvds>Arkansas GIS Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>Geometry Correction</edomv>
+            <edomvd>Represents small spatial alignment changes based on new, enhanced or improved supporting basemap data, such as orthoimagery, public land survey, or cadastral data that improves the spatial accuracy of the existing geometry</edomvd>
+            <edomvds>Arkansas GIS Office</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY_FIPS</attrlabl>
+        <attrdef>Stores the unique numerical code for the city developed under the Federal Information Processing Standards.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CLASSIFICATION</attrlabl>
+        <attrdef>Describes the statutory classification of the municipality established in state law as follows: 14-37-103. Population limits. (a) (1) All municipal corporations having over two thousand five hundred (2,500) inhabitants shall be deemed cities of the first class. (2) All cities having five hundred (500) inhabitants or more and fewer than two thousand five hundred (2,500) inhabitants shall be deemed cities of the second class. (3) All others shall be incorporated towns and shall be governed by the provisions of this subtitle. (b) (1) Any incorporated towns of fewer than five hundred (500) inhabitants who have voted to be a city of the second class under § 14-37-112 shall continue to be a city of the second class. (2) Any city having a population of one thousand five hundred (1,500) or more may become a city of the first class upon the enactment of an ordinance therefor, with all powers, authority, and responsibility of other cities of the first class.</attrdef>
+        <attrdefs>Arkansas Code</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>First Class</edomv>
+            <edomvd>Population greater than 2500 OR population greater than 1500 which have enacted an ordinance to become first class</edomvd>
+            <edomvds>ACA 14-37-103. Population limits</edomvds>
+          </edom>
+          <edom>
+            <edomv>Incorporated Town</edomv>
+            <edomvd>Population less than 500</edomvd>
+            <edomvds>ACA 14-37-103. Population limits</edomvds>
+          </edom>
+          <edom>
+            <edomv>Second Class</edomv>
+            <edomvd>Population greater than 500 and less than 2500 OR a County Seat OR population less than 500 which have voted to become second class</edomvd>
+            <edomvds>ACA 14-37-103. Population limits</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REVISED_DATE</attrlabl>
+        <attrdef>Stores the date of the geometry revision. This date generally occurs after the effective date. Revised date format is YYYYMMDD.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>WARD_CODE</attrlabl>
+        <attrdef>Stores a shortened code representing the name of the ward.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EFFECTIVE_DATE</attrlabl>
+        <attrdef>Stores the effective date of the latest boundary change of the city. For this publication, this is the date the legal instruments were recorded with the City Clerk / County Clerk. The Effective Date Format is YYYYMMDD.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>WARD</attrlabl>
+        <attrdef>Stores the formal name of the ward.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>pop2020</attrlabl>
+        <attrdef>Stores the population totals for each ward as reported to this Office by the City or their representative. Population totals are based on the 2020 Census PL Redistricting files.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20220214</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

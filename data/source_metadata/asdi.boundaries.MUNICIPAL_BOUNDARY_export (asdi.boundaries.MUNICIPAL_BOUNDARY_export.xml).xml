@@ -1,0 +1,225 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.boundaries.MUNICIPAL_BOUNDARY</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The municipal boundary is a publication of polygons of all incorporated cities in Arkansas. The Arkansas GIS Office maintains this file in coordination with the municipalities of the State. It represents the contemporary boundary of the city.Data developed with coordinate geometry (COGO) from legal descriptions were used. When necessary the data were adjusted to conform to known physical features. This dataset does not represent exact legal boundaries as per surveyed description, but, rather a set of boundaries used for the administrative purposes that conforms to logical &amp; administrative rules. These polygons may be edited for the purpose of small spatial alignment changes based on new, enhanced or improved supporting basemap data, such as orthoimagery, public land survey, or cadastral data that improves the spatial accuracy of the existing geometry.</abstract>
+      <purpose>The data contained within this collection is designed to fulfill the Arkansas GIS Office legislative mandate to coordinate with the municipalities of the state on digital mapping and to submit a consolidated report of legal boundaries to the United States Census Bureau. Following are the citations of the law. Arkansas Code 14-38-116. Map required with Arkansas Geographic Information Systems Office upon incorporation or unincorporation. Before an entity undertakes an incorporation or unincorporation proceeding under this chapter, the entity shall coordinate with the Arkansas Geographic Information Systems Office for preparation of legal descriptions and digital mapping for the relevant incorporated or unincorporated areas. Arkansas Code 14-40-101. Map required with Arkansas Geographic Information Systems Office upon annexation, consolidation, or detachment. Before an entity undertakes an annexation, consolidation, or detachment proceeding under this chapter, the entity shall coordinate with the Arkansas Geographic Information Systems Office for preparation of legal descriptions and digital mapping for the relevant annexation, consolidation, and detachment areas. SECTION 3. Arkansas Code 15-21-504, concerning the duties, responsibilities, and authority of the Arkansas Geographic Information Systems Board, is amended to add an additional subsection to read as follows: (n)(1) The board shall provide mapping services to an entity undertaking an: (A) Annexation, consolidation, or detachment proceeding under 14-40-101; or (B) Incorporation or unincorporation proceeding under 14-38-116. (2) The Arkansas Geographic Information Systems Office shall submit a consolidated report of changes in legal boundaries because of an annexation, consolidation, detachment, incorporation, or unincorporation proceeding on an annual basis to the United States Census Bureau's Boundary and Annexation Survey.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-94.575260</westbc>
+        <eastbc>-89.798155</eastbc>
+        <northbc>36.508118</northbc>
+        <southbc>32.963216</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>municipality</themekey>
+        <themekey>city</themekey>
+        <themekey>annexation</themekey>
+        <themekey>detachment</themekey>
+        <themekey>limits</themekey>
+        <themekey>incorporation</themekey>
+        <themekey>municipal</themekey>
+        <themekey>incorporated</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <datacred>Arkansas Geographic Information Systems Office. Arkansas Geographic Information Systems Board.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>500</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.MUNICIPAL_BOUNDARY</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>CITY_NAME</attrlabl>
+        <attrdef>Stores the legal name of the incorporated city.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY_FIPS</attrlabl>
+        <attrdef>Stores the unique numerical code for the city developed under the Federal Information Processing Standards.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Stores the calculated acres of area fully contained within the city.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+        <attrmfrq>009</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>REVISED_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EFFECTIVE_DATE</attrlabl>
+        <attrdef>Stores the effective date of the latest boundary change of the city. For this publication, this is the date the legal instruments were recorded with the Arkansas Secretary of State. The Effective Date Format is YYYYMMDD.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+        <attrmfrq>001</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SQUAREMILES</attrlabl>
+        <attrdef>Stores the calculated square miles of area fully contained within the city.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+        <attrmfrq>009</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>pop2000</attrlabl>
+        <attrdef>Stores the 2000 Census total population as reported in the 2000 Decennial Census Summary File 1. Retrieved from data.census.gov on 2/14/2022.</attrdef>
+        <attrdefs>data.census.gov</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>pop2010</attrlabl>
+        <attrdef>Stores the 2010 Census total population as reported in the 2010 Decennial Census Summary File 1. Retrieved from data.census.gov on 2/14/2022.</attrdef>
+        <attrdefs>data.census.gov</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>pop2020</attrlabl>
+        <attrdef>Stores the 2020 Census total population as reported in the 2020 Decennial Census Summary File 1. Retrieved from data.census.gov on 2/14/2022.</attrdef>
+        <attrdefs>data.census.gov</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>classification</attrlabl>
+        <attrdef>Stores the status of the municipality, Arkansas municipalities are divided into three (3) classes based on population. A.C.A §§ 14-37-102 &amp; 103. Once a municipality reaches a population of 500, it is classified as a city of the second class, and once a municipality reaches a population of 2,500, it is classified as a city of the first class. A municipality is either incorporated, Second Class, or First Class.</attrdef>
+        <attrdefs>A.C.A §§ 14-37-102 &amp; 103</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>REVISION_TYPE</attrlabl>
+        <attrdef>Stores the type of edit revision to the boundary polygon.</attrdef>
+        <attrdefs>Arkansas GIS Office</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Legal Update</edomv>
+            <edomvd>Represents a boundary revision resulting from a statutory procedure permitted by Arkansas law. Tells the user the edit revision was a result of legal procedure.</edomvd>
+            <edomvds>Arkansas GIS Office</edomvds>
+          </edom>
+          <edom>
+            <edomv>Geometry Correction</edomv>
+            <edomvd>Represents small spatial alignment changes based on new, enhanced or improved supporting basemap data, such as orthoimagery, public land survey, or cadastral data that improves the spatial accuracy of the existing geometry</edomvd>
+            <edomvds>Arkansas GIS Office</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/41</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/municipal-boundaries-polygon/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

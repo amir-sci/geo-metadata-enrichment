@@ -1,0 +1,259 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Ozark National Forrest Service Management Area (polygon)</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.gis.arkansas.gov/?product=ozark-national-forrest-service-management-area-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer is the Ozark-St. Francis National Forest Management Area polygons. Management Areas are areas within a National Forest having desired conditions, suitable uses, management objectives, and design criteria in common.</abstract>
+      <purpose>This layer is the Ozark-St. Francis National Forest Management Area polygons.</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.501933</westbc>
+        <eastbc>-90.533277</eastbc>
+        <northbc>36.232455</northbc>
+        <southbc>34.567496</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>biota</themekey>
+        <themekey>St. Francis</themekey>
+        <themekey>area</themekey>
+        <themekey>environment</themekey>
+        <themekey>ozarks</themekey>
+        <themekey>planning</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>ozark</themekey>
+        <themekey>forest</themekey>
+        <themekey>Cadastre</themekey>
+        <themekey>management areas</themekey>
+        <themekey>timber</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Forest Service uses the most current and complete data available. GIS data and product accuracy may vary. They may be: developed from sources of differing accuracy, accurate only at certain scales, based on modeling or interpretation, incomplete while being created or revised, etc. Using GIS products for purposes other than those for which they were created, may yield inaccurate or misleading results. The Forest Service reserves the right to correct, update, modify, or replace, GIS products without notification.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntpos>GIS Lead</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>3200</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00004360728033211695</absres>
+            <ordres>0.00004360728033211695</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.OZARKNFS_MANAGEMENT_AREA_NFS</enttypl>
+        <enttypd>Management Areas of the Ozark National Forest.</enttypd>
+        <enttypds>Summary of the Revised Land and Resource Management Plan of the Ozark - St. Francis National Forests - September 2005</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>MA_</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Polygon Acres for Management Areas</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RX_ID</attrlabl>
+        <attrdef>Management Plan ID Number</attrdef>
+        <attrdefs>Revised Land and Resource Management Plan for the Ozark - St. Francis National Forests September 2005</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MA_ID</attrlabl>
+        <attrdef>Number genereated by ESRI ArcInfo</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA_</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALTE_PLAN_</attrlabl>
+        <attrdef>Description of Management Area with ID Number</attrdef>
+        <attrdefs>Revised Land and Resource Management Plan for the Ozark - St. Francis National Forests September 2005</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>1.A. DESIGNATED WILDERNESS Emphasis Congress has designated five wilderness areas on the Ozark NF; no wilderness areas exist on the St. Francis NF. The designated Wilderness Areas include: the East Fork, Hurricane Creek, Leatherwood, Richland Creek, and Upper Buffalo Wilderness Areas. These areas encompass approximately 66,728 acres of the Ozark-St. Francis National Forests. This MA is unsuitable for timber production. Mineral extraction or prescribed fires are not allowed. The emphasis is to allow ecological and biological processes to progress naturally with little to no human influence or intervention, except the minimum impacts made by those who seek the wilderness as a special place offering opportunities to experience solitude and primitive surroundings possible. Management focuses on protecting and preserving the natural environment from human influences. 1.B. RECOMMENDED WILDERNESS ADDITIONS Emphasis Proposed wilderness additions include lands that have been acquired adjacent to existing wilderness areas (approximately 471 acres) or are boundary adjustments that will help manage wilderness values. These areas are managed like MA 1.A above, until Congress designates them as wilderness. Table 1-23 displays the additional acres to each exiting wilderness. Table 1-23. Additional Acres for Existing Wilderness Areas. Wilderness Additional Acres Leatherwood 334 Richland Creek 16 East Fork 121 Totals 471 1.C. DESIGNATED WILD AND SCENIC RIVERS Emphasis In April 1992, Congress designated six Wild and Scenic Rivers on the Ozark NF. These rivers include: North Sylamore Creek, Big Piney Creek, Hurricane Creek, Mulberry River, Richland Creek, and the Buffalo River. These areas include approximately 19,859 acres of the Ozark- St. Francis National Forests. This MA is unsuitable for timber production. The total miles of Wild and Scenic River designation is 162.5 miles shown in Table 1-24 as follows: Table 1-24. Total miles of Wild, Scenic, and Recreational Sections of Rivers. River Wild Sections Scenic Sections Recreational Sections Big Piney Creek 45.2 Buffalo River 9.4 6.4 Hurricane Creek 2.4 14.2 Mulberry River 19.4 36.6 North Sylamore Creek 14.5 Richland Creek 5.3 11.2 Totals 17.1 110.9 36.6 This MA is managed to enhance and protect the outstandingly remarkable values and unique qualities of each river and its surroundings. The rivers will be preserved in a freeflowing condition for the benefit, use, and enjoyment of present and future generations. Each one of these rivers has a comprehensive Wild and Scenic River Plan, completed in 1996. 1.D. RECOMMENDED WILD AND SCENIC RIVERS Emphasis The North Fork of the Illinois Bayou is recommended as part of the Wild and Scenic River System. The river is 22.6 miles long, and is classified as scenic; a 1/4-mile buffer is managed under the same conditions as the scenic section of MA 1.C. This area includes approximately 6,219 acres of the Ozark NF. This area is unsuitable for timber production. 1.E. EXPERIMENTAL FORESTS Emphasis Experimental Forests are congressionally authorized and have been designated by Forest Service Chiefs over the last 90 years. The national network of Experimental Forests provides much of the scientific basis for the management of forest ecosystems, including public and private lands. The Southern Research Station (SRS) manages Experimental Forests on the Ozark NF. These lands help provide the current and future research needs of the SRS and provide scientific information to understand, manage, and sustain the ecological processes, structures, and benefits of loblolly pine, shortleaf pine, mixed pine-hardwood, and hardwood forests in the uplands of the midsouth. They demonstrate common forestry practices for non-industrial private forest landowners. Appropriate management tools include timber harvest, prescribed fire, and other research-related activities. The Ozark National Forest has two Experimental Forests, Henry Koen Experimental Forests, designated in 1950, and the Sylamore EF, designated in 1934. This MA is allocated to approximately 5,071 acres on the Ozark NF. There are no Experimental Forests on the St. Francis NF. This area is unsuitable for timber production. 1.F. RESEARCH NATURAL AREAS Emphasis Research natural areas (RNAs) are part of a national network of ecological areas designated in perpetuity for research and education and/or to maintain biological diversity on National Forest System lands. Research natural areas are for non-manipulative research, observation, and study. They also may assist in implementing provisions of special acts, such as the Endangered Species Act and the monitoring provisions of the National Forest Management Act. These areas are managed for scientific research in an undisturbed state as a baseline for comparison with other forest environments. The two RNAs on the Ozark-St. Francis National Forests include approximately 2,682 acres, and are unsuitable for timber production. 1.G. SPECIAL INTEREST AREAS Emphasis The Ozark-St. Francis National Forests have 21 Special Interest Areas totaling approximately 23,244 acres. Table 1-25. Special Interest Areas on the OSFNFs. SIA Acres Unique Qualities Alum Cove 230 Geologic/Scenic Blue hole 2,190 Geologic/Scenic Buzzard Roost 62 Geologic/Scenic City Rock Bluff 370 Geologic/Scenic Clifty Canyon 5,486 Botanical/Biological Devils Canyon 1,827 Geologic/Scenic Devils Eyebrow 364 Geologic/Scenic Dismal Creek 245 Botanical Eagles Gap 225 Geologic/Scenic Fern Gully 306 Botanical, Geologic, Scenic Hare Mtn. 88 Geologic/Scenic Jack's Creek 1,895 Geologic/Scenic Mt. Magazine 4,319 Geologic/Scenic North Twin 1,219 Botanical/Zoological/Scenic Pedestal Rocks 1,016 Scenic/Geologic Penhook 628 Geologic/Botanical Sams Throne 621 Geologic/Scenic Sandstone Hollow 512 Geologic/Scenic Stack Rocks 339 Geologic/Scenic Waldo/Wainscott 407 Botanical White Rock 895 Geologic/Scenic SIAs are managed for their unique geological, botanical, biological, zoological, scenic, or cultural features. The features are unique enough that they are not found on large areas anywhere else on the Forests, or they provide the best representation of similar areas on the Forests. These areas are designated as SIAs because of their unique features, complexity, and degree of interest. They are managed for their unique recreational and educational values, and are intended for public use and interpretation. Each Special Interest Area (SIA) will have a comprehensive management plan completed before capital investments are implemented. These areas are unsuitable for timber production. 1.H. SCENIC BYWAY CORRIDORS Emphasis The Ozark-St. Francis National Forests have 9 scenic byways, approximately 222 miles. These byways include: the Mt. Magazine Scenic Byway, Ozark Highlands Byway, Pig Trail Byway, Scenic 7 Byway, St. Francis Scenic Byway, Sylamore Creek Scenic Byway, Highway 123, Mulberry River Road, and the Sylamore Scenic Byway Extension. Scenic byway corridors are managed to offer visitors the opportunity to enjoy viewing outstanding natural and cultural landscapes along a well-maintained road. These areas may contain recreational and interpretive trails. The visible area during dormant seasons (up to 1/2 mile from either side of the road) defines the byway corridors, unless other criteria are established in the specific scenic byway management plan. Management is focused on protecting and showcasing the unique and scenic natural and cultural resources, and increasing tourism. 2.A. OZARK HIGHLANDS TRAIL Emphasis The Ozark National Forest's Ozark Highlands Trail (OHT) Corridor includes approximately 6,175 acres and is 165 miles long from Lake Fort Smith State Park to the Buffalo River. The trail is a designated National Recreation Trail, the only one on the Forests. The corridor width is 198 feet on either side of the centerline of the trail center and was established to provide visual enhancement, protect the trail, and minimize maintenance by keeping a canopy over the trail. Management practices are designed to protect the OHT experience, preserve and strengthen the role of volunteers and volunteer organizations, provide opportunities for high quality outdoor recreation experiences, and provide for the conservation and enjoyment of the nationally significant scenic, historic, natural, and cultural qualities of the land through which the Trail passes. This area is unsuitable for timber production. 2.B. STATE PARKS Emphasis This management area is allocated to approximately 3,806 acres across the Ozark-St. Francis National Forests. There are 3 recreation areas on the Forests managed by the State of Arkansas as state parks, Mount Magazine, Devils Den, and the Mississippi River State Parks. The emphasis is slightly different than the developed recreation MA. State parks are destination area recreation sites managed under special use authorizations or other agreements with the State of Arkansas. They are managed to provide the public with a high level of recreational opportunities in visually appealing and environmentally healthy settings. Facilities are provided to enhance the quality of the recreational experience and/or to mitigate damage to the affected ecosystems. These areas also serve as "gateways" to the wide diversity of recreation opportunities on the remainder of the Forests. The terms and conditions of the land use authorizations serve as the underlying management direction for managing these parks. This area is unsuitable for timber production. 2.C. DEVELOPED RECREATION AREAS Emphasis This management area is allocated to approximately 3,110 acres across the Ozark-St. Francis National Forests. Developed recreation areas are managed to provide the public with a variety of recreational opportunities in visually appealing and environmentally healthy settings. Facilities are provided to enhance the quality of the recreational experience and to mitigate damage to the affected ecosystems. These areas also serve as "gateways" to the wide diversity of recreation opportunities on the remainder of the Forests. This area is unsuitable for timber production 2.D. UPPER BUFFALO DISPERSED RECREATION AREA Emphasis This management area is located in Newton County, on the Buffalo Ranger District of the Ozark NF. It is allocated to approximately 6,115 acres. This area is suitable for timber production. This is an area of dispersed recreational use, with no developed campgrounds. This area is managed to provide the public a variety of recreation opportunities in a setting that provides quality scenery, non-motorized trails, and limited facilities. 2.E. WEDINGTON UNIT URBAN RECREATION AREA Emphasis This management area is allocated to approximately 10,467 acres on the Ozark NF. The area is located on the Boston Mountain Ranger District, 13 miles from Fayetteville, and is commonly know as the Wedington Unit. Because of its proximity to one of the fastest growing communities in Arkansas, it is managed as an urban forest with a recreational emphasis. The Lake Wedington Developed Campground will be managed similar to developed recreation sites in MA 2.C. The Wedington unit is closed to OHV use. This area is suitable for timber production. 2.F. INDIAN CREEK DISPERSED RECREATION AREA Emphasis This management area is allocated to approximately 17,100 acres, located on the Pleasant Hill Ranger District, of the Ozark NF. This is an area managed for dispersed recreational use, with no developed recreation sites. This area is managed to provide the public a variety of dispersed recreation opportunities in a setting that provides quality scenery and dispersed recreation opportunities with limited facilities. Motorized recreation opportunities are provided through the access established to dispersed recreation opportunities and are added through the Forests' trails strategic plan. This area is suitable for timber management. 3.A. PINE WOODLAND Emphasis This management area is allocated to approximately 97,629 acres across the Ozark NF. This area is suitable for timber production. The primary emphasis in this management area is to restore and maintain a landscape mosaic of open pine woodland that approximates historical conditions. The purpose is to provide habitat for associated plants and animals, some of which are rare and declining, and to create a setting for recreation that is different, uncommon, visually appealing, and rich in wildlife. Restoration and maintenance of pine woodland occurs primarily on xeric and dry sites within this management area. This Management Area differs from Management Area 3.B. in that its primary emphasis is restoring pine woodland rather than oak woodland. However, where oak dominates on oakappropriate sites, restoration and maintenance of oak woodland is also emphasized. On more mesic sites, management emphasis varies as needed to provide for other multiple uses and values that are compatible with the primary emphasis of this area. Lands within this management area are predominately classed as suitable for timber production. Silvicultural prescriptions applied are primarily those for pine woodland restoration, with a variety of other prescriptions applied in areas not suited for woodland restoration. Restoration and maintenance of pine woodland is accomplished through application of a variety of forest management practices. Thinning of trees is often needed to create initial open-canopy conditions, and may be achieved through manual, mechanical, or chemical methods, including use of commercial timber sales. Frequent prescribed fire, often applied at landscape scales, may also be used to thin trees, and is the predominate method used to maintain open conditions and well-developed understory communities. Regeneration of woodland occurs on a scheduled basis to diversify age-class distribution to ensure a sustained supply of this habitat over time. 3.B. OAK WOODLAND Emphasis This MA is allocated to approximately 154,704 acres across the Ozark NF. This area is suitable for timber production. The primary emphasis in this management area is to restore and maintain a landscape mosaic of open oak woodland that approximates historical conditions. The purpose is to provide habitat for associated plants and animals, some of which are rare and declining, and to create a setting for recreation that is visually appealing, rich in wildlife, and not commonly encountered elsewhere. Restoration and maintenance of oak woodland occurs primarily on xeric and dry sites within this Management Area. This Management Area differs from Management Area 3.A. in that its primary emphasis is restoring oak woodland rather than pine woodland. However, where pine dominates on pineappropriate sites, restoration and maintenance of pine woodland is also emphasized. On more mesic sites, management emphasis varies as needed to provide for other multiple uses and values compatible with the primary emphasis of this area. Lands within this management area are predominately classed as suitable for timber production. Silvicultural prescriptions applied are primarily those for oak woodland restoration, with a variety of other prescriptions applied in areas not suited for woodland restoration. Restoration and maintenance of oak woodland is accomplished through application of a variety of forest management practices. Thinning of trees is often needed to create initial open-canopy conditions, and may be achieved through manual, mechanical, or chemical methods, including use of commercial timber sales. Frequent prescribed fire, often applied at landscape scales, may also be used to thin trees, and is the predominate method used to maintain open conditions and well-developed understory communities. Regeneration of woodland occurs on a scheduled basis to diversify age class distribution to ensure a sustained supply of this habitat over time. 3.C. MIXED FOREST Emphasis This MA is allocated to approximately 360,401 acres across the Ozark-St Francis National Forests. These lands are managed to ensure the health and sustainability of the pine, pine/hardwood, hardwood/pine, and hardwood forest types across the landscape. Timber will be a by-product of vegetation management aimed at maintaining sustainable ecosystems. This area is suitable for timber production. Light levels to the forest floor are managed to develop an assemblage of desirable regeneration and to maintain a moderate herbaceous component. This is accomplished through silvicultural activities including prescribed fire, mechanical and chemical vegetation control. The difference between this area and woodland MAs is that stocking levels of trees are denser than the stocking levels in the woodland MAs. 3.D. OAK DECLINE RESTORATION AREAS Emphasis This MA is allocated to approximately 67,691 acres on the Ozark-St. Francis National Forests. These areas range from low to high sites and occur on south as well as north facing aspects. These are areas where red oak and white oak trees suffered severe mortality due to general oak decline, repeated insect outbreaks (red oak borer), and disease. Fuel loadings in these areas are high and wildlife mast producing capabilities are greatly reduced from what was present the last 50 years. Red oak and white oak regeneration, while present in some areas is at risk from being overtopped by competitors, which will rapidly, respond to the increased light. Other areas are completely devoid of advanced oak regeneration and the oak overstory has died reducing seed source potential. These areas are suitable for timber production. The emphasis of this MA is to restore and maintain a healthy white oak/red oak/hickory forest that is resistant to large scale insect and disease attacks and provides for regeneration of oak into the future. Currently the oak/red oak/hickory forest type is all but gone from these acres due to recent massive outbreaks of red oak borer, other pathogens, and general oak decline. The resulting forest, in the absence of management, will likely succeed to shade tolerant species such as dogwood and gum. Most of the area has suffered heavy oak mortality. Oak regeneration is absent or if it exists, is in a shaded condition from shade tolerant competitors and may soon die. The primary objective of this MA is to return mast-producing trees to the area for wildlife and to repopulate the forest stands to a white oak/red oak/hickory condition. Management to achieve the desired future condition of these areas is accomplished through various forest management practices including prescribed fire, manual, mechanical, and chemical vegetation control. 3.E. HIGH QUALITY FOREST PRODUCTS Emphasis This MA is allocated to approximately 214,358 acres across the Ozark-St Francis National Forests. This area is suitable for timber production. This management area includes lands capable of producing valuable, high quality sawtimber and is allocated to areas with high site productivity where maximum economic return for investment can be achieved. This prescription maintains forest densities in accordance with published yield tables and regional guidelines to produce trees which are capable of self pruning, resulting in more desirerable wood products than would occur in areas of more open forests and woodlands. Timber stand improvement and regeneration harvest methods are applied that best provide for the growth and harvest of high quality sawtimber that is most in demand in the marketplace. Emphasis is on producing 14" to 16" sawtimber with grade 2 butt logs and/or yellow pine 18" sawtimber. Other forest products such as pulpwood, fuelwood, and low value sawtimber are provided as a result of timber stand improvement to cultivate high quality, valuable sawtimber. Product objectives are accomplished through various forest management practices including prescribed fire, and manual, mechanical, and chemical vegetation control. Management activities are applied in ways that maintain appropriate conditions for wildlife habitat, soil productivity, water quality, recreational opportunity, and scenic beauty. Opportunities are also provided for utilization of other high-value forest products. Although production of high quality forest products is the overriding emphasis of this management area, a variety of silvicultural prescriptions can be used, depending on site conditions, to meet other secondary desired conditions. 3.F. OLD GROWTH AREA Emphasis This management area is allocated to approximately 5,062 acres across the Ozark-St Francis National Forests. This area is suitable for timber production. Emphasis of this management area is to restore old growth conditions as part of a forestwide network of large (2,500+ acres), medium (100 to 2,499 acres), and small (&lt; 100 acres) old growth patches following guidance in the Region 8 Old Growth Report (Guidance for Conserving and Restoring Old Growth Forest Communities on the National Forests in the Southern Region, Forestry Report R8-FR 62, published in June 1997). Management of these areas emphasizes protection, restoration, and management of old-growth forests and their associated wildlife, botanical, recreational, scientific, educational, and cultural values. Within this management area, forest management activities occur in order to restore or maintain old-growth conditions. These activities may include small amounts of forest regeneration where needed to ensure a long-term sustained supply of old growth conditions. Prescribed fire is a critical management activity for maintaining desired conditions for some old growth types. This management area is not intended to encompass all old growth forest conditions on the national forests. Additional patches meeting old growth criteria may be scattered throughout other management areas. 3.G. CROWLEY'S RIDGE, UPLAND HARDWOOD-ST. FRANCIS NF Emphasis This management area is allocated to approximately 11,443 acres on the St. Francis NF. It includes the upland sites on the St. Francis National Forest. This area is suitable for timber production. Emphasis in this management area is primarily on maintaining and where necessary restoring the oak component within the Loess Slope Forest community, which occupies most of this management area. Limiting the abundance and influence of non-native invasive species such as kudzu is another important area of emphasis. Silvicultural practices, such as prescribed fire, herbicides application, pre-commercial thinning, and timber sales is used to encourage oak regeneration and to maintain oak dominance. 3.H. MISSISSIPPI RIVER BOTTOMLAND HARDWOODS - ST. FRANCIS NF Emphasis This management area is allocated to approximately 3,573 acres on the St. Francis NF. This management area encompasses a narrow band along the floodplains of the St Francis and Mississippi Rivers and their tributaries, serving as important ecological corridors along the major river systems for numerous wildlife species. This area is suitable for timber production. Emphasis of this management area is primarily on the maintenance of the Bottomland and Floodplain Forest community with special emphasis given to encouraging oak reproduction. Silvicultural practices, including hand planting native oak species, thinning, and forest regeneration cutting is used to sustain this community and to encourage oak regeneration. 3.I. RIPARIAN CORRIDORS Emphasis This MA is allocated to approximately 11,484 acres across the Ozark-St. Francis National Forests. Riparian corridors are managed to retain, restore, and enhance the inherent ecological processes and functions of the associated aquatic, riparian, and upland components within the corridor. Primarily, natural processes (floods, erosion, seasonal fluctuations, etc.) modify most of the areas within the riparian corridor. However, management activities may be used to provide terrestrial or aquatic habitat improvement, favor recovery of native vegetation, control insect infestation and disease, comply with legal requirements (e.g., Endangered Species Act, Clean Water Act), provide for public safety, and meet other riparian functions and values. Silvicultural treatments including timber and vegetation removal may occur to restore and/or enhance riparian resources such as water, wildlife, and natural communities. Riparian areas are defined as areas that include both terrestrial and aquatic ecosystems. They extend down into the groundwater, up above the tree canopy, outward across the floodplain, laterally into the terrestrial ecosystem, and along the watercourse at a variable width (Ilhardt, 2000). A riparian corridor is a management area designed to include much of the riparian area. Within the riparian corridor management area management practices are specified to maintain riparian functions and values. As a management area, this includes, at a minimum, a 100-foot corridor along perennial stream channels, natural ponds, lakeshores, wetlands, springs, and seeps. For the purpose of land allocation, the perennial streams were identified from a National Hydrographic Dataset produced from a U.S. Geological Survey. A corridor width of 100 feet was applied to each side of the identified streams as an estimation of the extent of the riparian area. At the time of LRMP revision, this was the best available process for determining the potential locations of these areas and is subject to the limitations associated with this dataset. Due to the extent of their spatial distribution, this operational definition does not capture the entirety of riparian areas in existence. The riparian corridor area designation is designed to encompass the riparian area defined on the basis of soils, vegetation, and hydrology. Field surveys, inventory/mapping, or landscape modeling are appropriate methods for further refining the riparian corridor management area boundaries during project level assessments, project level planning, and site specific investigations. If a resource specialist or ID team for a project area does not conduct one of these methods, the minimum width of 100 feet from the defining riparian feature should be applied as the riparian corridor width. Riparian corridor widths are measured in on-the-ground surface feet perpendicular from the edge of the channel or bank (stream, water body, etc.) and extend out from each side of a stream. For ponds, lakes, sloughs, and wetlands (including seeps or springs associated with wetlands) the measurement would start at the ordinary high water mark and go around the perimeter. For braided streams, the outermost braid is used as the water's edge. An interrupted stream (a watercourse that goes underground and then reappears) is treated as if the stream were above ground. A riparian corridor includes human-created reservoirs, wildlife ponds, wetlands, and waterholes connected to or associated with natural water features. In addition, those areas not associated with natural water features, but support riparian associated flora or fauna, will have a riparian corridor designation. The Riparian corridor management area does not apply to human-made ditches, gullies, or other features that are maintained or in the process of restoration. This area is suitable for timber production. 3.J. PASTURES AND LARGE WILDLIFE OPENINGS Emphasis This MA is allocated to approximately 7,072 acres of across the Ozark-St Francis National Forests. This area is unsuitable for timber production. The objective is to provide permanent forage and cover for livestock and wildlife. 3.K. WILDLIFE EMPHASIS AREA Emphasis This MA is allocated to approximately 15,712 acres on the Buffalo Ranger District of the Ozark National Forest adjacent to the Gene Rush Wildlife Management Area. This area is suitable for timber production. This MA is established to provide optimal wildlife habitat to benefit both game and nongame wildlife species such as elk, deer, turkey, quail, Neotropical migrant birds, and small mammals, and to enhance consumptive and non-consumptive recreational opportunities as they relate to these and other wildlife species that benefit from a mix of early- and latesuccessional habitat management. In addition to providing for quality habitat for such mammals as deer and black bear, this management area would expand the range of Arkansas' population of elk from adjoining Arkansas Game and Fish Commission lands (Gene Rush Wildlife Management Area) onto Ozark National Forest lands. This expansion is encouraged by managing for oak and pine woodlands, creating medium-sized openings and pastures, and providing additional water sources where needed. Oak and pine woodlands are maintained on appropriate sites through thinning and prescribed fire. On north and east slopes with high site indices appropriate forest prescriptions are used. These prescriptions are aimed at providing optimal habitats to support populations of the plant and animal species associated with these communities and to provide a very high likelihood that all species within these habitats continue to persist on National Forest System lands. Improved pastures and wildlife openings composed of native species and other non-invasive species are created and maintained to provide year-round forage and to reduce wildlife impacts on private lands. Travel corridors mostly made up of fire lines and roads are used to connect openings where appropriate.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/ozark-national-forrest-service-management-area-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/25</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntpos>GIS Lead</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

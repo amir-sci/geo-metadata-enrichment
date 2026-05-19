@@ -1,0 +1,550 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>EarthData International</origin>
+        <pubdate>20070531</pubdate>
+        <title>City of Hot Springs Contours (line)</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>City of Hot Springs</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This metadata record describes the topographic mapping of Hot Springs, AR during 2007. Products generated include lidar point clouds in LAS 1.0 format, random-spacing ASCII bare earth DEM, gridded DEM in ASCII format, 2 foot contours using lidar collected with a Leica ALS-50 Aerial Lidar Sensor.</abstract>
+      <purpose>The purpose of this data is to support floodplain mapping efforts as part of FEMA's Map Modernization Program, support for the MS4 Storm water drainage study, and modeling of the water and sewage system.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20070531</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.387685</westbc>
+        <eastbc>-92.901297</eastbc>
+        <northbc>34.579781</northbc>
+        <southbc>34.390135</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>EDI Thesaurus</themekt>
+        <themekey>LAS</themekey>
+        <themekey>lidar</themekey>
+        <themekey>DEM</themekey>
+        <themekey>Topographic</themekey>
+        <themekey>bare earth</themekey>
+        <themekey>ASCII</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>Arkansas</placekey>
+        <placekey>City of Hot Springs</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Systems Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data.The Arkansas Geographic Information Systems Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form.This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures.Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>EarthData International</cntorg>
+          <cntper>Angela Worley</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>7320 Executive Way</address>
+          <city>Frederick</city>
+          <state>Maryland</state>
+          <postal>21701</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>301-948-8550</cntvoice>
+        <cntemail>aworley@earthdata.com</cntemail>
+        <hours>8:30-5:00</hours>
+        <cntinst>Monday through Friday</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>City of Hot Springs</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Airborne lidar data was acquired at an altitude of 5,500' (1676.4 m) above mean terrain with a swath width of 40º, which yields an average post spacing of lidar points of no greater than 6.56 ft (2 m). The project was designed to achieve a vertical accuracy of the lidar points at 7.09 in (18 cm) root mean square error (RMSE). The flight design includes a total of seventy-seven flight lines with approximately 2,246 total line miles (3614.59 km). The lidar data will be acquired prior to the emergence of deciduous foliage.</attraccr>
+    </attracc>
+    <logic>Compliance with the accuracy standard was ensured by the placement of GPS ground control prior to the acquisition of lidar data. The following checks were performed. 1. The ground control and airborne GPS data stream were validated through a fully analytical boresight adjustment. 2. The DTM (Digital Terrain Model) data were checked against the project control. 3. Lidar elevation data was validated through an inspection of edge matching and visual inspection for quality (artifact removal).</logic>
+    <complete>1. EarthData's proprietary software, Checkedb, for verification against ground survey points. 2. Terrascan, for verification of automated and manual editing and final QC of products.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The lidar data fully comply with FEMA guidance as published in Appendix A, April, 2003.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The lidar data fully comply with FEMA guidance as published in Appendix A, April 2003 and National Standard for Spatial Accuracy (NSSDA). When compared to GPS survey grade points in generally flat non-vegetated areas, at least 95% of the positions have an error less than or equal to 36.3 cm (equivalent to root mean square error of 18.5 cm if errors were normally distributed).</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>EarthData International, Inc</origin>
+            <pubdate>20061108</pubdate>
+            <title>Aerial Acquisition of Lidar Data for Hot Springs, AR</title>
+            <edition>1</edition>
+            <geoform>model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20070125</begdate>
+              <enddate>20070207</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>Aerial Lidar Acquisition</srccitea>
+        <srccontr>The City of Hot Springs, AR requested the collection of LIDAR data over Hot Springs, AR. In response EarthData acquired the data on January 28, 2007 using its aircraft with tail number N2636P. LIDAR data was captured using an ALS50 LIDAR ystem, including an inertial measuring unit (IMU) and a dual frequency GPS receiver. An additional GPS receiver was in constant operation over a published control point set by EarthData at the base of operations airport which is a secondary Airport Control Station. During the data acquisition, the receivers collected phase data at an epoch rate of 1 Hz. The use of the Airport base station ensured that all data capture was performed within 50 miles of a base station. The solutions from the City of Hot Springs were found to be of high integrity and met the accuracy requirements for the project. Laser Pulse Rate - 39200 kHz Field of View - 35 degrees Scane Rate - 25 Hz</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>TerraSurv, Inc.</origin>
+            <pubdate>20070313</pubdate>
+            <pubtime>unknown</pubtime>
+            <title>Ground Control Report of Hot Springs, AR</title>
+            <edition>1</edition>
+            <geoform>diagram</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20070313</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Ground Control Survey</srccitea>
+        <srccontr>Earthdata International was contracted to provide LIDAR mapping services in the area of Hot Springs, AR. Earthdata subcontracted the ground survey tasks to TerraSurv, Inc. The Global Positioning System (GPS) was used to establish the control network. The horizontal datum was the North American Datum of 1983, CORS adjustment (NAD 1983 CORS). The vertical datum was the North American Vertical Datum of 1988 (NAVD 1988). The network was observed in a radial configuration. A base receiver was established on a random point and run throughout the observations in each area. The temporary base stations were tied to the CORS and NSRS control stations.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>EarthData has developed a unique method for processing lidar data to identify and remove elevation points falling on vegetation, buildings, and other aboveground structures. The algorithms for filtering data were utilized within EarthData's proprietary software and commercial software written by TerraSolid. This software suite of tools provides efficient processing for small to large-scale, projects and has been incorporated into ISO 9001 compliant production work flows. The following is a step-by-step breakdown of the process. 1. Using the lidar data set provided by EarthData, the technician performs calibrations on the data set. 2. Using the lidar data set provided by EarthData, the technician performed a visual inspection of the data to verify that there were no voids, and that the data covered the project limits. The technician reviewed these plots and located the areas that contained systematic errors or distortions that were introduced by the lidar sensor. 3. Systematic distortions highlighted in step 2 were removed and the data was re-inspected. Corrections and adjustments can involve the application of angular deflection or compensation for curvature of the ground surface that can be introduced by crossing from one type of land cover to another. 4. The lidar data was trimmed. The data was checked against a control network to ensure that vertical requirements were maintained. Conversion to the client-specified datum and projections were then completed. The lidar flight line data set was then segmented into adjoining tiles for batch processing and data management. 5. The initial batch-processing run removed 95% of points falling on vegetation. The algorithm also removed the points that fell on the edge of hard features such as structures, elevated roadways and bridges. 6. The operator interactively processed the data using lidar editing tools. During this final phase the operator generated a TIN based on a desired thematic layers to evaluate the automated classification performed in step 5. This allowed the operator to quickly re-classify points from one layer to another and recreate the TIN surface to see the effects of edits. Geo-referenced images were toggled on or off to aid the operator in identifying problem areas. The data was also examined with an automated profiling tool to aid the operator in the reclassification. 6. The final DEM was written to an LAS 1.0 format and also converted to ASCII. 7. The point cloud data were also delivered in LAS 1.0 format.</procdesc>
+        <srcused>Lidar</srcused>
+        <procdate>20070418</procdate>
+        <srcprod>Lidar</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>EarthData International</cntorg>
+              <cntper>Angela Worley</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>Maryland</state>
+              <postal>21704</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+            <cntemail>metadata@earthdata.com</cntemail>
+            <hours>8:30-5:00</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>83616</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>15000</rowcount>
+      <colcount>15000</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000016000000014901145</absres>
+            <ordres>0.000016000000014901145</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.elevation.CONTOUR_CITY_HOT_SPRINGS_2006</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FILL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LYRLOCK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LYRCOLOR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEVATION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LYRLINEWT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LYRFRZN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LYRLNTYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Level_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HANDLE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LYRON</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DOCNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LENG</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GGROUP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LVLPLOT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QROTW</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QrotW</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QrotX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LTScale</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EntLineWt</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QROTX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>gis_GIS_Co</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DocPath</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DocVer</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QrotZ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Color</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Fill</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CadModel</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Elevation</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Class</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LyrFrzn</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QrotY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RefName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EntColor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GGroup</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EntLinetyp</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Linetyp</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LvlPlot</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Layer</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LvlDesc</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LineWt</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LyrLnType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LyrOn</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LVLDESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DocType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LyrColor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LyrLineWt</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DocName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CADMODEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DOCVER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAYER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ENTLINETYP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DOCPATH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LyrLock</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ENTCOLOR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QROTY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QROTZ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COLOR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LEVEL_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ENTLINEWT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Handle</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LINEWT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GIS_GIS_CO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINETYP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LTSCALE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DOCTYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REFNAME</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Systems Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data.The Arkansas Geographic Information Systems Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form.This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures.Although this data has been processed successfully on computers at the Arkansas Geographic Information Systems Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Systems Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/city-of-hot-springs-contours-line/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Elevation/FeatureServer/0</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metrd>20070531</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>EarthData International</cntorg>
+          <cntper>Angela Worley</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>7320 Executive Way</address>
+          <city>Frederick</city>
+          <state>Maryland</state>
+          <postal>21704</postal>
+        </cntaddr>
+        <cntvoice>301-948-8550</cntvoice>
+        <cntemail>aworley@earthdata.com</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

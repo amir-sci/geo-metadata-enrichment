@@ -1,0 +1,209 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas State Highway and Transportation Department</origin>
+        <pubdate>20140306</pubdate>
+        <title>Disposal Well Moratorium Area</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>AR Highway and Transportation</publish>
+        </pubinfo>
+        <onlink>http://www.gis.arkansas.gov/?product=disposal-well-moratorium-area</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>CLASS II COMMERCIAL DISPOSAL WELL OR CLASS II DISPOSAL WELL MORATORIUM Cleburne, Conway, Faulkner, and Van Buren Counties, Arkansas REQUEST FOR AN IMMEDIATE MORATORIUM ON ANY NEW OR ADDITIONAL CLASS II COMMERCIAL DISPOSAL WELL OR CLASS II DISPOSAL WELL PERMITS IN CERTAIN AREAS. After due notice and public hearing in El Dorado, Arkansas, on July 26, 2011, the Arkansas Oil and Gas Commission, in order to prevent waste, carry out an orderly program of development, protect the correlative rights of each owner in the common source(s) of supply, prevent the pollution of fresh water supplies and unnecessary damage to property, soil, animals, or aquatic life by oil, gas or salt water, and to protect the health and welfare of the public, has found the following facts and issued the following Order. STATEMENT OF CASE The Staff of the Arkansas Oil and Gas Commission (“Applicant”) filed an application requesting an immediate moratorium on any new or additional Class II Commercial Disposal Well or Class II Disposal Well permits in any of the Sections identified in Exhibit 1A or 1B of the Application, that is to remain in effect until the Commission adopts a General Rule establishing a permanent moratorium area FINDINGS OF FACT From the evidence introduced at said hearing, the Arkansas Oil and Gas Commission (hereinafter referred to as AOGC) finds: 1. That the Director filed an application requesting an immediate moratorium on any new or additional Class II Commercial Disposal Well or Class II Disposal Well permits in any of the Sections identified in Exhibit 1A or 1B of the application (“moratorium area”), that is to remain in effect until the Commission adopts a General Rule establishing a permanent area. 2. That seismic activity has been enhanced, induced, or triggered in other areas of the country in the past. 3. That seismic activity occurring within the moratorium area has revealed a previously unknown or unmapped fault system. 4. That the particular fault highlighted by the seismic activity may be capable of producing additional earthquakes of similar or greater magnitude as have already occurred. 5. That this fault system, highlighted by the recent activity associated with the Guy-Greenbrier Earthquake Swarm, indicates a general northeast-southwest (approximately N30ºE) trending fault system which displaces the Lower Ordovician through Precambrian strata. 6. That, at the time of the hearing, there were four Disposal wells within the moratorium area. However, the permit holder of both the SRE 8-12 1-17 Class II Disposal Well (Permit No. 43266) and the Trammel Class II Disposal well (Permit No. 41079), and the permit holder of the Wayne L. Edgmon No. 1 Class II Commercial Disposal well (Permit No. 36380), agreed to immediately and permanently cease all disposal operations in both disposal wells, and to properly plug the subject disposal wells by ORDER NO. 180A-2-2011-07 August 02, 2011 September 30, 2011. The remaining Class II Commercial Disposal Well, the Moore, W E Estate No. 1 Class II Commercial Disposal well (Permit No. 39487), is subject to the provisions of Order No. 180A-1-2011-07. 7. That no objects were filed in relation to Docket No. 180A-1-2011-07. CONCLUSIONS OF LAW 1. That due notice of public hearing was given as required by law and that this Commission has jurisdiction over said parties and the matter herein considered. 2. That this Commission has authority to grant or deny said application under the provisions of Act No. 105 of 1939, as amended. ORDER It is, therefore, ordered by the Commission: that an immediate moratorium is in effect for any new or additional Class II Commercial Disposal Well or Class II Disposal Wells within the moratorium area described in the application, more specifically, as described or depicted in Exhibits 1A and 1B of Docket No. 180A-2011-07, that shall remain in effect until the Commission adopts a General Rule establishing a permanent moratorium area. This Order shall be effective from and after August 02, 2011; and the Commission shall have continuing jurisdiction for the purposes of enforcement, and/or modifications or amendments to the provisions of this Order. ARKANSAS OIL AND GAS COMMISSION Lawrence E. Bengal, Director</abstract>
+      <purpose>The Staff of the Arkansas Oil and Gas Commission (“Applicant”) filed an application requesting an immediate moratorium on any new or additional Class II Commercial Disposal Well or Class II Disposal Well permits in any of the Sections identified in Exhibit 1A or 1B of the Application, that is to remain in effect until the Commission adopts a General Rule establishing a permanent moratorium area</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140306</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-92.596356</westbc>
+        <eastbc>-91.898429</eastbc>
+        <northbc>35.630292</northbc>
+        <southbc>34.925542</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>AOGC</themekey>
+        <themekey>Moratorium</themekey>
+        <themekey>Arkansas Oil and Gas Commission</themekey>
+        <themekey>Cleburne</themekey>
+        <themekey>wells</themekey>
+        <themekey>Conway</themekey>
+        <themekey>Van Buren</themekey>
+        <themekey>Faulkner</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Individuals or companies may use and can utilize the data as a base for their individual purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas State Highway and Transportation Department</cntorg>
+          <cntper>Rachel Hanley</cntper>
+        </cntorgp>
+        <cntpos>Mapping and Graphics Section</cntpos>
+        <cntvoice>501-569-2206</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Oil and Gas Commission. In all cases, a credit line stating "Base Map Provided by the Mapping Section, Planning and ResearchDivision, Arkansas State Highway and Transportation Department, In Cooperation With The U.S. Department of Transportation"</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.DISPOSAL_WELLS_MORATORIUM_AOGC</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas Geographic Information Office be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas Geographic Information Office does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. This data has been developed from the best available sources. Although efforts have been made to ensure that the data is accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to this data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although this data has been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas Geographic Information Office regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/9</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/disposal-well-moratorium-area/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas State Highway and Transportation Dept./Mapping and Graphics Section</cntorg>
+          <cntper>Rachel Hanley</cntper>
+        </cntorgp>
+        <cntvoice>501-569-2206</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

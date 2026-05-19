@@ -1,0 +1,443 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>911 Public Safety Answering Point (PSAP) Area Boundary (polygon)</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.gis.arkansas.gov/?product=911-public-safety-answering-point-psap-area-boundary-polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>911 Public Safety Answering Point (PSAP) service area boundaries in Arkansas According to the National Emergency Number Association (NENA), a Public Safety Answering Point (PSAP) is a facility equipped and staffed to receive 9-1-1 calls. The service area is the geographic area within which a 911 call placed using a landline is answered at the associated PSAP. This dataset only includes primary PSAPs. Secondary PSAPs, backup PSAPs, and wireless PSAPs have been excluded from this dataset. Primary PSAPs receive calls directly, whereas secondary PSAPs receive calls that have been transferred by a primary PSAP. Backup PSAPs provide service in cases where another PSAP is inoperable. Most military bases have their own emergency telephone systems. To connect to such system from within a military base it may be necessary to dial a number other than 9 1 1. Due to the sensitive nature of military installations, TGS did not actively research these systems. If civilian authorities in surrounding areas volunteered information about these systems or if adding a military PSAP was necessary to fill a hole in civilian provided data, TGS included it in this dataset. Otherwise military installations are depicted as being covered by one or more adjoining civilian emergency telephone systems. In some cases areas are covered by more than one PSAP boundary. In these cases, any of the applicable PSAPs may take a 911 call. Where a specific call is routed may depend on how busy the applicable PSAPS are (i.e. load balancing), operational status (i.e. redundancy), or time of date / day of week. If an area does not have 911 service, TGS included that area in the dataset along with the address and phone number of their dispatch center. These are areas where someone must dial a 7 or 10 digit number to get emergency services. These records can be identified by a "Y" in the [NON911EMNO] field. This indicates that dialing 911 inside one of these areas does not connect one with emergency services. This dataset was constructed by gathering information about PSAPs from state level officials. In some cases this was geospatial information, in others it was tabular. This information was supplemented with a list of PSAPs from the Federal Communications Commission (FCC). Each PSAP was researched to verify its tabular information. In cases where the source data was not geospatial, each PSAP was researched to determine its service area in terms of existing boundaries (e.g. city and county boundaries). In some cases existing boundaries had to be modified to reflect coverage areas (e.g. “entire county north of Country Road 30”). However, there may be cases where minor deviations from existing boundaries are not reflected in this dataset, such as the case where a particular PSAPs coverage area includes an entire county, and the homes and businesses along a road which is partly in another county. Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics.</abstract>
+      <purpose>Homeland Security Use Cases: Use cases describe how the data may be used and help to define and clarify requirements. 1) A disaster has struck, or is predicted for, a locality. The PSAP that may be affected must be identified and verified to be operational. 2) In the event that the local PSAP is inoperable, adjacent PSAP locations could be identified and utilized.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-94.618368</westbc>
+        <eastbc>-89.619991</eastbc>
+        <northbc>36.531955</northbc>
+        <southbc>32.969416</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>responders</themekey>
+        <themekey>9-1-1</themekey>
+        <themekey>Boundaries</themekey>
+        <themekey>responder</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>911</themekey>
+        <themekey>Public Safety Answering Point</themekey>
+        <themekey>location</themekey>
+        <themekey>Telephone Emergency reporting systems</themekey>
+        <themekey>PSAP</themekey>
+        <themekey>respond</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntpos>GIS Lead</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntpos>GIS Lead</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>105</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00012800000011920932</absres>
+            <ordres>0.00012800000011920932</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.boundaries.PSAP_BOUNDARIES_TGS</enttypl>
+        <enttypd>According to the National Emergency Number Association (NENA), a Public Safety Answering Point (PSAP) is a facility equipped and staffed to receive 9-1-1 calls. The service area is the geographic area within which a 911 call placed using a landline is answered at the associated PSAP.</enttypd>
+        <enttypds>TGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NON911EMNO</attrlabl>
+        <attrdef>Indicates if dialing 911 inside the area connects one with emergency services.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Indicates that dialing 911 inside the area does not connect one with emergency services. These are areas where someone must dial a 7 or 10 digit number to get emergency services.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Indicates that dialing 911 inside the area does not connect one with emergency services and that it is necessary to dial a 7 or 10 digit number to contact emergency services.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGTEL</attrlabl>
+        <attrdef>Ten (10) digit telephone number of emergency point of contact for the primary PSAP that serves the District formatted as nnn-nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Phone numbers, including area code, formatted as nnn-nnn-nnnn. A list of valid area code and exchange combinations can be found at http://www.nanpa.com</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGEXT</attrlabl>
+        <attrdef>Telephone extension for emergency point of contact for the primary PSAP that serves the District.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGTITLE</attrlabl>
+        <attrdef>Title of person or name of office for emergency point of contact.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIPP4</attrlabl>
+        <attrdef>Four (4) digit USPS zip code extension associated with the physical address of the primary PSAP that serves the district. This attribute was automatically assigned using the entity's physical address and USPS address information system (AIS) data.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS Address Information System (AIS) - ZIP9</codesetn>
+            <codesets>United States Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAICSCODE</attrlabl>
+        <attrdef>NAICS (North American Industry Classification System) Code for entity. NAICS Codes (and NAICS Descriptions) have been assigned based upon the entity's primary function, regardless of if that is the function that qualified it to be included in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>North American Industry Classification System (NAICS 2002)</codesetn>
+            <codesets>US Census Bureau - http://www.census.gov/epcd/www/naics.html</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECCLASS</attrlabl>
+        <attrdef>Security classification of feature.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>UNCLASSIFIED</edomv>
+            <edomvd>Entity is unclassified.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of the 911 Response District. If the name is unknown, TGS has attributed this field with the same information found in the [PSAP_NAME] attribute.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>Two (2) character abbreviation for state associated with the physical address of the primary PSAP that serves the district. In almost all cases, this is the same as the state where the entity has been depicted geospatially. However, there are cases, particularly where an entity is part of a larger facility that cuts across state lines, where the entity's location may be depicted in a state other than the one indicated in this attribute. Also, the state in which an entity appears to be located may change depending on the scale of the state boundaries theme being used.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Official USPS Abbreviations - State Abbreviations</codesetn>
+            <codesets>United States Postal Service http://www.usps.com/ncsc/lookups/usps_abbreviations.html</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>The name of the city associated with the physical address for the primary PSAP that serves the district.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAX</attrlabl>
+        <attrdef>Ten (10) digit fax number for the primary PSAP for the district formatted as nnn-nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Phone numbers formatted as nnn-nnnn. Only numeric digits are used. The first three (3) digits (the exchange) must form a valid combination with the area code. A list of valid area code and exchange combinations can be obtained from http://www.nanpa.com</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attrdef>Physical street address for the primary PSAP that serves the district. "PO Box", "General Delivery", "Rural Route", and "Highway Contract" addresses are not considered physical addresses and should not appear in this attribute. Some areas do not have regular city style addressing so entities in those areas may not have a street number. In such cases, the name of the road they are located on is listed in this attribute. Some rural areas may not have named roads. In these rare cases, this attribute will be blank.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>Five (5) digit FIPS (Federal Information Processing Standards) Code for the largest County or Counties which the district covers. The district may not cover the entire county. If multiple counties are covered, the county fips with the largest amount of coverage is represented. The first two (2) digits represent the state and the last three (3) digits identify the county within the state.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Information Processing Standards Publications - Counties and Equivalent Entities of the U.S., Its Possessions, and Associated Areas</codesetn>
+            <codesets>National Institute of Standards and Technology (NIST) &lt;http://www.itl.nist.gov/fipspubs/co-codes/states.txt&gt;</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS2</attrlabl>
+        <attrdef>Location within physical address, e.g., floor, suite, building.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE_ID</attrlabl>
+        <attrdef>State ID for the primary PSAP that serves the district.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FCC_ID</attrlabl>
+        <attrdef>FCC ID for the primary PSAP that serves the district.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique identifier for feature.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attrdef>Five (5) digit USPS zip code associated with the physical address of the primary PSAP that serves the district.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS Address Information System - Domain is further restricted by only allowing physical (non PO Box only) zip codes.</codesetn>
+            <codesets>United States Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TELEPHONE</attrlabl>
+        <attrdef>Ten (10) digit telephone number for entity formatted as nnn-nnn-nnnn.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Only numeric digits are used.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PSAP_NAME</attrlabl>
+        <attrdef>Name of the primary PSAP for the district. If the primary PSAP is unknown, TGS has attributed this with the same information found in the [NAME] attribute.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Name of the largest county in which the district covers. The district may not cover the entire county. If multiple counties are covered, the county with the largest amount of coverage is represented.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Geographic Names Information System (GNIS)</codesetn>
+            <codesets>US Department of the Interior - US Geologic Survey</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAICSDESCR</attrlabl>
+        <attrdef>NAICS (North American Industry Classification System) Description for entity. The "Index Entries" that appear on the NAICS webpage (http://www.census.gov/epcd/www/naics.html) are being used to populate this attribute as opposed to the "NAICS Title". While there is a one to one correspondence between NAICS Codes and "NAICS Titles", there is a one to many relationship between NAICS Codes and the "Index Entries". By using the "Index Entries", we have placed the entities that make up this layer into more specific categories; however, the user of this data should be aware that this was not the intended purpose of these "Index Entries". The "Index Entries" were intended as a way to search the NAICS database and as a way of enumerating ways in which establishments falling under the given NAICS Code may be named. Thus, there are often two or more "Index Entries" that are synonyms, for example: "Prisons" and "Penitentiaries". In cases like this, we have standardized on one "Index Entry". NAICS Descriptions (and NAICS Codes) have been assigned based upon the entity's primary function, regardless of the function that qualified it to be included in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>DISASTER PREPAREDNESS AND MANAGEMENT OFFICES, GOVERNMENT</edomv>
+            <edomvd>DISASTER PREPAREDNESS AND MANAGEMENT OFFICES, GOVERNMENT - [NAICS Code 922190]: This industry comprises government establishments primarily engaged in public order and safety (except courts, police protection, legal counsel and prosecution, correctional institutions, parole offices, probation offices, pardon boards, and fire protection).</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WEB</attrlabl>
+        <attrdef>Web address for the primary PSAP of the District.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/911-public-safety-answering-point-psap-area-boundary-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/28</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntpos>GIS Lead</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
