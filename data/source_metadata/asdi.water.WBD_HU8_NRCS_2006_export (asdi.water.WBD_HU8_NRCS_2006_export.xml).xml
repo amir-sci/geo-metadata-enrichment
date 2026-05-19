@@ -1,0 +1,481 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas Natural Resources Conservation Service State Office (NRCS)</origin>
+        <pubdate>20050101</pubdate>
+        <pubtime>unknown</pubtime>
+        <title>8 Digit Hydrologic Unit 2006 (polygon)</title>
+        <edition>1</edition>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Worth, Texas</pubplace>
+          <publish>U.S. Natural Resources Conservation Service</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set is a complete digital hydrologic unit boundary layer to the Subwatershed (12-digit) 6th level for the State of Arkansas. This data set consists of geo-referenced digital data and associated attributes created in accordance with the "FGDC Proposal, Version 1.0 - Federal Standards For Delineation of Hydrologic Unit Boundaries 3/01/02"(http://www.ftw.nrcs.usda.gov/huc_data.html). Polygons are attributed with hydrologic unit codes for 4th level sub-basins, 5th level watersheds, 6th level subwatersheds, name, size, downstream hydrologic unit, type of watershed, non-contributing areas and flow modification. Arcs are attributed with the highest hydrologic unit code for each watershed, line source and a metadata reference file.</abstract>
+      <purpose>The Watershed and Subwatershed hydrologic unit boundaries provide a uniquely identified and uniform method of subdividing large drainage areas. The smaller sized 6th level sub-watersheds (up to 250,000 acres) are useful for numerous application programs supported by a variety of local, State, and Federal Agencies. This data set is intended to be used as a tool for water-resource management and planning activities, particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. The dataset will be appended to a larger seamless nationally consistent geospatial database as other states complete their portion of the watershed boundary dataset.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>unknown</begdate>
+          <enddate>unknown</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618286</westbc>
+        <eastbc>-89.616911</eastbc>
+        <northbc>36.531908</northbc>
+        <southbc>32.969339</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>Natural Resources Conservation Service</themekt>
+        <themekey>Hydrologic Unit Code</themekey>
+        <themekey>Region</themekey>
+        <themekey>Watershed Boundary Dataset</themekey>
+        <themekey>HUC</themekey>
+        <themekey>Watershed Boundaries</themekey>
+        <themekey>Basin</themekey>
+        <themekey>Hydrologic Units</themekey>
+        <themekey>Sub-basin</themekey>
+        <themekey>Watershed</themekey>
+        <themekey>WBD</themekey>
+        <themekey>Sub-region</themekey>
+        <themekey>Subwatershed</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>HUC-8</themekey>
+        <themekey>NRCS</themekey>
+        <themekey>water</themekey>
+        <themekey>drainage</themekey>
+        <themekey>drainages</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>USA</placekey>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. These data should not be used at scales greater than 1:24,000 for the purpose of identifying hydrographic watershed boundary feature locations in Arkansas. The NRCS should be acknowledged as the data source in products derived from these data. The Arkansas Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Federal, State, or local regulatory bodies are not to reassign to the Natural Resources Conservation Service any authority for the decisions they make. The Natural Resources Conservation Service will not perform any evaluations of these maps or purposes related solely to State or local regulatory programs. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data. If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data from the source distributor.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas National Resource Conservation Service State Office</cntorg>
+          <cntper>Pam Cooper</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>700 West Capitol Ave, Federal Office Building, Rm. 3416</address>
+          <city>Little Rock</city>
+          <state>Arkansas</state>
+          <postal>72201-3225</postal>
+        </cntaddr>
+        <cntvoice>(501) 301-3146</cntvoice>
+        <cntemail>Pam.Cooper@ar.usda.gov</cntemail>
+        <cntinst>Please email questions and requests.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The dataset was created by the coordinated effort between multiple agencies including; Arkansas Natural Resources Commission (ANRC), USDA Arkansas, USDA Forest Service- Ozark-St. Francis National Forest, USGS Arkansas, USGS Utah, USGS Mississippi, Arkansas Game and Fish Commission, Arkansas Heritage Commission, Arkansas GIS User's Forum, Arkansas Department of Environmental Quality, Arkansas Geologic Commission, University of Arkansas at Monticello and University of Arkansas at Fayetteville. NRCS provided the oversight and did a major portion of the delineations and attribution in the eastern portion of the state and portions of the Upper White River area, as well as some areas along the middle and lower portions of the Arkansas side of the Mississippi. Over the past 1-1/2 years USGS in Arkansas as well as USGS in Utah have, under an agreement with NRCS and the State of Arkansas, completed the remainder of the states line work and attribution, appended the dataset together.</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>100% of the attributes were visually verified using 24K digital raster graphics (DRG's). The accuracy of this data is dependent on the level of detail of the source material and the interpretation procedures for capturing that source.</attraccr>
+    </attracc>
+    <logic>There are no unclosed polygons, intersections without nodes, or polygons without labels or with more than one label. Arc/Info's topological checking program CLEAN was used to correct intersections without nodes, identify unclosed polygons and remove duplicate lines with the same beginning and ending nodes. All sliver polygons were removed either using eliminate, merge or manually in ArcEdit.</logic>
+    <complete>All fields for all polygons in the .pat are attributed. Some polygons in the Ncontrb_a field might have a 0 value. All fields for the lines in the .aat are attributed. The lines adjacent to the universal polygon are attributed with a 0 for the hu_level. These cannot be attributed until the adjacent states complete their linework at which point the highest level of hydrologic unit can be determined.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The Arkansas WBD was produced using Digital Raster Graphics (DRG's) as the source map. Data completeness for DRG files reflects content of the source graphic and may therefore be reflected in the completeness and accuracy of the WBD. The map was digitized from USGS 1:24,000-scale digital raster graphic base maps, with an inherited error of +/- 40 feet according to the USGS National Map Accuracy Standards. It is estimated that any errors detected were less than 10%. It should also be noted that while general rules of hydrology were used (i.e. natural water flow is downhill), the locations of boundaries is still somewhat subjective as the 1:24,000-scale DRG's do not always provide enough information for identifying the location of the boundaries.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>National Hydrography Dataset</title>
+            <onlink>http://nhd.usgs.gov/data.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>map delineation</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>GIS coverage used for reference in watershed boundary delineation</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>Digital Raster Graphics</title>
+            <onlink>http://datagateway.nrcs.usda.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19990101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>map delineation</srccurr>
+        </srctime>
+        <srccitea>USGSDRG</srccitea>
+        <srccontr>hydrologic unit map delineation and digitize map</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>250K Hydrologic Unit Boundaries</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>250000</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>USGS2</srccitea>
+        <srccontr>Reference for 8-digit watershed delineation</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>EROS Data Center</origin>
+            <pubdate>unknown</pubdate>
+            <title>EDNA (EDNA30) Elevation Derivatives for National Applications-Stage 2 package</title>
+            <geoform>raster digital data</geoform>
+            <onlink>&lt;http://edc.usgs.gov&gt;</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>EROS</srccitea>
+        <srccontr>ARCView coverages for creation of raster lines</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>National Elevation Dataset</title>
+            <geoform>raster digital data</geoform>
+            <onlink>http://ned.usgs.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NED10</srccitea>
+        <srccontr>Creating raster lines using WBDTools</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>Digital Orthophoto Quads</title>
+            <geoform>raster digital data</geoform>
+            <onlink>http://datagateway.nrcs.usda.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>USGSDOQ</srccitea>
+        <srccontr>GIS raster coverage used for reference in watershed boundary delineation</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>This dataset was produced digitally on screen in Arcview or Arcmap referencing the Digital Raster Graphics for the method of delineation. As the dataset evolved, and especially in the northeastern portion of the state, the National Hydrography Dataset along with the Digital Ortho Quarter Quads (DOQQs) provided very useful as a reference for determining breaks in the flood plains. DOQQs were cited frequently along the Mississippi as well. Every effort has been made to create any new linework plus bring the historical linework within the National Standards for Spatial Data Accuracy (NSSDA) for 1:24,000 meter scale.</procdesc>
+        <srcused>USGSDRG Source_Used_Citation_Abbrebiation: USGSDOQ</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Edge-matching with Oklahoma, Mississippi, Missouri, Tennessee and Texas has been completed. Louisiana has no linework along the Arkansas border at this time. Since the headwaters reside in Arkansas along that border, it should be reasonable for Louisiana to edge-match with Arkansas at the time they begin that work.</procdesc>
+        <srcused>N/A</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>General subwatershed boundaries were created using EDNA30. These general raster lines were used as reference lines for on-screen digitizing</procdesc>
+        <srcused>EROS</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Upon completion of all linework, attribution was also completed to meet the Federal Standards for Delineation of Hydrologic Unit Boundaries.</procdesc>
+        <srcused>N/A</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Proposals were developed, funding was secured, and interagency agreements were written and signed.</procdesc>
+        <srcused>N/A</srcused>
+        <procdate>20030101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>General subwatershed boundaries were created for Sub-basins 08020203 and 08020204 using the WBDTools</procdesc>
+        <srcused>NED10</srcused>
+        <procdate>20050101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>First draft of metadata created by kjones using FGDCMETA.AML ver. 1.2 05/14/98 on ARC/INFO data set h:\wbd\edgematching_shapefiles\final\metadata\ar\ar_hu12_geo83</procdesc>
+        <procdate>20050922</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>58</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.water.BASINS_HUC8_NRCS</enttypl>
+        <enttypd>identifies watershed boundaries</enttypd>
+        <enttypds>n/a</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUBBASIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HUC_8</attrlabl>
+        <attrdef>A unique 8-digit code from the USGS map series "Hydrologic Unit Maps". The same number was used in every record that pertains to a subwatershed that resides within the same 8-digit sub-basin.</attrdef>
+        <attrdefs>Federal Standards for Delineation of Hydrologic Unit Boundaries</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Standards for the Delineation of Hydrologic Unit Boundaries</codesetn>
+            <codesets>Please refer to the Entity and Attribute Overview for valid values</codesets>
+          </codesetd>
+        </attrdomv>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>shape.STLength()</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Huc_8 : Eight Digit Hydrologic Unit Code - (REQUIRED) A unique 8-digit code from the USGS map series "Hydrologic Unit Maps". The same number was used in every record that pertains to a subwatershed that resides within the same 8-digit sub-basin. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined numbers were assigned in a clockwise fashion. Huc_10: Ten Digit Hydrologic Unit Code - (REQUIRED) This field provides a unique 10-digit code for each watershed. This same number was used in every record that pertains to a subwatershed that resides within the same 10-digit watershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined numbers were assigned in a clockwise fashion. Huc_12: Twelve Digit Hydrologic Unit Code - (REQUIRED) This field provides a unique 12-digit code for each subwatershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined numbers were assigned in a clockwise fashion. Acres: Acres - (REQUIRED) Area of subwatershed including non-contributing areas calculated to acres as a whole number, no decimals. The "Acres" field was calculated from the "Area" field. States: States - (REQUIRED) The "States" field includes the names of all state(s) that the subwatershed falls within. The 2-digit postal abbreviation in upper case and in alphabetical order was used, separated with a comma. Ncontrb_a: Non-Contributing Area - (FIELD REQUIRED, ATTRIBUTES OPTIONAL) Drainage areas that do not flow toward the outlet of any hydrologic unit are considered non-contributing. If a non-contributing area is on the boundary between two or more hydrologic units, the non-contributing area is associated with the hydrologic unit adjacent to the low point on the boundary. This attribute should be the total of the non-contributing areas within a hydrologic unit calculated in acres. Hu_10_ds: Fifth Level Downstream Hydrologic Unit Code - (FIELD REQUIRED, ATTRIBUTES OPTIONAL) This field has the 10-digit code of the 5th level hydrologic unit that is receiving the majority of the flow from the watershed that the 6th level HU falls within. Outlets created by ditching or other artificial drainage were not considered for this field. If an HU flows into an ocean or the Gulf of Mexico, this field was populated with "OCEAN" and if a HU flows into one of the Great Lakes the term "LAKE" was used. If a HU flows across international borders, "CANADA" or "MEXICO" was used depending on which country the HU drains into. If an HU is a closed basin, then the term "CLOSED BASIN"was used. Hu_10_name: Fifth Level Hydrologic Unit Name - (FIELD REQUIRED, ATTRIBUTES OPTIONAL) This field used officially recognized names only. This field was populated by following the directions in subsection 6.3 "Watershed and Subwatershed Naming Protocol". The name used to attribute the watershed was used only once within a 4th level unit. Hu_10_mod: Fifth Level Hydrologic Unit Modifications - (REQUIRED) This field identifies any type of modifications to natural overland flow that alters the location of the hydrologic unit boundary for a 10-digit watershed. This field shows the most significant to least significant modification(s) to the watershed boundary. One or more of the following abbreviations was used. SC - Stormwater Canal ID - Irrigation Ditch IT - Interbasin Transfer BC - Barge Canal SD - Stormwater Ditch PD - Pipe Diversion CD - Channel Diversion NC - Non-Contributing Area KA - Karst LE - Levee NM - No Modifications OC - Overflow Channel DM - Dam at outlet or HU boundary GC - General Canal PS - Pumping Station DD - Drainage Ditch AD - Aqueduct RS - Reservoir TF - Transportation Feature (road, railroad, docks etc.) GF - Ground Water Flow MA - Mining Activity UA - Urban Area OT - Other Hu_10_type: Fifth Level Hydrologic Unit Type - (REQUIRED) Populate this field with the hydrologic unit type from the list provided that most closely identifies the watershed. Use any of the one-digit abbreviations in uppercase that is provided in the list. S - "Standard" hydrologic unit - Any land HU with drainage flowing to a single outlet point, excluding non-contributing areas. This includes areas or small triangular wedges between adjacent HU's that remain after classic hydrologic units are delineated. Some examples include "true", "classic", "composite", and "remnant" hydrologic units. C - "Closed Basin" hydrologic unit - A drainage area that is 100% non-contributing. This means all surface flow is internal, no overland flow leaves the hydrologic unit through the outlet point. F - "Frontal" hydrologic unit - Areas along the coastline of lakes, oceans, bays, etc. that have more than one outlet. These HU's are predominantly land with some water areas at or near the outlet(s). W - "Water" hydrologic unit - Hydrologic units that are predominantly water with adjacent land areas, ex. lake, estuaries, harbors. I - "Island" hydrologic unit - A hydrologic unit that is one or more islands and adjacent water out to the toe of the shore face. U - "Unclassified" hydrologic unit - A hydrologic unit that can't be defined or doesn't fit into one of the types that have been listed. Hu_12_ds: Sixth Level Downstream Hydrologic Unit Code - (FIELD REQUIRED, ATTRIBUTES OPTIONAL) Populate this field with the 12-digit code of the 6th level hydrologic unit that is receiving the majority of the flow from the subwatershed. Outlets created by ditching or other artificial drainage are not to be considered for this field. If a HU flows into an ocean or the Gulf of Mexico populate this field with "OCEAN" and if a HU flows into one of the Great Lakes use the term "LAKE". If a HU flows across international borders use "CANADA" or "MEXICO" depending on which country the HU drains into. If an HU is a closed basin, then populate this record with the term "CLOSED BASIN". Hu_12_name: Sixth Level Hydrologic Unit Name - (FIELD REQUIRED, ATTRIBUTES OPTIONAL) This field is for officially recognized names only. Populate this field by following the directions in subsection 6.3 "Watershed and Subwatershed Naming Protocol". The name used to attribute the subwatershed should be used only once within a 6th level unit. Some 10-digit HU were assigned the huc_12 number when no GNIS name was identified on the DRG-Es. Hu_12_mod: Sixth Level Hydrologic Unit Modifications - (REQUIRED) This field should identify any type of modifications to natural overland flow that alters the location of the hydrologic unit boundary for a 12-digit subwatershed. In the attribute field, identify from most significant to least significant modification(s). Use one or more of the following abbreviations in uppercase to identify your modification(s). If using more than one abbreviation, separate with a comma with no space after the comma. SC - Stormwater Canal ID - Irrigation Ditch IT - Interbasin Transfer BC - Barge Canal SD - Stormwater Ditch PD - Pipe Diversion CD - Channel Diversion NC - Non-Contributing Area KA - Karst LE - Levee NM - No Modifications OC - Overflow Channel DM - Dam at outlet or HU boundary GC - General Canal PS - Pumping Station DD - Drainage Ditch AD - Aqueduct RS - Reservoir TF - Transportation Feature (road, railroad, docks etc.) GF - Ground Water Flow MA - Mining Activity UA - Urban Area OT - Other Hu_12_type: Sixth Level Hydrologic Unit Type - (REQUIRED) Populate this field with the hydrologic unit type from the list provided that most closely identifies the subwatershed. Use any of the one digit abbreviations in uppercase that is provided in the list. S - "Standard" hydrologic unit - Any land HU with drainage flowing to a single outlet point, excluding non-contributing areas. This includes areas or small triangular wedges between adjacent HU's that remain after classic hydrologic units are delineated. Some examples include "true", "classic", "composite", and "remnant" hydrologic units. C - "Closed Basin" hydrologic unit - A drainage area that is 100% non-contributing. This means all surface flow is internal, no overland flow leaves the hydrologic unit through the outlet point. F - "Frontal" hydrologic unit - Areas along the coastline of lakes, oceans, bays, etc. that have more than one outlet. These HU's are predominantly land with some water at or near the outlet(s). W - "Water" hydrologic unit - Hydrologic units that are predominantly water with adjacent land areas, ex. lake, easturies. I - "Island" hydrologic unit - A hydrologic unit that is one or more islands and adjacent water out to the toe of the shore face. U - "Unclassified" hydrologic unit - A hydrologic unit that can't be defined or doesn't fit into one of the types that have been listed. HU_10_GNIS#: 5th level GNIS Feature Identification Number - (Field Required, Attribute Optional) The Geographic Names Information System (GNIS) has a unique Feature Identification Number for each officially recognized name in the country. This number is 6-7 characters long. If a hydrologic unit name uses two or mure features, then this field would have two GNIS feature numbers with a space separating each number. As of August, 2004 this field does not need to be populated, but plans are to developed a semi_automated method to do this. HU_12_GNIS#: 6th level GNIS Feature Identification Number - (Field Required, Attribute Optional) The Geographic Names Information System (GNIS) has a unique Feature Identification Number for each officially recognized name in the country. This number is 6-7 characters long. If a hydrologic unit name uses two or more features, then this field would have two GNIS feature numbers with a space separating each number. As of August, 2004 this field does not need to be populated, but plans are to developed a semi_automated method to do this. ArcInfo (.pat) and ArcView Polygon Format Item name Width Output Type (ArcView) N.Dec. Example Huc_8 8 8 C - 01080201 Huc_10 10 10 C - 0108020103 Huc_12 12 12 C - 010802010310 Acres 8 12 F N 0 026739 States 11 11 C - KS,MO,OK Ncontrb_a 8 12 F N 0 357 Hu_10_ds 10 10 C - 1710020504 Hu_10_name 80 80 C - Upper Blue River Hu_10_mod 20 20 C - CB,NC,ID Hu_10_type 1 1 C - S Hu_12_ds 12 12 C - 171002050402 Hu_12_name 80 80 C - Drift Creek-Big Bear River Hu_12_mod 20 20 C - SD,KA,PD Hu_12_type 1 1 C - C HU_10_GNIS# 23 23 C - 102354 238437 HU_12_GNIS# 23 23 C - 1023547 2384378</eaover>
+      <eadetcit>Federal Standard for Delineation of Hydrologic Unit Boundaries</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. These data should not be used at scales greater than 1:24,000 for the purpose of identifying hydrographic watershed boundary feature locations in Arkansas. U.S. Department of Agriculture makes no claims for the data's suitability for other purposes. U.S. Department of Agriculture should be acknowledged as the data source in products derived from these data. The Arkansas Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Federal, State, or local regulatory bodies are not to reassign to the U.S. Department of Agriculture or the Natural Resources Conservation Service any authority for the decisions they make. The Natural Resources Conservation Service will not perform any evaluations of these maps or purposes related solely to State or local regulatory programs. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data. If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data from the source distributor.</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. These data should not be used at scales greater than 1:24,000 for the purpose of identifying hydrographic watershed boundary feature locations in Arkansas. U.S. Department of Agriculture makes no claims for the data's suitability for other purposes. U.S. Department of Agriculture should be acknowledged as the data source in products derived from these data. The Arkansas Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Federal, State, or local regulatory bodies are not to reassign to the U.S. Department of Agriculture or the Natural Resources Conservation Service any authority for the decisions they make. The Natural Resources Conservation Service will not perform any evaluations of these maps or purposes related solely to State or local regulatory programs. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data. If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data from the source distributor.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/8-digit-hydrologic-unit-2006-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Water/FeatureServer/24</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S Geological Survey</cntorg>
+          <cntper>Karen Hanson</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>2329 Orton Circle</address>
+          <city>West Valley</city>
+          <state>UT</state>
+          <postal>84119</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>801-908-5038</cntvoice>
+        <cntfax>801-908-5000</cntfax>
+        <cntemail>khanson@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>
