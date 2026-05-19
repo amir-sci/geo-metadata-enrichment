@@ -1,0 +1,19 @@
+embedding_model: all-mpnet-base-v2
+
+k_semantic: 10
+k_spatial: 10
+
+alpha: 0.6
+beta: 0.25
+gamma: 0.15
+
+tau: 0.80
+distance_cap_km: 50
+
+lowercase_text: true
+use_spacy_ner: true
+use_phrase_matcher: true
+export_parquet: true
+export_csv: true
+
+random_seed: 42

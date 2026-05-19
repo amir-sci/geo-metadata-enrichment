@@ -1,0 +1,14 @@
+lxml
+pandas
+numpy
+scikit-learn
+tqdm
+shapely
+geopy
+spacy
+streamlit
+joblib
+pyarrow
+sentence-transformers
+faiss-cpu
+annoy

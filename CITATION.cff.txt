@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "Semantic Enrichment and Automatic Completion of Regional Geospatial Metadata Using NLP"
+authors:
+  - family-names: Rashidi
+    given-names: Amir
+  - family-names: Fallahi
+    given-names: Gholamreza
+  - family-names: Norouzkhani
+    given-names: Amirhossein
+  - family-names: Sharifi
+    given-names: Alireza
+version: "1.0.0"
+date-released: "2026-05-18"
+repository-code: "https://github.com/USERNAME/REPO_NAME"
+license: MIT

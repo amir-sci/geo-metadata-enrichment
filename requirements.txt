@@ -1,0 +1,15 @@
+lxml
+pandas
+numpy
+scikit-learn
+spacy
+sentence-transformers
+faiss-cpu
+annoy
+geopandas
+shapely
+tqdm
+pyyaml
+matplotlib
+seaborn
+joblib
