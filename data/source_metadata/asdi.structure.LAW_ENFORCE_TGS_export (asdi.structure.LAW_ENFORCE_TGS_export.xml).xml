@@ -1,0 +1,908 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.structure.LAW_ENFORCE_TGS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Law Enforcement Locations Any location where sworn officers of a law enforcement agency are regularly based or stationed. Law Enforcement agencies "are publicly funded and employ at least one full-time or part-time sworn officer with general arrest powers". This is the definition used by the US Department of Justice - Bureau of Justice Statistics (DOJ-BJS) for their Law Enforcement Management and Administrative Statistics (LEMAS) survey. Although LEMAS only includes non Federal Agencies, this dataset includes locations for federal, state, local, and special jurisdiction law enforcement agencies. Law enforcement agencies include, but are not limited to, municipal police, county sheriffs, state police, school police, park police, railroad police, federal law enforcement agencies, departments within non law enforcement federal agencies charged with law enforcement (e.g., US Postal Inspectors), and cross jurisdictional authorities (e.g., Port Authority Police). In general, the requirements and training for becoming a sworn law enforcement officer are set by each state. Law Enforcement agencies themselves are not chartered or licensed by their state. County, city, and other government authorities within each state are usually empowered by their state law to setup or disband Law Enforcement agencies. Generally, sworn Law Enforcement officers must report which agency they are employed by to the state. Although TGS's intention is to only include locations associated with agencies that meet the above definition, TGS has discovered a few locations that are associated with agencies that are not publicly funded. TGS deleted these locations as we became aware of them, but some may still exist in this dataset. Personal homes, administrative offices, and temporary locations are intended to be excluded from this dataset; however, some personal homes of constables are included due to the fact that many constables work out of their homes. TGS has made a concerted effort to include all local police; county sheriffs; state police and/or highway patrol; Bureau of Indian Affairs; Bureau of Land Management; Bureau of Reclamation; U.S. Park Police; Bureau of Alcohol, Tobacco, Firearms, and Explosives; U.S. Marshals Service; U.S. Fish and Wildlife Service; National Park Service; U.S. Immigration and Customs Enforcement; and U.S. Customs and Border Protection. This dataset is comprised completely of license free data. FBI entities are intended to be excluded from this dataset, but a few may be included. The Law Enforcement dataset and the Correctional Institutions dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes. With the merge of the Law Enforcement and the Correctional Institutions datasets, the NAICS Codes &amp; Descriptions were assigned based on the facility's main function which was determined by the entity's name, facility type, web research, and state supplied data. In instances where the entity's primary function is both law enforcement and corrections, the NAICS Codes and Descriptions are assigned based on the dataset in which the record is located (i.e., a facility that serves as both a Sheriff's Office and as a jail is designated as [NAICSDESCR]="SHERIFFS' OFFICES (EXCEPT COURT FUNCTIONS ONLY)" in the Law Enforcement layer and as [NAICSDESCR]="JAILS (EXCEPT PRIVATE OPERATION OF)" in the Correctional Institutions layer). Records with "-DOD" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries. "#" and "*" characters were automatically removed from standard fields that TGS populated. Double spaces were replaced by single spaces in these same fields. Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] field. Based on the values in this field, the oldest record dates from 06/29/2006 and the newest record dates from 10/27/2009</abstract>
+      <purpose>Homeland Security Use Cases: Use cases describe how the data may be used and help to define and clarify requirements. 1. An assessment of whether or not the total police capability in a given area is adequate. 2. A list of resources to draw upon in surrounding areas when local resources have temporarily been overwhelmed by a disaster - route analysis can help to determine those entities who are able to respond the quickest. 3. A resource for emergency management planning purposes. 4. A resource for catastrophe response to aid in the retrieval of equipment by outside responders in order to deal with the disaster. 5. A resource for situational awareness planning and response for federal government events.</purpose>
+    </descript>
+    <status>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.547045</westbc>
+        <eastbc>-89.883357</eastbc>
+        <northbc>36.505053</northbc>
+        <southbc>32.980543</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Peace officers</themekey>
+        <themekey>Military police</themekey>
+        <themekey>structure</themekey>
+        <themekey>Secret service.</themekey>
+        <themekey>Transit police</themekey>
+        <themekey>Indian reservation police</themekey>
+        <themekey>State.</themekey>
+        <themekey>Police stations</themekey>
+        <themekey>U.S. Immigration and Customs Enforcement.</themekey>
+        <themekey>Juvenile detention</themekey>
+        <themekey>Law enforcement.</themekey>
+        <themekey>Fire marshals</themekey>
+        <themekey>Correctional institutions.</themekey>
+        <themekey>Traffic police.</themekey>
+        <themekey>United States. National Park Service.</themekey>
+        <themekey>Firearms</themekey>
+        <themekey>Police</themekey>
+        <themekey>Work camps</themekey>
+        <themekey>Community policing.</themekey>
+        <themekey>School police</themekey>
+        <themekey>Sheriffs</themekey>
+        <themekey>Railroad police</themekey>
+        <themekey>Drug enforcement agents</themekey>
+        <themekey>Tobacco</themekey>
+        <themekey>United States. Bureau of Reclamation.</themekey>
+        <themekey>United States. Bureau of Alcohol</themekey>
+        <themekey>and Explosives</themekey>
+        <themekey>United States. Bureau of Indian Affairs.</themekey>
+        <themekey>Police.</themekey>
+        <themekey>U.S. Customs and Border Protection.</themekey>
+        <themekey>United States marshals.</themekey>
+        <themekey>Jails</themekey>
+        <themekey>U.S. Fish and Wildlife Service.</themekey>
+        <themekey>Airport police</themekey>
+        <themekey>Criminal investigation.</themekey>
+        <themekey>Campus police</themekey>
+        <themekey>Border patrols.</themekey>
+        <themekey>Prisons.</themekey>
+        <themekey>Constables</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>intelligenceMilitary</themekey>
+        <themekey>structure</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>524</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Law Enforcement Locations in Arkansas</enttypl>
+        <enttypd>Any location where sworn officers of a law enforcement agency are regularly based or stationed. Law enforcement agencies "are publicly funded and employ at least one full-time or part-time sworn officer with general arrest powers". This is the definition used by the US Department of Justice - Bureau of Justice Statistics (DOJ-BJS) for their Law Enforcement Management and Administrative Statistics (LEMAS) survey. Although LEMAS only includes non Federal Agencies, this dataset includes locations for federal, state, local, and special jurisdiction law enforcement agencies. Law enforcement agencies include, but are not limited to, municipal police, county sheriffs, state police, school police, park police, railroad police, federal law enforcement agencies, departments within non law enforcement federal agencies charged with law enforcement (e.g., US Postal Inspectors), and cross jurisdictional authorities (e.g., Port Authority Police). In general, the requirements and training for becoming a sworn law enforcement officer are set by each state. Law Enforcement agencies themselves are not chartered or licensed by their state. County, city, and other government authorities within each state are usually empowered by their state law to setup or disband Law Enforcement agencies. Generally, sworn Law Enforcement officers must report which agency they are employed by to the state.</enttypd>
+        <enttypds>TGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SECCLASS</attrlabl>
+        <attrdef>Security classification of feature.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>UNCLASSIFIED</edomv>
+            <edomvd>Entity is unclassified.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique identifier for feature.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGEXT</attrlabl>
+        <attrdef>Telephone extension for emergency point of contact.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>Two (2) character abbreviation for state associated with the entity's physical address. In almost all cases, this is the same as the state where the entity has been depicted geospatially. However, there are cases, particularly where an entity is part of a larger facility that cuts across state lines, where the entity's location may be depicted in a state other than the one indicated in this field. Also, the state in which an entity appears to be located may change depending on the scale of the state boundary theme being used.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Official USPS Abbreviations - State Abbreviations</codesetn>
+            <codesets>United States Postal Service http://www.usps.com/ncsc/lookups/usps_abbreviations.html</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>Five (5) digit FIPS (Federal Information Processing Standards) Code for the County where entity is located. The first two (2) digits represent the state and the last three (3) digits identify the county within the state.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Information Processing Standards Publications - Counties and Equivalent Entities of the U.S., Its Possessions, and Associated Areas.</codesetn>
+            <codesets>National Institute of Standards and Technology (NIST) &lt;http://www.itl.nist.gov/fipspubs/co-codes/states.txt&gt;</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIRECTIONS</attrlabl>
+        <attrdef>Directions to entity location, or a description of the entity's location or status.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGTEL</attrlabl>
+        <attrdef>Ten (10) digit telephone number of emergency point of contact formatted as nnn-nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Phone numbers, including area code, formatted as nnn-nnn-nnnn. A list of valid area code and exchange combinations can be found at http://www.nanpa.com</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TELEPHONE</attrlabl>
+        <attrdef>Ten (10) digit telephone number for entity formatted as nnn-nnn-nnnn.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Phone numbers formatted as nnn-nnn-nnnn. Only numeric digits are used. The area code and exchange must form a valid combination. A list of valid area code and exchange combinations can be obtained from &lt;http://www.nanpa.com&gt;.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INMATE_JUV</attrlabl>
+        <attrdef>Indicates whether or not the inmate population is juvenile. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Unknown or not provided</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>YES</edomv>
+            <edomvd>Facility has a juvenile population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>NO</edomv>
+            <edomvd>Facility does not have a juvenile population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INMATE_COE</attrlabl>
+        <attrdef>Indicates whether or not the inmate population is Co-Ed. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>YES</edomv>
+            <edomvd>Facility has a Co-Ed population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Unknown or not provided</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>NO</edomv>
+            <edomvd>Facility does not have a Co-Ed population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INMATE_WOM</attrlabl>
+        <attrdef>Indicates whether or not the inmate population is female. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NO</edomv>
+            <edomvd>Facility does not have a female population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Unknown or not provided</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>YES</edomv>
+            <edomvd>Facility has a female population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACTYPE</attrlabl>
+        <attrdef>Type of facility. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attrdef>Physical street address for entity. "PO Box", "General Delivery", "Rural Route", and "Highway Contract" addresses are not considered physical addresses and should not appear in this field. Some areas do not have regular city style addressing, so entities in those areas may not have a street number. In such cases, the name of the road on which they are located is listed in this field. Some rural areas may not have named roads. In these rare cases, this field will be blank.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CI</attrlabl>
+        <attrdef>Indicates if the entity is also a part of the Correctional Institution layer.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Unable to determine if entity also belongs in the Correctional Institution layer.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Entity is a law enforcement facility only.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Entity is also a part of the Correctional Institution layer.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOTALPOP</attrlabl>
+        <attrdef>Total population of entity. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOLINKID</attrlabl>
+        <attrdef>Link ID for the street segment to which the entity was geocoded. Refer to the [ST_VENDOR] and [ST_VERSION] fields for the street vendor and version that was used to geocode the entity.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>Longitude in WGS 84 Decimal Degrees.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>180</rdommax>
+            <attrunit>WGS 84 Decimal Degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LEMAS_ID</attrlabl>
+        <attrdef>Agency identification number provided by LEMAS. Please note that these numbers are provided "as-is" and TGS has not verified the accuracy of these ids.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORI</attrlabl>
+        <attrdef>The ORI is a nine-character identifier assigned by FBI CJIS staff to an agency which has met the established qualifying criteria for ORI assignment to identify the agency in transactions on the NCIC 2000 System. The structure of law enforcement ORIs (those ORIs ending with a zero) and other criminal justice ORIs (those ORIs ending with an alphabetic character) are as follows: 1. POSITIONS 1 THROUGH 5&gt;Positions 1 and 2 are the alphabetic characters representing the state or country in which the agency is located. For example: PA0040100 Positions 3, 4, and 5 are numeric characters indicating the county in which the agency is located. For example: PA0040100 Exceptions to this are some state-level and federal agencies, which have the acronym for that agency, or alphabetic variations thereof, in positions 3, 4, and 5, i.e., DCATF0000 and TXDPD0000 for the Bureau of Alcohol, Tobacco and Firearms and the Dallas, Texas, Police Department, respectively. 2. POSITIONS 6 THROUGH 9 OF LAW ENFORCEMENT ORIs The criterion FBI CJIS staff uses for assigning a law enforcement ORI (one ending with a zero) is that the agency is a governmental agency or subunit thereof having statutory power of arrest and whose primary function is that of apprehension and detection. Positions 6 and 7 in a law enforcement ORI are used to distinguish one agency from another within the same county. For example: PA0040100 Positions 8 and 9 of a law enforcement ORI are always double zero. NCIC 2000 users, particularly large city/urban police departments, may vary the last two positions (8 and 9) to identify internal divisions, units, substations, or multiple terminals for the same agency within the same city. Any variation of the last two positions is acceptable with the exception that an alphabetic character cannot be used in position 9. NCIC 2000 does not assign these variations. The variations will not translate when a ZO inquiry is made. 3. POSITIONS 6 THROUGH 9 OF CRIMINAL JUSTICE ORIs FBI CJIS staff determines the numeric and alphabetic characters assigned to positions 6 through 9 for criminal justice ORIs as follows: Positions 6 and 7 are numeric characters uniquely distinguishing one agency from other agencies of the same type and level within the same county. They do not indicate location (e.g., city) of the agency. For example: PA004023C Position 8 is a unique numeric character indicating the government level of the agency: 1 - Local, Municipal, City 3 - County 5 - State 7 - Federal 9 - Nongovernmental For example: PA004023C Position 9 is an alphabetic character representing the type of agency: A - Prosecuting Attorney's Offices (includes District Attorney's Offices, Attorney General's Offices, etc.). B - Pretrial service agencies and pretrial release agencies. C - Correctional Institutions (includes jails, prisons, detention centers, etc.). D - Civil Courts for use in domestic violence and stalking cases. E - Nongovernmental railroad or campus police departments qualifying for access to III. (This section provides criteria for assignment of a limited access ORI.) G - Probation and Parole Offices. H - Department of State National Visa Center. I - INTERPOL. J - Courts and Magistrates Offices. K - Medical examiners and coroners offices for access to Missing Person and Unidentified Person Files. M - Custodial facilities in medical or psychiatric institutions and some medical examiners' offices which are criminal justice in function. N - Regional dispatch centers which are criminal justice agencies or under the management control of criminal justice agencies. O - National Insurance Crime Bureau. P - Nongovernmental agencies that qualify for access to some NCIC 2000 files other than III. Also, 911 centers that do not have a management control agreement. Q - Department of Housing and Urban Development approved Public Housing Agencies. R - Agencies authorized by Public Law 99-169 for national security purposes. U - Federal and state governmental child support enforcement agencies. V - Department of Motor Vehicles. W - National Center for Missing and Exploited Children (NCMEC). Y - Local, county, state, or federal agencies that are classified as criminal justice agencies by statute but do not fall into one of the aforementioned categories, e.g., Arkansas Crime Information Center. For example: PA004023C Please note that these ORI numbers are provided "as-is" by individual sources and TGS has not verified the accuracy of these ids.</attrdef>
+        <attrdefs>NCIC 2000</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHONELOC</attrlabl>
+        <attrdef>Indicates whether the phone number in the [TELEPHONE] field rings to the actual location of the entity.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NO</edomv>
+            <edomvd>Phone number does not ring to the actual entity location. It may ring to an administrative office or central location.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>YES</edomv>
+            <edomvd>Phone number rings to the actual entity location.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Unknown - It is not known if the entity's phone number rings to the entity's location.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QC_QA</attrlabl>
+        <attrdef>Organization that performed Quality Control/Quality Assurance on the record.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>TGS</edomv>
+            <edomvd>TGS has performed Quality Control/Quality Assurance on all TGS added records and all records contacted since 01/01/2005.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>The record is not TGS added or has not had Quality Control/Quality Assurance performed by TGS, or Quality Control/Quality Assurance was performed prior to 01/01/2005.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEODATE</attrlabl>
+        <attrdef>Date entity was geocoded by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Date</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CAPACITY</attrlabl>
+        <attrdef>Design capacity of inmates. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INMATE_MEN</attrlabl>
+        <attrdef>Indicates whether or not the inmate population is male. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>YES</edomv>
+            <edomvd>Facility has a male population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>NO</edomv>
+            <edomvd>Facility does not have a male population.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Unknown or not provided</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE_ID</attrlabl>
+        <attrdef>State Law Enforcement Data ID. For states that contributed data, this field is populated with the unique ID used by the state to track law enforcement locations.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST_VERSION</attrlabl>
+        <attrdef>Indicates the year and quarter of streets used for geocoding.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2006Q3</edomv>
+            <edomvd>3rd Quarter 2006 NAVTEQ street data was used for geocoding.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>2006Q4</edomv>
+            <edomvd>4th Quarter 2006 NAVTEQ street data was used for geocoding.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>2008Q1</edomv>
+            <edomvd>1st Quarter 2008 NAVTEQ street data was used for geocoding.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST_VENDOR</attrlabl>
+        <attrdef>Indicates name of vendor providing original street data used for geocoding.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>TGS</edomv>
+            <edomvd>TGS drew in a new street segment that does not exist in the file supplied by NAVTEQ.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>NAVTEQ</edomv>
+            <edomvd>NAVTEQ streets were used for geocoding.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAICSDESCR</attrlabl>
+        <attrdef>NAICS (North American Industry Classification System) Description for entity. The "Index Entries" that appear on the NAICS webpage (http://www.census.gov/epcd/www/naics.html) are being used to populate this attribute as opposed to the "NAICS Title". While there is a one to one correspondence between NAICS Codes and "NAICS Titles", there is a one to many relationship between NAICS Codes and the "Index Entries". By using the "Index Entries", we have placed the entities that make up this layer into more specific categories; however, the user of this data should be aware that this was not the intended purpose of these "Index Entries". The "Index Entries" were intended as a way to search the NAICS database and as a way of enumerating ways in which establishments falling under the given NAICS Code may be named. Thus, there are often two or more "Index Entries" that are synonyms, for example: "Prisons" and "Penitentiaries". In cases like this, we have standardized on one "Index Entry". NAICS Descriptions (and NAICS Codes) have been assigned based upon the entity's primary function, regardless of the function that qualified it to be included in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ALCOHOL, TOBACCO, AND FIREARMS CONTROL</edomv>
+            <edomvd>ALCOHOL, TOBACCO, AND FIREARMS CONTROL-[NAICS Code 922120]: Entities that are involved in the specific sector of enforcing federal laws concerning alcohol, tobacco products, firearms, and explosives are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>PRISON FARMS</edomv>
+            <edomvd>PRISON FARMS - [NAICS Code 922140]: Entities where the inmate population works on a farm or ranch as part of their punishment / rehabilitation.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>JAILS (EXCEPT PRIVATE OPERATION OF)</edomv>
+            <edomvd>JAILS (EXCEPT PRIVATE OPERATION OF) - [NAICS Code 922140]: Entity is a jail. A jail is a facility that holds inmates beyond arraignment (usually 72 hours) and prior to sentencing. Jails may also hold inmates serving short sentences (up to a year) for minor crimes. This includes locally administered jails that are staffed by municipal or county employees. This also includes regional jails operated for two or more jail authorities and Federal Bureau of Prisons facilities that function as jails. The above definition is consistent with that used by the Bureau of Justice Statistics (BJS) Census of Jails (&lt;http://www.ojp.usdoj.gov/bjs/pub/pdf/cj99.pdf&gt;), except that the BJS includes "private jails operating under contract to governments". Also included under this category are temporary holding facilities, sometimes referred to as "police lock ups" or "drunk tanks". Temporary holding facilities are used to detain people prior to arraignment. Although these are included under this category, the BJS excludes them from their Census of Jails.</edomvd>
+            <edomvds>TGS - based upon the BJS Census of Jails</edomvds>
+          </edom>
+          <edom>
+            <edomv>PRISONS</edomv>
+            <edomvd>PRISONS - [NAICS Code 922140]: Entity is a prison. A prison is a facility where persons convicted of the commission of a felony are held. Prisons may be called "Prisons", "Reformatories", "Penitentiaries", "Detention Centers", or "Correctional Centers", although the use of one of these terms in an entity's name does not necessarily indicate that the entity is in fact a "Prison" in the narrow sense used here.</edomvd>
+            <edomvds>TGS - based loosely on the BJS's "Correctional Populations in the United States" (&lt;http://www.albany.edu/sourcebook/app15.html&gt;)</edomvds>
+          </edom>
+          <edom>
+            <edomv>MILITARY POLICE</edomv>
+            <edomvd>MILITARY POLICE-[NAICS Code 928110]: Entities that are involved in the specific sector of the Armed Forces, including the National Guard, primarily engaged in national security and related activities are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>HOUSING POLICE, GOVERNMENT</edomv>
+            <edomvd>HOUSING POLICE, GOVERNMENT-[NAICS Code 922120]: Entities that are involved in the specific sector of securing and delivering police services to people using public housing are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>IMMIGRATION SERVICES</edomv>
+            <edomvd>IMMIGRATION SERVICES-[NAICS Code 928120]: Entities that are responsible for the specific sector of the administration of immigration and naturalization adjudication functions and establishing immigration services, policies, and priorities are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>TRANSIT POLICE</edomv>
+            <edomvd>TRANSIT POLICE-[NAICS Code 922120]: Entities that are involved in the specific sector of a specialized type of police who prevent and investigate crimes committed against a transportation carrier or against passengers and other customers of the carrier are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>FEDERAL BUREAU OF INVESTIGATION (FBI)</edomv>
+            <edomvd>FEDERAL BUREAU OF INVESTIGATION (FBI)-[NAICS Code 922120]: Entities that are involved in the specific sector of enforcing federal laws and investigations are classified under this description, unless they are primarily involved in federal police services.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>HONOR CAMPS, CORRECTIONAL</edomv>
+            <edomvd>HONOR CAMPS, CORRECTIONAL-[NAICS Code 922140]: Entity is a work camp which houses inmates whose primary duties involve outdoor labor. Entities are also sometimes known as a "Conservation Camp".</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>REHABILITATION SERVICES, CORRECTIONAL, GOVERNMENT</edomv>
+            <edomvd>REHABILITATION SERVICES, CORRECTIONAL, GOVERNMENT-[NAICS Code 922150]: Entity is a treatment center that attempts to change or reform a convicted person so that he or she will not commit another criminal act. These entities facilitate reintegration into the community with a greater chance of succeeding.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>HIGHWAY PATROLS, POLICE</edomv>
+            <edomvd>HIGHWAY PATROLS, POLICE-[NAICS Code 922120]: Entities that are involved in the specific sector of patrolling public highways are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>SHERIFFS' OFFICES, COURT FUNCTIONS ONLY</edomv>
+            <edomvd>SHERIFFS' OFFICES, COURT FUNCTIONS ONLY-[NAICS Code 922110]: Entities that are involved in the specific sector of general law enforcement at the county level that conduct court functions only are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>BOOT CAMPS FOR DELINQUENT YOUTH</edomv>
+            <edomvd>BOOT CAMPS FOR DELINQUENT YOUTH - [NAICS Code 623990]: Entity is a correctional camp for juveniles. In such facilities, the nature of the correctional / reform methods are similar to those used in military boot camps or otherwise involve outdoor labor and/or intense exercise. These entities may be seasonal in nature.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>PARK POLICE</edomv>
+            <edomvd>PARK POLICE-[NAICS Code 922120]: Entities that are involved in the specific sector of protecting the national, state, and local parks are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>FIRE MARSHALS' OFFICES</edomv>
+            <edomvd>FIRE MARSHALS' OFFICES-[NAICS Code 922160]: Entities that are primarily engaged in fire fighting and other related fire protection activities are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>SHERIFFS' OFFICES (EXCEPT COURT FUNCTIONS ONLY)</edomv>
+            <edomvd>SHERIFFS' OFFICES (EXCEPT COURT FUNCTIONS ONLY)-[NAICS Code 922120]: Entities that are involved in the specific sector of general law enforcement at the county level are classified under this description, unless they primarily conduct court functions only.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>BOYS' AND GIRLS' RESIDENTIAL FACILITIES (E.G., HOMES, RANCHES, VILLAGES)</edomv>
+            <edomvd>BOYS' AND GIRLS' RESIDENTIAL FACILITIES (E.G., HOMES, RANCHES, VILLAGES) - [NAICS Code 623990]: Entity is a NON CORRECTIONAL facility for juveniles. In other words, a facility that houses (and perhaps detains) problematic juveniles that have not necessarily been convicted of, or charged with, a crime.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>STATE POLICE</edomv>
+            <edomvd>STATE POLICE-[NAICS Code 922120]: Entities that are involved in the specific sector of general law enforcement at the state level are classified under this description, unless they are primarily involved in a more specific sector of law enforcement.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>FEDERAL POLICE SERVICES</edomv>
+            <edomvd>FEDERAL POLICE SERVICES-[NAICS Code 922120]: Entities that are involved in the specific sector of federal police services are classified under this description, unless they are primarily involved in federal investigations.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>POLICE, AMERICAN INDIAN OR ALASKA NATIVE TRIBAL</edomv>
+            <edomvd>POLICE, AMERICAN INDIAN OR ALASKA NATIVE TRIBAL-[NAICS Code 921150]: Entities that are involved in the specific sector of general police protections for the American Indian and Alaskan Native population are classified under this description, unless they are primarily involved in a more specific sector of law enforcement.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>CRIMINAL INVESTIGATION OFFICES, GOVERNMENT</edomv>
+            <edomvd>CRIMINAL INVESTIGATION OFFICES, GOVERNMENT-[NAICS Code 922120]: Entities that are involved in the specific sector of criminal investigations are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>DRUG ENFORCEMENT AGENCIES AND OFFICES</edomv>
+            <edomvd>DRUG ENFORCEMENT AGENCIES AND OFFICES-[NAICS Code 922120]: Entities that are involved in the specific sector of enforcing laws and regulations governing narcotics and controlled substances at the local and state level are classified under this description, unless they are primarily involved at the federal level.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>POLICE DEPARTMENTS (EXCEPT AMERICAN INDIAN OR ALASKA NATIVE)</edomv>
+            <edomvd>POLICE DEPARTMENTS (EXCEPT AMERICAN INDIAN OR ALASKA NATIVE)-[NAICS Code 922120]: Entities that are involved in the specific sector of general police protections are classified under this description, unless they are primarily involved in a more specific sector of law enforcement.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>CORRECTIONAL FACILITY OPERATION ON A CONTRACT OR FEE BASIS</edomv>
+            <edomvd>CORRECTIONAL FACILITY OPERATION ON A CONTRACT OR FEE BASIS - [NAICS Code 561210]: Entity is a correctional facility, other than a jail, operated by a private firm under contract to a government agency.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>CORRECTIONAL INSTITUTIONS</edomv>
+            <edomvd>CORRECTIONAL INSTITUTIONS - [NAICS Code 922140]: Entity is a correctional institution, but we were unable to determine if it was a jail or a prison. This includes juvenile detention centers if the primary purpose of the center is corrections. Juvenile facilities that deal with problematic youth not convicted of a crime have been categorized under BOYS' and GIRLS' RESIDENTIAL FACTILITIES (E.G., HOMES, RANCHES, VILLAGES) - [NAICS Code 623990]</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>MARSHALS' OFFICES</edomv>
+            <edomvd>MARSHALS' OFFICES-[NAICS Code 922120]: Entities that are responsible for the specific sector of providing protection for the federal judiciary, transporting federal prisoners, protecting endangered federal witnesses and managing assets seized from criminal enterprises are classified under this description.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>DEA (DRUG ENFORCEMENT ADMINISTRATION)</edomv>
+            <edomvd>DEA (DRUG ENFORCEMENT ADMINISTRATION)-[NAICS Code 922120]: Entities that are involved in the specific sector of enforcing laws and regulations governing narcotics and controlled substances at the federal level are classified under this description, unless they are primarily involved at the state and local levels.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>POLICE AND FIRE DEPARTMENTS, COMBINED</edomv>
+            <edomvd>POLICE AND FIRE DEPARTMENTS, COMBINED-[NAICS Code 922120]: Entities that are involved in the specific sector of both police and fire protection are classified under this description, unless they are primarily involved in the prevention and/or investigation of fire.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTDATE</attrlabl>
+        <attrdef>Date entity was contacted by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Date</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTHOW</attrlabl>
+        <attrdef>Method by which entity was contacted.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>FAX</edomv>
+            <edomvd>Entity was contacted by fax.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>PHONE</edomv>
+            <edomvd>Entity was contacted by phone.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>ALT REF</edomv>
+            <edomvd>Geospatial reference information obtained from local authorities, e.g., downloadable parcel maps, 911 streets, and shape files.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Entity has not been contacted by TGS.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>MAIL</edomv>
+            <edomvd>Entity was contacted by mail.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+        <attrdef>The unique permanent identifier of the Geographic Names Information System. Values are up to eight (8) digits in length and are unique within the nation. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOPREC</attrlabl>
+        <attrdef>Geocoding precision.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ONENTITY</edomv>
+            <edomvd>Entity is geocoded on entity rooftop per aerial imagery (in most cases USGS DOQQs).</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>BLOCKFACE</edomv>
+            <edomvd>Entity is geocoded to correct block and correct side of street per street data indicated by [ST_VENDOR] and [ST_VERSION].</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAICSCODE</attrlabl>
+        <attrdef>NAICS (North American Industry Classification System) Code for entity. NAICS Codes (and NAICS Descriptions) have been assigned based upon the entity's primary function, regardless of if that is the function that qualified it to be included in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>North American Industry Classification System (NAICS 2007)</codesetn>
+            <codesets>US Census Bureau - &lt;http://www.census.gov/epcd/www/naics.html&gt;</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECLEVEL</attrlabl>
+        <attrdef>Indicates the security level the facility operates under. The definitions for the values that are in this field were taken from the Federal Bureau of Prisons. Where possible, these categories have been applied to facilities other than those operated by the Federal Bureau of Prisons. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>Latitude in WGS 84 Decimal Degrees.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-90</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>WGS 84 Decimal Degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AGENCY</attrlabl>
+        <attrdef>Agency name. The values in this field were assigned by TGS based on the entity's source data.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERPHONE</attrlabl>
+        <attrdef>Emergency Contact Number as provided by individual sources. Some values also include telephone extensions and/or alternate telephone numbers. All alphabetic characters have been translated to the corresponding numeric digit. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Phone numbers, including area code, formatted as nnn-nnn-nnn. A list of valid area code and exchange combinations can be found at &lt;http://www.nanpa.com&gt;</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County name where entity is located.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Geographic Names Information System (GNIS)</codesetn>
+            <codesets>US Department of the Interior - US Geologic Survey</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERM_ID</attrlabl>
+        <attrdef>The unique permanent identifier of The National Structures Dataset. The values in this field were provided by individual sources and are not verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attrdef>Five (5) digit USPS zip code for entity's physical location.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS Address Information System - Domain is further restricted by only allowing physical (non PO Box) zip codes.</codesetn>
+            <codesets>United States Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGTITLE</attrlabl>
+        <attrdef>Title of person or name of office for emergency point of contact.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOHOW</attrlabl>
+        <attrdef>Method by which entity was geocoded.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>MANUAL</edomv>
+            <edomvd>Entity was manually geocoded.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>ADJUSTED</edomv>
+            <edomvd>Entity was shifted by TGS to an updated set of NAVTEQ streets. This only applies if the entity was manually geocoded by TGS to a previous version of NAVTEQ streets.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS2</attrlabl>
+        <attrdef>Location within physical address, e.g., floor, suite, building.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>The name of the city associated with the entity's physical address. For physical addresses that the U.S. Postal Service (USPS) delivers to, this should be a "city" acceptable to the USPS as defined in their Address Information System (AIS). Sometimes the USPS does not deliver mail to a physical address but recognizes the location (i.e., they list the location as "undeliverable"). The cities associated with these locations are acceptable. In some cases, the USPS does not recognize individual physical addresses in a city, rather, they list the city as having "General Delivery". In these cases, the city and associated zip code are acceptable (the entity's [ADDRESS] field will contain a street address, not "general delivery"). The entity may not actually be located within the city limits of the "city" specified in its [CITY] field. Instead, it may actually be located within the city limits of another city. In some cases, the "city" that appears in this field may not even be a city in an administrative sense, but it is still an acceptable "city" to the USPS. An example of this is "Notre Dame, IN". There is no city in Indiana called "Notre Dame", but this is considered an acceptable city by the USPS for any delivery going to the University of Notre Dame which is actually located in the city of South Bend. "Notre Dame", like most USPS cities, is an easily recognized place, and it gives the user of the data a good general idea of where the entity is located (if the entity is located in a small municipality, the USPS "city" may be more recognizable than the name of the municipality), and it would be part of the address one would use to send a shipment to the entity's location. Using the USPS acceptable "city" also allows someone to do a logical consistency check between the zip code and the city by using the USPS AIS. Sometimes an entity may report a city that is not accepted by the USPS, and although TGS has tried to replace those cities with an acceptable alternative, some of them may remain in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of entity.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIPP4</attrlabl>
+        <attrdef>Four (4) digit USPS zip code extension. These values are automatically assigned using the entity's physical address and USPS address information system (AIS) data.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS Address Information System (AIS) - ZIP9</codesetn>
+            <codesets>United States Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Structure/FeatureServer/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/law-enforcement-point/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

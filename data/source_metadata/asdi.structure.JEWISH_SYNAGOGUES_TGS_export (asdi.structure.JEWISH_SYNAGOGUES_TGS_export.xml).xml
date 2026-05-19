@@ -1,0 +1,593 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.structure.JEWISH_SYNAGOGUES_TGS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Jewish Synagogues in Arkansas The Jewish Synagogues dataset is composed of Jewish places of worship and other Jewish religious institutions such as Jewish Community Centers. Some Jewish Synagogues were processed using information found through internet research and locations were determined based upon available sources of ortho imagery (USGS DOQQ's, NAIP, and state and local imagery). These records are indicated by a [CONTHOW] of "ALT REF". All data is non license restricted data. The text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g. the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] attribute. Based upon this attribute, the oldest record dates from 2007/07/20 and the newest record dates from 2007/07/31</abstract>
+      <purpose>Homeland Security Use Cases: Use cases describe how the data may be used and help to define and clarify requirements. 1. A disaster or health emergency has struck, or is predicted for, a locality. Synagogues and other Jewish religious institutions that may be affected must be identified. 2. An assessment of the evacuation requirements and issues for a given area needs to be made as part of a disaster mitigation plan. Synagogues and other Jewish religious institutions that may need to be evacuated must be identified. 3. Facilities that can serve as shelters must be identified. 4. There has been a threat against Synagogues and other Jewish religious institutions. These locations need to be identified, their leadership contacted, and their buildings protected.</purpose>
+    </descript>
+    <status>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.396617</westbc>
+        <eastbc>-90.691160</eastbc>
+        <northbc>36.376519</northbc>
+        <southbc>33.618709</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>structure</themekey>
+        <themekey>Synagogues Organization and administration</themekey>
+        <themekey>Jewish community centers</themekey>
+        <themekey>Synagogues</themekey>
+        <themekey>Synagogues as community centers</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>structure</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>11</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00012800000011920932</absres>
+            <ordres>0.00012800000011920932</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.structure.JEWISH_SYNAGOGUES_TGS</enttypl>
+        <enttypd>The Jewish Synagogues dataset is composed of Jewish places of worship and other Jewish religious institutions. This layer also includes Jewish Community Centers.</enttypd>
+        <enttypds>TGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FEATTYPE</attrlabl>
+        <attrdef>Geometry type of feature.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>POINT</edomv>
+            <edomvd>Feature is represented by point.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique identifier for feature.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTDATE</attrlabl>
+        <attrdef>Date entity was contacted by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Date</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGEXT</attrlabl>
+        <attrdef>Telephone extension for emergency point of contact.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGTITLE</attrlabl>
+        <attrdef>Title of person or name of office for emergency point of contact.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>METLNKID</attrlabl>
+        <attrdef>Link to Metadata.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOPREC</attrlabl>
+        <attrdef>Geocoding precision.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Entity was geocoded using coordinates provided by the state; therefore, geocoding precision is unknown.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>ONENTITY</edomv>
+            <edomvd>Entity is geocoded on entity rooftop per aerial imagery (in most cases USGS DOQQs).</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>BLOCKFACE</edomv>
+            <edomvd>Entity is geocoded to correct block and correct side of street per street data indicated by [ST_VENDOR] and [ST_VERSION].</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOC_TYPE</attrlabl>
+        <attrdef>Indicates the type of facility the synagogue is located in or the type of facility the congregation holds their meetings at. The values for this attribute have not been verified by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County name where entity is located.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Geographic Names Information System (GNIS)</codesetn>
+            <codesets>US Department of the Interior - US Geologic Survey</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOLINKID</attrlabl>
+        <attrdef>Link ID for the street segment to which the entity was geocoded. Refer to the [ST_VENDOR] and [ST_VERSION] attributes for the street vendor and version that was used to geocode the entity.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>Longitude in WGS 84 Decimal Degrees.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>180</rdommax>
+            <attrunit>WGS 84 Decimal Degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAICSCODE</attrlabl>
+        <attrdef>NAICS (North American Industry Classification System) Code for entity. NAICS Codes (and NAICS Descriptions) have been assigned based upon the entity's primary function, regardless of if that is the function that qualified it to be included in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>North American Industry Classification System (NAICS 2002)</codesetn>
+            <codesets>US Census Bureau - http://www.census.gov/epcd/www/naics.html</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAICSDESCR</attrlabl>
+        <attrdef>NAICS (North American Industry Classification System) Description for entity. The "Index Entries" that appear on the NAICS webpage (http://www.census.gov/epcd/www/naics.html) are being used to populate this attribute as opposed to the "NAICS Title". While there is a one to one correspondence between NAICS Codes and "NAICS Titles", there is a one to many relationship between NAICS Codes and the "Index Entries". By using the "Index Entries", we have placed the entities that make up this layer into more specific categories; however, the user of this data should be aware that this was not the intended purpose of these "Index Entries". The "Index Entries" were intended as a way to search the NAICS database and as a way of enumerating ways in which establishments falling under the given NAICS Code may be named. Thus, there are often two or more "Index Entries" that are synonyms, for example: "Prisons" and "Penitentiaries". In cases like this, we have standardized on one "Index Entry". NAICS Descriptions (and NAICS Codes) have been assigned based upon the entity's primary function, regardless of the function that qualified it to be included in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>SYNAGOGUES</edomv>
+            <edomvd>SYNAGOGUES - [NAICS Code 813110]: Establishments primarily engaged in administering an organized religion or promoting religious activities of the Jewish religion.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTHOW</attrlabl>
+        <attrdef>Method by which entity was contacted.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>WEB</edomv>
+            <edomvd>Entity information was gathered and/or verified by official entity website as a last resort.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>ALT REF</edomv>
+            <edomvd>Geospatial reference information obtained from local authorities, e.g., downloadable parcel maps, 911 streets, and shapefiles.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>MAIL</edomv>
+            <edomvd>Entity was contacted by mail.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>PHONE</edomv>
+            <edomvd>Entity was contacted by phone.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>FAX</edomv>
+            <edomvd>Entity was contacted by fax.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>EMAIL</edomv>
+            <edomvd>Entity was contacted by email.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QC_QA</attrlabl>
+        <attrdef>Organization that performed Quality Control/Quality Assurance on the record.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>TGS</edomv>
+            <edomvd>TGS has performed Quality Control/Quality Assurance on the entity record after 01/01/2005.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>The record is not TGS added or has not had Quality Control/Quality Assurance performed by TGS, or Quality Control/Quality Assurance was performed prior to 01/01/2005.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attrdef>Five (5) digit USPS zip code for entity's physical location.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS Address Information System - Domain is further restricted by only allowing physical (non PO Box) zip codes.</codesetn>
+            <codesets>United States Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>Two (2) character abbreviation for state associated with the entity's physical address. In almost all cases this is the same as the state where the entity has been depicted geospatially. However, there are cases, particularly where an entity is part of a larger facility that cuts across state lines, where the entity's location may be depicted in a state other than the one indicated in this attribute. Also, the state in which an entity appears to be located may change depending on the scale of the state boundary theme being used.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Official USPS Abbreviations - State Abbreviations</codesetn>
+            <codesets>United States Postal Service http://www.usps.com/ncsc/lookups/usps_abbreviations.html</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attrdef>Physical street address for entity. "PO Box", "General Delivery", "Rural Route", and "Highway Contract" addresses are not considered physical addresses and should not appear in this attribute. Some areas do not have regular city style addressing so entities in those areas may not have a street number. In such cases, the name of the road they are located on is listed in this attribute. Some rural areas may not have named roads. In these rare cases, this attribute will be blank.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS2</attrlabl>
+        <attrdef>Location within physical address, e.g., floor, suite, building.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST_VERSION</attrlabl>
+        <attrdef>Indicates the year and quarter of streets used for geocoding.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2006Q4</edomv>
+            <edomvd>2006Q4 NAVTEQ Street Data used for geocoding.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMERGPHONE</attrlabl>
+        <attrdef>Ten (10) digit telephone number of emergency point of contact formatted as nnn-nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Phone numbers, including area code, formatted as nnn-nnn-nnnn. A list of valid area code and exchange combinations can be found at http://www.nanpa.com</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIRECTIONS</attrlabl>
+        <attrdef>Directions to entity location, or description of the entity's location.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>The name of the city associated with the entity's physical address. For physical addresses that the U.S. Postal Service (USPS) delivers to, this should be a "city" acceptable to the USPS as defined in their Address Information System (AIS). Sometimes the USPS does not deliver mail to a physical address but recognizes the location (i.e., they list the location as "undeliverable"). The cities associated with these locations are acceptable. In some cases, the USPS does not recognize individual physical addresses in a city, rather, they list the city as having "General Delivery". In these cases, the city and associated zip code are acceptable (the entity's [ADDRESS] attribute will contain a street address, not "general delivery"). The entity may not actually be located within the city limits of the "city" specified in its city field. Instead, it may actually be located within the city limits of another city. In some cases, the "city" that appears in this attribute may not even be a city in an administrative sense, but it is still an acceptable "city" to the USPS. An example of this is "Notre Dame, IN". There is no city in Indiana called "Notre Dame", but this is considered an acceptable city by the USPS for any delivery going to the University of Notre Dame which is actually located in the city of South Bend. "Notre Dame", like most USPS cities, is an easily recognized place, and it gives the user of the data a good general idea of where the entity is located (if the entity is located in a small municipality, the USPS "city" may be more recognizable than the name of the municipality), and it would be part of the address one would use to send a shipment to the entity's location. Using the USPS acceptable "city" also allows someone to do a logical consistency check between the zip code and the city by using the USPS AIS. Sometimes an entity may report a city that is not accepted by the USPS, and although TGS has tried to replace those cities with an acceptable alternative, some of them may remain in this dataset.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of entity.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECCLASS</attrlabl>
+        <attrdef>Security classification of feature.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>UNCLASSIFIED - TREAT AS FOUO</edomv>
+            <edomvd>Entity is unclassified and should be treated as "For Official Use Only".</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>UNCLASSIFIED</edomv>
+            <edomvd>Entity is unclassified.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHONELOC</attrlabl>
+        <attrdef>Indicates whether the phone number in the phone field rings to the actual location of the entity.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;BLANK&gt;</edomv>
+            <edomvd>Unknown - It is not known if the entity's phone number rings to the entity's location.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>NO</edomv>
+            <edomvd>Phone number does not ring to the actual entity location. It might ring to an administrative office or central location.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>YES</edomv>
+            <edomvd>Phone number rings to the actual entity location.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>Latitude in WGS 84 Decimal Degrees.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-90</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>WGS 84 Decimal Degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST_VENDOR</attrlabl>
+        <attrdef>Indicates name of vendor providing original street data used for geocoding.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NAVTEQ</edomv>
+            <edomvd>NAVTEQ streets were used for geocoding.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>TGS</edomv>
+            <edomvd>TGS drew in a new street segment that does not exist in the file supplied by NAVTEQ.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIPP4</attrlabl>
+        <attrdef>Four (4) digit USPS zip code extension. This attribute was automatically assigned using the entity's physical address and USPS address information system (AIS) data.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS Address Information System (AIS) - ZIP9</codesetn>
+            <codesets>United States Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHONE</attrlabl>
+        <attrdef>Seven (7) digit telephone number for entity formatted as nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Phone numbers formatted as nnn-nnnn. Only numeric digits are used. The first three (3) digits (the exchange) must form a valid combination with the area code. A list of valid area code and exchange combinations can be obtained from http://www.nanpa.com</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOHOW</attrlabl>
+        <attrdef>Method by which entity was geocoded.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AUTO</edomv>
+            <edomvd>Entity was automatically geocoded.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>MANUAL</edomv>
+            <edomvd>Entity was manually geocoded.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>PROVIDED</edomv>
+            <edomvd>Entity was geocoded using coordinates provided by the state.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>ADJUSTED</edomv>
+            <edomvd>Entity was shifted by TGS to an updated set of NAVTEQ streets. This only applies if the entity was manually geocoded by TGS to a previous version of NAVTEQ streets.</edomvd>
+            <edomvds>TGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>Five (5) digit FIPS (Federal Information Processing Standards) Code for the County where entity is located. The first two (2) digits represent the state and the last three (3) digits identify the county within the state.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Federal Information Processing Standards Publications - Counties and Equivalent Entities of the U.S., Its Possessions, and Associated Areas</codesetn>
+            <codesets>National Institute of Standards (NIST) http://www.itl.nist.gov/fipspubs/co-codes/states.txt</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEODATE</attrlabl>
+        <attrdef>Date entity was geocoded by TGS.</attrdef>
+        <attrdefs>TGS</attrdefs>
+        <attrdomv>
+          <udom>Date</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Structure/FeatureServer/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/jewish-synagogue-point/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

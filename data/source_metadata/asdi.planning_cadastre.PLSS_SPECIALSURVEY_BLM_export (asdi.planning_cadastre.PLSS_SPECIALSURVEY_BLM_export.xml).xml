@@ -1,0 +1,233 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>PLSS: Special Survey, BLM</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Special Surveys are non-rectangular PLSS survey areas from BLM survey records. These features are not populated for the Ohio data set because at the time of the PLSS Surveys in Ohio, the non-rectangular survey types had not been established. In eastern states there are commonly land surveys established prior to PLSS survey that are contained in the Survey System feature class because they are not part of the PLSS. PLSS Special surveys are a component of the PLSS but are not rectangular.</abstract>
+      <purpose>These are the graphic representations of non-rectangular components of the Pubic Land Survey System such as Tracts and Mineral Surveys</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.808803</westbc>
+        <eastbc>-90.036742</eastbc>
+        <northbc>36.107955</northbc>
+        <southbc>33.942070</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>FGDC Cadastral Subcommittee, Arkansas Geographic Information Systems Office</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>76</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.planning_cadastre.PLSS_SPECIALSURVEY_BLM</enttypl>
+        <enttypd>Special Surveys are non-PLSS survey areas from BLM survey records which represent federal parcels</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>SOURCEREF</attrlabl>
+        <attrdef>The reference to the source document could be a reference to a map or plat or a deed. This could include document type.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVID</attrlabl>
+        <attrdef>Unique identifier for a PLSS Special Survey feature</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVDIV</attrlabl>
+        <attrdef>The name or designation for any division of a PLSS Special Survey such as Lot in a Tract</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVNO</attrlabl>
+        <attrdef>Special survey number or designator that identifies the special survey polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVSUF</attrlabl>
+        <attrdef>Special survey suffix designation that makes the identification of the area unique.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RECRDAREATX</attrlabl>
+        <attrdef>The record or recorded area as a text field. This may include the units of area as well.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SOURCEDATE</attrlabl>
+        <attrdef>The date of the source document</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVLAB</attrlabl>
+        <attrdef>Label that is used for cartographic output or web display.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYPTXT</attrlabl>
+        <attrdef>Special survey type text description.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVNOTE</attrlabl>
+        <attrdef>Notes about the polygon feature that are important for using or understanding the feature. From the BLM SurvNotes are A = Approximate Acreage, C = Conflict or Questionable, D = Non-added Acreage, R = replaced</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RECRDAREANO</attrlabl>
+        <attrdef>The record or recorded area as a numeric field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYP</attrlabl>
+        <attrdef>Code for the type of special survey.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GISACRE</attrlabl>
+        <attrdef>The area of the feature in acres - computed from the GIS, this is not the record area.</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/11</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/plss-special-survey-blm/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

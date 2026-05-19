@@ -1,0 +1,251 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USDA Forest Service Automated Lands Program (ALP), USDA Forest Service, ALP, ALP Regional Coordinators</origin>
+        <pubdate>20140402</pubdate>
+        <title>asdi.planning_cadastre.OZARKNFS_OWNERSHIP</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This SDE Geodatabase is intended for read-only use. Basic Ownership is a commonly used base layer used in a wide range of Forest Service business functions as well as those of other entities</abstract>
+      <purpose>An area depicted as surface ownership parcels dissolved on the same ownership classification.</purpose>
+    </descript>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.501933</westbc>
+        <eastbc>-90.532256</eastbc>
+        <northbc>36.232455</northbc>
+        <southbc>34.567778</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>ownership</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>ALP Land Dataset</themekey>
+        <themekey>NFS Lands</themekey>
+        <themekey>Land Status</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+    </keywords>
+    <accconst>The information depicted in this dataset is the result of digital analyses performed on a database consisting of information from a variety of governmental and other credible sources. The accuracy of the information presented is limited to the collective accuracy of the database on the date of the analysis. The information is believed accurate and reasonable efforts have been made to ensure the accuracy of the data. However, the USDA Forest Service expressly disclaims responsibility for damages or liability that may arise from use of this data. This product is the property of the USDA Forest Service and its use is thereby restricted</accconst>
+    <useconst>The USDA Forest Service makes no claims, promises, or guarantees about the accuracy, completeness, or adequacy of the content; and expressly disclaims liability for errors and omissions. No warranty of any kind, implied, expressed or statutory, including but not limited to warranties of non-infringement of third party rights, title, merchantability, fitness for a particular purpose and freedom from computer virus, is given with respect to the contents or hyperlinks to other Internet resources. Reference to any specific commercial products, processes, or services, or the use of any trade, firm or corporation name is for the information and convenience of the public, and does not constitute endorsement or recommendation by the USDA Forest Service</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>605 West Main Street</address>
+          <city>Russellville</city>
+          <state>AR</state>
+          <postal>72801</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>479-964-7211</cntvoice>
+        <cntfax>479-964-7285</cntfax>
+        <hours>0800-1630</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>6541</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.planning_cadastre.OZARKNFS_OWNERSHIP</enttypl>
+        <enttypd>SDE Feature Class</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Ownership - status codes FS= Forest Service, Land acquired by Goverment, PD=Public Domain, Land initially established as National Forest Land (Forest Owned), PVT = Private STAT = Land Owned by Arkansas State Parks (Devil's Den State Park) FS coded land is land acquired by the Forest Service from private landowners. PD coded land is land that has never left federal ownership; also PD land is land which was obtained by the government in exchange for other PD land or from timber on such land. (So, in general PD land has never been patented to a private person. It has always been government land since the Louisiana purchase; except as noted above.) PVT coded land is land that is and remains under private ownership.</attrdef>
+        <attrdefs>Lands Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SURF_OWN_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TRACT_NO</attrlabl>
+        <attrdef>Land Management Tracking Number</attrdef>
+        <attrdefs>Lands Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SURF_OWN_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>cadas_dbo_ozarknfs_ownership_ar</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GIS_ACRES</attrlabl>
+        <attrdef>Caclulated Acres</attrdef>
+        <attrdefs>GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of shape</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LENG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURF_OWN_1</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/ozark-national-forest-service-ownership-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/5</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Ozark-St. Francis NFs</cntorg>
+          <cntper>Tammy Hocut</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>The USDA Forest Service makes no claims, promises, or guarantees about the accuracy, completeness, or adequacy of the content; and expressly disclaims liability for errors and omissions. No warranty of any kind, implied, expressed or statutory, including but not limited to warranties of non-infringement of third party rights, title, merchantability, fitness for a particular purpose and freedom from computer virus, is given with respect to the contents or hyperlinks to other Internet resources. Reference to any specific commercial products, processes, or services, or the use of any trade, firm or corporation name is for the information and convenience of the public, and does not constitute endorsement or recommendation by the USDA Forest Service</metuc>
+  </metainfo>
+</metadata>

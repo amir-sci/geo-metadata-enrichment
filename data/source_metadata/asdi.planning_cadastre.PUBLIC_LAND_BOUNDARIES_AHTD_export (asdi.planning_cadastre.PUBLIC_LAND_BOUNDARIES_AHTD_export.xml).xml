@@ -1,0 +1,242 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas State Highway and Transportation Department</origin>
+        <title>asdi.planning_cadastre.PUBLIC_LAND_BOUNDARIES_AHTD</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Arkansas State Highway and Transportation Department</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Public Lands Boundaries database contains known titles, acres, city, county, quad, type, source and verified fields. Known areas are of City parks, Local parks, County Parks, Parks, Wayside parks, Recreational and Public Use Area, State Parks, Natural Areas, National Wildlife Refuge, Wildlife Management Area, Wildlife Demonstration Area, Wilderness Area, National Historic area and Military Reservation areas. Cell placed at known location with indeterminate boundary and all boundaries have been edited for AHTD needs. Verification from AHTD field visits and various officials review of boundary map. Acreage information interpolated from aerial maps with and without elevation information, some with and without road systems, some AGFC boundary map information, and City Parks data. Source information and reference information: from AHTD data, and AHTD field visits, AGFC Officials, some AGFC digital data and AGFC boundary maps, State Park Officials and some ARSP digital data, some City Officials, City Park Officials and FAYgis and PAgis, NWR Officials and NWR boundary maps, Arkansas Heritage Natural Areas boundary map and digital data, Topographic data, and Army Corps of Engineers.</abstract>
+      <purpose>For reference purposes this file depicts and attributes Arkansas public lands. The database may help assist City, County, State and AHTD projects. The reference of the dataset may help assist in assessment of proximity of greenways and public lands; and to have an inventory of Arkansas Public Lands for the dissemination to the public.</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.580112</westbc>
+        <eastbc>-89.749491</eastbc>
+        <northbc>36.522467</northbc>
+        <southbc>32.972627</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>forest</themekey>
+        <themekey>ahtd</themekey>
+        <themekey>wildlife</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>historic</themekey>
+        <themekey>refuge</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>national</themekey>
+        <themekey>recreational</themekey>
+        <themekey>natural area</themekey>
+        <themekey>military</themekey>
+        <themekey>park</themekey>
+        <themekey>parks</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>intelligenceMilitary</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Individuals or companies may reproduce any maps prepared by the Planning and Research Division for their own use and can utilize the maps as a base map for other purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas State Highway and Transportation Department</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>In all cases, a credit line stating "Base Map Provided By The Mapping Section, Planning and ResearchDivision, Arkansas State Highway and Transportation Department, In Cooperation With The U.S. Department of Transportation."</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1393</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00015625</absres>
+            <ordres>0.00015625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.planning_cadastre.PUBLIC_LAND_BOUNDARIES_AHTD</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Source boundary was verfied with</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BOUNDARY_N</attrlabl>
+        <attrdef>Geography that makes up the northern boundary</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>The type of boundary or area</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VERIFIED</attrlabl>
+        <attrdef>Manner boundary was verified</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Calculated Acres</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QUAD</attrlabl>
+        <attrdef>Quadrangles the boundary resides in</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County boundary resides in</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>City boundary resides in</attrdef>
+        <attrdefs>Arkansas Highway and Transportation Department</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/public-land-boundary-polygon/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/16</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Arkansas State Highway and Transportation Department</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

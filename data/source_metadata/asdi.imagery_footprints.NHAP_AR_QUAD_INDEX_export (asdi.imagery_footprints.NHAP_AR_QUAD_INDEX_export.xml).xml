@@ -1,0 +1,186 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>CAST, University of Arkansas</origin>
+        <pubdate>20190901</pubdate>
+        <title>asdi.IMAGERY.NHAP_AR_QUAD_INDEX</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This metadata describes the 81cm pixel resolution, historical (1980s) orthophotography produced for the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) by the Center for Advanced Spatial Technologies (CAST), University of Arkansas. The ortho product provided is 3-band CIR, 8-bit per pixel and delivered in USGS 24k quad tiles (with a 100m buffer) as uncompressed GeoTIFF and compressed (10:1 using JPEG compression) GeoTIFF formats. This orthophotography is published in Universal Transverse Mercator Zone 15N, NAD83, meters, EPSG:26915. Source aerial photography was collected between 1980 and 1986 at a scale of 1:58,000 as part of the National High Altitude Photography (NHAP) program. More information about NHAP can be found at https://doi.org/10.5066/F7M043NG. Mixing photography from multiple dates was avoided as much as possible, therefore each tile is an orthomosaic composed of at least three overlapping aerial photos that were captured on one date (likely seconds apart). However, systematic differences in radiometry do exist between some adjacent orthophotos and between adjacent flight lines due to different conditions at the time of exposure (date of capture, flight direction, sun angle). No color or histogram matching was attempted and pixel values within these orthomosaics closely match the original pixel values captured during the scanning process.</abstract>
+      <purpose>Rectified orthophotography for the State of Arkansas may serve as a basemap for GIS applications.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19800101</begdate>
+          <enddate>19861231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Arkansas</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.625000</westbc>
+        <eastbc>-89.625000</eastbc>
+        <northbc>36.500000</northbc>
+        <southbc>32.999996</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Arkansas, Photography, Orthophotography, Ortho, Imagery, NHAP, historical</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>CAST, University of Arkansas</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Research was sponsored by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The Center for Advanced Spatial Technologies (CAST), University of Arkansas collaborated directly with, and delivered results and reports to, the Fort Worth, Texas NRCS office.</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.0.8321</native>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy 7.5m RMSE</horizpar>
+        <qhorizpa>
+          <horizpae>Check point RMSE during photogrammetric adjustment.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>916</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>17433</rowcount>
+      <colcount>14444</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-09</latres>
+        <longres>8.983152841195215e-09</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.IMAGERY.NHAP_AR_QUAD_INDEX</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QUAD24_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Q24CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QUAD24NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QuadName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NHAP_SpotN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NHAP_ExpDa</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NHAP_ExpYe</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NHAP_TIFF_Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>compressed</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Uncompressed_tif</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Uncompressed_tfw</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STArea()</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape.STLength()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20200106</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>CAST, University of Arkansas</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>JBHT 304, 1 University of Arkansas</address>
+          <city>Fayetteville</city>
+          <state>AR</state>
+          <postal>72701</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>479-575-6159</cntvoice>
+        <cntemail>cast@uark.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

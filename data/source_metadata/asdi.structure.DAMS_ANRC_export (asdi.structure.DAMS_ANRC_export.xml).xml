@@ -1,0 +1,443 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arkansas Natural Resources Commission, State of Arkansas</origin>
+        <pubdate>20180108</pubdate>
+        <title>asdi.STRUCTURE.DAMS_ANRC</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Locations of Dams in Arkansas (updated January 2018) as provided to the Arkansas Natural Resources Commission by the Army Corp of Engineers. This database represents a collection of permitted dam locations in Arkansas. Dams within the State of Arkansas fall under a permit process established under Arkansas Code 15-22-201. All dams with height of 25 or more feet and containing 50 acre-feet or more of storage at normal pool must have a valid construction and operation permit from the Commission, unless they are owned by the United States Government. If smaller dams pose a threat to life or property, they may also require regulation by the State based on a petition by downstream landowners and results of a public hearing. Dams are defined as: Any barrier, including one for flood detention, designed to impound liquid volumes. This shall not include highway, railroad or other roadway embankments, including low water crossings that may temporarily detain floodwater, levees designed to prevent inundation by floodwater, or closed dikes to temporarily impound liquids in the event of emergencies and those barriers not exempt by Sections 701.3 or 701.4 of TITLE VII RULES GOVERNING DESIGN AND OPERATION OF DAMS [As Restated October, 1993]</abstract>
+      <purpose>To show the approximate location of permitted dams in Arkansas.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20180108</begdate>
+          <enddate>20190108</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Geographic Extent
+Bounding Rectangle</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.549213</westbc>
+        <eastbc>-90.204330</eastbc>
+        <northbc>36.504484</northbc>
+        <southbc>32.999986</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>Impoundment</themekey>
+        <themekey>Impoundments</themekey>
+        <themekey>structure</themekey>
+        <themekey>Dam</themekey>
+        <themekey>Dams</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Note that locations are not certified by the Arkansas Natural Resources Commission. Locational Accuracy has not been verified by ANRC.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Arkansas Natural Resource Commission</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1316</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.STRUCTURE.DAMS_ANRC</enttypl>
+        <enttypd>This table defines the location of dams in the State of Arkansas</enttypd>
+        <enttypds>ANRC</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the location of features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERMIT</attrlabl>
+        <attrdef>Stores the Arkansas Number, National Identification for the dam</attrdef>
+        <attrdefs>ANRC</attrdefs>
+        <attrdomv>
+          <udom>Identication of the dam in Arkansas</udom>
+        </attrdomv>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Permit</codesetn>
+            <codesets>ANRC</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DAM_NAME</attrlabl>
+        <attrdef>Stores Popular name of the name</attrdef>
+        <attrdefs>Arkansas Natural Resources Commission</attrdefs>
+        <attrdomv>
+          <udom>The popular name of the dam</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECNO</attrlabl>
+        <attrdef>Attribute not Used</attrdef>
+        <attrdefs>ANRC</attrdefs>
+        <attrdomv>
+          <udom>NA</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ARNUM</attrlabl>
+        <attrdef>ANRC Dam ID</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ARNUMBER</attrlabl>
+        <attrdef>Same as ARNUM except "AR" and preceeding 0s are omitted</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>POP_NAME</attrlabl>
+        <attrdef>Stores Popular name of the dam</attrdef>
+        <attrdefs>Arkansas Natural Resources Commission</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LAT</attrlabl>
+        <attrdef>Degees,Minute,Second of Latitude</attrdef>
+        <attrdefs>Arkansas Natural Resources Commission</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LATDD</attrlabl>
+        <attrdef>Decimal Degree of Latitude</attrdef>
+        <attrdefs>Arkansas Natural Resources Commission</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LON</attrlabl>
+        <attrdef>Degree,Minute,Second if Longitude</attrdef>
+        <attrdefs>Arkansas Natural Resources Commission</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONGDD</attrlabl>
+        <attrdef>Decimal Degrees of Longitude</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>S_T_R</attrlabl>
+        <attrdef>Stores Township, Range, and section of the dam location</attrdef>
+        <attrdefs>Arkansas Natural Resources Commission</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County name the dam is located</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RIVER_STRE</attrlabl>
+        <attrdef>Stores The official name of the river or stream on which the dam is built. Unnamed streams are identified as a tributary to a named river or stream. E.G., Snake-TR. If the dam is located off-stream, the name of the river or stream plus "OS" is entered, E.G., Snake-OS&gt;</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OWNER_TYPE</attrlabl>
+        <attrdef>Type of use of the dam</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PRIV_ON_FE</attrlabl>
+        <attrdef>This field is used to answer teh question whether the dam in question is a private dam located on federal property. Y for Yes, N for NO.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DAM_TYPE</attrlabl>
+        <attrdef>This field is used to indicate the type of dam, RE for Earth: ER for Rockfill: PG for Gravity: CB for Buttress: VA for Arch: MV for Multi-Arch: CN for Concrete: MS for Masonry: ST for Stone: TC for Timber Crib: OT for Other</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PURPOSES</attrlabl>
+        <attrdef>Used to indicate the purpose for which the reservoir is used: I for Irrigation: H for Hydroelectric: C for Flood control and Storm water Management. N for NAvigation. S for Water Supply. R for Recreation. P for fire protection, stock, or small farm pond. F for fish and Wildlife pond. D for debris control, T for Tailings, O for Other</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>YEAR_COMP</attrlabl>
+        <attrdef>Year dam completed</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Stores teh length opf the dam in fee, which is the length along the top of the dam. THis also includes the spillway, powerplant, navigation lock, fish pass, etc., where these form part of the length of the dam. IF dettachedfrom the dam these structuresshould not be included as part of the length.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DAM_HGT</attrlabl>
+        <attrdef>Height of the dam</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STR_HGT</attrlabl>
+        <attrdef>Stores the hydraulic height of the dam defined as the vertical difference between the maxium design water level and the lowest point in the original streambed.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HYD_HGT</attrlabl>
+        <attrdef>The normal surface area, which is the surface area of the reservoir at it's normal retention level.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MAX_DISCHG</attrlabl>
+        <attrdef>Stores the number of cubic feet per second which the spilway is capable of discharging when the reservoir is at it's maxium designed water surface elevation</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MAX_VOL</attrlabl>
+        <attrdef>The total storage in acre-feet a reservoir below the maximum attainable water surface elevation, including any surcharge storage.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NORM_VOL</attrlabl>
+        <attrdef>The normal storage, which is the the total storage space in a reservoir below the normal retention level, including dead and inactive storage and excluding and flood control of surcharge storage.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MAX_SURF</attrlabl>
+        <attrdef>The maximum surface area, which is the surface area of the reservoir at it's maximum retention level.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NORM_SURF</attrlabl>
+        <attrdef>The normal surface area, which is the surfgace area of the reservoir at it's normal retention level.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DRAIN_AREA</attrlabl>
+        <attrdef>The drainage area of teh dam, which is the area that drains the dam</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HAZARD</attrlabl>
+        <attrdef>Hazard level of the dam
+</attrdef>
+        <attrdefs>ANRC</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>L = Low, No Loss of Life, Minimal (No significant structures; pastures, woodland, or largely undeveloped land); less than $100,000</edomvd>
+            <edomvds>Arkansas Natural Resources Commission, TITLE VII RULES GOVERNING DESIGN AND OPERATION OF DAMS [As Restated October, 1993]</edomvds>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>S = Significant, No Loss of Life, Appreciable (Significant structures, industrial, or commercial development, or cropland); $100,000 to $500,000.</edomvd>
+            <edomvds>Arkansas Natural Resources Commission, TITLE VII RULES GOVERNING DESIGN AND OPERATION OF DAMS [As Restated October, 1993]</edomvds>
+          </edom>
+          <edom>
+            <edomv>H</edomv>
+            <edomvd>H = High, Yes, Loss of Life, Excessive (Extensive public, industrial, commercial, or agricultural development); over $500,000. NOTE: Loss of human life is based upon presence of habitable structures.</edomvd>
+            <edomvds>Arkansas Natural Resources Commission, TITLE VII RULES GOVERNING DESIGN AND OPERATION OF DAMS [As Restated October, 1993]</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SDF</attrlabl>
+        <attrdef>Spillway Design Flood - A percentage of how well the spillway operates</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AS_BUILD_D</attrlabl>
+        <attrdef>Is an as-built of the dam availiable </attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>E_A_P</attrlabl>
+        <attrdef>Indicates whether or not this dam has an emergency action plan, which is a plan of action to be takento reduce the potential for property damage and loss of life in an area affected by a dam failure or large flood. Y for Yes, N for NO, or NR for not required.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>REG_AGENCY</attrlabl>
+        <attrdef>Regulatory Agency</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>StateRegDa</attrlabl>
+        <attrdef>Is this a state regulated dam (Y/N)</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BASIN</attrlabl>
+        <attrdef>The name of the river basin in which the dam is located</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PERMIT_STA</attrlabl>
+        <attrdef>The permit status of the dam. I for permit issued. IC for permit issued and dam constructed. INC for permit issued and dam not constructed. INR permit issued and not required to be. NR for permit not issued and not required. CNR for permit cancelled - Not required. CNC for permit cancelled - dam not constructed.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MIN_REL</attrlabl>
+        <attrdef>The minimum release of the reservoir</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EXP_DATE</attrlabl>
+        <attrdef>Permit expiration date</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ISSUE_DATE</attrlabl>
+        <attrdef>Date permit was issued</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QUADNAME</attrlabl>
+        <attrdef>The name of the quad map on which the dam is located</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Flag</attrlabl>
+        <attrdef>Attribute not Used</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INSP_SET</attrlabl>
+        <attrdef>Attribute not Used</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INSP_SET20</attrlabl>
+        <attrdef>Attribute not Used</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NRCS</attrlabl>
+        <attrdef>Logical field used to show wheather or not the USDA Natural Resources Conservation Service maintains the given dam.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SEDI_VOL</attrlabl>
+        <attrdef>The portion of the reservoir designated sediment storage</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SEISMIC_ZO</attrlabl>
+        <attrdef>Determines the seimic zone the dam is located.</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>IN2012_STA</attrlabl>
+        <attrdef>Staus of the dam in 2012</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>IN2013_STA</attrlabl>
+        <attrdef>Status of the dam dam in 2013</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>IN2014_STA</attrlabl>
+        <attrdef>The status of the dam in 2014</attrdef>
+        <attrdefs>ANRC</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20180125</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

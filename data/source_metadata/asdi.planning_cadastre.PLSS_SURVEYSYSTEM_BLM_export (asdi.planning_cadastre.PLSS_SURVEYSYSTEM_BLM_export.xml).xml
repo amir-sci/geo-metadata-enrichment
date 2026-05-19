@@ -1,0 +1,266 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>PLSS: Survey System, BLM</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A Survey System is a named or numbered area of land that can be identified by a type and a designator. The survey system is generally a simultaneous conveyance that defines an area of land within which there is a consistent method of land description. The survey systems included lands that were established prior to PLSS survey and were not included in the public domain lands. Non-rectangular components of the PLSS are in the PLSS Special Surveys feature class. The first, second and third division attributes are provided if available.</abstract>
+      <purpose>To provide a mapped area for the subdivisions, condominiums and other surveys that defines the external extent of surveyed areas. The divisions of survey systems are defined in this feature class and may be included. The other notable content of this feature class are areas within public domain states (PLSS States) that were established prior to PLSS Survey. These areas were never part of the public domain and are not included in the PLSS feature classes. Features such as French and Spanish claims and pre-existing land grants are in this feature class</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.808803</westbc>
+        <eastbc>-90.036742</eastbc>
+        <northbc>36.107955</northbc>
+        <southbc>33.942070</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>FGDC Cadastral Subcommittee, Arkansas Geographic Information Systems Office</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>206</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.planning_cadastre.PLSS_SURVEYSYSTEM_BLM</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SURVSYSNM</attrlabl>
+        <attrdef>The Survey System Name is an identifying name or number for a specific type of Survey System area.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURSYSNOTE</attrlabl>
+        <attrdef>any notes on the use, name or application of the survey system area</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVSYSID</attrlabl>
+        <attrdef>The primary key or identifier for Survey System Area</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURSYSCODE</attrlabl>
+        <attrdef>any codes or indices for tracking or managing the survey system areas</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SCNDIVID</attrlabl>
+        <attrdef>Unique identifier for the Survey System second division.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>THRDIVTYPE</attrlabl>
+        <attrdef>TheThird Division Type describes the classification of the Survey System Third Division.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SURVSYSTYPE</attrlabl>
+        <attrdef>Survey System Type indicates the category or major class of the description.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FIRSTDIVNM</attrlabl>
+        <attrdef>The Survey System First Division Name is an alpha, numeric, or alpha-numeric designator used to identify the First Division of the Survey System</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FIRSTDIVID</attrlabl>
+        <attrdef>The Survey System First Division primary key or identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCNDIVTYPE</attrlabl>
+        <attrdef>The Second Division Type describes the classification of the Survey System Second Division.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIRSTDIVTYPE</attrlabl>
+        <attrdef>The Survey System First Division Type describes the classification of the First Division of the Survey System, this is not the same as the PLSS First Division</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>THRDIVNM</attrlabl>
+        <attrdef>The Survey System Third Division name or number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SCNDIVNM</attrlabl>
+        <attrdef>The Survey System Second Division Name is an alpha, numeric, or alpha-numeric designator used to identify the Second Division of the Survey System.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>THRDIVID</attrlabl>
+        <attrdef>The primary key or identifier for the Survey System third division</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/plss-survey-system-blm/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/12</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

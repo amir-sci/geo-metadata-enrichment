@@ -1,0 +1,128 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.location.ALPC_POINTS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-93.083757</westbc>
+        <eastbc>-92.865841</eastbc>
+        <northbc>36.400644</northbc>
+        <southbc>36.224915</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1788</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952199e-009</latres>
+        <longres>8.9831528411952199e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.location.ALPC_POINTS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>objectid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>field_collector</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>collection_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>pin</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>address</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>status</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>chickens</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>turkeys</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ducks</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>geese</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>other_gall</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>other_waterfowl</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>access_to_water</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>water_on_premises</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>contact_with_swine</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>clinical_signs</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>remarks</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>src_objectid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>visited</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20170119</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,248 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>asdi.location.OUTDOOR_RECREATIONAL_FACILITIES</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Digitized off of Arieal photos or collected with GPS by field staff. Points are verified by field staff in those areas.</abstract>
+      <purpose>A point feature that represents facilities that have been built on AGFC properties.</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.545378</westbc>
+        <eastbc>-89.894325</eastbc>
+        <northbc>36.506223</northbc>
+        <southbc>32.988049</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Showers</themekey>
+        <themekey>Overlook Arbor</themekey>
+        <themekey>Walk-in</themekey>
+        <themekey>Dump</themekey>
+        <themekey>Playground</themekey>
+        <themekey>Foot Bridge</themekey>
+        <themekey>Bank Fishing</themekey>
+        <themekey>Observation Blind</themekey>
+        <themekey>Observation Terrace</themekey>
+        <themekey>Park</themekey>
+        <themekey>Tents</themekey>
+        <themekey>Courtesy Dock</themekey>
+        <themekey>Swimming</themekey>
+        <themekey>Check Station</themekey>
+        <themekey>Fish Weigh-In Station</themekey>
+        <themekey>Duck Hole</themekey>
+        <themekey>Marina</themekey>
+        <themekey>RVs</themekey>
+        <themekey>Hookups</themekey>
+        <themekey>Fish Cleaning Station</themekey>
+        <themekey>MIA Facility</themekey>
+        <themekey>Parking Area</themekey>
+        <themekey>Walk-in Access.</themekey>
+        <themekey>Deer Stand</themekey>
+        <themekey>Restroom</themekey>
+        <themekey>Fishing Jetty</themekey>
+        <themekey>Fishing Pier</themekey>
+        <themekey>Pincnic Area</themekey>
+        <themekey>Pavillion</themekey>
+        <themekey>Observation Platform</themekey>
+        <themekey>Firing Range</themekey>
+        <themekey>Archery Range</themekey>
+        <themekey>Boating Access</themekey>
+        <themekey>Swimming Area</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>AGFC</cntorg>
+          <cntper>Tracy Moy</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Scott Lane, Tracy Moy, Mike Jezierski, AGFC Field staff</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>5212</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.location.OUTDOOR_RECREATIONAL_FACILITIES</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Hyp_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WMA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Location</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Owner</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LON_WGS84</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Northing</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAT_WGS84</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Search_Field</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCat</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Waterbody</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FDescrip</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Easting</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Comments</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Last_Verified_Date</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/outdoor-recreation-facilities/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Location/FeatureServer/24</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>AGFC</cntorg>
+          <cntper>Tracy Moy</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

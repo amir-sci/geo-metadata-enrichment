@@ -1,0 +1,434 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>State of Arkansas, Arkansas Geographic Information Systems Office</origin>
+        <pubdate>20131105</pubdate>
+        <title>Zip Plus 4</title>
+        <edition>6.0</edition>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Little Rock, Arkansas</pubplace>
+          <publish>US Postal Service</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains points which represent the location for each ZIP+4® range in Arkansas. This base data serves a variety of public functions that include index layer for address match/geocoding applications, and Streamlines Sales and Tax source jurisdiction assignment. The location of each point was determined by geocoding either the low, high, or mid value for each ZIP+4® address range. All attribute data is drawn from the USPS® (United States Postal Service®) ZIP+4® product - see also supplementary information This information is published by the Arkansas Geographic Information Office, an Arkansas State Government Agency, which holds a non-exclusive license from the United States Postal Service® to publish the information. The price of the PRODUCT or information is neither established, controlled, or approved by the United States Postal Service®. Product advertisement is neither approved nor endorsed by the United States Postal Service®</abstract>
+      <purpose>This base data serves a variety of public functions that include index layer for address match/geocoding applications, address cleansing, and jurisdictional information.</purpose>
+      <supplinf>Arkansas Geographic Information Office Disclaimer- USPS® TRADEMARK NOTICE - CASS, CASS-Certified, DPV, eLOT, FASTforward, NCOALink, LACSLink, Postal Service, Post Office, RDI, United States Post Office, USPS®, United States Postal Service, ZIP Code, and ZIP+4 are registered trademarks of United States Postal Service (USPS®). This list is not exhaustive of the trademarks belonging to the Postal Service.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20131014</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.616052</westbc>
+        <eastbc>-89.681063</eastbc>
+        <northbc>36.528747</northbc>
+        <southbc>32.970086</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>location</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>Arkansas Geographic Information Office</themekt>
+        <themekey>usps</themekey>
+        <themekey>plus 4</themekey>
+        <themekey>zip code</themekey>
+        <themekey>mail</themekey>
+        <themekey>address</themekey>
+        <themekey>zip9</themekey>
+        <themekey>zipcode</themekey>
+        <themekey>zip</themekey>
+        <themekey>zip4</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Counties</placekey>
+        <placekey>State of Arkansas</placekey>
+        <placekey>Cities</placekey>
+      </place>
+    </keywords>
+    <accconst>Refer to Supplemental Information</accconst>
+    <useconst>The ADDITIONAL COPIES may or may not contain value added information and may be used by LICENSEE for any bonafide ADDITIONAL USE RESTRICTION. LICENSEE shall include in all ADDITIONAL COPIES (to be used for postal rate discounts) technology which automatically disables access to outdated (MORE THAN 105 DAYS AFTER DATE OF ISSUE. PRODUCT MUST BE IMPLEMENTED OR LOADED WITHIN 45 DAYS AFTER THE RELEASE DATE.) products.purpose including sale and distribution to other users.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>US Postal Service</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>585013</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000051463068301970645</absres>
+            <ordres>0.000051463068301970645</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Location.ZIP9_POINTS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ADDRSECONDLOW</attrlabl>
+        <attrdef>Secondary low end address range of the numeric or alphanumeric component of an address preceding the street name</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GOVTBLDG</attrlabl>
+        <attrdef>Value identifying type of Government agency at delivery point. Field is blank or A=City, B=Federal, C=State, D=Firm, E=City and Firm Only, F=Federal and Firm Only, G=State and Firm Only</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZADDONHIGHSEG</attrlabl>
+        <attrdef>ZIP add on high segment number</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUNICICTYST_KEY</attrlabl>
+        <attrdef>Field is blank until further notice</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>URBANIZCTYST_KEY</attrlabl>
+        <attrdef>Index to the City State file the provides the urbanization name for this delivery range</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRPRIMARYOE</attrlabl>
+        <attrdef>Side of street for a given address range B=both sides of a street, E=even side addresses, O=odd side addresses for General Delivery and PO BOX the code will always be B=both</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP9HIGH</attrlabl>
+        <attrdef>ZIPCODE+ZIP4HIGH</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ZADDONHIGHSEC</attrlabl>
+        <attrdef>ZIP add on high sector number</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CARRIERROUTE</attrlabl>
+        <attrdef>Bnnn=PO BOX, Hnnn=Highway Contract Route, Rnnn=Rural Route, Cnnn=City Delivery, Gnnn=General Delivery</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRPRIMARYHIGH</attrlabl>
+        <attrdef>High end address range of the numeric or alphanumeric component of an address preceding the street name</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRPRIMARYLOW</attrlabl>
+        <attrdef>Low end address range of the numeric or alphanumeric component of an address preceding the street name</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRSECONDHIGH</attrlabl>
+        <attrdef>Secondary high end address range of the numeric or alphanumeric component of an address preceding the street name</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Geocoding Status Match (value = M), Unmatched (value = U), Tied (value = T)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FINANCENO</attrlabl>
+        <attrdef>Code assigned to Postal Service facilities to collect cost and statistical data and compile revenue and expense data.</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PREF_CITY_STATE_NAME_LAST_LINE</attrlabl>
+        <attrdef>Field name that contains the default preferred last-line name for a zip code</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRSECONDABBR</attrlabl>
+        <attrdef>Descriptive code used to identify the type of address secondary range information (See USPS Publication 28 for values)</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONGRESSDIST</attrlabl>
+        <attrdef>Value identifying the geographic area served by a member of the US House or Senate District</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BASEALTCODE</attrlabl>
+        <attrdef>Specifies base (preferred) or alternate records where base is represented as B and alternate a A</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREETPOSTDRCTN</attrlabl>
+        <attrdef>Geographic direction following the street name</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE</attrlabl>
+        <attrdef>5 digit code that identifies a specific geographic delivery area ZIP is an acronym for Zone Improvement Program</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZADDONLOWSEG</attrlabl>
+        <attrdef>ZIP add on low segment number</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACTIONCODE</attrlabl>
+        <attrdef>Indicates the action to be taken in updating the base master file. A=add record D=delete record</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UPDATEKEY</attrlabl>
+        <attrdef>Contains a unique identifier that can be used to add or delete records to the base file</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ARC_ZIP4</attrlabl>
+        <attrdef>ZIPCODE+"-"+ZIP4HIGH</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RECORDTYPECODE</attrlabl>
+        <attrdef>G=general delivery, H=highrise, F=firm, S=street, P=PO BOX, R=rural route/highway contract, M=multi-carrier</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREETNAME</attrlabl>
+        <attrdef>Name of the street as assigned by a local governing authority or literals such as PO BOX or General Delivery. Numeric street names four characters or less in length are justified and positioned in the 4th position so names appear in numeric sequence</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ARC_KEYFIELD</attrlabl>
+        <attrdef>Geocoding macth value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>Y coordinate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ADDRSECONDOE</attrlabl>
+        <attrdef>Secondary side of street for a given address range B=both sides of a street, E=even side addresses, O=odd side addresses for General Delivery and PO BOX the code will always be B=both</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZADDONLOWSEC</attrlabl>
+        <attrdef>ZIP add on low sector number</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PREFDLASTLINECTYST_KEY</attrlabl>
+        <attrdef>Index key to the City State table the provides the preferred last line name for a given ZIP code</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VERIFIED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREETPREDRCTN</attrlabl>
+        <attrdef>Geographic direction preceeding the street name</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COPYRIGHTCODE</attrlabl>
+        <attrdef>Alphabetic code that identifies the type of record in a USPS product file: A=alias, C=copyright, D=detail, N=seasonal, S=5-digit scheme, Z=zone split</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LACSSTATUS</attrlabl>
+        <attrdef>Locatable Address Conversion Service - records that have been converted from a rural route to a city style address L=LACS B=Blank (not applicable)</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP9LOW</attrlabl>
+        <attrdef>ZIPCODE+ZIP4LOW</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ZIP4LOW</attrlabl>
+        <attrdef>ZADDONLOWSEC+ZADDONLOWSEG</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYNO</attrlabl>
+        <attrdef>The Federal Information Processing Standard (FIPS) code assigned to a given county or parish within a state. Used by AGIO as a key field to join tblCOUNTY_RATE.</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>X coordinate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SCORE</attrlabl>
+        <attrdef>Geocoding Score</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STREETSUFFIXABBREV</attrlabl>
+        <attrdef>Standard suffix abbreviation for the trailing designator See USPS Publication 28</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State abbreviation</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP4HIGH</attrlabl>
+        <attrdef>ZADDONHIGHSEC+ZADDONHIGHSEG</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BUILDINGFIRM</attrlabl>
+        <attrdef>Name of a company, building, apartment complex, shopping center, or other distinguishing secondary address information. Normally used in high rises</attrdef>
+        <attrdefs>USPS</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>AGIO Distribution Liability - The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the Arkansas State Land Information Board be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Arkansas State Land Information Board does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form. These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Although these data have been processed successfully on computers at the Arkansas Geographic Information Office, no guarantee, expressed or implied, is made by Arkansas State Land Information Board regarding the use of these data on any other system, nor does the act of distribution constitute or imply any such warranty. Distribution of these data is intended for information purposes and should not be considered authoritative for engineering, legal and other site-specific uses. United States Postal Service® Distribution Liability- THE PRODUCT AND ACCOMPANYING WRITTEN MATERIALS (INCLUDING INSTRUCTIONS FOR USE) ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. FURTHER, USPS DOES NOT WARRANT, GUARANTEE, OR MAKE ANY REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF THE USE OF THE PRODUCT OR WRITTEN MATERIALS IN TERMS OR CORRECTNESS, ACCURACY, RELIABILITY, CURRENTNESS, OR OTHER QUALITIES. USPS warrants to the original LICENSEE that (a) the media on which the PRODUCT is recorded is free from defects in materials and workmanship under normal use and service for a period of ninety (90) days from the date of delivery as evidenced by a copy of the receipt. Further, USPS hereby limits the duration of any implied warranty(ies) on the PRODUCT to the respective periods stated above. Some states do not allow limitations on duration of implied warranty, so the above limitation may not apply to you. USPS' entire liability and your exclusive remedy shall be, at USPS option, either (a) return of the purchase price or (b) replacement of the PRODUCT that does meet USPS Limited Warranty and which is returned to USPS with a copy of the receipt. If failure of the PRODUCT has resulted from accident, abuse, or misapplication, USPS shall have no responsibility to replace the PRODUCT or refund the purchase price. Any replacement will be warranted for the remainder of the original warranty period or thirty (30) days, which ever is greater.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Location/FeatureServer/15</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/zip-plus-4/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20130710</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Capitol Mall Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72201</postal>
+        </cntaddr>
+        <cntvoice>501-682-2676</cntvoice>
+        <cntfax>501-682-6077</cntfax>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

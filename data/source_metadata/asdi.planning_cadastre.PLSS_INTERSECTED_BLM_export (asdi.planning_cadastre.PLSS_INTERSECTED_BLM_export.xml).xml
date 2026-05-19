@@ -1,0 +1,353 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>PLSS: Intersected, BLM</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The fully intersected data is the atomic level of the PLSS that is similar to the coverage or the smallest pieces used to build the PLSS. Polygons may overlap in this feature class.</abstract>
+      <purpose>The fully intersected data is the atomic level of the PLSS that is similar to the coverage or the smallest pieces used to build the PLSS. Polygons may overlap in this feature class.</purpose>
+    </descript>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618043</westbc>
+        <eastbc>-89.635653</eastbc>
+        <northbc>36.531862</northbc>
+        <southbc>32.969484</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>FGDC Cadastral Subcommittee, Arkansas Geographic Information Systems Office</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>58322</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>asdi.planning_cadastre.PLSS_INTERSECTED_BLM</enttypl>
+        <enttypd>The fully intersected data is the atomic level of the PLSS that is similar to the coverage or the smallest pieces used to build the PLSS. Polygons may overlap in this feature class.</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVID</attrlabl>
+        <attrdef>Unique identifier for the second dvision.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PLSSID</attrlabl>
+        <attrdef>Concatenation of the principal meridian, township, range, and duplication code that form a unique id.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>QSEC</attrlabl>
+        <attrdef>Quarter section identifer, a two letter label (NE,SE,SW,SE)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RANGEDIR</attrlabl>
+        <attrdef>Range direction. The direction of a column of townships from a Public Land Survey System Origin. These are typcially East or West in the west but may be north or south in Ohio</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVID</attrlabl>
+        <attrdef>This is a unique identifier for the first division that is built by appending the first division elements on the Township identifier.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVLAB</attrlabl>
+        <attrdef>This is the label for the first division that is used for cartographic of web display purposes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVDIV</attrlabl>
+        <attrdef>The name or designation for any division of a PLSS Special Survey such as Lot in a Tract</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVID</attrlabl>
+        <attrdef>Unique identifier for a PLSS Special Survey feature</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SRVNAME</attrlabl>
+        <attrdef>A common or otherwise recognized name for a portion of area of a PLSS Survey, for example the refugee lands in Ohio or in cases where a PLSS Township has a recognized name.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVTXT</attrlabl>
+        <attrdef>This is the first division type as a text field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RECRDAREATX</attrlabl>
+        <attrdef>The record or recorded area as a text field. This may include the units of area as well.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SOURCEREF</attrlabl>
+        <attrdef>The reference to the source document could be a reference to a map or plat or a deed. This could include document type.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STEWARD</attrlabl>
+        <attrdef>Data steward for the polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVLAB</attrlabl>
+        <attrdef>Label that is used for cartographic output or web display.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYPTXT</attrlabl>
+        <attrdef>Special survey type text description.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPNO</attrlabl>
+        <attrdef>Township number. The Township Number indicates the number of rows of townships, north or south from a Public Land Survey System Origin.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPDPCD</attrlabl>
+        <attrdef>If there are multiple townships in a Public Land Survey System Origin, State and Survey Name, the Township Duplicate Status is used to establish uniqueness. When more than one Public Land Survey System Township has the same Township and Range numbers and directions and fractions, and are in the same State, this attribute is used to distinguish among duplicate values. A is the first duplicate, B the second etc. A 0 in this field indicates no duplicate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPFRAC</attrlabl>
+        <attrdef>Township fraction. Township Fractions are created when there are gaps between surveyed Township boundaries or due to excess size in Townships that arose from executing original surveys.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVNOTE</attrlabl>
+        <attrdef>Notes about the second division of the PLSS such as R for replaced or other notes about the use and interpretation of the second division information</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RECRDAREANO</attrlabl>
+        <attrdef>The record or recorded area as a numeric field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVNO</attrlabl>
+        <attrdef>This is the number, letter or designator for the first division of the PLSS Township</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPLAB</attrlabl>
+        <attrdef>Township label that is used for cartographic output or web display</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYP</attrlabl>
+        <attrdef>Code of the type of special survey.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVSUF</attrlabl>
+        <attrdef>Special survey suffix designation that makes the identification of the area unique.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATEABBR</attrlabl>
+        <attrdef>State abbreviation code two letter postal code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVLAB</attrlabl>
+        <attrdef>PLSS Second Division label for cartographic output or web display.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVNO</attrlabl>
+        <attrdef>Second division number or aliquot part reference.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVTXT</attrlabl>
+        <attrdef>Second division type text description</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPDIR</attrlabl>
+        <attrdef>Township direction. The direction of a row of Townships from a Public Land Survey System Origin. These are typcially North and South in the West but may be East and West in Ohio</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVTYP</attrlabl>
+        <attrdef>Code for the type of second division.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GISACRE</attrlabl>
+        <attrdef>The area of the feature in acres - computed from the GIS, this is not the record area.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVNOTE</attrlabl>
+        <attrdef>Notes about the polygon feature that are important for using or understanding the feature. For example from the BLM Survey Notes are A = Approximate Acreage, C = Conflict or Questionable, D = Non-added Acreage</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SURVNO</attrlabl>
+        <attrdef>Special survey number or designator for non-rectangular PLSS areas</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SOURCEDATE</attrlabl>
+        <attrdef>The date of the source document</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>QQSEC</attrlabl>
+        <attrdef>This is the quarter quarter PLSS reference</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PRINMER</attrlabl>
+        <attrdef>Principal meridian name as a text</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RANGEFRAC</attrlabl>
+        <attrdef>Range fraction. Range Fractions are created when there are gaps between surveyed Township boundaries or due to excess size in Townships that arose from executing original surveys.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVSUF</attrlabl>
+        <attrdef>Second division suffix used to identify duplicates or suffix to the name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVTYP</attrlabl>
+        <attrdef>This is the type of first division and is commonly the section but may be a lot, quarter township or other division type. The domains for these codes are in the LU_FirstDiv table</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GOVLOT</attrlabl>
+        <attrdef>These are the Government Lot numbers or identifiers</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RANGENO</attrlabl>
+        <attrdef>Range number. The Range Number indicates the number of columns of townships, east or west from a Public Land Survey System Origin.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVDUP</attrlabl>
+        <attrdef>This is a code to indicate whether the first division is a duplicated area or identifier.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PRINMERCD</attrlabl>
+        <attrdef>Principal meridian code from the BLM PM Code list</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/plss-intersected-blm/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/8</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas Geographic Information Systems Office</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

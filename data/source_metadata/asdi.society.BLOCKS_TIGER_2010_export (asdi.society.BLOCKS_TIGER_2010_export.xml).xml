@@ -1,0 +1,846 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Management Branch</origin>
+        <pubdate>20100101</pubdate>
+        <title>Blocks - 2010 Census</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>U.S. Bureau of the Census, TIGER/Line</publish>
+        </pubinfo>
+        <onlink>http://gis.arkansas.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This file is released in support of the Redistricting Data (P.L. 94-171) Summary File. The shapefiles represent geographic linear features as of January 1, 2010. The files also contain attribute information about these features, such as names, the type of feature, the geographic relationship to other features, and other related information. The 2010 Redistricting Shapefiles include data for all 50 states, the District of Columbia and the Commonwealth of Puerto Rico. This file is only provided for the State of Arkansas.</abstract>
+      <purpose>Redistricting</purpose>
+      <supplinf>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10C2.pdf</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.618368</westbc>
+        <eastbc>-89.619134</eastbc>
+        <northbc>36.531955</northbc>
+        <southbc>32.969394</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>GOVERNMENTALUNITS, block, census, demographic, population</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>society</themekey>
+        <themekey>Boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arkansas</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files. TIGER, TIGER/Line, and Census TIGER are registered trademarks of the U.S. Census Bureau. ZCTA is a trademark of the U.S. Census Bureau. The boundary information in the TIGER/Line files are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are they are not legal land descriptions. The horizontal spatial accuracy information present in these files is provided for the purposes of statistical analysis and census operations only. No warranty, expressed or implied is made with regard to the accuracy of the spatial accuracy, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau, specifically as to the spatial or attribute accuracy of the data. The TIGER/Line files may not be suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Management Branch</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>4700 Silver Hill Road, Stop 7400</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20233-7400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(301) 763-1128</cntvoice>
+        <cntfax>(301) 457-4710</cntfax>
+        <cntemail>tiger@census.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files.</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Refer to http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10C2.pdf and http://www.census.gov/prod/cen2010/pl94-171.pdf</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>186211</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Society.BLOCKS_TIGER_2010</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>AIANHHCC</attrlabl>
+        <attrdef>FIPS American Indian Area/Alaska Native Area/Hawaiian Home Land Class Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FILEID</attrlabl>
+        <attrdef>File Identification</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UA</attrlabl>
+        <attrdef>Urban Area</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLAT</attrlabl>
+        <attrdef>Internal Point (Latitude)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AREALAND</attrlabl>
+        <attrdef>Area (Land)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RESERVE2</attrlabl>
+        <attrdef>Reserved</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUMLEV</attrlabl>
+        <attrdef>Summary Level</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TBLKGRP</attrlabl>
+        <attrdef>Tribal Block Group</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SDSEC</attrlabl>
+        <attrdef>School District (Secondary)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYNS</attrlabl>
+        <attrdef>County (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UACE10</attrlabl>
+        <attrdef>2010 Census urban area code</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONCIT</attrlabl>
+        <attrdef>Consolidated City (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PARTFLAG</attrlabl>
+        <attrdef>Part Flag</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANRC</attrlabl>
+        <attrdef>Alaska Native Regional Corporation (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UASC</attrlabl>
+        <attrdef>Urban Area Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020003</attrlabl>
+        <attrdef>Not Hispanic or Latino</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AITSCC</attrlabl>
+        <attrdef>FIPS American Indian Tribal Subdivision Class Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUBMCD</attrlabl>
+        <attrdef>Subminor Civil Division (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CBSAPCI</attrlabl>
+        <attrdef>Metropolitan Statistical Area/Micropolitan Statistical Area Principal City Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON</attrlabl>
+        <attrdef>Internal Point (Longitude)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TRACTCE10</attrlabl>
+        <attrdef>2010 Census census tract code</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CBSASC</attrlabl>
+        <attrdef>Metropolitan Statistical Area/Micropolitan Statistical Area Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NECTA</attrlabl>
+        <attrdef>New England City and Town Area</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NECTASC</attrlabl>
+        <attrdef>New England City and Town Area Size Cod</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUBMCDCC</attrlabl>
+        <attrdef>FIPS Subminor Civil Division Class Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CSA</attrlabl>
+        <attrdef>Combined Statistical Area</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AWATER10</attrlabl>
+        <attrdef>2010 Census water area</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>IUC</attrlabl>
+        <attrdef>Internal Use Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NECTADIV</attrlabl>
+        <attrdef>New England City and Town Area Divisio</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CHARITER</attrlabl>
+        <attrdef>Characteristic Iteration</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AITSCE</attrlabl>
+        <attrdef>American Indian Tribal Subdivision (Census)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SLDL2</attrlabl>
+        <attrdef>State Legislative District (Lower Chamber) (Year 2)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AIANHHSC</attrlabl>
+        <attrdef>American Indian Area/Alaska Native Area/Hawaiian Home Land Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATEFP10</attrlabl>
+        <attrdef>2010 Census state FIPS code</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CD114</attrlabl>
+        <attrdef>Congressional District (114th)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AIANHHNS</attrlabl>
+        <attrdef>American Indian Area/Alaska Native Area/Hawaiian Home Land (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BLOCK</attrlabl>
+        <attrdef>Block</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONCITCC</attrlabl>
+        <attrdef>Consolidated City (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON10</attrlabl>
+        <attrdef>2010 Census longitude of the internal point</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DIVISION</attrlabl>
+        <attrdef>Division</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TRACT</attrlabl>
+        <attrdef>Census Tract</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_length(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AITS</attrlabl>
+        <attrdef>American Indian Tribal Subdivision (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>globalid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TTRACT</attrlabl>
+        <attrdef>Tribal Census Tract</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SLDU4</attrlabl>
+        <attrdef>State Legislative District (Upper Chamber) (Year 4)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LSADC</attrlabl>
+        <attrdef>Legal/Statistical Area Description Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NAME10</attrlabl>
+        <attrdef>2010 Census tabulation block name; a concatenation of 'Block' and the current tabulation block number</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SLDU</attrlabl>
+        <attrdef>State Legislative District (Upper Chamber) (Year 1)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AREAWATR</attrlabl>
+        <attrdef>Area (water)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CSASC</attrlabl>
+        <attrdef>Combined Statistical Area Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PLACESC</attrlabl>
+        <attrdef>Place Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANRCCC</attrlabl>
+        <attrdef>FIPS Alaska Native Regional Corporation Class Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BLKGRP</attrlabl>
+        <attrdef>Block Group</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYSC</attrlabl>
+        <attrdef>County Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>st_area(shape)</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SLDU3</attrlabl>
+        <attrdef>State Legislative District (Upper Chamber) (Year 3)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PLACE</attrlabl>
+        <attrdef>Place (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CD113</attrlabl>
+        <attrdef>Congressional District (113th)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CD115</attrlabl>
+        <attrdef>Congressional District (115th)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020008</attrlabl>
+        <attrdef>Asian alone</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020004</attrlabl>
+        <attrdef>Population of one race</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SLDL3</attrlabl>
+        <attrdef>State Legislative District (Lower Chamber) (Year 3)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ALAND10</attrlabl>
+        <attrdef>2010 Census land area</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANRCNS</attrlabl>
+        <attrdef>Alaska Native Regional Corporation (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020010</attrlabl>
+        <attrdef>Some Other Race alone</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PLACENS</attrlabl>
+        <attrdef>Place (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AIHHTLI</attrlabl>
+        <attrdef>American Indian Trust Land/Hawaiian Home Land Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATENS</attrlabl>
+        <attrdef>State (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLAT10</attrlabl>
+        <attrdef>2010 Census latitude of the internal point</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RESERVE3</attrlabl>
+        <attrdef>Reserved</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020001</attrlabl>
+        <attrdef>HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE Total</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BLOCKCE10</attrlabl>
+        <attrdef>2010 Census tabulation block number</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FUNCSTAT10</attrlabl>
+        <attrdef>2010 Census functional status</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FUNCSTAT</attrlabl>
+        <attrdef>Functional Status Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZCTA5</attrlabl>
+        <attrdef>ZIP Code Tabulation Area (5 digit)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUSUB</attrlabl>
+        <attrdef>County Subdivision (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P0020002</attrlabl>
+        <attrdef>Hispanic or Latino</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUSUBNS</attrlabl>
+        <attrdef>County Subdivision (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SDELM</attrlabl>
+        <attrdef>School District (Elementary)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AITSNS</attrlabl>
+        <attrdef>American Indian Tribal Subdivision (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UR</attrlabl>
+        <attrdef>Urban/Rural</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SLDL4</attrlabl>
+        <attrdef>State Legislative District (Lower Chamber) (Year 4)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONCITSC</attrlabl>
+        <attrdef>Consolidated City Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CNECTA</attrlabl>
+        <attrdef>Combined New England City and Town Are</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NMEMI</attrlabl>
+        <attrdef>NECTA Metropolitan Micropolitan Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUBMCDNS</attrlabl>
+        <attrdef>Subminor Civil Division (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PUMA</attrlabl>
+        <attrdef>Public Use Microdata Area</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020009</attrlabl>
+        <attrdef>Native Hawaiian and Other Pacific Islander alone</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOGRECNO</attrlabl>
+        <attrdef>Logical Record Number</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SLDU2</attrlabl>
+        <attrdef>State Legislative District (Upper Chamber) (Year 2)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUSUBCC</attrlabl>
+        <attrdef>FIPS County Subdivision Class Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SLDL</attrlabl>
+        <attrdef>State Legislative District (Lower Chamber) (Year 1)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VTD</attrlabl>
+        <attrdef>Voting District</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UR10</attrlabl>
+        <attrdef>2010 Census urban/rural indicator</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUSUBSC</attrlabl>
+        <attrdef>County Subdivision Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RESERVED</attrlabl>
+        <attrdef>Reserved</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020005</attrlabl>
+        <attrdef>White alone</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYFP10</attrlabl>
+        <attrdef>2010 Census county FIPS code</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UGA</attrlabl>
+        <attrdef>Urban Growth Area</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GCUNI</attrlabl>
+        <attrdef>Geographic Change User Note Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MTFCC10</attrlabl>
+        <attrdef>MAF/TIGER feature class code (G5040)</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>REGION</attrlabl>
+        <attrdef>Region</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GEOID10</attrlabl>
+        <attrdef>Block identifier; a concatenation of 2010 Census state FIPS code, county FIPS Code, census tract code and tabulation block number</attrdef>
+        <attrdefs>http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10AA.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STUSAB</attrlabl>
+        <attrdef>State/US-Abbreviation (USPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GEOCOMP</attrlabl>
+        <attrdef>Geographic Component</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UATYPE</attrlabl>
+        <attrdef>Urban Area Type</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>P0020007</attrlabl>
+        <attrdef>American Indian and Alaska Native alone</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CONCITNS</attrlabl>
+        <attrdef>Consolidated City (ANSI)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYCC</attrlabl>
+        <attrdef>FIPS County Class Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MEMI</attrlabl>
+        <attrdef>Metropolitan Micropolitan Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SDUNI</attrlabl>
+        <attrdef>School District (Unified)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CIFSN</attrlabl>
+        <attrdef>Characteristic Iteration File Sequence Number</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AIANHHFP</attrlabl>
+        <attrdef>American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>METDIV</attrlabl>
+        <attrdef>Metropolitan Division</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CBSA</attrlabl>
+        <attrdef>Metropolitan Statistical Area/Micropolitan Statistical Area</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NECTAPCI</attrlabl>
+        <attrdef>New England City and Town Area Principal City Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>POP100</attrlabl>
+        <attrdef>Population Count (100%)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CD</attrlabl>
+        <attrdef>Congressional District (111th)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AIANHH</attrlabl>
+        <attrdef>American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HU100</attrlabl>
+        <attrdef>Housing Unit Count (100%)</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P0020006</attrlabl>
+        <attrdef>Black or African American alone</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VTDI</attrlabl>
+        <attrdef>Voting District Indicator</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PLACECC</attrlabl>
+        <attrdef>FIPS Place Class Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CNECTASC</attrlabl>
+        <attrdef>Combined NECTA Size Code</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County</attrdef>
+        <attrdefs>http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/0FILE_STRUCTURE.pdf</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>State of Arkansas</cntorg>
+          <cntper>Arkansas GIS Office</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1 Capitol Mall, Suite 6D</address>
+          <city>Little Rock</city>
+          <state>AR</state>
+          <postal>72212</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>501-682-2929</cntvoice>
+        <cntemail>communication@arkansasgisoffice.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data. The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. Government in the use of these files. The boundary information in the TIGER/Line files are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis.arkansas.gov/product/blocks-2010-census/</networkr>
+              </networka>
+            </computer>
+            <computer>
+              <networka>
+                <networkr>https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Society/FeatureServer/7</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170112</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Management Branch</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20233-7400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(301) 763-1128</cntvoice>
+        <cntemail>tiger@census.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
